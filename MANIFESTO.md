@@ -6,7 +6,7 @@ Registro de proveniência e rastreabilidade do pacote. Nenhuma skill é portada,
 
 1. **Preservação:** os packs originais `autopunk`, `joshua` e `techsaurabh` permanecem intactos em disco.
 2. **Portagem:** cada `SKILL.md` é lido integralmente e reescrito como OpenCode-native em `skills/upstream/`, com ID prefixado `op-`.
-3. **Limpeza:** `$ARGUMENTS`, `$0`, `$1` viram "dados informados pelo usuário na mensagem"; `/comando` vira `skill:<id>`; `mcp__*` vira ferramenta externa equivalente; paths absolutos viram `<repo atual>`; `{{...}}` vira `<...>`.
+3. **Limpeza:** `$ARGUMENTS` vira "dados informados pelo usuario na mensagem"; `/comando` vira `skill:<id>` quando o ID existe; `mcp__*` vira `ferramenta externa: servico/ferramenta`; paths absolutos (inclusive `/Users/<usuario>/Desktop/Dev/repos/`) viram `<repo atual>`; `{{...}}` vira `<...>`. **`$0`/`$1` são preservados**: evidência mostrou que são valores monetários (`$2.4M`) e variáveis posicionais de shell (`awk $3`), não argumentos.
 4. **Duplicatas idênticas:** uma canônica; as demais viram entrada aqui apontando para ela. Conteúdo idêntico não é perda.
 5. **Variantes divergentes:** todas preservadas como `references/` da skill canônica do domínio.
 6. **Stubs e ponteiros mortos:** viram nota de descarte com motivo. Nada é apagado silenciosamente.
@@ -14,13 +14,22 @@ Registro de proveniência e rastreabilidade do pacote. Nenhuma skill é portada,
 
 ## Estado do mapeamento
 
-FASE 3 concluída: estrutura canônica criada.
+FASE 4 concluída. Portagem aplicada e validada:
 
-O mapeamento completo origem → destino das 879 skills será anexado a este arquivo na FASE 4, junto com:
-- contagem de portadas, fundidas e descartadas;
-- motivos individuais de cada descarte;
-- lista de variantes divergentes preservadas;
-- resultado da validação (IDs únicos, JSON válido, zero padrões incompatíveis).
+| Métrica | Valor |
+|---|---|
+| Skills lidas dos 3 packs | 879 |
+| Skills canônicas gravadas | 764 |
+| Variantes divergentes em `references/` | 70 |
+| Duplicatas idênticas fundidas | 45 |
+| IDs finais únicos | 764 / 764 |
+| Frontmatter inválido | 0 |
+| Padrões incompatíveis remanescentes | 0 (`$ARGUMENTS`, `mcp__`, `~/`, `{{...}}`, `/Users/`) |
+| Skills carregadas com sucesso via ferramenta `skill` | 3 (PDF, agentes/RAG, SEO/GEO) |
+
+O mapeamento individual origem → destino está em `skills/upstream/MANIFEST.csv`.
+O relatório bruto de risco está em `skills/upstream/SECURITY_AUDIT.md`.
+A classificação manual dos achados está em `SECURITY_CLASSIFICATION.md`.
 
 ## Origem dos packs
 
