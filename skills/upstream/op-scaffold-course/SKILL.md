@@ -12,7 +12,7 @@ Scaffold a new course: dados informados pelo usuario na mensagem
 Parse the arguments for:
 - **slug** (required) — e.g., `mdna-primer`
 - **title** (required) — e.g., "mDNA Primer: Recovering the Genetics of Ecclesia"
-- **portal** (optional) — one of: reframation, metanoia, mdna, mx, {{course-slug}}
+- **portal** (optional) — one of: reframation, metanoia, mdna, mx, <slug>
 
 If any required input is missing, ask the user.
 
@@ -22,7 +22,7 @@ If any required input is missing, ask the user.
 2. Read `<diretorio de schemas>/course-learn.ts` — understand SECTION_TYPES
 3. Read `src/lib/config/lesson-types.ts` — canonical type list
 4. Read `<diretorio de documentacao>/TRANSFORMATIONAL_COURSE_PLAYBOOK.md` — the 8-week structure and M.N.X element layout
-5. Read 1-2 existing ingestion scripts in `<diretorio de scripts>/` for patterns (e.g., `ingest-{{course-slug}}-course.ts`)
+5. Read 1-2 existing ingestion scripts in `<diretorio de scripts>/` for patterns (e.g., `ingest-<slug>-course.ts`)
 
 ## Course Structure (8 Weeks)
 

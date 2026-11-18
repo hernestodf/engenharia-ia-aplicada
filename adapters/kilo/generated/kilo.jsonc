@@ -1,0 +1,16 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "permission": {
+    "bash": {
+      "which *": "allow",
+      "node *": "allow",
+      "npm install *": "allow"
+    }
+  },
+  "skills": {
+    "paths": [
+      "/root/.config/opencode/skill-packs/godnaterra/skills/upstream",
+      "/root/.config/opencode/skill-packs/godnaterra/skills/core"
+    ]
+  }
+}

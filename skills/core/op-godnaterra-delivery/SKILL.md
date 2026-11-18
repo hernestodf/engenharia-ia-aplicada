@@ -1,0 +1,30 @@
+---
+name: op-godnaterra-delivery
+description: Orienta instalação, modos, rollback e limites de entrega do pacote Godnaterra. Use antes de instalar adaptadores, trocar modo ou mexer em config global.
+godnaterra/layer: core
+godnaterra/source: canonical
+---
+
+# Entrega Godnaterra
+
+## Modos
+
+`god` / `godnaterra` = todas as skills visíveis. `curated` = subconjunto. `status` = relatório. Ver `skill_mode.py` e `docs/guides/INSTALL.md`.
+
+## Instalação segura
+
+1. `python3 scripts/generate_adapters.py` (dry-run) — inspecionar artefatos em `adapters/*/generated/`.
+2. `--apply` com backup timestampado; merge de config, nunca sobrescrita cega.
+3. Validar com comando real de cada runtime disponível (`opencode debug agents`, `kilo debug skill`, `kilo debug agent`).
+4. Runtime ausente fica `UNVERIFIED` — não "passou".
+
+## Rollback
+
+- OpenCode: `opencode.json.bak-godnaterra-*`.
+- Kilo: `kilo.jsonc.bak-godnaterra-*`.
+- Claude: remover symlinks `~/.claude/skills/op-*`; fonte canônica intacta.
+- Packs originais (`autopunk`, `joshua`, `techsaurabh`) preservados como trilha de retorno.
+
+## Limites
+
+Sem deploy, reindexação, reset de banco, rotação de segredos ou produção sem autorização explícita. Qdrant é `contract-only` até receber endpoint/collection/embedding/dimensões/métrica.

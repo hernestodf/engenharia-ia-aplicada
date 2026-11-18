@@ -36,7 +36,7 @@ Classifies user messages to determine retrieval strategy:
 
 Parse source file paths into human-readable citations:
 
-```typescript // Input: "books/{{course-slug}}/ch03-apostolic-environment.md" // Output: { bookSlug: "{{course-slug}}", chapter: 3, section: "apostolic-environment" } function parseSource(filename: string): ParsedSource { ... } // Render per-result citation function renderCitationLine(source: ParsedSource): string { return`— <nome do autor>, *${bookTitle}*, Chapter ${source.chapter}`; } // Render sources block for model context function renderSourcesBlock(sources: ParsedSource[]): string { return`**Sources:** ${uniqueBooks.join(', ')}`; }```
+```typescript // Input: "books/<slug>/ch03-apostolic-environment.md" // Output: { bookSlug: "<slug>", chapter: 3, section: "apostolic-environment" } function parseSource(filename: string): ParsedSource { ... } // Render per-result citation function renderCitationLine(source: ParsedSource): string { return`— <nome do autor>, *${bookTitle}*, Chapter ${source.chapter}`; } // Render sources block for model context function renderSourcesBlock(sources: ParsedSource[]): string { return`**Sources:** ${uniqueBooks.join(', ')}`; }```
 
 ## Book Fidelity Contract
 

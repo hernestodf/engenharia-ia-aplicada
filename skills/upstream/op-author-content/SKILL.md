@@ -7,7 +7,7 @@ godnaterra/original-name: author-content
 
 Author course content: dados informados pelo usuario na mensagem
 
-dados informados pelo usuario na mensagem should include: course slug, week number, and element code (e.g., `{{course-slug}} 3 M3.5` for Week 3 reflection questions). If incomplete, ask the user.
+dados informados pelo usuario na mensagem should include: course slug, week number, and element code (e.g., `<slug> 3 M3.5` for Week 3 reflection questions). If incomplete, ask the user.
 
 ## Before Starting
 

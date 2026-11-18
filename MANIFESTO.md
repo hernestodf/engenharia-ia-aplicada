@@ -24,7 +24,7 @@ FASE 4 concluída. Portagem aplicada e validada:
 | Duplicatas idênticas fundidas | 45 |
 | IDs finais únicos | 764 / 764 |
 | Frontmatter inválido | 0 |
-| Padrões incompatíveis remanescentes | 0 (`$ARGUMENTS`, `mcp__`, `~/`, `{{...}}`, `/Users/`) |
+| Padrões incompatíveis remanescentes | 0 na FASE 4 (medição refinada na FASE 5 corrigiu 13 resíduos de `{{course-slug}}` — ver abaixo) |
 | Skills carregadas com sucesso via ferramenta `skill` | 3 (PDF, agentes/RAG, SEO/GEO) |
 
 O mapeamento individual origem → destino está em `skills/upstream/MANIFEST.csv`.
@@ -40,3 +40,14 @@ A classificação manual dos achados está em `SECURITY_CLASSIFICATION.md`.
 | `techsaurabh` | github.com/techsaurabh-394/claude-skills (MIT) | 3 |
 
 O número "394" vem do Skills Directory, não de um repositório único.
+
+## FASE 5 — agentes, adapters e nucleus core
+
+**Implementado:** 7 agentes canônicos em `agents/` (6 `subagent` + `godnaterra-router` `primary`); 5 skills `core/` derivadas de `AGENTS.md`/`project.yaml` (`op-godnaterra-router`, `-security-gate`, `-evidence`, `-portability`, `-delivery`); gerador `scripts/generate_adapters.py`; artefatos derivados em `adapters/*/generated/`; `scripts/validate_catalog.py`.
+
+**Testado:** `opencode debug agents` reconhece os 7; `kilo debug skill` lista 769 skills `op-` sem duplicatas; `kilo debug agent` confirma os papéis e a ordem das permissões; `kilo debug config` mostra as duas raízes; 769 symlinks em `~/.claude/skills/` sem quebrados; `skill_mode.py status` reporta 769 ativas/visíveis; `validate_catalog.py` retorna 0 problemas.
+
+**Correção de evidência:** a checagem da FASE 4 usava regex frouxa para `{{...}}` e não detectou 13 ocorrências de `{{course-slug}}` em 9 skills. Todas foram substituídas por `<slug>` na FASE 5. Expressões legítimas do GitHub Actions (`{{ secrets.* }}`, `{{ github.ref }}`) permanecem — são código, não placeholder. A skill `op-godnaterra-portability` é exceção declarada no validador porque documenta os padrões proibidos.
+
+**Não verificado:** execução de LLM (`opencode run` / `kilo run`), Claude CLI (ausente), e o motivo do flag `trusted: false` reportado pelo CLI do Kilo em skills de path externo.
+

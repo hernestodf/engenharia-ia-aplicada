@@ -11,7 +11,7 @@ dados informados pelo usuario na mensagem should be a course slug or path to the
 
 ## Before Starting
 
-1. Read any existing ingestion scripts in `<diretorio de scripts>/` to understand patterns (e.g., `<diretorio de scripts>/ingest-{{course-slug}}-course.ts`)
+1. Read any existing ingestion scripts in `<diretorio de scripts>/` to understand patterns (e.g., `<diretorio de scripts>/ingest-<slug>-course.ts`)
 2. Read `<caminho do schema>` for table definitions (courses, courseWeeks, courseLessons, reflectionQuestions, discussionPrompts, exercises)
 3. Read `<diretorio de schemas>/course-learn.ts` for SECTION_TYPES
 4. Read `src/lib/config/lesson-types.ts` for type mapping
@@ -21,7 +21,7 @@ dados informados pelo usuario na mensagem should be a course slug or path to the
 Search for content in these locations (in order):
 
 1. `content-library/courses/[slug]/` — project content library
-2. `<raiz do projeto>/docs/` — standalone course repo (for {{course-slug}})
+2. `<raiz do projeto>/docs/` — standalone course repo (for <slug>)
 3. A path provided directly by the user
 
 Look for:

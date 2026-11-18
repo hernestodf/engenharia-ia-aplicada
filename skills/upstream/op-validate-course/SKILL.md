@@ -20,7 +20,7 @@ dados informados pelo usuario na mensagem should be a course slug. If empty, ask
 Fetch the course data. Prefer reading from the database via an API call or script:
 - Check if there's an API route at `src/app/api/custom/courses/[slug]/weeks/`
 - Alternatively, read markdown source files from `content-library/courses/[slug]/` if they exist
-- Or check `{{course-slug}}-course/docs/` for the {{course-slug}} course
+- Or check `<slug>-course/docs/` for the <slug> course
 
 Build a complete picture: all weeks, all sections per week, all child items (reflection_questions, discussion_prompts, exercises).
 

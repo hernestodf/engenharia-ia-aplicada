@@ -162,6 +162,6 @@ For each image slot, determine its status:
 ### BROKEN REFERENCES
 | File | Line | Reference | Issue |
 |------|------|-----------|-------|
-| src/app/(public)/page.tsx | 76 | /images/art/courses/course-{{course-slug}}-cover-desktop.webp | OK |
+| src/app/(public)/page.tsx | 76 | /images/art/courses/course-<slug>-cover-desktop.webp | OK |
 | ... | ... | ... | ... |
 
