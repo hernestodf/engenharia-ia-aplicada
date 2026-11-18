@@ -66,6 +66,10 @@ python3 scripts/godnaterra.py update --apply          # aplica a atualização
 
 `init` e `update` são **dry-run por padrão**. Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona credenciais.
 
+### Sobre os caminhos nos artefatos `generated/`
+
+Os arquivos em `adapters/*/generated/` são derivados de `scripts/generate_adapters.py` e registram os caminhos absolutos da máquina onde foram gerados (`/root/.config/opencode/skill-packs/godnaterra/...` no pacote publicado). Isso **não** é configuração ativa: ao rodar `init --apply` ou `update --apply` em outra máquina, o gerador usa o `ROOT` local e grava os caminhos corretos. Não edite os artefatos na mão — a fonte canônica é o gerador.
+
 ## Fora do escopo da instalação
 
 - reindexação do Qdrant
