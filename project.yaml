@@ -1,0 +1,34 @@
+schema: godnaterra/project@v1
+name: godnaterra
+description: Pacote canônico de engenharia assistida por IA, vendor-neutral.
+profile: generic
+
+stack:
+  language: null
+  runtime: null
+  database: null
+  frontend: null
+
+constraints:
+  - vendor-neutral
+  - sem serviço externo obrigatório
+  - reversível
+  - segurança por padrão
+
+conventions:
+  workflow: DISCOVER>AUDIT>SPECIFY>PLAN>IMPLEMENT>TEST>REVIEW>DOCUMENT>DELIVER
+  source_of_truth: AGENTS.md
+  routing: core skill primeiro, upstream por referência
+
+dependencies: []
+
+profiles_available:
+  - generic
+  - profox-go
+  - legacy-php
+
+decisions: []
+
+qdrant:
+  mode: contract-only
+  reindex: requires-explicit-authorization
