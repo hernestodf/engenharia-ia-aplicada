@@ -1,0 +1,20 @@
+{
+  "id": "INC-001",
+  "titulo": "README placeholder no GitHub gerou históricos divergentes no primeiro push",
+  "data": "2026-11-18",
+  "status": "fechado",
+  "origem": "push inicial para git@github.com:hernestodf/godnaterra.git",
+  "sintoma": "o repo remoto já tinha um commit 'Initial commit' com README de 2 linhas, enquanto o local tinha 6 commits; um push normal seria rejeitado por histórias divergentes",
+  "evidencia": "git ls-remote origin -> c96dedc refs/heads/main; git rev-list --left-right --count main...origin/main -> 6 1; git show origin/main:README.md -> '# godnaterra / minha engenharia de ia aplicada'",
+  "cenario": null,
+  "skill_afetada": null,
+  "correcao": "merge -s ours --allow-unrelated-histories origin/main: preservou o commit inicial do GitHub e manteve o README completo local. Tag v0.1.0 recriada no commit de merge. Nenhum force push.",
+  "verificacao": "git ls-remote origin -> HEAD 96223aa18739b1488dc2076867879b6c7dae7c57; git status -sb -> ## main...origin/main (limpo); API sem autenticação -> HTTP 404 (repo privado)",
+  "testes_verdes": true,
+  "licao_aprendida": "repo criado pelo celular com README não é vazio: checar ls-remote antes de supor push fast-forward. Nunca resolver divergência com force push.",
+  "revisao": {
+    "revisado_por": "Hernesto Filho",
+    "data": "2026-11-18",
+    "decisao": "aprovado"
+  }
+}

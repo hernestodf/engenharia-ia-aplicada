@@ -1,0 +1,20 @@
+{
+  "id": "INC-NNN",
+  "titulo": "resumo curto do que deu errado",
+  "data": "YYYY-MM-DD",
+  "status": "rascunho",
+  "origem": "onde o erro foi observado (comando, sessão, usuário)",
+  "sintoma": "o que aconteceu de errado, em uma frase",
+  "evidencia": "saída real observada — não reconstrua de memória",
+  "cenario": null,
+  "skill_afetada": null,
+  "correcao": "o que precisa mudar; em rascunho pode ser 'pendente de diagnóstico'",
+  "verificacao": "como provar que a correção funcionou; não é comando para o validador executar",
+  "testes_verdes": false,
+  "licao_aprendida": "o que muda no processo para não repetir",
+  "revisao": {
+    "revisado_por": "",
+    "data": "",
+    "decisao": ""
+  }
+}

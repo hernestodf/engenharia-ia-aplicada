@@ -53,9 +53,9 @@ O número "394" vem do Skills Directory, não de um repositório único.
 
 ## FASE 6–10 — pacote de engenharia
 
-**Implementado:** tokens neutros (`tokens.json`, `tokens.css`), contrato de primitivas e checklist de acessibilidade (FASE 6); 8 testes automatizados e 4 cenários de avaliação com registro honesto do número histórico não verificado de 430 evals/175 `pending` (FASE 7); `ci.yml` com `contents: read` e `cd.yml` que só empacota artefato, sem deploy (FASE 8); contrato MCP/Qdrant em modo `contract-only` (FASE 9); operador `scripts/godnaterra.py` com `version`, `audit`, `doctor`, `init`, `update`, dry-run por padrão e diff antes de aplicar (FASE 10).
+**Implementado:** tokens neutros (`tokens.json`, `tokens.css`), contrato de primitivas e checklist de acessibilidade (FASE 6); 15 testes automatizados (sendo 7 do loop de incidentes) e 4 cenários de avaliação com registro honesto do número histórico não verificado de 430 evals/175 `pending` (FASE 7); loop de aprendizado com revisão humana em `evaluations/incidents/`, 1 incidente fechado e 1 em rascunho; `ci.yml` com `contents: read` e `cd.yml` que só empacota artefato, sem deploy (FASE 8); contrato MCP/Qdrant em modo `contract-only` (FASE 9); operador `scripts/godnaterra.py` com `version`, `audit`, `doctor`, `init`, `update`, dry-run por padrão e diff antes de aplicar (FASE 10).
 
-**Testado localmente:** `validate_catalog.py` → 769 skills, 0 problemas; `unittest` → 8/8 OK; ambos os YAMLs parseados com PyYAML; `godnaterra.py version` → `0.1.0`; `audit` → OK; `doctor` → 2 runtimes presentes, Claude ausente, 769 symlinks sem quebrados; `init` em dry-run → diffs vazios contra as configs ativas, nenhuma instalação global.
+**Testado localmente:** `validate_catalog.py` → 769 skills, 0 problemas; `unittest` → 15/15 OK; `validate_incidents.py` → 2 incidentes, 0 problemas; ambos os YAMLs parseados com PyYAML; `godnaterra.py version` → `0.1.0`; `audit` → OK; `doctor` → 2 runtimes presentes, Claude ausente, 769 symlinks sem quebrados; `init` em dry-run → diffs vazios contra as configs ativas, nenhuma instalação global.
 
 **Não verificado:** execução real dos workflows no GitHub Actions; contraste, navegação por teclado e zoom em UI concreta; inferência com modelo nos cenários de roteamento e gate de segurança; CLI do Claude; endpoint/collection/embedding/dimensões/métrica do Qdrant.
 

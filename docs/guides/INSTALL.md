@@ -50,13 +50,13 @@ Se algo falhar:
 | Skills carregadas no Kilo | ✅ 769 `op-`, sem duplicatas |
 | Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
 
-Reproduzir: `python3 scripts/validate_catalog.py` e `python3 -m unittest discover -s tests -v`.
+Reproduzir: `python3 scripts/validate_catalog.py`, `python3 scripts/validate_incidents.py` e `python3 -m unittest discover -s tests -v`.
 
 ## Comandos do operador (FASE 10)
 
 ```bash
 python3 scripts/godnaterra.py version                 # versão do pacote
-python3 scripts/godnaterra.py audit                   # catálogo + JSONs derivados
+python3 scripts/godnaterra.py audit                   # catálogo + incidentes + JSONs derivados
 python3 scripts/godnaterra.py doctor                  # runtimes, configs e backups (leitura)
 python3 scripts/godnaterra.py init                    # DRY-RUN: mostra diff, nada instala
 python3 scripts/godnaterra.py init --apply            # instala com backup timestampado

@@ -54,6 +54,12 @@ def cmd_audit(_: argparse.Namespace) -> int:
         print(r.stderr.rstrip(), file=sys.stderr)
         return r.returncode
 
+    r_inc = executar("validate_incidents.py")
+    print(r_inc.stdout.rstrip())
+    if r_inc.returncode:
+        print(r_inc.stderr.rstrip(), file=sys.stderr)
+        return r_inc.returncode
+
     problemas: list[str] = []
     for rel in [
         "adapters/opencode/generated/opencode.json",

@@ -14,7 +14,7 @@ Versão: `0.1.0`
 | 4 · Skills core + portagem integral das 879 | concluída (`2b0dde0`, `47bb750`) |
 | 5 · Agentes e adapters | concluída (`b4d4e05`) |
 | 6 · Design System e validação frontend | implementado; contraste/teclado/zoom não verificados sem UI de produto |
-| 7 · Testes, segurança e avaliações | 8 testes automatizados OK; cenários LLM não verificados |
+| 7 · Testes, segurança e avaliações | 15 testes automatizados OK; loop de incidentes com revisão ativo; cenários LLM não verificados |
 | 8 · CI/CD | workflows implementados; execução no GitHub Actions não verificada |
 | 9 · MCP e Qdrant | contrato-only; aguardando endpoint/collection/embedding/dimensões/métrica |
 | 10 · Instalador e documentação | implementado; `version`/`audit`/`doctor`/`init` executados localmente |

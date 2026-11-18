@@ -17,6 +17,8 @@ jobs:
           python-version: "3.11"
       - name: Validar catálogo canônico
         run: python3 scripts/validate_catalog.py
+      - name: Validar incidentes (loop de aprendizado)
+        run: python3 scripts/validate_incidents.py
       - name: Testes do pacote
         run: python3 -m unittest discover -s tests -v
       - name: Checar segredos
