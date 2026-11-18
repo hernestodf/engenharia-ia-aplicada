@@ -1,0 +1,36 @@
+/* Godnaterra design tokens — derivado de tokens.json. Perfis sobrescrevem valores. */
+:root {
+  --gt-color-bg: #ffffff;
+  --gt-color-surface: #f5f5f4;
+  --gt-color-text: #1c1917;
+  --gt-color-muted: #57534e;
+  --gt-color-border: #d6d3d1;
+  --gt-color-accent: #1d4ed8;
+  --gt-color-danger: #b91c1c;
+  --gt-color-success: #15803d;
+
+  --gt-font-family: system-ui, sans-serif;
+  --gt-font-body: 1rem;
+  --gt-font-small: 0.875rem;
+  --gt-line-height: 1.5;
+
+  --gt-space-1: 0.25rem;
+  --gt-space-2: 0.5rem;
+  --gt-space-3: 0.75rem;
+  --gt-space-4: 1rem;
+  --gt-space-5: 1.5rem;
+  --gt-space-6: 2rem;
+  --gt-space-7: 3rem;
+  --gt-space-8: 4rem;
+
+  --gt-radius-sm: 0.25rem;
+  --gt-radius-md: 0.5rem;
+
+  --gt-focus-width: 2px;
+  --gt-focus-offset: 2px;
+  --gt-motion-duration: 150ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --gt-motion-duration: 0ms; }
+}

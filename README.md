@@ -11,13 +11,13 @@ Versão: `0.1.0`
 | 1 · Auditoria read-only | concluída |
 | 2 · Inventário e plano | concluída |
 | 3 · Repo, regras e estrutura canônica | concluída |
-| 4 · Skills core + portagem integral das 879 | pendente |
-| 5 · Agentes e adapters | parcial (perfis lógicos descritos) |
-| 6 · Design System e validação frontend | pendente |
-| 7 · Testes, segurança e avaliações | pendente |
-| 8 · CI/CD | pendente |
-| 9 · MCP e Qdrant | pendente (contrato apenas) |
-| 10 · Instalador e documentação | pendente |
+| 4 · Skills core + portagem integral das 879 | concluída (`2b0dde0`, `47bb750`) |
+| 5 · Agentes e adapters | concluída (`b4d4e05`) |
+| 6 · Design System e validação frontend | implementado; contraste/teclado/zoom não verificados sem UI de produto |
+| 7 · Testes, segurança e avaliações | 8 testes automatizados OK; cenários LLM não verificados |
+| 8 · CI/CD | workflows implementados; execução no GitHub Actions não verificada |
+| 9 · MCP e Qdrant | contrato-only; aguardando endpoint/collection/embedding/dimensões/métrica |
+| 10 · Instalador e documentação | implementado; `version`/`audit`/`doctor`/`init` executados localmente |
 
 Nada aqui é "testado" por padrão. O relatório final separa implementado, testado, pendente e não verificado.
 
@@ -40,3 +40,13 @@ Modos via `python3 ~/.config/opencode/skill_mode.py`:
 - `docs/decisions/` — ADRs reais
 - `MANIFESTO.md` — proveniência das skills portadas
 - `docs/guides/INSTALL.md` — instalação e rollback
+- `scripts/godnaterra.py` — operador (`version`, `audit`, `doctor`, `init`, `update`)
+
+## Verificação rápida
+
+```bash
+python3 scripts/validate_catalog.py
+python3 -m unittest discover -s tests -v
+python3 scripts/godnaterra.py audit
+python3 scripts/godnaterra.py doctor
+```

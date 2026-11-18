@@ -8,6 +8,7 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "skills": [
+    "/root/.config/opencode/skill-packs/godnaterra/skills/core",
     "/root/.config/opencode/skill-packs/godnaterra/skills/upstream"
   ]
 }
@@ -19,7 +20,7 @@
 
 | Modo | Efeito |
 |---|---|
-| `godnaterra` | padrão — todas as 764 skills visíveis |
+| `godnaterra` | padrão — todas as 769 skills visíveis (5 core + 764 upstream) |
 | `god` | alias de `godnaterra` (todas visíveis) |
 | `curated` | legado de 31 skills |
 | `status` | só reporta contagem da raiz ativa |
@@ -33,19 +34,37 @@ Se algo falhar:
 2. Rodar `python3 ~/.config/opencode/skill_mode.py god` para voltar ao estado anterior.
 3. Os packs originais não foram alterados — o rollback é imediato.
 
-## Validação pós-instalação (FASE 4 — concluída)
+## Validação pós-instalação (FASE 5 — concluída)
 
 | Verificação | Resultado |
 |---|---|
-| JSON do config válido | ✅ |
-| IDs únicos (sem colisão `op-`) | ✅ 764/764 |
-| `$ARGUMENTS` remanescente | ✅ 0 |
+| JSON do config válido | ✅ duas raízes |
+| IDs únicos (sem colisão `op-`) | ✅ 769/769 |
+| `$ARGUMENTS` remanescente | ✅ 0 (exceto citação intencional na skill de portagem) |
 | `$0` / `$1` | ✅ **preservados** — são valores monetários e variáveis shell, não argumentos |
 | Paths absolutos de projeto remanescentes | ✅ 0 (`/Users/`, `~/`, `Desktop/dev/repos`) |
-| `{{...}}` remanescente | ✅ 0 |
-| `mcp__*` sem equivalente documentado | ✅ 0 |
+| `{{...}}` remanescente | ✅ 0 resíduos de `{{course-slug}}`; expressões `{{ secrets.* }}` do GitHub Actions são código legítimo |
+| `mcp__*` sem equivalente documentado | ✅ 0 (exceto citação intencional na skill de portagem) |
 | Frontmatter inválido | ✅ 0 |
-| 3 skills de áreas diferentes carregadas | ✅ PDF, agentes/RAG, SEO/GEO |
+| Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
+| Skills carregadas no Kilo | ✅ 769 `op-`, sem duplicatas |
+| Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
+
+Reproduzir: `python3 scripts/validate_catalog.py` e `python3 -m unittest discover -s tests -v`.
+
+## Comandos do operador (FASE 10)
+
+```bash
+python3 scripts/godnaterra.py version                 # versão do pacote
+python3 scripts/godnaterra.py audit                   # catálogo + JSONs derivados
+python3 scripts/godnaterra.py doctor                  # runtimes, configs e backups (leitura)
+python3 scripts/godnaterra.py init                    # DRY-RUN: mostra diff, nada instala
+python3 scripts/godnaterra.py init --apply            # instala com backup timestampado
+python3 scripts/godnaterra.py update                  # DRY-RUN: diff da fonte -> adaptadores
+python3 scripts/godnaterra.py update --apply          # aplica a atualização
+```
+
+`init` e `update` são **dry-run por padrão**. Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona credenciais.
 
 ## Fora do escopo da instalação
 

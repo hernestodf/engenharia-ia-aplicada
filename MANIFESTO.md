@@ -51,3 +51,13 @@ O número "394" vem do Skills Directory, não de um repositório único.
 
 **Não verificado:** execução de LLM (`opencode run` / `kilo run`), Claude CLI (ausente), e o motivo do flag `trusted: false` reportado pelo CLI do Kilo em skills de path externo.
 
+## FASE 6–10 — pacote de engenharia
+
+**Implementado:** tokens neutros (`tokens.json`, `tokens.css`), contrato de primitivas e checklist de acessibilidade (FASE 6); 8 testes automatizados e 4 cenários de avaliação com registro honesto do número histórico não verificado de 430 evals/175 `pending` (FASE 7); `ci.yml` com `contents: read` e `cd.yml` que só empacota artefato, sem deploy (FASE 8); contrato MCP/Qdrant em modo `contract-only` (FASE 9); operador `scripts/godnaterra.py` com `version`, `audit`, `doctor`, `init`, `update`, dry-run por padrão e diff antes de aplicar (FASE 10).
+
+**Testado localmente:** `validate_catalog.py` → 769 skills, 0 problemas; `unittest` → 8/8 OK; ambos os YAMLs parseados com PyYAML; `godnaterra.py version` → `0.1.0`; `audit` → OK; `doctor` → 2 runtimes presentes, Claude ausente, 769 symlinks sem quebrados; `init` em dry-run → diffs vazios contra as configs ativas, nenhuma instalação global.
+
+**Não verificado:** execução real dos workflows no GitHub Actions; contraste, navegação por teclado e zoom em UI concreta; inferência com modelo nos cenários de roteamento e gate de segurança; CLI do Claude; endpoint/collection/embedding/dimensões/métrica do Qdrant.
+
+**Fora de escopo, sem autorização explícita:** deploy, reindexação, alteração de segredos, escrita nos packs originais e no `.git` do `joshua`.
+

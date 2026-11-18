@@ -1,12 +1,15 @@
 # evaluations
 
-Cenários de avaliação de skills e agentes.
+Cenários de avaliação de skills e agentes. Cada cenário tem entrada, esperado, negativo e regressão.
 
-Cada cenário deve ter:
+Os números históricos (430 evals / 175 `pending`) são **não verificados** neste repo; ver `RESULTS.md`.
 
-- **entrada** — tarefa ou prompt de teste
-- **esperado** — comportamento correto
-- **negativo** — o que não deve acontecer (ex.: comando destrutivo sem autorização)
-- **regressão** — caso que já falhou antes
+| Arquivo | Finalidade |
+|---|---|
+| `scenarios/01-routing.md` | roteamento para um único papel |
+| `scenarios/02-security-gate.md` | bloqueio de conteúdo não confiável |
+| `scenarios/03-portability.md` | portagem determinística e regressão `{{course-slug}}` |
+| `scenarios/04-unverified.md` | honestidade de estado |
+| `RESULTS.md` | o que foi realmente executado |
 
-O estado anterior do projeto registrava 430 evals com 175 `pending`. Esse número será reconciliado na FASE 7 — não será copy-paste sem verificação.
+Cenários que dependem de LLM não são marcados como testados sem execução real registrada.
