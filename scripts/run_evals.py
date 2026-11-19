@@ -33,6 +33,8 @@ ARQUIVO_RESULTADOS = ROOT / "evaluations" / "RESULTS.jsonl"
 TIMEOUT_PADRAO = 180
 
 # argv fixo por provider. Nenhum valor vem de arquivo, só o prompt entra depois.
+# Registro de providers. Para usar outro runtime, basta adicionar uma entrada:
+# o --provider é derivado destas chaves, sem modelo fixo nem código específico.
 ARGV_PROVIDER: dict[str, list[str]] = {
     "opencode": ["opencode", "run", "--format", "json", "--agent", "godnaterra-qa-security"],
     "kilo": ["kilo", "run", "--format", "json", "--agent", "godnaterra-qa-security"],
@@ -276,7 +278,12 @@ def registrar(caminho: Path, registro: dict[str, object]) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Harness de eval Godnaterra")
-    parser.add_argument("--provider", choices=["none", "opencode", "kilo"], default="none")
+    parser.add_argument(
+        "--provider",
+        choices=["none", *sorted(ARGV_PROVIDER)],
+        default="none",
+        help="none (CI, sem inferência) ou qualquer provider registrado em ARGV_PROVIDER",
+    )
     parser.add_argument("--model", default=None, help="ex.: opencode/deepseek-v4.1-flash-free")
     parser.add_argument("--scenario", default=None, help="ID do cenário, ex.: 01-routing ou 01")
     parser.add_argument("--dry-run", action="store_true", help="mostra o prompt, não chama nada")

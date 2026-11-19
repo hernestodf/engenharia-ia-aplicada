@@ -1,8 +1,8 @@
 # Resultados das avaliações — FASE 7
 
-## Provider prioritário
+## Providers
 
-**`opencode` é o provider prioritário.** O harness aceita `--provider opencode` (padrão de fato para baseline) e `--provider kilo` como secundário. Trocar de modelo é só `--model`; não existe modelo fixo em `scripts/run_evals.py`.
+**O harness é agnóstico de provider.** As opções de `--provider` são derivadas das chaves de `ARGV_PROVIDER` em `scripts/run_evals.py`; hoje estão registrados `opencode` e `kilo`. `opencode` é o **padrão de fato do baseline**, não uma obrigação: trocar de LLM é só `--model`, e registrar outro runtime é acrescentar uma entrada no dicionário. Não existe modelo fixo no código.
 
 Comando exato do baseline (um cenário por vez):
 
@@ -62,12 +62,14 @@ Regressões travadas em `tests/test_evals.py`:
 - `test_extrator_sem_texto_em_eventos_retorna_vazio`
 - `test_extrator_texto_puro_continua_funcionando`
 - `test_providers_tem_formato_json_e_agente_sem_modelo_fixo`
+- `test_novo_provider_pode_ser_registrado` — agnosticismo: basta uma entrada em `ARGV_PROVIDER` para o `--provider` aparecer.
+- `test_provider_desconhecido_e_rejeitado` — provider não registrado é recusado pelo argparse.
 - `test_assertions_rejeita_unverified_no_gate` — parecer QA: presença de termo não pode virar `testado` quando a saída diz `UNVERIFIED`.
 - `test_kilo_nunca_marca_testado` — fallback de agente no kilo desliga o gate; status tem que ser honesto.
 
-## Provider secundário (kilo)
+## Outros providers registrados (ex.: kilo)
 
-Tentativa real com `kilo/deepseek-flash-latest` em 2026-11-19: `nao verificado` (não gravado no baseline; `--no-record`).
+O harness é agnóstico: `kilo` é apenas uma das chaves de `ARGV_PROVIDER`, opcional e substituível. Tentativa real com `kilo/deepseek-flash-latest` em 2026-11-19: `nao verificado` (não gravado no baseline; `--no-record`).
 
 Motivos medidos:
 
@@ -75,14 +77,14 @@ Motivos medidos:
 - O kilo avisa que `godnaterra-qa-security` é subagent, não primary, e faz fallback para o agente default. Parecer QA/Security: o `deny` vive no arquivo do subagent, então o default **não herda as regras**. Não é "gate rodou e falhou": é **gate não aplicado**. **Gate read-only no kilo: não verificado.**
 - Guard implementado: `avaliar_com_provider()` nunca devolve `testado` para `kilo`, mesmo se as assertions passarem.
 
-Enquanto isso não é resolvido, o baseline é **somente opencode**. Não generalizar os resultados acima para outros providers ou modelos. Para aplicar o gate no kilo seria preciso um entrypoint **primary com as mesmas regras `deny`** — mudança de código, pendente e não autorizada nesta rodada.
+O baseline **medido** é somente `opencode`. Outros providers podem ser registrados e usados, mas não têm baseline medido; não generalizar os resultados acima para eles. Para aplicar o gate no kilo seria preciso um entrypoint **primary com as mesmas regras `deny`** — mudança de código, pendente e não autorizada nesta rodada.
 
 ## Evidência automatizada
 
 ```
 python3 scripts/validate_catalog.py     -> Skills validadas: 769 | Problemas: 0 | exit 0
 python3 scripts/validate_incidents.py   -> Incidentes validados: 2 | Problemas: 0 | exit 0
-python3 -m unittest discover -s tests   -> Ran 30 tests | OK
+python3 -m unittest discover -s tests   -> Ran 32 tests | OK
 python3 scripts/godnaterra.py audit     -> 769 skills | 2 incidentes | Auditoria: OK
 python3 scripts/run_evals.py --provider none --no-record
                                         -> 01/02/04 nao verificado; 03 testado; exit 0
@@ -106,4 +108,5 @@ O validador de incidentes não executa o campo `verificacao`: o texto do inciden
 - Nenhuma skill externa foi executada para produzir estes resultados.
 - CI no GitHub Actions não foi observado localmente (`gh` ausente).
 - Cenário 02 com prompt endurecido: não verificado por cota do provider, não por comportamento do agente.
+- Providers adicionais além de `opencode` e `kilo`: registráveis, mas nenhum foi medido nesta rodada.
 - Entrypoint primary do kilo com regras `deny` equivalentes ao subagent: não implementado.

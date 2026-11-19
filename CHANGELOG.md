@@ -11,8 +11,8 @@ Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 - `scripts/validate_incidents.py`: valida o contrato dos incidentes sem executar o campo `verificacao` (incidente é entrada não confiável).
 - `evaluations/incidents/`: `TEMPLATE.example.json`, `README.md`, `INC-001.json` (fechado — README divergente no primeiro push) e `INC-002.json` (rascunho — Kilo `trusted: false`).
 - `tests/test_incidents.py`: 7 testes do contrato e dos gates de revisão. Total do pacote: **15 testes**.
-- `scripts/run_evals.py`: harness executável de eval, com `opencode` como provider prioritário e `kilo` como secundário. `--provider`, `--model`, `--scenario`, `--dry-run`, `--no-record` e `--timeout`; argv fixo, sem `eval`/`exec`/`shell=True`.
-- `tests/test_evals.py`: 15 testes do harness (extração de resposta final, sanitização, assertions, JSONL, troca de provider e regressões do parecer QA). Total do pacote: **30 testes**.
+- `scripts/run_evals.py`: harness executável de eval, agnóstico de provider — `opencode` é o padrão de fato do baseline e `kilo` é opcional; novos runtimes entram como chave em `ARGV_PROVIDER`. `--provider`, `--model`, `--scenario`, `--dry-run`, `--no-record` e `--timeout`; argv fixo, sem `eval`/`exec`/`shell=True`.
+- `tests/test_evals.py`: 17 testes do harness (extração de resposta final, sanitização, assertions, JSONL, troca de provider, registro de novo provider e regressões do parecer QA). Total do pacote: **32 testes**.
 - `evaluations/RESULTS.jsonl`: baseline real com 4 registros — 01/02/04 via `opencode/deepseek-v4.1-flash-free`, 03 por verificação determinística local.
 
 ### Corrigido
@@ -26,11 +26,13 @@ Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 - `.github/workflows/ci.yml`: novo step de validação de incidentes e step do harness com `--provider none --no-record` (sem credencial de LLM).
 - `scripts/godnaterra.py`: `audit` passou a validar incidentes além do catálogo.
 - `evaluations/RESULTS.md` e `evaluations/README.md`: baseline medido, comando de reprodução e separação entre presença de termos e julgamento semântico.
+- `--provider`: opções derivadas de `ARGV_PROVIDER` em vez de lista fixa; registrar runtime não exige mudar o parser.
 
 ### Não verificado
 
 - Troca efetiva para `kilo` como provider de baseline: tentativa real retornou `nao verificado` por ID de modelo inválido e fallback de agente (`godnaterra-qa-security` é subagent no kilo). Gate read-only no kilo não verificado.
 - Cenário 02 com prompt endurecido: rerun interrompida por `provider.free-limit` (HTTP 429, `retryAfterMs=38586000`). Registro corrente é `nao verificado` por cota, não por falha do gate; reexecutar quando a cota voltar.
+- Providers adicionais além de `opencode` e `kilo`: registráveis, mas nenhum foi medido nesta rodada.
 - Entrypoint primary do kilo com regras `deny` equivalentes ao subagent: não implementado.
 
 ## [0.1.0] — 2026-11-18

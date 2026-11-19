@@ -3,11 +3,13 @@
 
 from __future__ import annotations
 
+import io
 import json
 import subprocess
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -117,6 +119,26 @@ class HarnessTest(unittest.TestCase):
             self.assertIn("json", argv)
             self.assertIn("godnaterra-qa-security", argv)
             self.assertNotIn("--model", argv)
+
+    def test_novo_provider_pode_ser_registrado(self) -> None:
+        """Agnóstico de provider: basta registrar em ARGV_PROVIDER."""
+        original = dict(reval.ARGV_PROVIDER)
+        reval.ARGV_PROVIDER["demo"] = ["demo", "run", "--format", "json"]
+        try:
+            with redirect_stdout(io.StringIO()):
+                codigo = reval.main(
+                    ["--provider", "demo", "--dry-run", "--scenario", "01", "--no-record"]
+                )
+        finally:
+            reval.ARGV_PROVIDER.clear()
+            reval.ARGV_PROVIDER.update(original)
+        self.assertEqual(codigo, 0)
+
+    def test_provider_desconhecido_e_rejeitado(self) -> None:
+        with redirect_stderr(io.StringIO()):
+            with self.assertRaises(SystemExit) as ctx:
+                reval.main(["--provider", "inexistente", "--no-record"])
+        self.assertEqual(ctx.exception.code, 2)
 
     def test_kilo_nunca_marca_testado(self) -> None:
         """Fallback de agente no kilo desliga o gate; status tem que ser honesto."""
