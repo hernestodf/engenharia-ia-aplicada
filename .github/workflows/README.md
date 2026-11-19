@@ -3,7 +3,17 @@
 | Workflow | Gatilho | Função |
 |---|---|---|
 | `ci.yml` | push e PR | valida catálogo/incidentes, roda testes + auditoria + harness, checa reproduzibilidade dos adaptadores, integridade do manifesto, whitespace e segredos |
-| `release.yml` | tag `v*` ou `workflow_dispatch` | empacota o pacote completo + `SHA256SUMS` e cria Release no GitHub |
+| `release.yml` | tag `v*` ou `workflow_dispatch` (input `tag` obrigatório) | empacota o pacote completo + `SHA256SUMS` e cria Release no GitHub |
+
+## Dispatch manual
+
+O `workflow_dispatch` **exige** o input `tag` (ex.: `v0.2.1`) e faz checkout **dessa tag**, nunca do HEAD do branch. Guards:
+
+- tag precisa casar `v*`, senão o job falha antes de empacotar;
+- `VERSION` precisa ser igual à tag sem o `v` (ex.: `0.2.1` ↔ `v0.2.1`);
+- `gh release create ... --verify-tag` recusa tag inexistente.
+
+Isso evita o caso "dispatch em `main` tenta criar Release chamada `main`". O input é lido via `env`, nunca interpolado dentro do shell.
 
 ## Permissões
 
@@ -27,5 +37,6 @@ Deploy em produção, migration destrutiva, reindexação do Qdrant e rotação 
 
 ## Estado
 
-- **implementado:** YAMLs, validações no CI, Release por tag, pin por SHA e este README.
-- **não verificado:** execução em GitHub Actions (sem `gh`/runner local). Os YAMLs foram parseados localmente, mas o runner não foi observado. A criação da Release depende de `gh`/permissoes no runner.
+- **implementado:** YAMLs, validações no CI, Release por tag e por dispatch com input `tag`, pin por SHA, guards de versão/tag e este README.
+- **testado:** run da tag `v0.2.1` (commit `7484c0c`) reportado como **completed successfully** na aba Actions pelo operador. Contrato do workflow coberto por `tests/test_release_workflow.py`.
+- **não verificado:** conteúdo visual dos assets da Release (`godnaterra-0.2.1.tar.gz` + `SHA256SUMS`) e execução do dispatch corrigido no runner.

@@ -52,12 +52,14 @@ Instalação isolada por cliente, portabilidade total e release verificável.
 - `scripts/run_evals.py`: harness executável de eval, agnóstico de provider — `opencode` é o único registrado e o único com baseline medido; roda só com `--provider opencode` explícito, não é default. Novos runtimes entram como chave em `ARGV_PROVIDER`. `--provider`, `--model`, `--scenario`, `--dry-run`, `--no-record` e `--timeout`; argv fixo, sem `eval`/`exec`/`shell=True`.
 - `tests/test_evals.py`: 17 testes do harness (extração de resposta final, sanitização, assertions, JSONL, troca de provider, registro de novo provider e regressões do parecer QA). Total do pacote: **31 testes**.
 - `evaluations/RESULTS.jsonl`: baseline real com 4 registros — 01/02/04 via `opencode/deepseek-v4.1-flash-free`, 03 por verificação determinística local.
+- `tests/test_release_workflow.py`: 9 testes do contrato do release (dispatch exige tag, checkout da tag, input fora do shell, guarda `VERSION`↔tag, tarball com `.github`, permissões e pins por SHA). Total do pacote: **46 testes**.
 
 ### Corrigido
 
 - Extrator de evidência do harness: antes capturava `snapshot`/system prompt e gerou um falso positivo no cenário 01. Agora lê somente `part.type == "text"` dos eventos; sem texto final, marca `nao verificado`. Registro inválido removido e substituído por execução válida.
 - Rótulo do cenário 02: saída com `UNVERIFIED` passa a ser rejeitada pelas assertions; presença de termo deixou de virar `testado` automático (parecer QA/Security).
 - Honestidade do rótulo: qualquer provider registrado só vira `testado` com texto final e assertions válidas; erro de provider, saída vazia, cota (429) e `UNVERIFIED` viram `nao verificado` — nenhum runtime tem atalho.
+- `.github/workflows/release.yml`: `workflow_dispatch` agora exige o input `tag` e faz checkout dela. Antes, dispatch em branch tentava `gh release create main --verify-tag` e falhava. Adicionada guarda `VERSION` ↔ tag (sem o `v`).
 
 ### Alterado
 

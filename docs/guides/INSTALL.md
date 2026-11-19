@@ -41,7 +41,7 @@ Grava em `$HOME/.config/opencode/opencode.json` e `$HOME/.config/opencode/agents
 
 ## Integridade (fail-closed)
 
-Antes de qualquer escrita, `scripts/install.py` verifica o SHA256 de 801 arquivos contra `install-manifest.json`. Se qualquer arquivo divergir ou faltar, a instalação aborta com exit 1 e **nenhum arquivo é tocado**.
+Antes de qualquer escrita, `scripts/install.py` verifica o SHA256 de 802 arquivos contra `install-manifest.json`. Se qualquer arquivo divergir ou faltar, a instalação aborta com exit 1 e **nenhum arquivo é tocado**.
 
 ```bash
 python3 scripts/generate_manifest.py --check   # só verifica
@@ -77,7 +77,7 @@ Restaura o backup timestampado mais recente de `opencode.json` e dos agentes. Sy
 | Frontmatter inválido | ✅ 0 |
 | Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
 | Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
-| Suite de testes | ✅ 37/37 |
+| Suite de testes | ✅ 46/46 |
 
 Reproduzir:
 

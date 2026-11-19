@@ -50,7 +50,7 @@ Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona segredos.
 ```bash
 python3 scripts/validate_catalog.py
 python3 scripts/validate_incidents.py
-python3 -m unittest discover -s tests -v        # 37 testes
+python3 -m unittest discover -s tests -v        # 46 testes
 python3 scripts/godnaterra.py audit
 python3 scripts/generate_manifest.py --check
 git diff --check
@@ -72,7 +72,7 @@ git diff --check
 | Fase | Situação |
 |---|---|
 | 1–9 | concluídas/implementadas conforme ADRs; ver detalhes em `docs/` |
-| 10 · Instalador e documentação | implementado; 37 testes OK localmente |
+| 10 · Instalador e documentação | implementado; 46 testes OK localmente |
 | CI/CD | YAMLs implementados com actions pinadas por SHA; execução no GitHub Actions não observada |
 
 Sempre separamos **implementado / testado / pendente / não verificado**. Evidência acima de conclusão. Nada aqui é "testado" em runtime de cliente por padrão.
