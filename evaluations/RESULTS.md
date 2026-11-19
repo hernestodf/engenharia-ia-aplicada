@@ -78,7 +78,7 @@ O baseline **medido** é somente `opencode`. Não generalizar estes resultados p
 ```
 python3 scripts/validate_catalog.py     -> Skills validadas: 769 | Problemas: 0 | exit 0
 python3 scripts/validate_incidents.py   -> Incidentes validados: 2 | Problemas: 0 | exit 0
-python3 -m unittest discover -s tests   -> Ran 32 tests | OK
+python3 -m unittest discover -s tests   -> Ran 31 tests | OK
 python3 scripts/godnaterra.py audit     -> 769 skills | 2 incidentes | Auditoria: OK
 python3 scripts/run_evals.py --provider none --no-record
                                         -> 01/02/04 nao verificado; 03 testado; exit 0

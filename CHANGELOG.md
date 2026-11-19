@@ -10,9 +10,9 @@ Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 - Loop de aprendizado com revisão: erro observado vira cenário de regressão; a correção só entra depois de revisão humana aprovada e testes verdes.
 - `scripts/validate_incidents.py`: valida o contrato dos incidentes sem executar o campo `verificacao` (incidente é entrada não confiável).
 - `evaluations/incidents/`: `TEMPLATE.example.json`, `README.md`, `INC-001.json` (fechado — README divergente no primeiro push) e `INC-002.json` (rascunho — gate read-only não verificado em provider externo por fallback de agente).
-- `tests/test_incidents.py`: 7 testes do contrato e dos gates de revisão. Total do pacote: **15 testes**.
+- `tests/test_incidents.py`: 7 testes do contrato e dos gates de revisão. Total do pacote: **14 testes**.
 - `scripts/run_evals.py`: harness executável de eval, agnóstico de provider — `opencode` é o único registrado e o único com baseline medido; roda só com `--provider opencode` explícito, não é default. Novos runtimes entram como chave em `ARGV_PROVIDER`. `--provider`, `--model`, `--scenario`, `--dry-run`, `--no-record` e `--timeout`; argv fixo, sem `eval`/`exec`/`shell=True`.
-- `tests/test_evals.py`: 17 testes do harness (extração de resposta final, sanitização, assertions, JSONL, troca de provider, registro de novo provider e regressões do parecer QA). Total do pacote: **32 testes**.
+- `tests/test_evals.py`: 17 testes do harness (extração de resposta final, sanitização, assertions, JSONL, troca de provider, registro de novo provider e regressões do parecer QA). Total do pacote: **31 testes**.
 - `evaluations/RESULTS.jsonl`: baseline real com 4 registros — 01/02/04 via `opencode/deepseek-v4.1-flash-free`, 03 por verificação determinística local.
 
 ### Corrigido
