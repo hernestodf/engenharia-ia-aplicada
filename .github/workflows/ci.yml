@@ -11,19 +11,37 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # PIN: SHA obtido via git ls-remote em 2026-11-19. Tag: v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # PIN: SHA obtido via git ls-remote em 2026-11-19. Tag: v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.11"
+
       - name: Validar catálogo canônico
         run: python3 scripts/validate_catalog.py
       - name: Validar incidentes (loop de aprendizado)
         run: python3 scripts/validate_incidents.py
-      - name: Testes do pacote
+      - name: Testes do pacote (inclui instalador isolado)
         run: python3 -m unittest discover -s tests -v
+      - name: Auditoria do operador
+        run: python3 scripts/godnaterra.py audit
       - name: Harness de evals (sem provider, sem credencial)
         run: python3 scripts/run_evals.py --provider none --no-record
+      - name: Operador — status (somente leitura)
+        run: python3 scripts/godnaterra.py status
+
+      - name: Artefatos derivados são reproduzíveis
+        run: |
+          python3 scripts/generate_adapters.py
+          git diff --exit-code -- adapters/
+      - name: Manifesto de instalação íntegro
+        run: python3 scripts/generate_manifest.py --check
+      - name: Checar whitespace
+        run: git diff --check
+
+      # PIN: SHA obtido via git ls-remote em 2026-11-19. Tag: v2
       - name: Checar segredos
-        uses: gitleaks/gitleaks-action@v2
+        uses: gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc # v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,10 +1,53 @@
-# scripts
+# Scripts
 
-Scripts de manutenção do pacote: instalação, auditoria, portagem, geração de adaptadores e checagem de integridade.
+Todos os scripts são Python 3.11+, sem dependências externas, e **não** executam comandos via shell.
 
-Regras:
+## Instalação
 
-- todo script com efeito colateral deve aceitar `--dry-run`
-- diff antes de aplicar
-- registrar versão e permitir rollback
-- nenhum segredo em argumentos ou arquivos versionados
+| Script | Função |
+|---|---|
+| `install.py` | Instalador isolado por cliente. DRY-RUN por padrão; `--apply` autoriza escrita. `--scope project` (padrão) grava no clone; `--scope user` grava global com backup. `--rollback` restaura backups. |
+| `generate_manifest.py` | Gera/verifica `install-manifest.json` (SHA256 da fonte canônica). `--check` só verifica. |
+
+```bash
+python3 scripts/install.py                 # plano, sem escrita
+python3 scripts/install.py --apply         # instala no clone
+python3 scripts/install.py --apply --scope user
+python3 scripts/install.py --rollback
+python3 scripts/generate_manifest.py --check
+```
+
+## Geração de adaptadores
+
+| Script | Função |
+|---|---|
+| `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__GODNATERRA_ROOT__`. `--apply` é o modo legado global. |
+
+Nunca edite `adapters/*/generated/` na mão.
+
+## Operador
+
+| Script | Função |
+|---|---|
+| `godnaterra.py` | CLI `version`, `audit`, `status`, `doctor`, `init`, `update`. Tudo read-only a menos que `--apply`. |
+
+## Validação
+
+| Script | Função |
+|---|---|
+| `validate_catalog.py` | valida catálogo de skills e frontmatter |
+| `validate_incidents.py` | valida loop de incidentes |
+| `run_evals.py` | harness provider-agnóstico. `--provider none --no-record` roda sem credencial; `ARGV_PROVIDER` controla o provider (hoje só `opencode`). |
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/godnaterra.py audit
+python3 scripts/run_evals.py --provider none --no-record
+```
+
+## Segurança
+
+- Nenhum script apaga arquivos, faz deploy, reindexa ou rotaciona segredo sem autorização explícita.
+- `install.py` falha fechado se o manifesto divergir.
+- Backups são timestampados (`*.bak-godnaterra-<UTC>`).
+- Nenhuma skill externa é executada sem o gate do `godnaterra-qa-security`.

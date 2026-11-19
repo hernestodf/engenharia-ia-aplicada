@@ -5,6 +5,7 @@ Comandos:
   version              imprime a versão do pacote
   audit                valida catálogo e artefatos derivados
   doctor               inspeciona runtimes, configs e backups (somente leitura)
+  status               conta skills ativas na config efetiva (somente leitura)
   init   [--apply]     gera adaptadores; --apply instala com backup
   update [--apply]     regenera adaptadores da fonte canônica; --apply instala
 
@@ -76,6 +77,36 @@ def cmd_audit(_: argparse.Namespace) -> int:
     return 1 if problemas else 0
 
 
+def cmd_status(_: argparse.Namespace) -> int:
+    """Conta skills ativas na config efetiva, sem alterar arquivos."""
+    projeto = ROOT / ".opencode" / "opencode.json"
+    cfg_path = projeto if projeto.exists() else OP_CONFIG
+    print(f"config: {cfg_path} ({'presente' if cfg_path.exists() else 'AUSENTE'})")
+    if not cfg_path.exists():
+        print("Skills ativas: 0 | instale com scripts/install.py --apply")
+        return 0
+    try:
+        cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+        raizes = [Path(p) for p in cfg.get("skills", [])]
+    except (OSError, ValueError, TypeError) as exc:
+        print(f"Config ilegível: {exc}")
+        return 1
+    total = visiveis = 0
+    for raiz in raizes:
+        if not raiz.is_dir():
+            continue
+        for md in raiz.rglob("SKILL.md"):
+            total += 1
+            texto = md.read_text(encoding="utf-8")
+            head = texto.split("---", 2)[1] if texto.startswith("---") else ""
+            if "opencode/autoinvoke: false" not in head and "disable-model-invocation: true" not in head:
+                visiveis += 1
+    print(f"Raízes ativas: {', '.join(str(r) for r in raizes) or '(nenhuma)'}")
+    print(f"Skills ativas: {total} | visíveis: {visiveis} | sob demanda: {total - visiveis}")
+    print("Modo: GOD" if visiveis > 100 else "Modo: CURADO")
+    return 0
+
+
 def cmd_doctor(_: argparse.Namespace) -> int:
     print("=== runtimes ===")
     for nome in ("opencode", "claude"):
@@ -139,6 +170,7 @@ def main() -> int:
     sub = ap.add_subparsers(dest="command", required=True)
     sub.add_parser("version", help=cmd_version.__doc__)
     sub.add_parser("audit", help=cmd_audit.__doc__)
+    sub.add_parser("status", help=cmd_status.__doc__)
     sub.add_parser("doctor", help=cmd_doctor.__doc__)
     for nome in ("init", "update"):
         p = sub.add_parser(nome)
@@ -148,6 +180,7 @@ def main() -> int:
     return {
         "version": cmd_version,
         "audit": cmd_audit,
+        "status": cmd_status,
         "doctor": cmd_doctor,
         "init": cmd_sync,
         "update": cmd_sync,

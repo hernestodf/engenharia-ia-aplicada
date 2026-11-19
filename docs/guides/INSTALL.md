@@ -1,80 +1,103 @@
-# Guia — Instalação e Rollback
+# Guia — Instalação, Rollback e Troubleshooting
 
-## Instalação no OpenCode
+## Instalação isolada por cliente (padrão)
 
-1. O `~/.config/opencode/opencode.json` deve apontar **somente** para o catálogo ativo:
+O instalador grava dentro do próprio clone. Cada cliente tem seu clone, logo cada um tem sua config isolada. Nada é escrito em `$HOME`.
+
+```bash
+git clone git@github.com:hernestodf/godnaterra.git
+cd godnaterra
+python3 scripts/install.py                 # DRY-RUN — não escreve nada
+python3 scripts/install.py --apply         # aplica no clone (scope project)
+python3 scripts/godnaterra.py status
+```
+
+Resultado em `<clone>/.opencode/opencode.json`:
 
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
   "skills": [
-    "/root/.config/opencode/skill-packs/godnaterra/skills/core",
-    "/root/.config/opencode/skill-packs/godnaterra/skills/upstream"
+    "<clone>/skills/core",
+    "<clone>/skills/upstream"
   ]
 }
 ```
 
-2. Os packs originais permanecem em disco (`autopunk`, `joshua`, `techsaurabh`) mas não são carregados ao mesmo tempo. Isso evita IDs duplicados. O backup da config anterior está em `~/.config/opencode/opencode.json.bak-godnaterra`.
+Os caminhos são **resolvidos a partir do clone local** no momento da instalação. Os artefatos versionados em `adapters/*/generated/` usam o token `__GODNATERRA_ROOT__` e nunca contêm caminhos da máquina que os gerou.
 
-3. Modos disponíveis via `python3 ~/.config/opencode/skill_mode.py`:
+## Escopo global (somente quando explicitamente pedido)
 
-| Modo | Efeito |
-|---|---|
-| `godnaterra` | padrão — todas as 769 skills visíveis (5 core + 764 upstream) |
-| `god` | alias de `godnaterra` (todas visíveis) |
-| `curated` | legado de 31 skills |
-| `status` | só reporta contagem da raiz ativa |
+```bash
+python3 scripts/install.py --apply --scope user
+```
+
+Grava em `$HOME/.config/opencode/opencode.json` e `$HOME/.config/opencode/agents`.
+
+- Faz **backup timestampado** (`opencode.json.bak-godnaterra-<UTC>`).
+- **Preserva chaves existentes** do JSON — só substitui `$schema` e `skills`.
+- **Recusa JSON inválido** (ex.: JSONC com comentários): aborta sem escrever nada.
+- Symlinks Claude em `$HOME/.claude/skills` são relativos e nunca sobrescrevem destino existente.
+
+## Integridade (fail-closed)
+
+Antes de qualquer escrita, `scripts/install.py` verifica o SHA256 de 801 arquivos contra `install-manifest.json`. Se qualquer arquivo divergir ou faltar, a instalação aborta com exit 1 e **nenhum arquivo é tocado**.
+
+```bash
+python3 scripts/generate_manifest.py --check   # só verifica
+python3 scripts/generate_manifest.py           # regera (use após editar fonte canônica)
+```
 
 ## Rollback
 
-Se algo falhar:
+```bash
+python3 scripts/install.py --rollback                    # escopo project
+python3 scripts/install.py --rollback --scope user        # escopo global
+```
 
-1. Restaurar o `opencode.json` anterior com os 3 caminhos dos packs originais:
-   `cp ~/.config/opencode/opencode.json.bak-godnaterra ~/.config/opencode/opencode.json`
-2. Rodar `python3 ~/.config/opencode/skill_mode.py god` para voltar ao estado anterior.
-3. Os packs originais não foram alterados — o rollback é imediato.
+Restaura o backup timestampado mais recente de `opencode.json` e dos agentes. Symlinks Claude são aditivos — o instalador nunca apaga destino existente; remova manualmente se quiser.
 
-## Validação pós-instalação (FASE 5 — concluída)
+## Troubleshooting
 
-| Verificação | Resultado |
+| Sintoma | Causa provável | Ação |
+|---|---|---|
+| `Instalação abortada: fonte canônica divergente` | arquivo versionado foi editado sem regerar o manifesto | `python3 scripts/generate_manifest.py` e rode de novo |
+| `Config existente nao e JSON valido` | `opencode.json` tem comentários/JSONC | converta para JSON puro antes de instalar |
+| `Skills ativas: 0` no `status` | instalou em escopo errado ou não rodou `--apply` | rode `python3 scripts/install.py --apply` |
+| symlinks quebrados em `.claude/skills` | clone foi movido após a instalação | reinstale (`--apply`) — os symlinks são relativos ao clone |
+| ID `op-` duplicado | dois clones/packs carregados ao mesmo tempo | aponte a config de cada cliente só para o clone dele |
+| `python3` não encontrado | runtime ausente | instale Python 3.11+ |
+
+## Validação pós-instalação
+
+| Verificação | Resultado observado localmente |
 |---|---|
 | JSON do config válido | ✅ duas raízes |
-| IDs únicos (sem colisão `op-`) | ✅ 769/769 |
-| `$ARGUMENTS` remanescente | ✅ 0 (exceto citação intencional na skill de portagem) |
-| `$0` / `$1` | ✅ **preservados** — são valores monetários e variáveis shell, não argumentos |
-| Paths absolutos de projeto remanescentes | ✅ 0 (`/Users/`, `~/`, `Desktop/dev/repos`) |
-| `{{...}}` remanescente | ✅ 0 resíduos de `{{course-slug}}`; expressões `{{ secrets.* }}` do GitHub Actions são código legítimo |
-| `mcp__*` sem equivalente documentado | ✅ 0 (exceto citação intencional na skill de portagem) |
+| IDs únicos (`op-`) | ✅ 769/769 |
 | Frontmatter inválido | ✅ 0 |
 | Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
 | Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
+| Suite de testes | ✅ 37/37 |
 
-Reproduzir: `python3 scripts/validate_catalog.py`, `python3 scripts/validate_incidents.py` e `python3 -m unittest discover -s tests -v`.
-
-## Comandos do operador (FASE 10)
+Reproduzir:
 
 ```bash
-python3 scripts/godnaterra.py version                 # versão do pacote
-python3 scripts/godnaterra.py audit                   # catálogo + incidentes + JSONs derivados
-python3 scripts/godnaterra.py doctor                  # runtimes, configs e backups (leitura)
-python3 scripts/godnaterra.py init                    # DRY-RUN: mostra diff, nada instala
-python3 scripts/godnaterra.py init --apply            # instala com backup timestampado
-python3 scripts/godnaterra.py update                  # DRY-RUN: diff da fonte -> adaptadores
-python3 scripts/godnaterra.py update --apply          # aplica a atualização
+python3 scripts/validate_catalog.py
+python3 scripts/validate_incidents.py
+python3 -m unittest discover -s tests -v
+python3 scripts/godnaterra.py audit
 ```
-
-`init` e `update` são **dry-run por padrão**. Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona credenciais.
-
-### Sobre os caminhos nos artefatos `generated/`
-
-Os arquivos em `adapters/*/generated/` são derivados de `scripts/generate_adapters.py` e registram os caminhos absolutos da máquina onde foram gerados (`/root/.config/opencode/skill-packs/godnaterra/...` no pacote publicado). Isso **não** é configuração ativa: ao rodar `init --apply` ou `update --apply` em outra máquina, o gerador usa o `ROOT` local e grava os caminhos corretos. Não edite os artefatos na mão — a fonte canônica é o gerador.
 
 ## Fora do escopo da instalação
 
-- reindexação do Qdrant
-- criação de collection
+- reindexação do Qdrant / criação de collection
 - rotação de credenciais
 - deploy em produção
-- alteração no `.git` do `joshua`
+- alteração no `.git` de qualquer outro repositório
 
 Todos exigem autorização explícita.
+
+## Não verificado
+
+- CARGA real das skills pelo runtime do OpenCode na máquina cliente (CLI ausente aqui).
+- Execução dos workflows no GitHub Actions.

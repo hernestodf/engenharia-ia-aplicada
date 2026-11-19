@@ -49,7 +49,17 @@ class AdaptadoresTest(unittest.TestCase):
         cfg = json.loads((ROOT / "adapters/opencode/generated/opencode.json").read_text())
         self.assertEqual(len(cfg["skills"]), 2)
         for raiz in cfg["skills"]:
-            self.assertTrue(Path(raiz).is_dir(), raiz)
+            resolvida = raiz.replace("__GODNATERRA_ROOT__", str(ROOT))
+            self.assertTrue(Path(resolvida).is_dir(), resolvida)
+
+    def test_artefatos_derivados_sem_caminho_da_maquina_geradora(self) -> None:
+        for rel in (
+            "adapters/opencode/generated/opencode.json",
+            "adapters/claude-code/generated/install-skills.sh",
+        ):
+            texto = (ROOT / rel).read_text(encoding="utf-8")
+            self.assertNotIn("/root/", texto, rel)
+            self.assertNotIn(str(ROOT), texto, rel)
 
     def test_script_claude_sintaticamente_valido(self) -> None:
         r = subprocess.run(

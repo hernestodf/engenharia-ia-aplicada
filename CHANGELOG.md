@@ -3,6 +3,37 @@
 Todas as mudanças relevantes do Godnaterra são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.2.0] — 2026-11-19
+
+Instalação isolada por cliente, portabilidade total e release verificável.
+
+### Adicionado
+
+- `scripts/install.py`: instalador com DRY-RUN por padrão, `--apply` como autorização explícita, `--scope project` (padrão, grava só no clone) e `--scope user` (global com backup). Verificação SHA256 fail-closed, backup timestampado, `--rollback`, idempotente, sem subprocesso via shell.
+- `scripts/generate_manifest.py` + `install-manifest.json`: SHA256 de 801 arquivos da fonte canônica; a instalação aborta se houver drift.
+- `tests/test_install.py`: 6 testes de integridade, dry-run sem escrita, isolamento project, idempotência, rollback, merge de config em user scope e bloqueio por manifesto divergente. Total do pacote: **37 testes**.
+- `scripts/README.md`: catálogo dos scripts.
+- Comando `status` no `scripts/godnaterra.py`: conta skills ativas na config efetiva, read-only — substitui a dependência do `skill_mode.py` externo.
+
+### Alterado
+
+- `scripts/generate_adapters.py`: artefatos derivados usam o token `__GODNATERRA_ROOT__` em vez de caminhos absolutos da máquina geradora; `os.path.relpath` para symlinks, `subprocess`/Python direto sem `os.system`, merge de `opencode.json` preservando chaves existentes.
+- `README.md` e `docs/guides/INSTALL.md`: reescritos sem paths absolutos e sem `skill_mode.py`; fluxo "clone → dry-run → apply project → status".
+- `.gitignore`: ignora `.opencode/` e `.claude/skills/` locais.
+- `.github/workflows/ci.yml`: auditoria do operador, `status`, reproduzibilidade dos adaptadores, `generate_manifest.py --check`, `git diff --check` e actions pinadas por SHA obtido via `git ls-remote`.
+- `.github/workflows/cd.yml` → `release.yml`: tag `v*` ou dispatch, tarball completo, `SHA256SUMS` e Release via `gh`; `contents: write` só no job de release. **Sem deploy.**
+- Versão bumpada para `0.2.0`.
+
+### Corrigido
+
+- Caminhos absolutos da máquina geradora removidos dos artefatos `generated/` e da documentação.
+- `godnaterra.py status`: typo no docstring e leitura dupla de SKILL.md corrigidos.
+
+### Não verificado
+
+- Execução dos workflows no GitHub Actions e criação da Release (sem `gh`/runner local).
+- CARGA de skills pelo runtime do OpenCode na máquina cliente (CLI ausente).
+
 ## [Não publicado]
 
 ### Adicionado
