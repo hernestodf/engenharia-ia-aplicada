@@ -43,7 +43,7 @@ jobs:
           tar --exclude=.git --exclude=.opencode --exclude=.claude \
             -czf "${NOME}.tar.gz" \
             AGENTS.md project.yaml MANIFESTO.md README.md CHANGELOG.md \
-            VERSION SECURITY_CLASSIFICATION.md install-manifest.json \
+            VERSION SECURITY_CLASSIFICATION.md install-manifest.json .github \
             skills agents adapters scripts tests evaluations design-system docs
           sha256sum "${NOME}.tar.gz" install-manifest.json > SHA256SUMS
           echo "ASSET=${NOME}.tar.gz" >> "$GITHUB_ENV"

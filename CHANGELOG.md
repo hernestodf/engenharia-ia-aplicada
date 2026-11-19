@@ -34,6 +34,13 @@ Instalação isolada por cliente, portabilidade total e release verificável.
 - Execução dos workflows no GitHub Actions e criação da Release (sem `gh`/runner local).
 - CARGA de skills pelo runtime do OpenCode na máquina cliente (CLI ausente).
 
+## [0.2.1] — 2026-11-19
+
+### Corrigido
+
+- `.github/workflows/release.yml`: o tarball do Release passa a incluir `.github`, cobrindo os 2 workflows que o `install-manifest.json` exige. Sem isso, o instalador dentro do tarball abortava por drift.
+- `VERSION` e a constante do operador alinhadas em `0.2.1` (antes a constante ainda estava em `0.1.0`).
+
 ## [Não publicado]
 
 ### Adicionado

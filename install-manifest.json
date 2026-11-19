@@ -2,13 +2,13 @@
   "algoritmo": "sha256",
   "arquivos": {
     ".github/workflows/ci.yml": "eaa10db28db26f000bbb732f558847a8ad777766546b2160cd7fc34f12c606fc",
-    ".github/workflows/release.yml": "17261bcb2ba7b52bd4f2333267d07ad41897991aba75ef9cdb79d3286ec6f747",
+    ".github/workflows/release.yml": "a127bb76a6d805ee6d3fdfc555c64c68ce4c41379fd635ae8d4b369428ed5fac",
     "AGENTS.md": "6f2cb459e765dce089db4bd5673949277734ac2e834e5474a26af60c935a92c5",
-    "CHANGELOG.md": "88a890afe96760250bd446b59e623c59ce499cfae4e0169f117702dbc28c1d7c",
+    "CHANGELOG.md": "c08f3828558e5b78a52099dffd0571a56c85c9dcfc56df3bc5ed3f3939c58cba",
     "MANIFESTO.md": "84f42cf662a1fa75fa5663e6b27c0409bbe9f717b5c7bea4ebba0e6e4cba15c8",
-    "README.md": "9b019dda1e280d98bbb57b7198b11a4a4f3288965ece38f8f5db810a4a03e5ce",
+    "README.md": "374d345dbf90ce9c7c37eed233b681970105a6e77004bed25a34042d362cd084",
     "SECURITY_CLASSIFICATION.md": "d46743b703826741f824f1027da9fb66471912542469f5e570783bb535cb9b4f",
-    "VERSION": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+    "VERSION": "71015c979ccb0fc8a0be7ca0ae83046ab045cdc2c8faa09fb2f0f7e440f9b4a6",
     "adapters/claude-code/generated/install-skills.sh": "e8068c3c7b89e1a9ef33b52ffae5795f75dfd62a99c0c8f289913aadf2d21aea",
     "adapters/opencode/generated/opencode.json": "965b6246c955417ecfc7009847a0b25bbf74e5e0b69c9bbc343dfb6e1904ea9d",
     "agents/godnaterra-architect.md": "ccf7aa038fbbce0a213c47b2d6482e102a8fba34652be8b95611c6c5f998157b",
@@ -23,7 +23,7 @@
     "project.yaml": "c0b7e24514aae35f8118cd221afcccde681ee0e54eeb891e30a9364988f209f5",
     "scripts/generate_adapters.py": "26e3eb690eb4fb23e3d189c64000909550e5ec654d5e42baa68dcd606f2f1961",
     "scripts/generate_manifest.py": "ce02f803d1ffd60134912e6962235b8ef3b908e92fe43e313d442c24fca0fc67",
-    "scripts/godnaterra.py": "7629e304c6a66ef5b318199d3e510389bbba02530ad52a19078c5847eb8cea54",
+    "scripts/godnaterra.py": "8a76f30a4eca3e60fbfd92d6eb10390be2f3b5d3bf7954ae134869026a98ed9d",
     "scripts/install.py": "f9b683937765ee342c046af668e74fb8172dfa9a44a8c2fc53dfe69c3a45a207",
     "scripts/port_skills.py": "66883b285d6e987d9fc9d820590c59cebc02436b54ae649402df6e692b362b7c",
     "scripts/run_evals.py": "1426ad9796f3feda4e86071a702b2ca4fb8976d7a05fb15f71440553e82fa604",
@@ -804,5 +804,5 @@
     "tests/test_package.py": "e6c5b95af3eb4af1e6b83060d7b25662c1586e5f3759e20e5424cb3cb80fa98c"
   },
   "token": "__GODNATERRA_ROOT__",
-  "versao": "0.2.0"
+  "versao": "0.2.1"
 }
