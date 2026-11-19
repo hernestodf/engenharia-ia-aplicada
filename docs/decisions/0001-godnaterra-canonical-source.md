@@ -24,7 +24,7 @@ Criar `~/.config/opencode/skill-packs/godnaterra` como **única fonte canônica*
 2. `profox-go` e `legacy-php` como **perfis opcionais**, não donos do pacote.
 3. As 879 skills portadas para `skills/upstream/` com prefixo `op-`.
 4. Packs originais **preservados em disco** como rollback; `MANIFESTO.md` rastreia origem → destino.
-5. Adaptadores (`opencode`, `claude-code`, `kilo`) **gerados a partir da fonte canônica**, nunca editados como verdade independente.
+5. Adaptadores (`opencode`, `claude-code`) **gerados a partir da fonte canônica**, nunca editados como verdade independente.
 6. Modo padrão `godnaterra`: todas as skills visíveis (`autoinvoke: true`), conforme escolha do operador.
 
 ## Consequências
@@ -40,7 +40,7 @@ Criar `~/.config/opencode/skill-packs/godnaterra` como **única fonte canônica*
 
 - ~879 descriptions carregadas no contexto (~62k tokens) no modo padrão — custo aceito pelo operador.
 - Portagem integral exige leitura de ~7,9 MB de conteúdo.
-- Adaptadores Claude Code e Kilo não são executáveis nesta máquina (CLI/formato indisponíveis) — ficam marcados como `UNVERIFIED`.
+- Adaptador Claude Code não é executável nesta máquina (CLI ausente) — fica marcado como `UNVERIFIED`.
 
 ## Alternativas rejeitadas
 

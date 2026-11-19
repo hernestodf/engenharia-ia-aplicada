@@ -2,7 +2,7 @@
 
 ## Providers
 
-**O harness é agnóstico de provider.** As opções de `--provider` são derivadas das chaves de `ARGV_PROVIDER` em `scripts/run_evals.py`; hoje estão registrados `opencode` e `kilo`. `opencode` é o **padrão de fato do baseline**, não uma obrigação: trocar de LLM é só `--model`, e registrar outro runtime é acrescentar uma entrada no dicionário. Não existe modelo fixo no código.
+**O harness é agnóstico de provider.** As opções de `--provider` são derivadas das chaves de `ARGV_PROVIDER` em `scripts/run_evals.py`; hoje só `opencode` está registrado. Ele é o **único provider com baseline medido**, e roda só com `--provider opencode` explícito — não é default no código. Trocar de LLM é só `--model`; registrar outro runtime é acrescentar uma entrada no dicionário. Não existe modelo fixo no código.
 
 Comando exato do baseline (um cenário por vez):
 
@@ -65,19 +65,13 @@ Regressões travadas em `tests/test_evals.py`:
 - `test_novo_provider_pode_ser_registrado` — agnosticismo: basta uma entrada em `ARGV_PROVIDER` para o `--provider` aparecer.
 - `test_provider_desconhecido_e_rejeitado` — provider não registrado é recusado pelo argparse.
 - `test_assertions_rejeita_unverified_no_gate` — parecer QA: presença de termo não pode virar `testado` quando a saída diz `UNVERIFIED`.
-- `test_kilo_nunca_marca_testado` — fallback de agente no kilo desliga o gate; status tem que ser honesto.
+- `test_sem_provider_especifico_no_codigo` — nenhum runtime fica hardcoded no harness; só entra pelo registro `ARGV_PROVIDER`.
 
-## Outros providers registrados (ex.: kilo)
+## Registrando outros providers
 
-O harness é agnóstico: `kilo` é apenas uma das chaves de `ARGV_PROVIDER`, opcional e substituível. Tentativa real com `kilo/deepseek-flash-latest` em 2026-11-19: `nao verificado` (não gravado no baseline; `--no-record`).
+O harness é agnóstico: qualquer runtime entra como uma chave nova em `ARGV_PROVIDER`, sem modelo fixo no código. Um provider registrado só entra no baseline depois de medido com evidência real inspecionada. Até lá, qualquer tentativa com `--no-record` fica fora do baseline — e erros de provider, saída sem texto final ou `UNVERIFIED` nas assertions viram `nao verificado`, nunca `testado`.
 
-Motivos medidos:
-
-- ID de modelo inválido: o `kilo models` lista `kilo/~deepseek/deepseek-flash-latest`; a forma sem `~` retorna `Model not found`.
-- O kilo avisa que `godnaterra-qa-security` é subagent, não primary, e faz fallback para o agente default. Parecer QA/Security: o `deny` vive no arquivo do subagent, então o default **não herda as regras**. Não é "gate rodou e falhou": é **gate não aplicado**. **Gate read-only no kilo: não verificado.**
-- Guard implementado: `avaliar_com_provider()` nunca devolve `testado` para `kilo`, mesmo se as assertions passarem.
-
-O baseline **medido** é somente `opencode`. Outros providers podem ser registrados e usados, mas não têm baseline medido; não generalizar os resultados acima para eles. Para aplicar o gate no kilo seria preciso um entrypoint **primary com as mesmas regras `deny`** — mudança de código, pendente e não autorizada nesta rodada.
+O baseline **medido** é somente `opencode`. Não generalizar estes resultados para providers ainda não medidos.
 
 ## Evidência automatizada
 
@@ -97,7 +91,7 @@ O modo `--provider none` não chama modelo e é o usado no CI: nenhuma credencia
 | ID | Estado | Lição |
 |---|---|---|
 | `INC-001` | fechado, revisão aprovada | checar `ls-remote` antes de supor push fast-forward; divergência não se resolve com force push |
-| `INC-002` | rascunho | sem ferramenta de medição do estado de confiança do Kilo, marcar como não verificado |
+| `INC-002` | rascunho | provider externo não confiável sem ferramenta de medição: marcar como não verificado, nunca presumir gate aplicado |
 
 O validador de incidentes não executa o campo `verificacao`: o texto do incidente é entrada não confiável.
 
@@ -108,5 +102,4 @@ O validador de incidentes não executa o campo `verificacao`: o texto do inciden
 - Nenhuma skill externa foi executada para produzir estes resultados.
 - CI no GitHub Actions não foi observado localmente (`gh` ausente).
 - Cenário 02 com prompt endurecido: não verificado por cota do provider, não por comportamento do agente.
-- Providers adicionais além de `opencode` e `kilo`: registráveis, mas nenhum foi medido nesta rodada.
-- Entrypoint primary do kilo com regras `deny` equivalentes ao subagent: não implementado.
+- Providers adicionais além de `opencode`: registráveis em `ARGV_PROVIDER`, mas nenhum foi medido nesta rodada.

@@ -35,9 +35,9 @@ TIMEOUT_PADRAO = 180
 # argv fixo por provider. Nenhum valor vem de arquivo, só o prompt entra depois.
 # Registro de providers. Para usar outro runtime, basta adicionar uma entrada:
 # o --provider é derivado destas chaves, sem modelo fixo nem código específico.
+# Hoje só opencode está registrado — não é default: rode com --provider explícito.
 ARGV_PROVIDER: dict[str, list[str]] = {
     "opencode": ["opencode", "run", "--format", "json", "--agent", "godnaterra-qa-security"],
-    "kilo": ["kilo", "run", "--format", "json", "--agent", "godnaterra-qa-security"],
 }
 
 # Assertions determinísticas de presença de termos. Não substituem julgamento semântico.
@@ -132,7 +132,7 @@ def extrair_texto_saida(stdout: str) -> str:
     """Extrai só a resposta final, agnóstico de provider.
 
     Formatos aceitos, sem recursão cega:
-    - JSONL de eventos (opencode/kilo --format json): só part.type == "text";
+    - JSONL de eventos (--format json): só part.type == "text";
     - JSON simples de um único objeto: chaves text/content/output/result;
     - texto puro, para providers sem modo JSON.
 
@@ -255,14 +255,6 @@ def avaliar_com_provider(
     texto = extrair_texto_saida(r.stdout)
     if not texto.strip():
         return "nao verificado", "saída vazia do provider"
-
-    # No kilo, godnaterra-qa-security é subagent: a CLI faz fallback para o
-    # agente default, que não herda as regras deny. Nunca rotular como testado.
-    if provider == "kilo":
-        return "nao verificado", (
-            "kilo: gate read-only não verificado (fallback de agente) | "
-            + sanitizar(texto)
-        )
 
     ok, motivo = checar_assertions(cenario.id, texto)
     evidencia = f"{motivo} | {sanitizar(texto)}"

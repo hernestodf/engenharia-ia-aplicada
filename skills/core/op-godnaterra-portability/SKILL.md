@@ -1,6 +1,6 @@
 ---
 name: op-godnaterra-portability
-description: Aplica as regras de portagem de skills para o formato Godnaterra e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre OpenCode, Claude Code e Kilo.
+description: Aplica as regras de portagem de skills para o formato Godnaterra e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre runtime, mantendo a fonte canônica vendor-free.
 godnaterra/layer: core
 godnaterra/source: canonical
 ---

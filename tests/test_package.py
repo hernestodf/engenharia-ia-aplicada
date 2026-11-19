@@ -51,11 +51,6 @@ class AdaptadoresTest(unittest.TestCase):
         for raiz in cfg["skills"]:
             self.assertTrue(Path(raiz).is_dir(), raiz)
 
-    def test_kilo_json_valido_e_permissoes_preservadas(self) -> None:
-        cfg = json.loads((ROOT / "adapters/kilo/generated/kilo.jsonc").read_text())
-        self.assertEqual(len(cfg["skills"]["paths"]), 2)
-        self.assertEqual(cfg["permission"]["bash"]["which *"], "allow")
-
     def test_script_claude_sintaticamente_valido(self) -> None:
         r = subprocess.run(
             ["bash", "-n", str(ROOT / "adapters/claude-code/generated/install-skills.sh")],

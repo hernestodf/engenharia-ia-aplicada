@@ -15,13 +15,12 @@ godnaterra/source: canonical
 
 1. `python3 scripts/generate_adapters.py` (dry-run) — inspecionar artefatos em `adapters/*/generated/`.
 2. `--apply` com backup timestampado; merge de config, nunca sobrescrita cega.
-3. Validar com comando real de cada runtime disponível (`opencode debug agents`, `kilo debug skill`, `kilo debug agent`).
+3. Validar com comando real de cada runtime disponível (`opencode debug agents`).
 4. Runtime ausente fica `UNVERIFIED` — não "passou".
 
 ## Rollback
 
 - OpenCode: `opencode.json.bak-godnaterra-*`.
-- Kilo: `kilo.jsonc.bak-godnaterra-*`.
 - Claude: remover symlinks `~/.claude/skills/op-*`; fonte canônica intacta.
 - Packs originais (`autopunk`, `joshua`, `techsaurabh`) preservados como trilha de retorno.
 

@@ -47,7 +47,6 @@ Se algo falhar:
 | `mcp__*` sem equivalente documentado | ✅ 0 (exceto citação intencional na skill de portagem) |
 | Frontmatter inválido | ✅ 0 |
 | Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
-| Skills carregadas no Kilo | ✅ 769 `op-`, sem duplicatas |
 | Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
 
 Reproduzir: `python3 scripts/validate_catalog.py`, `python3 scripts/validate_incidents.py` e `python3 -m unittest discover -s tests -v`.

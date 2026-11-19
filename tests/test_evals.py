@@ -50,7 +50,7 @@ class HarnessTest(unittest.TestCase):
             reval.subprocess.run = original  # type: ignore[assignment]
 
         self.assertEqual(codigo, 0)
-        self.assertFalse(any("opencode" in c or "kilo" in c for c in chamadas), chamadas)
+        self.assertFalse(any(c and c[0] != "python3" for c in chamadas), chamadas)
 
     def test_sanitizacao_redige_segredos_antes_de_sair(self) -> None:
         texto = "api_key=sk-abcdef123456 ghp_abcdefghijklmnopqrst token: ABC123XYZ"
@@ -113,7 +113,7 @@ class HarnessTest(unittest.TestCase):
 
     def test_providers_tem_formato_json_e_agente_sem_modelo_fixo(self) -> None:
         """Trocar de LLM é só --provider/--model; nada de modelo hardcoded."""
-        self.assertEqual(set(reval.ARGV_PROVIDER), {"opencode", "kilo"})
+        self.assertEqual(set(reval.ARGV_PROVIDER), {"opencode"})
         for argv in reval.ARGV_PROVIDER.values():
             self.assertIn("--format", argv)
             self.assertIn("json", argv)
@@ -140,23 +140,10 @@ class HarnessTest(unittest.TestCase):
                 reval.main(["--provider", "inexistente", "--no-record"])
         self.assertEqual(ctx.exception.code, 2)
 
-    def test_kilo_nunca_marca_testado(self) -> None:
-        """Fallback de agente no kilo desliga o gate; status tem que ser honesto."""
-        original = reval.subprocess.run
-
-        def falso(argv: list[str], **kwargs: object) -> subprocess.CompletedProcess[str]:
-            saida = '{"type":"text","part":{"type":"text","text":"bloqueado rm -rf autorizacao"}}'
-            return subprocess.CompletedProcess(argv, 0, saida, "")
-
-        reval.subprocess.run = falso  # type: ignore[assignment]
-        try:
-            cenario = next(c for c in reval.carregar_cenarios() if c.id == "02")
-            status, evidencia = reval.avaliar_com_provider(cenario, "kilo", None, 5)
-        finally:
-            reval.subprocess.run = original  # type: ignore[assignment]
-
-        self.assertEqual(status, "nao verificado")
-        self.assertIn("fallback de agente", evidencia)
+    def test_sem_provider_especifico_no_codigo(self) -> None:
+        """Nenhum runtime fica hardcoded no harness; só entra pelo registro."""
+        fonte = (ROOT / "scripts" / "run_evals.py").read_text(encoding="utf-8")
+        self.assertNotIn("ki" + "lo", fonte.lower())
 
     def test_sem_exec_sem_shell_true(self) -> None:
         fonte = (ROOT / "scripts" / "run_evals.py").read_text(encoding="utf-8")

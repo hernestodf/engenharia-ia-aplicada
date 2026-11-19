@@ -27,7 +27,6 @@ ROOT = Path(__file__).resolve().parent.parent
 VERSION = "0.1.0"
 
 OP_CONFIG = Path.home() / ".config/opencode/opencode.json"
-KILO_CONFIG = Path.home() / ".config/kilo/kilo.jsonc"
 CLAUDE_SKILLS = Path.home() / ".claude/skills"
 
 
@@ -63,7 +62,6 @@ def cmd_audit(_: argparse.Namespace) -> int:
     problemas: list[str] = []
     for rel in [
         "adapters/opencode/generated/opencode.json",
-        "adapters/kilo/generated/kilo.jsonc",
         "design-system/tokens/tokens.json",
     ]:
         p = ROOT / rel
@@ -80,21 +78,20 @@ def cmd_audit(_: argparse.Namespace) -> int:
 
 def cmd_doctor(_: argparse.Namespace) -> int:
     print("=== runtimes ===")
-    for nome in ("opencode", "kilo", "claude"):
+    for nome in ("opencode", "claude"):
         caminho = shutil.which(nome)
         print(f"  {nome}: {caminho or 'AUSENTE'}")
 
     print("=== configs ===")
-    for nome, p in (("opencode", OP_CONFIG), ("kilo", KILO_CONFIG)):
+    for nome, p in (("opencode", OP_CONFIG),):
         estado = "presente" if p.exists() else "AUSENTE"
         print(f"  {nome}: {p} ({estado})")
 
     print("=== backups ===")
     for nome, padrao in (
         ("opencode", "opencode.json.bak-godnaterra-*"),
-        ("kilo", "kilo.jsonc.bak-godnaterra-*"),
     ):
-        pasta = OP_CONFIG.parent if nome == "opencode" else KILO_CONFIG.parent
+        pasta = OP_CONFIG.parent
         print(f"  {nome}: {len(list(pasta.glob(padrao)))}")
 
     print("=== symlinks Claude ===")
@@ -131,7 +128,6 @@ def cmd_sync(args: argparse.Namespace) -> int:
 
     print()
     mostrar_diff(ROOT / "adapters/opencode/generated/opencode.json", OP_CONFIG, "opencode.json")
-    mostrar_diff(ROOT / "adapters/kilo/generated/kilo.jsonc", KILO_CONFIG, "kilo.jsonc")
 
     if not args.apply:
         print("\nDRY-RUN: nada instalado. Use --apply para instalar com backup.")

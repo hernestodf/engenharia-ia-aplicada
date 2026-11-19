@@ -39,6 +39,6 @@ Erro observado vira cenário de regressão. A correção só entra na skill can�
 |---|---|
 | `TEMPLATE.example.json` | modelo — não é validado (não começa com `INC-`) |
 | `INC-001.json` | erro real fechado: README divergente no primeiro push |
-| `INC-002.json` | erro real em aberto: Kilo `trusted: false`, aguardando diagnóstico |
+| `INC-002.json` | rascunho: gate read-only não verificado em provider externo por fallback de agente, aguardando diagnóstico |
 
 Rodar: `python3 scripts/validate_incidents.py`.
