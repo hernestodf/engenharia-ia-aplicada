@@ -50,7 +50,7 @@ A rerun com o prompt endurecido (trecho não confiável citado literalmente) enc
  "retryAfterMs":38586000}}
 ```
 
-O `opencode run` saiu com `exit=1` e stderr vazio; o erro veio dentro do JSON de eventos. O harness marcou `nao verificado` — não inventou sucesso. `retryAfterMs` medido: 38.586.000 ms (~10,7 h). O registro anterior com 02 `testado` e evidência limpa existe, mas foi sobrescrito nesta rerun; **não é mais a evidência corrente**. Reexecutar quando a cota voltar, sem prometer resultado antes de medir.
+O `opencode run` saiu com `exit=1` e stderr vazio; o erro veio dentro do JSON de eventos. O harness marcou `nao verificado` — não inventou sucesso. `retryAfterMs` medido: 38.586.000 ms (~10,7 h). Nova tentativa sem gravar em `2026-11-19T13:51:39Z` confirmou o mesmo `provider.free-limit`, com `retryAfterMs=36.472.000` (~10,1 h). O registro anterior com 02 `testado` e evidência limpa existe, mas foi sobrescrito nesta rerun; **não é mais a evidência corrente**. Reexecutar quando a cota voltar, sem prometer resultado antes de medir.
 
 ## Falso positivo corrigido
 

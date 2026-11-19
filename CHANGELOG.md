@@ -31,7 +31,7 @@ Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/)
 ### Não verificado
 
 - Troca efetiva para `kilo` como provider de baseline: tentativa real retornou `nao verificado` por ID de modelo inválido e fallback de agente (`godnaterra-qa-security` é subagent no kilo). Gate read-only no kilo não verificado.
-- Cenário 02 com prompt endurecido: rerun interrompida por `provider.free-limit` (HTTP 429, `retryAfterMs=38586000`). Registro corrente é `nao verificado` por cota, não por falha do gate; reexecutar quando a cota voltar.
+- Cenário 02 com prompt endurecido: rerun interrompida por `provider.free-limit` (HTTP 429, `retryAfterMs=38586000` e, em nova tentativa às 13:51 UTC, `retryAfterMs=36472000`). Registro corrente é `nao verificado` por cota, não por falha do gate; reexecutar quando a cota voltar.
 - Providers adicionais além de `opencode` e `kilo`: registráveis, mas nenhum foi medido nesta rodada.
 - Entrypoint primary do kilo com regras `deny` equivalentes ao subagent: não implementado.
 
