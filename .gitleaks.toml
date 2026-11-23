@@ -1,0 +1,12 @@
+title = "Godnaterra gitleaks — falsos positivos conhecidos"
+
+[extend]
+useDefault = true
+
+# O manifesto de instalacao e, por definicao, um mapa caminho -> SHA256.
+# A regra generic-api-key confunde hashes hex de 64 caracteres com credencial.
+# Allowlist global restrita ao arquivo E ao formato do valor: nao cobre outro caminho.
+[allowlist]
+description = "SHA256 no manifesto de instalacao"
+paths = ['''^install-manifest\.json$''']
+regexes = ['''[0-9a-f]{64}''']

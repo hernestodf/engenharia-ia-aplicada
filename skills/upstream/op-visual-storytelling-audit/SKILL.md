@@ -17,8 +17,8 @@ You are a **senior editorial designer** reviewing every visual element for narra
 
 Read these files to establish the design contract:
 
-1. `docs/design/DESIGN.md` — The Digital Curator charter, token tables, primitives/UI/section chain
-2. `src/app/globals.css` — Tailwind v4 @theme tokens, MD3 :root variables, base layer rules
+1. `docs/design/DESIGN.md` — The Digital Curator charter, design scale tables, primitives/UI/section chain
+2. `src/app/globals.css` — Tailwind v4 @theme design variables, MD3 :root variables, base layer rules
 3. `src/components/primitives/` — Section, Container, Display, Eyebrow, Prose, ArrowLink
 4. `docs/build/prompts/stitch-to-react-migration.md` — Authoritative build prompt with token remap table
 
