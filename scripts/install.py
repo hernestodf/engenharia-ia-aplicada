@@ -37,6 +37,7 @@ from generate_adapters import (  # noqa: E402
     backup,
     caminhos_skills,
     criar_symlinks,
+    ler_mcp_template,
     ler_skills,
     mesclar_config,
     resolver_caminhos,
@@ -66,6 +67,9 @@ def arquivos_canonicos(root: Path) -> list[str]:
     padroes = (
         ("skills/core", "*/SKILL.md"),
         ("skills/upstream", "*/SKILL.md"),
+        ("adapters", "*/*.json"),
+        ("adapters", "*/*.md"),
+        ("adapters", "*/*.py"),
         ("agents", "godnaterra-*.md"),
         ("scripts", "*.py"),
         ("tests", "*.py"),
@@ -147,6 +151,9 @@ def imprimir_plano(args: argparse.Namespace, dest: dict[str, Path], total: int) 
     if args.target in ("opencode", "all"):
         print(f"  opencode config: {dest['opencode_config']}")
         print(f"  opencode agentes: {dest['opencode_agents']} (7)")
+        mcp = ler_mcp_template()
+        nomes = sorted((mcp or {}).get("servers", {}))
+        print(f"  mcp servers: {', '.join(nomes) or 'nenhum'} (todos disabled)")
     if args.target in ("claude-code", "all"):
         print(f"  claude symlinks: {dest['claude_skills']} (relative, sem sobrescrever)")
     print("  escrita: " + ("SIM (--apply)" if args.apply else "NÃO (dry-run)"))
@@ -207,7 +214,9 @@ def main() -> int:
     if args.target in ("opencode", "all"):
         cfg = dest["opencode_config"]
         cfg.parent.mkdir(parents=True, exist_ok=True)
-        conteudo = mesclar_config(cfg, resolver_caminhos(caminhos_skills(), ROOT))
+        conteudo = mesclar_config(
+            cfg, resolver_caminhos(caminhos_skills(), ROOT), ler_mcp_template()
+        )
         backup(cfg)
         cfg.write_text(conteudo, encoding="utf-8")
         print(f"  opencode config: {cfg}")

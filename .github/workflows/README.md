@@ -37,6 +37,6 @@ Deploy em produção, migration destrutiva, reindexação do Qdrant e rotação 
 
 ## Estado
 
-- **implementado:** YAMLs, validações no CI, Release por tag e por dispatch com input `tag`, pin por SHA, guards de versão/tag e este README.
+- **implementado:** YAMLs, validações no CI (inclui `verify_adapters.py`), Release por tag e por dispatch com input `tag`, pin por SHA, guards de versão/tag e este README.
 - **testado:** run da tag `v0.2.1` (commit `7484c0c`) reportado como **completed successfully** na aba Actions pelo operador. Contrato do workflow coberto por `tests/test_release_workflow.py`.
 - **não verificado:** conteúdo visual dos assets da Release (`godnaterra-0.2.1.tar.gz` + `SHA256SUMS`) e execução do dispatch corrigido no runner.

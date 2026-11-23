@@ -3,5 +3,18 @@
   "skills": [
     "__GODNATERRA_ROOT__/skills/core",
     "__GODNATERRA_ROOT__/skills/upstream"
-  ]
+  ],
+  "mcp": {
+    "servers": {
+      "chrome-devtools": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "chrome-devtools-mcp@1.13.0"
+        ],
+        "disabled": true
+      }
+    }
+  }
 }

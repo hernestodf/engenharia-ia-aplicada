@@ -28,13 +28,13 @@ class CatalogoTest(unittest.TestCase):
     def test_catalogo_valido(self) -> None:
         r = executar("validate_catalog.py")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertIn("Skills validadas: 769", r.stdout)
+        self.assertIn("Skills validadas: 772", r.stdout)
         self.assertIn("Problemas: 0", r.stdout)
 
     def test_core_e_upstream_presentes(self) -> None:
         core = list((ROOT / "skills/core").glob("*/SKILL.md"))
         upstream = list((ROOT / "skills/upstream").glob("*/SKILL.md"))
-        self.assertEqual(len(core), 5)
+        self.assertEqual(len(core), 8)
         self.assertEqual(len(upstream), 764)
 
     def test_agentes_e_papeis(self) -> None:

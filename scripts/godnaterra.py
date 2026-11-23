@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.2.1"
+VERSION = "0.3.0"
 
 OP_CONFIG = Path.home() / ".config/opencode/opencode.json"
 CLAUDE_SKILLS = Path.home() / ".claude/skills"

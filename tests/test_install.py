@@ -81,7 +81,7 @@ class InstaladorTest(unittest.TestCase):
             self.assertFalse((home / ".claude").exists())
 
             links = list((clone / ".claude" / "skills").glob("op-*"))
-            self.assertEqual(len(links), 769)
+            self.assertEqual(len(links), 772)
             self.assertTrue(all(l.is_symlink() for l in links))
             self.assertTrue(all(l.exists() for l in links), "symlink quebrado")
 
@@ -89,7 +89,7 @@ class InstaladorTest(unittest.TestCase):
             self.assertEqual(r2.returncode, 0, r2.stdout + r2.stderr)
             self.assertIn("agentes: 0 copiados", r2.stdout)
             self.assertIn("symlinks: 0 criados", r2.stdout)
-            self.assertEqual(len(list((clone / ".claude" / "skills").glob("op-*"))), 769)
+            self.assertEqual(len(list((clone / ".claude" / "skills").glob("op-*"))), 772)
 
             backups = list((clone / ".opencode").glob("opencode.json.bak-godnaterra-*"))
             self.assertEqual(len(backups), 1)

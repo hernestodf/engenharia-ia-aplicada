@@ -1,0 +1,16 @@
+{
+  "adaptador": "open-code-review",
+  "tipo": "cli-npm-opcional",
+  "license": "Apache-2.0",
+  "pacote": "@alibaba-group/open-code-review",
+  "versao": "1.14.2",
+  "integrity_shasum": "4459a7f3d35635d018a0fc9fbc06ac2ce8350031",
+  "registro": "https://registry.npmjs.org/@alibaba-group%2fopen-code-review",
+  "fonte": "https://github.com/alibaba/open-code-review",
+  "binario": "ocr",
+  "modo_padrao": "delegation",
+  "habilitado_por_padrao": false,
+  "instalacao": "npm install -g @alibaba-group/open-code-review@1.14.2",
+  "verificado_em": "2026-11-23",
+  "nota": "Modo delegation usa o modelo do host; modo native exige provider proprio. Nenhum modo e executado automaticamente."
+}

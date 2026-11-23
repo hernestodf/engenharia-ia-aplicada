@@ -1,0 +1,14 @@
+{
+  "adaptador": "openviking",
+  "tipo": "servico-externo-opcional",
+  "license": "AGPL-3.0",
+  "fonte": "https://github.com/volcengine/OpenViking",
+  "commit": "5b7c655610caef9017ed0540474dc7d49db4f2db",
+  "verificado_em": "2026-11-23",
+  "endpoint_padrao": "http://127.0.0.1:1933/mcp",
+  "healthcheck": "http://127.0.0.1:1933/health",
+  "credencial": "Bearer {env:OPENVIKING_API_KEY}",
+  "habilitado_por_padrao": false,
+  "vendorizado": false,
+  "nota": "Nenhum codigo AGPL entra no tarball. Instalacao oficial usa curl|bash e NAO e executada pelo Godnaterra."
+}

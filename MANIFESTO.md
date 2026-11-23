@@ -61,3 +61,33 @@ O número "394" vem do Skills Directory, não de um repositório único.
 
 **Fora de escopo, sem autorização explícita:** deploy, reindexação, alteração de segredos, escrita nos packs originais e no `.git` do `joshua`.
 
+## FASE 11 — integrações opcionais (0.3.0)
+
+**Implementado:** três integrações externas como **referências pinadas**, nenhuma
+habilitada e nenhuma com código copiado para o pacote. Auditoria estática dos
+pins e das licenças feita por `scripts/verify_adapters.py`; nenhum instalador
+externo, servidor ou CLI foi executado.
+
+| Integração | Origem | Licença | Pin | Motivo do formato |
+|---|---|---|---|---|
+| Chrome DevTools MCP | `ChromeDevTools/chrome-devtools-mcp` | Apache-2.0 | npm `1.13.0`, shasum `e76ecc…` | servidor MCP; template `disabled: true`, sem código vendorizado |
+| OpenCodeReview | `alibaba/open-code-review` | Apache-2.0 | npm `1.14.2`, shasum `4459a7…` | CLI externo; modo `delegation` por padrão, sem instalação automática |
+| OpenViking | `volcengine/OpenViking` | **AGPL-3.0** | commit `5b7c655…` | licença AGPL e serviço de ~433 MB → adapter, nunca vendorizado |
+
+Skills core derivadas dessa decisão: `op-chrome-devtools-audit`,
+`op-open-code-review` e `op-openviking-context`. Todas fazem preflight e param
+com `pendente` quando o pré-requisito não está pronto; nenhuma instala, habilita
+servidor, reindexa ou rotaciona credencial por conta própria.
+
+**Testado:** `verify_adapters.py` → 3 pinados, 0 problemas; catálogo → 772
+skills, 0 problemas; 56/56 testes; manifesto íntegro; zero CJK e zero
+`/root/` nos artefatos novos. As três skills foram descobertas pelo runtime em
+tempo real, sem restart.
+
+**Não verificado:** conexão efetiva do Chrome DevTools MCP, instalação do `ocr`
+e execução de review real, servidor OpenViking/retrieval. Os números de
+benchmark publicados pelo OpenViking não são tratados como evidência medida aqui.
+
+**Fora de escopo:** img2threejs (Apache-2.0, 371 arquivos) ficou de fora até
+existir caso de uso concreto — vendorizá-lo exigiria manifesto multi-arquivo e
+aumentaria a superfície executável em ~46%.

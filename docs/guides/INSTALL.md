@@ -41,7 +41,7 @@ Grava em `$HOME/.config/opencode/opencode.json` e `$HOME/.config/opencode/agents
 
 ## Integridade (fail-closed)
 
-Antes de qualquer escrita, `scripts/install.py` verifica o SHA256 de 802 arquivos contra `install-manifest.json`. Se qualquer arquivo divergir ou faltar, a instalação aborta com exit 1 e **nenhum arquivo é tocado**.
+Antes de qualquer escrita, `scripts/install.py` verifica o SHA256 de 817 arquivos contra `install-manifest.json`. Se qualquer arquivo divergir ou faltar, a instalação aborta com exit 1 e **nenhum arquivo é tocado**.
 
 ```bash
 python3 scripts/generate_manifest.py --check   # só verifica
@@ -73,11 +73,29 @@ Restaura o backup timestampado mais recente de `opencode.json` e dos agentes. Sy
 | Verificação | Resultado observado localmente |
 |---|---|
 | JSON do config válido | ✅ duas raízes |
-| IDs únicos (`op-`) | ✅ 769/769 |
+| IDs únicos (`op-`) | ✅ 772/772 |
 | Frontmatter inválido | ✅ 0 |
 | Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
-| Symlinks Claude | ✅ 769, 0 quebrados — **CLI ausente**, formato não executado |
-| Suite de testes | ✅ 46/46 |
+| Symlinks Claude | ✅ 772, 0 quebrados — **CLI ausente**, formato não executado |
+| Suite de testes | ✅ 56/56 |
+| Adapters opcionais | ✅ 3 pinados, 0 problemas, nenhum habilitado |
+| Templates MCP | ✅ 2 entradas listadas com `disabled: true` |
+
+## Integrações opcionais
+
+O instalador **nunca habilita** servidores MCP nem instala CLIs externos. Ele
+apenas mescla os templates de `adapters/` com `disabled: true`. Para usar:
+
+| Integração | Pré-requisito | Como habilitar |
+|---|---|---|
+| Chrome DevTools MCP | Node ≥ 20.19 e Chrome | `adapters/chrome-devtools-mcp/README.md` |
+| OpenCodeReview | `ocr` instalado | `adapters/open-code-review/README.md` |
+| OpenViking | servidor + API key | `adapters/openviking/README.md` |
+
+As skills `op-chrome-devtools-audit`, `op-open-code-review` e
+`op-openviking-context` detectam a necessidade pelo próprio pedido, fazem o
+preflight e reportam `pendente` se o pré-requisito não estiver pronto. Elas
+**nunca instalam nem habilitam sozinhas**.
 
 Reproduzir:
 

@@ -3,6 +3,36 @@
 Todas as mudanças relevantes do Godnaterra são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.3.0] — 2026-11-23
+
+Integrações opcionais descobertas pelo agente, nunca auto-habilitadas.
+
+### Adicionado
+
+- `adapters/chrome-devtools-mcp/`: referência pinada ao `chrome-devtools-mcp@1.13.0` (Apache-2.0, shasum `e76ecc…`) e template MCP com `disabled: true`.
+- `adapters/open-code-review/`: referência pinada ao `@alibaba-group/open-code-review@1.14.2` (Apache-2.0, shasum `4459a7…`), modo `delegation` por padrão.
+- `adapters/openviking/`: referência pinada ao commit `5b7c655…` (AGPL-3.0), credencial via `{env:OPENVIKING_API_KEY}`, template MCP `disabled: true`, **nenhum código vendorizado**.
+- `scripts/verify_adapters.py`: verificação offline de pins, licenças, `disabled`, env, não-vendorização, CJK e padrões de execução; `--check-online` compara shasums no registry via urllib (sem shell).
+- 3 skills core: `op-chrome-devtools-audit`, `op-open-code-review`, `op-openviking-context`. Cada uma detecta a necessidade pelo pedido, faz preflight e reporta `pendente` se o pré-requisito não estiver pronto. Nenhuma instala ou habilita sozinha.
+- `tests/test_integrations.py`: 10 testes de contrato dos adapters e das skills. Total do pacote: **56 testes**.
+
+### Alterado
+
+- `generate_adapters.py`: `ler_mcp_template()` e `mesclar_config()` com merge de `mcp.servers` preservando chaves e servidores existentes; novas entradas nascem desabilitadas.
+- `install.py`: passa o template MCP pra config, imprime os servers no plano e inclui `adapters/*/*.{json,md,py}` na fonte canônica. Manifesto: **817 arquivos**.
+- `ci.yml` e `release.yml`: nova validação dos adapters.
+- `VERSION` e constante do operador em `0.3.0`.
+
+### Segurança
+
+- Nenhum instalador externo foi executado: sem `npx skills add`, sem instalador remoto por pipe, sem `npm install`, sem subida de servidor.
+- Credencial do OpenViking nunca gravada em arquivo; apenas referência a variável de ambiente.
+- OpenViking não entra no tarball por ser AGPL-3.0.
+
+### Não verificado
+
+- Conexão real do Chrome DevTools MCP, instalação do `ocr` e review de um diff, servidor OpenViking/retrieval. Os três continuam `pendente` por design.
+
 ## [0.2.0] — 2026-11-19
 
 Instalação isolada por cliente, portabilidade total e release verificável.

@@ -37,10 +37,12 @@ Nunca edite `adapters/*/generated/` na mão.
 |---|---|
 | `validate_catalog.py` | valida catálogo de skills e frontmatter |
 | `validate_incidents.py` | valida loop de incidentes |
+| `verify_adapters.py` | valida pins, licenças, `disabled` e ausência de vendorização nos adapters opcionais. `--check-online` confere shasums no registry (urllib, sem shell). |
 | `run_evals.py` | harness provider-agnóstico. `--provider none --no-record` roda sem credencial; `ARGV_PROVIDER` controla o provider (hoje só `opencode`). |
 
 ```bash
 python3 -m unittest discover -s tests -v
+python3 scripts/verify_adapters.py
 python3 scripts/godnaterra.py audit
 python3 scripts/run_evals.py --provider none --no-record
 ```

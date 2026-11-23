@@ -93,6 +93,9 @@ def configuracao_opencode(root: Path | None = None) -> str:
         "$schema": "https://opencode.ai/config.json",
         "skills": caminhos_skills(root),
     }
+    mcp = ler_mcp_template()
+    if mcp is not None:
+        cfg["mcp"] = mcp
     return json.dumps(cfg, ensure_ascii=False, indent=2) + "\n"
 
 
@@ -166,8 +169,35 @@ def restaurar(path: Path) -> bool:
     return True
 
 
-def mesclar_config(path: Path, skills: list[str]) -> str:
-    """Preserva chaves existentes; substitui apenas $schema e skills."""
+MCP_TEMPLATE = ROOT / "adapters" / "chrome-devtools-mcp" / "mcp.json"
+
+
+def ler_mcp_template() -> dict[str, object] | None:
+    """Le o template MCP. Nunca habilita servidor: o template traz disabled=true.
+
+    Entrada externa: o JSON e validado como objeto com mcp.servers antes de entrar
+    na configuracao. Nenhum comando e executado aqui.
+    """
+    if not MCP_TEMPLATE.exists():
+        return None
+    try:
+        dados = json.loads(MCP_TEMPLATE.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        raise SystemExit(f"Template MCP invalido: {MCP_TEMPLATE}\n  {exc}") from exc
+    if not isinstance(dados, dict) or not isinstance(dados.get("mcp"), dict):
+        raise SystemExit(f"Template MCP sem objeto 'mcp': {MCP_TEMPLATE}")
+    servidores = dados["mcp"].get("servers")
+    if not isinstance(servidores, dict) or not servidores:
+        raise SystemExit(f"Template MCP sem mcp.servers: {MCP_TEMPLATE}")
+    return {"servers": servidores}
+
+
+def mesclar_config(
+    path: Path,
+    skills: list[str],
+    mcp: dict[str, object] | None = None,
+) -> str:
+    """Preserva chaves existentes; substitui $schema/skills e mescla mcp.servers."""
     atual: dict[str, object] = {}
     if path.exists():
         try:
@@ -183,6 +213,12 @@ def mesclar_config(path: Path, skills: list[str]) -> str:
         atual = carregado
     atual["$schema"] = "https://opencode.ai/config.json"
     atual["skills"] = skills
+    if mcp is not None:
+        bloco = dict(atual.get("mcp") or {})
+        servidores = dict(bloco.get("servers") or {})
+        servidores.update(mcp.get("servers") or {})
+        bloco["servers"] = servidores
+        atual["mcp"] = bloco
     return json.dumps(atual, ensure_ascii=False, indent=2) + "\n"
 
 
