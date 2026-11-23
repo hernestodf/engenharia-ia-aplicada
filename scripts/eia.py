@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.5.0"
+VERSION = "0.6.0"
 
 OP_CONFIG = Path.home() / ".config/opencode/opencode.json"
 CLAUDE_SKILLS = Path.home() / ".claude/skills"
@@ -165,6 +165,13 @@ def cmd_sync(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_enforce(_: argparse.Namespace) -> int:
+    """avalia um evento de intenção lido de stdin (decisão JSON)"""
+    import enforce
+
+    return enforce.main()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="command", required=True)
@@ -172,6 +179,7 @@ def main() -> int:
     sub.add_parser("audit", help=cmd_audit.__doc__)
     sub.add_parser("status", help=cmd_status.__doc__)
     sub.add_parser("doctor", help=cmd_doctor.__doc__)
+    sub.add_parser("enforce", help=cmd_enforce.__doc__)
     for nome in ("init", "update"):
         p = sub.add_parser(nome)
         p.add_argument("--apply", action="store_true", help="instalar configs globais com backup")
@@ -182,6 +190,7 @@ def main() -> int:
         "audit": cmd_audit,
         "status": cmd_status,
         "doctor": cmd_doctor,
+        "enforce": cmd_enforce,
         "init": cmd_sync,
         "update": cmd_sync,
     }[args.command](args)

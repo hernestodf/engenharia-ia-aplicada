@@ -21,7 +21,8 @@ python3 scripts/generate_manifest.py --check
 
 | Script | Função |
 |---|---|
-| `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__EIA_ROOT__`. `--apply` é o modo legado global. |
+| `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json`, `adapters/opencode/generated/permissions.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__EIA_ROOT__`. `--apply` é o modo legado global. |
+| `enforce.py` | Gate determinístico: lê um evento JSON em stdin e devolve `permitir`/`negar`/`pedir` com código de saída 0/2/3. Sem subprocesso, sem rede. |
 
 Nunca edite `adapters/*/generated/` na mão.
 

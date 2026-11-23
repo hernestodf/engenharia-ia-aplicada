@@ -93,6 +93,22 @@ def falhas() -> list[str]:
     except (OSError, ValueError, KeyError, TypeError) as exc:
         erros.append(f"mcp.json: template invalido ({exc})")
 
+    perm = ADAPTERS / "opencode" / "generated" / "permissions.json"
+    try:
+        doc = json.loads(perm.read_text(encoding="utf-8"))
+        regras = doc["permissions"]
+        if not isinstance(regras, list) or not regras:
+            erros.append("permissions.json: lista de regras vazia")
+        elif any(r.get("effect") == "allow" for r in regras):
+            erros.append("permissions.json: adapter nao pode conceder permissao ampla")
+        else:
+            alvos = " ".join(str(r.get("resource", "")) for r in regras)
+            for obrigatorio in ("rm -rf *", "git push --force *", "git reset --hard *"):
+                if obrigatorio not in alvos:
+                    erros.append(f"permissions.json: regra ausente: {obrigatorio}")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        erros.append(f"permissions.json: template invalido ({exc})")
+
     ov = ADAPTERS / "openviking" / "mcp.opencode.json"
     try:
         d = json.loads(ov.read_text(encoding="utf-8"))

@@ -109,3 +109,20 @@ denominador. Regressão provocada de propósito gerou `REGRESSAO: T01: 6 -> 5` e
 **Não verificado:** julgamento semântico das quatro tarefas LLM; o novo step do
 CI no runner. Nenhum benchmark comparativo entre modelos, nenhum fine-tuning e
 nenhum dataset rotulado com holdout — isso continua fora do que foi medido.
+
+## FASE 13 — enforcement em código
+
+**Implementado:** `scripts/enforce.py` decide sobre um evento de intenção sem
+executar comando, sem rede e sem escrita. Seis regras cobrem destrutivos, alvos
+protegidos, produção, segredos, reindexação e origem não confiável. A regra de
+origem não confiável exige gate do QA/Security e não é burlada por autorização
+explícita. `eia enforce` expõe o gate; `permissions.json` traz bloqueios V2
+opt-in, gerados e verificados como artefato derivado.
+
+**Testado:** 14 testes novos, total **80/80 OK**. Execução real do gate com seis
+eventos: permitir/0, negar/2 e autorização explícita liberando apenas `R01`–`R05`.
+Manifesto regerado com **820 arquivos** integrados.
+
+**Não verificado:** o adapter de permissões não foi mesclado na config global;
+nenhum hook de plugin foi ativado; o gate não inspeciona o sistema, apenas a
+intenção declarada — comando ofuscado, `eval` e efeito indireto ficam fora.

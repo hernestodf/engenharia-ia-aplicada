@@ -3,6 +3,28 @@
 Todas as mudanças relevantes do Engenharia de IA Aplicada são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.6.0] — 2026-11-23
+
+Enforcement determinístico em código.
+
+### Adicionado
+
+- `scripts/enforce.py`: gate sem subprocesso, sem rede e sem escrita. Lê um evento JSON em stdin, devolve `permitir`/`negar`/`pedir` e sinaliza por código de saída 0/2/3.
+- 6 regras: `R01` comandos destrutivos, `R02` alvos protegidos, `R03` produção, `R04` segredos, `R05` reindexação, `R06` origem não confiável. `R06` exige `gate_aprovado` e não é liberada por autorização explícita.
+- `eia enforce`: subcomando que expõe o gate pelo operador.
+- `adapters/opencode/generated/permissions.json`: regras V2 **somente de bloqueio**, geradas da fonte canônica e verificadas por `verify_adapters.py`. Opt-in — nenhuma config global foi alterada.
+- `docs/guides/ENFORCEMENT.md`: contrato, limites e instruções de uso.
+- `tests/test_enforce.py`: 14 testes. Total do pacote: **80 testes**.
+
+### Testado
+
+- 80/80 testes OK; 772 skills e 3 adapters, 0 problemas; eval 42/42 com baseline mantido; manifesto 820 arquivos íntegros; 0 leaks no gitleaks.
+
+### Não verificado
+
+- Comportamento do adapter de permissões dentro do runtime — não foi mesclado na config global.
+- O gate decide sobre intenção declarada; não detecta comando ofuscado, `eval` ou efeito indireto.
+
 ## [0.5.0] — 2026-11-23
 
 Rebrand: `Godnaterra` passa a se chamar **Engenharia de IA Aplicada**.

@@ -99,6 +99,31 @@ def configuracao_opencode(root: Path | None = None) -> str:
     return json.dumps(cfg, ensure_ascii=False, indent=2) + "\n"
 
 
+def permissoes_opencode() -> str:
+    """Regras V2 opt-in: só bloqueios, sem permissão ampla por padrão.
+
+    Regras semânticas (autorização explícita, gate de skill externa) não cabem
+    em config estática — ficam em scripts/enforce.py.
+    """
+    dados = {
+        "$schema": "https://opencode.ai/config.json",
+        "permissions": [
+            {"action": "shell", "resource": "rm -rf *", "effect": "deny"},
+            {"action": "shell", "resource": "rm -r *", "effect": "deny"},
+            {"action": "shell", "resource": "git reset --hard *", "effect": "deny"},
+            {"action": "shell", "resource": "git clean -fd *", "effect": "deny"},
+            {"action": "shell", "resource": "git push --force *", "effect": "deny"},
+            {"action": "shell", "resource": "git push * --force *", "effect": "deny"},
+            {"action": "shell", "resource": "git push --force-with-lease *", "effect": "deny"},
+            {"action": "edit", "resource": "*/.git/*", "effect": "deny"},
+            {"action": "edit", "resource": "*/secrets/*", "effect": "deny"},
+            {"action": "read", "resource": "*.env", "effect": "ask"},
+            {"action": "read", "resource": "*.env.*", "effect": "ask"},
+        ],
+    }
+    return json.dumps(dados, ensure_ascii=False, indent=2) + "\n"
+
+
 def script_claude(root: Path | None = None) -> str:
     """Script derivado de conveniencia. Instalador prefere criar symlinks em Python."""
     if root is None:
@@ -253,6 +278,10 @@ def main() -> int:
         escrever_artefato(
             ROOT / "adapters" / "opencode" / "generated" / "opencode.json",
             configuracao_opencode(),
+        )
+        escrever_artefato(
+            ROOT / "adapters" / "opencode" / "generated" / "permissions.json",
+            permissoes_opencode(),
         )
         if args.apply:
             conteudo = mesclar_config(OPENCODE_CONFIG, caminhos_skills(ROOT))
