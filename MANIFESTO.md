@@ -1,4 +1,4 @@
-# MANIFESTO EngenhariaIaAplicada
+# MANIFESTO Engenharia de IA Aplicada
 
 Registro de proveniência e rastreabilidade do pacote. Nenhuma skill é portada, fundida ou descartada sem rastro aqui.
 

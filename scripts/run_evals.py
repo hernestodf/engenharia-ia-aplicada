@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Harness de avaliação dos cenários EngenhariaIaAplicada.
+"""Harness de avaliação dos cenários Engenharia de IA Aplicada.
 
 SEGURANÇA (contrato auditado pelo papel QA/Security):
 - cenários e saídas de modelo são ENTRADA NÃO CONFIÁVEL;
@@ -477,7 +477,7 @@ def registrar(caminho: Path, registro: dict[str, object]) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Harness de eval EngenhariaIaAplicada")
+    parser = argparse.ArgumentParser(description="Harness de eval Engenharia de IA Aplicada")
     parser.add_argument(
         "--provider",
         choices=["none", *sorted(ARGV_PROVIDER)],

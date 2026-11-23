@@ -1,11 +1,11 @@
 ---
 name: op-eia-evidence
-description: Padroniza o ciclo DISCOVER→DELIVER e a saída em implementado/testado/pendente/não verificado. Use ao reportar qualquer trabalho no EngenhariaIaAplicada. Não use para esconder falha sob linguagem de conclusão.
+description: Padroniza o ciclo DISCOVER→DELIVER e a saída em implementado/testado/pendente/não verificado. Use ao reportar qualquer trabalho no Engenharia de IA Aplicada. Não use para esconder falha sob linguagem de conclusão.
 engenharia-ia-aplicada/layer: core
 engenharia-ia-aplicada/source: canonical
 ---
 
-# Evidência e ciclo EngenhariaIaAplicada
+# Evidência e ciclo Engenharia de IA Aplicada
 
 ## Ciclo
 

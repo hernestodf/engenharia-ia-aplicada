@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Testes do pacote EngenhariaIaAplicada (não das skills upstream).
+"""Testes do pacote Engenharia de IA Aplicada (não das skills upstream).
 
 Executa com: python3 -m unittest discover -s tests -v
 Sem dependências externas.

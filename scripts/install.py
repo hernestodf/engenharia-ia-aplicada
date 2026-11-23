@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Instalador EngenhariaIaAplicada — isolado por cliente (padrao --scope project).
+"""Instalador Engenharia de IA Aplicada — isolado por cliente (padrao --scope project).
 
 Uso:
   python3 scripts/install.py                             # DRY-RUN, nada escreve

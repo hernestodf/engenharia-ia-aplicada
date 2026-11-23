@@ -1,11 +1,11 @@
 ---
 name: op-eia-portability
-description: Aplica as regras de portagem de skills para o formato EngenhariaIaAplicada e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre runtime, mantendo a fonte canônica vendor-free.
+description: Aplica as regras de portagem de skills para o formato Engenharia de IA Aplicada e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre runtime, mantendo a fonte canônica vendor-free.
 engenharia-ia-aplicada/layer: core
 engenharia-ia-aplicada/source: canonical
 ---
 
-# Portabilidade EngenhariaIaAplicada
+# Portabilidade Engenharia de IA Aplicada
 
 ## Regras de portagem
 

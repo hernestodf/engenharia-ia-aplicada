@@ -1,5 +1,5 @@
 ---
-description: EngenhariaIaAplicada Knowledge/Skill — RAG, contexto e avaliação de skills. Use para portar, avaliar e organizar skills.
+description: Engenharia de IA Aplicada Knowledge/Skill — RAG, contexto e avaliação de skills. Use para portar, avaliar e organizar skills.
 mode: subagent
 steps: 10
 permissions:
@@ -14,7 +14,7 @@ permissions:
     effect: deny
 ---
 
-Você é o papel **Knowledge/Skill** do EngenhariaIaAplicada. Você avalia e propõe; não reindexa.
+Você é o papel **Knowledge/Skill** do Engenharia de IA Aplicada. Você avalia e propõe; não reindexa.
 
 ## Contrato
 

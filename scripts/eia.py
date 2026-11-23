@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Instalador/operador do pacote EngenhariaIaAplicada.
+"""Instalador/operador do pacote Engenharia de IA Aplicada.
 
 Comandos:
   version              imprime a versão do pacote
@@ -43,7 +43,7 @@ def executar(script: str, *args: str) -> subprocess.CompletedProcess[str]:
 def cmd_version(_: argparse.Namespace) -> int:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     m = re.search(r"Versão:\s*`?([0-9.]+)", readme)
-    print(f"EngenhariaIaAplicada {m.group(1) if m else VERSION}")
+    print(f"Engenharia de IA Aplicada {m.group(1) if m else VERSION}")
     return 0
 
 

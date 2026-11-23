@@ -2,7 +2,7 @@
 
 Banco de contexto para agentes: memória cross-sessão, recursos e skills.
 **Não é uma skill**, é um serviço. O repositório tem ~433 MB e licença
-AGPL-3.0 — por isso **nenhum código dele entra no tarball do EngenhariaIaAplicada**.
+AGPL-3.0 — por isso **nenhum código dele entra no tarball do Engenharia de IA Aplicada**.
 
 Aqui existe só a referência pinada (`pin.json`, commit
 `5b7c655610caef9017ed0540474dc7d49db4f2db`), um template MCP desabilitado e a
@@ -12,7 +12,7 @@ skill `op-openviking-context`, que orienta o uso sem automatizar a instalação.
 
 - AGPL-3.0 contaminaria a distribuição do pacote.
 - O serviço exige servidor rodando, API key e modelo.
-- A instalação oficial usa um instalador remoto por pipe — **nunca executado** pelo EngenhariaIaAplicada.
+- A instalação oficial usa um instalador remoto por pipe — **nunca executado** pelo Engenharia de IA Aplicada.
 - ~433 MB e deps pesadas (litellm, scrapy, fastapi, SDK da Volcengine).
 
 ## Pré-requisitos (se você decidir usar)

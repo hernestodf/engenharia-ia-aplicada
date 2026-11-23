@@ -4,7 +4,7 @@ CLI de revisão de código da Alibaba (`alibaba/open-code-review`, Apache-2.0),
 pinada em `@alibaba-group/open-code-review@1.14.2` (`shasum` em `pin.json`).
 
 **Não vem instalado.** Aqui só existe a referência pinada, a skill
-`op-open-code-review` e a verificação de integridade. O instalador EngenhariaIaAplicada
+`op-open-code-review` e a verificação de integridade. O instalador Engenharia de IA Aplicada
 não roda `npm install`.
 
 ## Dois modos
@@ -14,7 +14,7 @@ não roda `npm install`.
 | **delegation** (padrão) | o agente hospedeiro | usa a sessão atual, sem key extra |
 | **native** | o `ocr`, via `ocr config provider` | provider próprio, custo separado |
 
-O wrapper do EngenhariaIaAplicada recomenda **delegation**. Native só quando você quiser
+O wrapper do Engenharia de IA Aplicada recomenda **delegation**. Native só quando você quiser
 a pipeline completa do `ocr` e aceitar configurar provider/modelo.
 
 ## Habilitar (ação explícita)

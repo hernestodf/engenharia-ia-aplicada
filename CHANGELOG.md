@@ -1,11 +1,11 @@
 # Changelog
 
-Todas as mudanças relevantes do EngenhariaIaAplicada são registradas aqui.
+Todas as mudanças relevantes do Engenharia de IA Aplicada são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
 ## [0.5.0] — 2026-11-23
 
-Rebrand: `Godnaterra` passa a se chamar **EngenhariaIaAplicada**.
+Rebrand: `Godnaterra` passa a se chamar **Engenharia de IA Aplicada**.
 
 ### Mudanças
 
@@ -161,7 +161,7 @@ Primeira versão publicada. Pacote canônico, vendor-free e portátil.
 
 - 764 skills canônicas em `skills/upstream/` e 5 em `skills/core/` — 769 no total.
 - 70 variantes divergentes preservadas em `references/`; 45 duplicatas idênticas fundidas e rastreadas no `MANIFEST.csv`.
-- 7 agentes EngenhariaIaAplicada: 1 router primário e 6 subagents read-only, um papel por tarefa.
+- 7 agentes Engenharia de IA Aplicada: 1 router primário e 6 subagents read-only, um papel por tarefa.
 - `scripts/generate_adapters.py`: gerador derivado para OpenCode e Claude Code.
 - `scripts/validate_catalog.py` e 8 testes unitários (número da `0.1.0`; total atual em `[Não publicado]`).
 - `scripts/eia.py`: `version`, `audit`, `doctor`, `init`, `update`.
@@ -171,8 +171,8 @@ Primeira versão publicada. Pacote canônico, vendor-free e portátil.
 
 ### Alterado
 
-- Visibilidade padrão `EngenhariaIaAplicada`: 769 skills visíveis, `autoinvoke: true`.
-- Modos `god`, `EngenhariaIaAplicada`, `curated` e `status` preservados em `skill_mode.py`.
+- Visibilidade padrão `Engenharia de IA Aplicada`: 769 skills visíveis, `autoinvoke: true`.
+- Modos `god`, `Engenharia de IA Aplicada`, `curated` e `status` preservados em `skill_mode.py`.
 
 ### Segurança
 

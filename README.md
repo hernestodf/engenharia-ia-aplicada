@@ -1,4 +1,4 @@
-# EngenhariaIaAplicada
+# Engenharia de IA Aplicada
 
 Pacote de engenharia de software assistida por IA, **vendor-neutral e portátil**. Núcleo genérico; perfis opcionais entram como camadas derivadas. Sem lock-in de LLM/provider, sem vendor, sem Kilo.
 

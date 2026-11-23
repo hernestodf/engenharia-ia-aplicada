@@ -1,15 +1,15 @@
 ---
 name: op-eia-delivery
-description: Orienta instalação, modos, rollback e limites de entrega do pacote EngenhariaIaAplicada. Use antes de instalar adaptadores, trocar modo ou mexer em config global.
+description: Orienta instalação, modos, rollback e limites de entrega do pacote Engenharia de IA Aplicada. Use antes de instalar adaptadores, trocar modo ou mexer em config global.
 engenharia-ia-aplicada/layer: core
 engenharia-ia-aplicada/source: canonical
 ---
 
-# Entrega EngenhariaIaAplicada
+# Entrega Engenharia de IA Aplicada
 
 ## Modos
 
-`god` / `EngenhariaIaAplicada` = todas as skills visíveis. `curated` = subconjunto. `status` = relatório. Ver `skill_mode.py` e `docs/guides/INSTALL.md`.
+`god` / `Engenharia de IA Aplicada` = todas as skills visíveis. `curated` = subconjunto. `status` = relatório. Ver `skill_mode.py` e `docs/guides/INSTALL.md`.
 
 ## Instalação segura
 

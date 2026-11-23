@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera adaptadores DERIVADOS da fonte canônica EngenhariaIaAplicada.
+"""Gera adaptadores DERIVADOS da fonte canônica Engenharia de IA Aplicada.
 
 Fonte canônica: AGENTS.md, project.yaml, skills/core/, skills/upstream/, agents/.
 Nunca edite adapters/*/generated/ na mão — são artefatos.

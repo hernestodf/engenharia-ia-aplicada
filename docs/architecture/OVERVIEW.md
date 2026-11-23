@@ -1,6 +1,6 @@
 # Arquitetura — Visão Geral
 
-O EngenhariaIaAplicada é organizado em **seis módulos lógicos**. São responsabilidades, não serviços separados obrigatórios — rodam como Markdown, scripts e config.versionáveis.
+O Engenharia de IA Aplicada é organizado em **seis módulos lógicos**. São responsabilidades, não serviços separados obrigatórios — rodam como Markdown, scripts e config.versionáveis.
 
 ## Módulos
 

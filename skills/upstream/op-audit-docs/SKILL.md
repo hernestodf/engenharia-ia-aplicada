@@ -1,6 +1,6 @@
 ---
 name: op-audit-docs
-description: Skill portada para EngenhariaIaAplicada.
+description: Skill portada para Engenharia de IA Aplicada.
 ---
 
 # Type Safety Documentation Audit & Update

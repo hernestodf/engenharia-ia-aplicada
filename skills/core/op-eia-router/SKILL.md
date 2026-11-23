@@ -1,11 +1,11 @@
 ---
 name: op-eia-router
-description: Ponto de entrada do EngenhariaIaAplicada. Use no início de qualquer tarefa para classificar o pedido e escolher UM papel lógico por vez. Não use para executar a tarefa em si.
+description: Ponto de entrada do Engenharia de IA Aplicada. Use no início de qualquer tarefa para classificar o pedido e escolher UM papel lógico por vez. Não use para executar a tarefa em si.
 engenharia-ia-aplicada/layer: core
 engenharia-ia-aplicada/source: canonical
 ---
 
-# Roteador EngenhariaIaAplicada
+# Roteador Engenharia de IA Aplicada
 
 Use esta skill como **primeira entrada**. Ela não executa a tarefa: apenas classifica e aponta um papel.
 

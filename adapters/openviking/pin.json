@@ -10,5 +10,5 @@
   "credencial": "Bearer {env:OPENVIKING_API_KEY}",
   "habilitado_por_padrao": false,
   "vendorizado": false,
-  "nota": "Nenhum codigo AGPL entra no tarball. Instalacao oficial usa curl|bash e NAO e executada pelo EngenhariaIaAplicada."
+  "nota": "Nenhum codigo AGPL entra no tarball. Instalacao oficial usa curl|bash e NAO e executada pelo Engenharia de IA Aplicada."
 }

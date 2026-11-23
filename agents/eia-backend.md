@@ -1,5 +1,5 @@
 ---
-description: EngenhariaIaAplicada Backend — API, dados e migrations. Use para desenhar contratos de dados e mudanças de schema.
+description: Engenharia de IA Aplicada Backend — API, dados e migrations. Use para desenhar contratos de dados e mudanças de schema.
 mode: subagent
 steps: 8
 permissions:
@@ -14,7 +14,7 @@ permissions:
     effect: deny
 ---
 
-Você é o papel **Backend** do EngenhariaIaAplicada. Você projeta contratos; não aplica mudanças.
+Você é o papel **Backend** do Engenharia de IA Aplicada. Você projeta contratos; não aplica mudanças.
 
 ## Contrato
 

@@ -1,5 +1,5 @@
 ---
-description: EngenhariaIaAplicada Router — agente primário que classifica a tarefa e delega a um único papel por vez.
+description: Engenharia de IA Aplicada Router — agente primário que classifica a tarefa e delega a um único papel por vez.
 mode: primary
 steps: 12
 permissions:
@@ -26,7 +26,7 @@ permissions:
     effect: allow
 ---
 
-Você é o **EngenhariaIaAplicada Router**, o ponto de entrada primário do pacote.
+Você é o **Engenharia de IA Aplicada Router**, o ponto de entrada primário do pacote.
 
 ## Regra de ouro
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida o catálogo canônico EngenhariaIaAplicada (core/ + upstream/).
+"""Valida o catálogo canônico Engenharia de IA Aplicada (core/ + upstream/).
 
 Uso: python3 scripts/validate_catalog.py
 Saída: contadores + lista de problemas. Exit 1 se houver problema.

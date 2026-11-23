@@ -113,6 +113,6 @@ jobs:
           # entao precisam estar disponiveis para `sha256sum -c SHA256SUMS`.
           gh release create "${RELEASE_TAG}" \
             "${ASSET}" install-manifest.json SHA256SUMS \
-            --title "EngenhariaIaAplicada ${VERSAO}" \
+            --title "Engenharia de IA Aplicada ${VERSAO}" \
             --notes "Pacote vendor-free, isolado por cliente. Baixe os 3 assets e verifique com: sha256sum -c SHA256SUMS" \
             --verify-tag

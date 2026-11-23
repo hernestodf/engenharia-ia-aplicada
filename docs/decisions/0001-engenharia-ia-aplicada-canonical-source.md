@@ -1,4 +1,4 @@
-# ADR 0001 — EngenhariaIaAplicada como fonte canônica
+# ADR 0001 — Engenharia de IA Aplicada como fonte canônica
 
 - **Data:** 2026-11-18
 - **Status:** Aceito
@@ -25,7 +25,7 @@ Criar `~/.config/opencode/skill-packs/engenharia-ia-aplicada` como **única font
 3. As 879 skills portadas para `skills/upstream/` com prefixo `op-`.
 4. Packs originais **preservados em disco** como rollback; `MANIFESTO.md` rastreia origem → destino.
 5. Adaptadores (`opencode`, `claude-code`) **gerados a partir da fonte canônica**, nunca editados como verdade independente.
-6. Modo padrão `EngenhariaIaAplicada`: todas as skills visíveis (`autoinvoke: true`), conforme escolha do operador.
+6. Modo padrão `Engenharia de IA Aplicada`: todas as skills visíveis (`autoinvoke: true`), conforme escolha do operador.
 
 ## Consequências
 
