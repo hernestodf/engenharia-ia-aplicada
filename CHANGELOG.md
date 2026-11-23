@@ -3,6 +3,27 @@
 Todas as mudanças relevantes do Engenharia de IA Aplicada são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.8.0] — 2026-11-23
+
+Telemetria mínima, local e opt-in. Fecha o trio avaliação → enforcement → telemetria.
+
+### Adicionado
+
+- `scripts/telemetry.py`: whitelist de 5 eventos e 3 resultados, registro com campos fixos, redação de segredos e caminhos de usuário, JSONL local com permissão `0600`, destino restrito ao pacote. **Nada é enviado**: sem socket, sem endpoint, sem token.
+- `eia telemetry` e `eia telemetry --resumo`.
+- `docs/guides/TELEMETRY.md`: contrato, uso e limites — inclusive a declaração de que telemetria não substitui avaliação.
+- `tests/test_telemetry.py`: 11 testes. Total do pacote: **101 testes**.
+
+### Testado
+
+- 101/101 testes OK; eval 42/42; manifesto 824 arquivos; 0 leaks; zero CJK.
+- `eia telemetry` → `EIA_TELEMETRY=0`, resumo vazio. `eia rag-eval` → baseline mantido.
+
+### Não verificado
+
+- Nenhum evento real foi gravado: a variável de habilitação não foi ligada.
+- O resumo agrega contagem por evento/resultado, não tendência ou latência agregada.
+
 ## [0.7.0] — 2026-11-23
 
 RAG medido com baseline determinístico.

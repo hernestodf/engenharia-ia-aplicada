@@ -1,7 +1,7 @@
 {
   "descricao": "Baseline lexical BM25 sobre descrições de skills; ground truth curado.",
   "versao": 1,
-  "gerado_em": "2026-11-23T18:03:48.459874+00:00",
+  "gerado_em": "2026-11-23T18:10:52.275958+00:00",
   "corpus": 772,
   "queries": 18,
   "k": 5,

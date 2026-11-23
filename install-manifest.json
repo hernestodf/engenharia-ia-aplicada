@@ -4,11 +4,11 @@
     ".github/workflows/ci.yml": "dd994a523659d6076ea0129898373b53b43895fe787a00ffdb91f32df9337a93",
     ".github/workflows/release.yml": "9174a41fb9fce32cdfc391c98d10b75652d5353d3b183bfd11375ee5d13aaa34",
     "AGENTS.md": "d2ae4a96c21378385e1f09e20d39be3487320d02a5508f55b0d58f695f8a973d",
-    "CHANGELOG.md": "3c6746af8b1396cea696fa4408a64118e5c07c787b5f5640faa8964d808f8b42",
-    "MANIFESTO.md": "b0cfacf0851fecee513a7779459a8d3e2ab2d1eaf6bb03ad204621e853c7a46e",
-    "README.md": "78556d74d468d3e7f1cda6ae343a73b4c607adcd4c82038060c4a1918cd3762c",
+    "CHANGELOG.md": "aa7e8c58fc3199b8efa3d238c9c7d66562580f94d91a99961fb68a0cd4849a75",
+    "MANIFESTO.md": "79283ce97fc7733cf056cdc42237eb1542fdf15cd5ed274bef29b27531e1a313",
+    "README.md": "2b9ccbd6875d9cbf23ddc46c61fd7be09c89f0d399abbcf22693ee2c91031056",
     "SECURITY_CLASSIFICATION.md": "d46743b703826741f824f1027da9fb66471912542469f5e570783bb535cb9b4f",
-    "VERSION": "967d9afb101346667166f2e76e81910bc190488d7d41d50ca0072e9d92f00e32",
+    "VERSION": "a66780da23103beaf12432b418508966b31a2a3a787f9468a5b6cdaa8667c1ef",
     "adapters/chrome-devtools-mcp/README.md": "43ca40788f1f3c0b2c01e5ebbd2134078ae44377edab8a73e6717e33a1582328",
     "adapters/chrome-devtools-mcp/mcp.json": "2e2c9b4a49b59daa704424425e488848440f4d1d822665dec70d3648acd1e35f",
     "adapters/chrome-devtools-mcp/pin.json": "07ddb9db163025f1255159fcc3c5cddcdc17905fa04d316b3dc069fc0ddc7566",
@@ -31,7 +31,7 @@
     "design-system/tokens/tokens.json": "25305df5007e3052a2f7265cbeb869f495bb17b236bb17a3bb3a1011a22e39d9",
     "docs/guides/INSTALL.md": "ac29093bb2e1a866a5d7c05f4853bcb4bd2838c4c91c1a8edf4844d25c5ab530",
     "project.yaml": "bf1a94fd8c12a92fb0982280d7a1c219b157205a79f049189ff6a6e782b275e8",
-    "scripts/eia.py": "d758d402aca1880bbb59f8d7118e4f2cf23d681353e48b900d05cd7b2001b7af",
+    "scripts/eia.py": "851682b99455269f9687a423dc9faaa8d513d38c4d8e63c7befda0479fae9ae4",
     "scripts/enforce.py": "1efd67695525361123fcec3ef040c7f2b36de279bea5ad8382d3ba71aa045145",
     "scripts/eval_checks.py": "0258df278a05e4bf42ceb5321225f94b84fb77ba51288a1fbdc038b2df3e5718",
     "scripts/generate_adapters.py": "c19cc0761221429c8046afd7d1f1f6b966c2db8f0c9026efaae51837ef7e4eed",
@@ -40,6 +40,7 @@
     "scripts/port_skills.py": "6930bcbf82c8d816f51b4ca0071c1fa213eaa0f5203b733034ba8e4340958659",
     "scripts/rag_eval.py": "be6f7cfd1aedde62a623e63683680a8514e7e23336b34805d7cfba78caa74e23",
     "scripts/run_evals.py": "73110116c830cc28e33def8f381a8ef2241df35882a4bcdf7776aa485ead4521",
+    "scripts/telemetry.py": "715e2309779cf071f3e4b4e39db222b9e4e13a1fc75bb50c75634301deaeef09",
     "scripts/validate_catalog.py": "29802cd3e5017ae78882c5a954be6080b60a64477b5c6de41f5fe154fbe47768",
     "scripts/validate_incidents.py": "363b35f94c97bdee167bccb5827692e6ec167883c776f95b589d2798cb90104b",
     "scripts/verify_adapters.py": "0b11de236050024cf7b00c9bbb692a66fdf592133e1f606e05b7f592310bc8ca",
@@ -822,8 +823,9 @@
     "tests/test_integrations.py": "22910ca08a3b6e51349367dc616dae949d1241ce9788c4c7a87870986aa81940",
     "tests/test_package.py": "bab8bc9bcaace0888421f83d7353a4371a75afe68e9ec7ef372b2f458b247932",
     "tests/test_rag_eval.py": "dcba361066c83584ed0822635f17516637939b9117c6b5b24158f99f8384a9fd",
-    "tests/test_release_workflow.py": "737c3ba8434993503f025e8b4155a08535d03489caf811387827e0ae8c8a814a"
+    "tests/test_release_workflow.py": "737c3ba8434993503f025e8b4155a08535d03489caf811387827e0ae8c8a814a",
+    "tests/test_telemetry.py": "9b2c1adf9d234f03a3b49c6e99a2e73879766645583b811fbb8935ae0f5c3f03"
   },
   "token": "__EIA_ROOT__",
-  "versao": "0.7.0"
+  "versao": "0.8.0"
 }

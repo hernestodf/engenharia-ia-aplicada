@@ -142,3 +142,19 @@ voltou a 0. Suite de testes: **90/90**.
 **Não verificado:** quatro consultas seguem com recall zero, provável efeito do
 desbalanceamento de idioma nas descrições. Ground truth é curado, sem holdout;
 nenhum pipeline vetorial foi avaliado.
+
+## FASE 15 — telemetria mínima
+
+**Implementado:** `scripts/telemetry.py` registra eventos locais somente com
+`EIA_TELEMETRY=1`. Whitelist fechada de eventos e resultados, campos fixos sem
+texto livre, redação de chaves de API e caminhos de usuário, JSONL `0600` com
+destino restrito ao pacote. Nenhum socket é aberto e nenhum dado sai da máquina.
+`eia telemetry` mostra o estado e o agregado.
+
+**Testado:** 11 testes novos, total **101/101 OK**. Comando real com telemetria
+desabilitada reportou `EIA_TELEMETRY=0` e resumo vazio; `eia rag-eval` seguiu com
+baseline mantido após as edições no operador.
+
+**Não verificado:** nenhum evento foi gravado de fato, porque a variável não foi
+ligada. Telemetria não é avaliação: não substitui os 101 testes, as 20 tarefas
+nem o baseline de RAG.

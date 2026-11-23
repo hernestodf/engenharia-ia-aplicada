@@ -24,6 +24,7 @@ python3 scripts/generate_manifest.py --check
 | `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json`, `adapters/opencode/generated/permissions.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__EIA_ROOT__`. `--apply` é o modo legado global. |
 | `enforce.py` | Gate determinístico: lê um evento JSON em stdin e devolve `permitir`/`negar`/`pedir` com código de saída 0/2/3. Sem subprocesso, sem rede. |
 | `rag_eval.py` | Baseline BM25 sobre nome+descrição das skills. Mede recall@5, precision@5 e MRR@10 com ground truth curado; falha em regressão. Sem rede e sem reindexação. |
+| `telemetry.py` | Telemetria local opt-in (`EIA_TELEMETRY=1`). Só campos fixos, redação de segredos, JSONL 0600, sem socket. |
 
 Nunca edite `adapters/*/generated/` na mão.
 
@@ -31,7 +32,7 @@ Nunca edite `adapters/*/generated/` na mão.
 
 | Script | Função |
 |---|---|
-| `eia.py` | CLI `version`, `audit`, `status`, `doctor`, `enforce`, `rag-eval`, `init`, `update`. Tudo read-only a menos que `--apply`. |
+| `eia.py` | CLI `version`, `audit`, `status`, `doctor`, `enforce`, `rag-eval`, `telemetry`, `init`, `update`. Tudo read-only a menos que `--apply`. |
 
 ## Validação
 

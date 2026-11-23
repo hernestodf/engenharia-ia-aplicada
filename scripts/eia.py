@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.7.0"
+VERSION = "0.8.0"
 
 OP_CONFIG = Path.home() / ".config/opencode/opencode.json"
 CLAUDE_SKILLS = Path.home() / ".claude/skills"
@@ -184,6 +184,18 @@ def cmd_rag_eval(args: argparse.Namespace) -> int:
     ).returncode
 
 
+def cmd_telemetry(args: argparse.Namespace) -> int:
+    """mostra estado da telemetria local ou o agregado (sem rede)"""
+    import telemetry as tel
+
+    if args.resumo:
+        print(json.dumps(tel.resumo(), ensure_ascii=False))
+    else:
+        print(f"EIA_TELEMETRY={'1' if tel.habilitado() else '0'}")
+        print(f"destino: {tel.DESTINO.name} (local, sem envio)")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="command", required=True)
@@ -192,6 +204,8 @@ def main() -> int:
     sub.add_parser("status", help=cmd_status.__doc__)
     sub.add_parser("doctor", help=cmd_doctor.__doc__)
     sub.add_parser("enforce", help=cmd_enforce.__doc__)
+    pt = sub.add_parser("telemetry", help=cmd_telemetry.__doc__)
+    pt.add_argument("--resumo", action="store_true", help="agrega o JSONL local")
     p = sub.add_parser("rag-eval", help=cmd_rag_eval.__doc__)
     p.add_argument("--write-baseline", action="store_true", help="grava o baseline atual")
     p.add_argument("--no-compare", action="store_true", help="mede sem comparar")
@@ -206,6 +220,7 @@ def main() -> int:
         "status": cmd_status,
         "doctor": cmd_doctor,
         "enforce": cmd_enforce,
+        "telemetry": cmd_telemetry,
         "rag-eval": cmd_rag_eval,
         "init": cmd_sync,
         "update": cmd_sync,

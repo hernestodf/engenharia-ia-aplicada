@@ -2,7 +2,7 @@
 
 Pacote de engenharia de software assistida por IA, **vendor-neutral e portátil**. Núcleo genérico; perfis opcionais entram como camadas derivadas. Sem lock-in de LLM/provider, sem vendor, sem Kilo.
 
-Versão: `0.7.0`
+Versão: `0.8.0`
 
 ## Comece aqui
 
