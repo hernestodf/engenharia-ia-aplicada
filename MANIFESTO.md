@@ -80,7 +80,7 @@ com `pendente` quando o pré-requisito não está pronto; nenhuma instala, habil
 servidor, reindexa ou rotaciona credencial por conta própria.
 
 **Testado:** `verify_adapters.py` → 3 pinados, 0 problemas; catálogo → 772
-skills, 0 problemas; 56/56 testes; manifesto íntegro; zero CJK e zero
+skills, 0 problemas; 58/58 testes; manifesto íntegro; zero CJK e zero
 `/root/` nos artefatos novos. As três skills foram descobertas pelo runtime em
 tempo real, sem restart.
 

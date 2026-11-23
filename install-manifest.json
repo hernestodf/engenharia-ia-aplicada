@@ -2,11 +2,11 @@
   "algoritmo": "sha256",
   "arquivos": {
     ".github/workflows/ci.yml": "8f6258d7d57d11e12fb713771bb5bd536183d4bba22084120e5313e78b691649",
-    ".github/workflows/release.yml": "18fea046d64f43cff27679b806bc121a8e4cdefab4c9778e1d6fdc23f945cde5",
+    ".github/workflows/release.yml": "e45ff022ffdd47003d83c4ccc242b6d562d7b0af4e11bbeb072220cd19892e41",
     "AGENTS.md": "6f2cb459e765dce089db4bd5673949277734ac2e834e5474a26af60c935a92c5",
-    "CHANGELOG.md": "16c9398aa36b60d60a7e6e6cdda9cede62b549008d8be7ed14e62ee89c98d8ea",
-    "MANIFESTO.md": "d7e1f810e322db36b09e3e4d09f659eb8cd65dcaa5bf6c197af8ccc02519ff25",
-    "README.md": "15744abfcc190290d3b2c767d360a150f33f104b25f9f81bfa5a57292f257d9c",
+    "CHANGELOG.md": "28f725a56730b21407a04f6c12c26b7a01d6a778ee5a66a2c650a585d12374c2",
+    "MANIFESTO.md": "1ceb14a1b85c8e14b25312c175252a0aea6effc8d35feed68facf697197c5916",
+    "README.md": "415527be511620178d96476872304b39abb3db5159410edfbf653f325dcfad40",
     "SECURITY_CLASSIFICATION.md": "d46743b703826741f824f1027da9fb66471912542469f5e570783bb535cb9b4f",
     "VERSION": "d915cc95d6ca8f47ae297713ed46d4e5c5d99ddd29fc3c61e263bdf305f2b5b0",
     "adapters/chrome-devtools-mcp/README.md": "43ca40788f1f3c0b2c01e5ebbd2134078ae44377edab8a73e6717e33a1582328",
@@ -29,7 +29,7 @@
     "agents/godnaterra-qa-security.md": "642917e593ae04be59e0de2e7f780fb248f366d924030afbc572a97448b93cea",
     "agents/godnaterra-router.md": "4dad9aaaef7f1ca10720b152ff9dce331f9817c4d4676876a5ada0f4ad28442b",
     "design-system/tokens/tokens.json": "68897abedeabefce9eb2d3e14c9d3555f1092a7592094bb7269799da3c9a530a",
-    "docs/guides/INSTALL.md": "e7893faf2bc94b6466f5f3b50e0252ca7ef40385257f153daaafb7eb1a108196",
+    "docs/guides/INSTALL.md": "6f21014811e24561282883d1141d699924858d625960fab741c7bb2568b49eb3",
     "project.yaml": "c0b7e24514aae35f8118cd221afcccde681ee0e54eeb891e30a9364988f209f5",
     "scripts/generate_adapters.py": "4679e13db40bc6a767fc6eb497f5a20bc1a83c00479ad0bb1a901f289c8f67ea",
     "scripts/generate_manifest.py": "ce02f803d1ffd60134912e6962235b8ef3b908e92fe43e313d442c24fca0fc67",
@@ -817,7 +817,7 @@
     "tests/test_install.py": "0b8fa0b61c026675352f024664cb694d7541ac640f95b88673dab70aaf48ead8",
     "tests/test_integrations.py": "49a28d2e476837fa10ee0c3d6058453f85969149e118a0f6ef6d8c0b4b037320",
     "tests/test_package.py": "141aac12acb18f06cded720a208181564b668a2f3228fb019b56ad22a1cab7ec",
-    "tests/test_release_workflow.py": "faf518e6dc92172a7cb1078ce4c4a9a43c9c17f87373efbe4b1c4945750af6d6"
+    "tests/test_release_workflow.py": "737c3ba8434993503f025e8b4155a08535d03489caf811387827e0ae8c8a814a"
   },
   "token": "__GODNATERRA_ROOT__",
   "versao": "0.3.0"

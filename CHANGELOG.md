@@ -14,7 +14,7 @@ Integrações opcionais descobertas pelo agente, nunca auto-habilitadas.
 - `adapters/openviking/`: referência pinada ao commit `5b7c655…` (AGPL-3.0), credencial via `{env:OPENVIKING_API_KEY}`, template MCP `disabled: true`, **nenhum código vendorizado**.
 - `scripts/verify_adapters.py`: verificação offline de pins, licenças, `disabled`, env, não-vendorização, CJK e padrões de execução; `--check-online` compara shasums no registry via urllib (sem shell).
 - 3 skills core: `op-chrome-devtools-audit`, `op-open-code-review`, `op-openviking-context`. Cada uma detecta a necessidade pelo pedido, faz preflight e reporta `pendente` se o pré-requisito não estiver pronto. Nenhuma instala ou habilita sozinha.
-- `tests/test_integrations.py`: 10 testes de contrato dos adapters e das skills. Total do pacote: **56 testes**.
+- `tests/test_integrations.py`: 10 testes de contrato dos adapters e das skills. Total do pacote: **58 testes** (inclui 2 testes do contrato de release pós-publicação).
 
 ### Alterado
 
@@ -32,6 +32,11 @@ Integrações opcionais descobertas pelo agente, nunca auto-habilitadas.
 ### Não verificado
 
 - Conexão real do Chrome DevTools MCP, instalação do `ocr` e review de um diff, servidor OpenViking/retrieval. Os três continuam `pendente` por design.
+
+### Corrigido (pós-publicação 0.3.0)
+
+- `release.yml`: `install-manifest.json` passa a ser publicado como asset. O `SHA256SUMS` referencia o tarball **e** o manifesto; sem o manifesto entre os downloads, `sha256sum -c SHA256SUMS` falhava. Publicado também o manifesto faltante na Release `v0.3.0`.
+- `release.yml`: dispatch duplicado virou no-op — se a Release da tag já existir, o job encerra com mensagem em vez de falhar em `gh release create ... --verify-tag`.
 
 ## [0.2.0] — 2026-11-19
 

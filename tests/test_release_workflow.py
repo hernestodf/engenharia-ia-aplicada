@@ -52,6 +52,21 @@ class ReleaseWorkflowTest(unittest.TestCase):
     def test_tarball_inclui_github(self) -> None:
         self.assertIn("install-manifest.json .github \\", self.texto)
 
+    def test_release_publica_tres_assets(self) -> None:
+        # O SHA256SUMS referencia o tarball E o manifesto, entao os tres
+        # precisam estar disponiveis para `sha256sum -c SHA256SUMS`.
+        self.assertIn(
+            '"${ASSET}" install-manifest.json SHA256SUMS', self.texto
+        )
+        self.assertIn("Baixe os 3 assets", self.texto)
+        self.assertIn(
+            "            install-manifest.json\n            SHA256SUMS", self.texto
+        )
+
+    def test_dispatch_idempotente(self) -> None:
+        self.assertIn('gh release view "${RELEASE_TAG}"', self.texto)
+        self.assertIn("ja existe. Nada a publicar.", self.texto)
+
     def test_permissions_write_so_no_job(self) -> None:
         self.assertIn("permissions:\n  contents: read", self.texto)
         self.assertIn("permissions:\n      contents: write", self.texto)

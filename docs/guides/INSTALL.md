@@ -77,7 +77,7 @@ Restaura o backup timestampado mais recente de `opencode.json` e dos agentes. Sy
 | Frontmatter inválido | ✅ 0 |
 | Agentes reconhecidos | ✅ 7 (`opencode debug agents`) |
 | Symlinks Claude | ✅ 772, 0 quebrados — **CLI ausente**, formato não executado |
-| Suite de testes | ✅ 56/56 |
+| Suite de testes | ✅ 58/58 |
 | Adapters opcionais | ✅ 3 pinados, 0 problemas, nenhum habilitado |
 | Templates MCP | ✅ 2 entradas listadas com `disabled: true` |
 

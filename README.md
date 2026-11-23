@@ -50,7 +50,7 @@ Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona segredos.
 ```bash
 python3 scripts/validate_catalog.py
 python3 scripts/validate_incidents.py
-python3 -m unittest discover -s tests -v        # 56 testes
+python3 -m unittest discover -s tests -v        # 58 testes
 python3 scripts/verify_adapters.py              # pins, licenças e disabled
 python3 scripts/godnaterra.py audit
 python3 scripts/generate_manifest.py --check
@@ -74,7 +74,7 @@ git diff --check
 | Fase | Situação |
 |---|---|
 | 1–9 | concluídas/implementadas conforme ADRs; ver detalhes em `docs/` |
-| 10 · Instalador e documentação | implementado; 56 testes OK localmente |
+| 10 · Instalador e documentação | implementado; 58 testes OK localmente |
 | 11 · Integrações opcionais | implementadas; Chrome DevTools MCP, OpenCodeReview e OpenViking em `adapters/`, todos desabilitados por padrão |
 | CI/CD | YAMLs implementados com actions pinadas por SHA; execução no GitHub Actions não observada |
 

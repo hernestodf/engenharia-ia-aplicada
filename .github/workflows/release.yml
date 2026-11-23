@@ -95,6 +95,7 @@ jobs:
           name: godnaterra-source
           path: |
             ${{ env.ASSET }}
+            install-manifest.json
             SHA256SUMS
 
       - name: Criar Release com checksums
@@ -102,8 +103,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TAG: ${{ steps.rel.outputs.tag }}
         run: |
+          # Idempotente: dispatch duplicado nao tenta recriar Release existente
+          # (evita "a release with the same tag name already exists").
+          if gh release view "${RELEASE_TAG}" >/dev/null 2>&1; then
+            echo "Release ${RELEASE_TAG} ja existe. Nada a publicar."
+            exit 0
+          fi
+          # O manifesto vai como asset: o SHA256SUMS referencia os dois arquivos,
+          # entao precisam estar disponiveis para `sha256sum -c SHA256SUMS`.
           gh release create "${RELEASE_TAG}" \
-            "${ASSET}" SHA256SUMS \
+            "${ASSET}" install-manifest.json SHA256SUMS \
             --title "Godnaterra ${VERSAO}" \
-            --notes "Pacote vendor-free, isolado por cliente. Verifique com: sha256sum -c SHA256SUMS" \
+            --notes "Pacote vendor-free, isolado por cliente. Baixe os 3 assets e verifique com: sha256sum -c SHA256SUMS" \
             --verify-tag
