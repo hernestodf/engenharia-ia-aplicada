@@ -1,0 +1,291 @@
+{
+  "descricao": "Baseline lexical BM25 sobre descrições de skills; ground truth curado.",
+  "versao": 1,
+  "gerado_em": "2026-11-23T17:59:16.720050+00:00",
+  "corpus": 772,
+  "queries": 18,
+  "k": 5,
+  "macro": {
+    "recall_at_5": 0.759259,
+    "precision_at_5": 0.188889,
+    "mrr_at_10": 0.694444
+  },
+  "por_query": [
+    {
+      "id": "Q01",
+      "relevantes": [
+        "op-movemental-pdf",
+        "op-pdf",
+        "op-pdf-ebook"
+      ],
+      "top5": [
+        "op-pdf-ebook",
+        "op-markitdown",
+        "op-format-converter-brief",
+        "op-visual-scrape",
+        "op-pdf"
+      ],
+      "recall_at_5": 0.666667,
+      "precision_at_5": 0.4,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q02",
+      "relevantes": [
+        "op-xlsx"
+      ],
+      "top5": [],
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr_at_10": 0.0
+    },
+    {
+      "id": "Q03",
+      "relevantes": [
+        "op-pptx"
+      ],
+      "top5": [
+        "op-pptx",
+        "op-markitdown",
+        "op-theme-factory"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q04",
+      "relevantes": [
+        "op-youtube-transcript"
+      ],
+      "top5": [
+        "op-youtube-transcript",
+        "op-remotion",
+        "op-youtube-description-writer",
+        "op-youtube-chapters-writer",
+        "op-description-seo-writer"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q05",
+      "relevantes": [
+        "op-supabase-security-audit"
+      ],
+      "top5": [
+        "op-supabase-fix-rls",
+        "op-supabase-security-audit",
+        "op-supabase-analytics",
+        "op-auth-setup",
+        "op-chrome-devtools-audit"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 0.5
+    },
+    {
+      "id": "Q06",
+      "relevantes": [
+        "op-tailwind-cleanup",
+        "op-tailwind-cleanup-general"
+      ],
+      "top5": [
+        "op-tailwind-design-system",
+        "op-tailwind-cleanup",
+        "op-design-chain",
+        "op-tailwind-cleanup-general",
+        "op-docs-design-system"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr_at_10": 0.5
+    },
+    {
+      "id": "Q07",
+      "relevantes": [
+        "op-remotion",
+        "op-remotion-best-practices"
+      ],
+      "top5": [
+        "op-remotion",
+        "op-remotion-best-practices",
+        "op-eia-portability",
+        "op-html-to-react-tailwind",
+        "op-stitch-react"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q08",
+      "relevantes": [
+        "op-resume-coach"
+      ],
+      "top5": [],
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr_at_10": 0.0
+    },
+    {
+      "id": "Q09",
+      "relevantes": [
+        "op-academic-research"
+      ],
+      "top5": [
+        "op-content-access",
+        "op-academic-research",
+        "op-cold-open-writer",
+        "op-eu-document-access-builder",
+        "op-location-permit-brief"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 0.5
+    },
+    {
+      "id": "Q10",
+      "relevantes": [
+        "op-foia-request-writer"
+      ],
+      "top5": [
+        "op-foia-request-writer",
+        "op-eia-router",
+        "op-open-code-review"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q11",
+      "relevantes": [
+        "op-github"
+      ],
+      "top5": [
+        "op-github",
+        "op-ci-setup",
+        "op-production-status-update-writer",
+        "op-pr-draft-summary",
+        "op-data-scraper-agent"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q12",
+      "relevantes": [
+        "op-e2e-studio-tests"
+      ],
+      "top5": [
+        "op-e2e-studio-tests",
+        "op-studio-testing",
+        "op-studio-design",
+        "op-studio-prompt",
+        "op-studio-intro-writer"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q13",
+      "relevantes": [
+        "op-openai-api"
+      ],
+      "top5": [
+        "op-openai-api",
+        "op-grok-api",
+        "op-openai-knowledge",
+        "op-gemini-api",
+        "op-agent-create"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q14",
+      "relevantes": [
+        "op-gemini-api"
+      ],
+      "top5": [
+        "op-gemini-api",
+        "op-openai-api",
+        "op-grok-api",
+        "op-ai-lab-notebook-gemini",
+        "op-tam-reflected-understanding"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q15",
+      "relevantes": [
+        "op-design-audit"
+      ],
+      "top5": [
+        "op-chrome-devtools-audit",
+        "op-docs-design-system",
+        "op-tailwind-design-system",
+        "op-stitch-design",
+        "op-design-chain-audit"
+      ],
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr_at_10": 0.0
+    },
+    {
+      "id": "Q16",
+      "relevantes": [
+        "op-skill-creator"
+      ],
+      "top5": [
+        "op-skill-creator",
+        "op-template-skill",
+        "op-find-skills",
+        "op-template-selector",
+        "op-audit-docs"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q17",
+      "relevantes": [
+        "op-chrome-devtools-audit"
+      ],
+      "top5": [
+        "op-chrome-devtools-audit",
+        "op-webapp-testing",
+        "op-designer-dashboard",
+        "op-dashboard-agent-audit",
+        "op-stitch-download"
+      ],
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_10": 1.0
+    },
+    {
+      "id": "Q18",
+      "relevantes": [
+        "op-route-audit"
+      ],
+      "top5": [
+        "op-chrome-devtools-audit",
+        "op-e2e-studio-tests",
+        "op-webapp-testing",
+        "op-dashboard-agent-audit",
+        "op-testing-setup"
+      ],
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr_at_10": 0.0
+    }
+  ]
+}

@@ -3,6 +3,31 @@
 Todas as mudanças relevantes do Engenharia de IA Aplicada são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.7.0] — 2026-11-23
+
+RAG medido com baseline determinístico.
+
+### Adicionado
+
+- `evaluations/rag/queries.jsonl`: 18 consultas com ground truth verificado contra o corpus real de 772 skills.
+- `scripts/rag_eval.py`: BM25 lexical determinístico sobre nome + descrição. Mede recall@5, precision@5 e MRR@10; grava `RESULTS.json` e `BASELINE.json`; falha em regressão acima de 0.001.
+- `eia rag-eval` com `--write-baseline` e `--no-compare`.
+- `docs/guides/RAG_EVAL.md`: contrato, números e limitações declaradas.
+- `tests/test_rag_eval.py`: 10 testes. Total do pacote: **90 testes**.
+
+### Testado
+
+- Primeira medição (só descrição): recall@5 **0,704**, precision@5 0,178, MRR@10 0,637.
+- Após corrigir o índice para nome + descrição: recall@5 **0,759**, precision@5 0,189, MRR@10 **0,694**. Ambas registradas no guia.
+- Regressão provocada trocando o ground truth de `Q01`: `REGRESSAO: recall_at_5: 0.759259 -> 0.722222`, exit **1** real; restauração voltou a exit 0.
+- 90/90 testes OK; eval 42/42; manifesto 822 arquivos.
+
+### Não verificado
+
+- Nenhum embedding, vetor store, collection ou reindexação foi tocado — o contrato Qdrant segue `contract-only`.
+- 4 consultas (Q02, Q08, Q15, Q18) seguem com recall@5 zero; causa provável é o desbalanceamento português/inglês nas descrições.
+- Ground truth é curado, não amostrado de produção. Sem holdout e sem comparação entre modelos.
+
 ## [0.6.0] — 2026-11-23
 
 Enforcement determinístico em código.

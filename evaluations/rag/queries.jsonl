@@ -1,0 +1,18 @@
+{"id":"Q01","consulta":"converter markdown em PDF","relevantes":["op-pdf","op-pdf-ebook","op-movemental-pdf"]}
+{"id":"Q02","consulta":"abrir planilha Excel e corrigir dados","relevantes":["op-xlsx"]}
+{"id":"Q03","consulta":"criar apresentacao de slides pptx","relevantes":["op-pptx"]}
+{"id":"Q04","consulta":"extrair transcricao de video do YouTube","relevantes":["op-youtube-transcript"]}
+{"id":"Q05","consulta":"auditar RLS e seguranca do Supabase","relevantes":["op-supabase-security-audit"]}
+{"id":"Q06","consulta":"limpar Tailwind usando tokens semanticos","relevantes":["op-tailwind-cleanup","op-tailwind-cleanup-general"]}
+{"id":"Q07","consulta":"gerar video programatico com React","relevantes":["op-remotion","op-remotion-best-practices"]}
+{"id":"Q08","consulta":"revisar curriculo e avaliar vaga","relevantes":["op-resume-coach"]}
+{"id":"Q09","consulta":"pesquisa academica em fontes open access","relevantes":["op-academic-research"]}
+{"id":"Q10","consulta":"escrever pedido FOIA de registros publicos","relevantes":["op-foia-request-writer"]}
+{"id":"Q11","consulta":"verificar status de PR e CI no GitHub","relevantes":["op-github"]}
+{"id":"Q12","consulta":"rodar testes e2e no Studio","relevantes":["op-e2e-studio-tests"]}
+{"id":"Q13","consulta":"usar API OpenAI Responses com function calling","relevantes":["op-openai-api"]}
+{"id":"Q14","consulta":"usar Gemini com function calling e grounding","relevantes":["op-gemini-api"]}
+{"id":"Q15","consulta":"auditar pagina contra o design system","relevantes":["op-design-audit"]}
+{"id":"Q16","consulta":"criar ou melhorar uma skill","relevantes":["op-skill-creator"]}
+{"id":"Q17","consulta":"depurar UI em browser com Chrome DevTools","relevantes":["op-chrome-devtools-audit"]}
+{"id":"Q18","consulta":"auditar rotas e certificar com Playwright","relevantes":["op-route-audit"]}

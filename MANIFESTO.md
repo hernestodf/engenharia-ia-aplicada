@@ -126,3 +126,19 @@ Manifesto regerado com **820 arquivos** integrados.
 **Não verificado:** o adapter de permissões não foi mesclado na config global;
 nenhum hook de plugin foi ativado; o gate não inspeciona o sistema, apenas a
 intenção declarada — comando ofuscado, `eval` e efeito indireto ficam fora.
+
+## FASE 14 — RAG medido
+
+**Implementado:** `scripts/rag_eval.py` mede recuperação lexical BM25 sobre nome e
+descrição das 772 skills, com 18 consultas de ground truth verificado. Não há
+embedding, rede, vetor store nem reindexação: o contrato Qdrant permanece
+`contract-only`. `eia rag-eval` expõe a medição, que falha em regressão.
+
+**Testado:** recall@5 **0,759**, precision@5 0,189 e MRR@10 **0,694** após
+corrigir o índice para incluir o ID da skill (medição anterior: 0,704 / 0,178 /
+0,637, registrada no guia). Regressão provocada gerou exit 1 e a restauração
+voltou a 0. Suite de testes: **90/90**.
+
+**Não verificado:** quatro consultas seguem com recall zero, provável efeito do
+desbalanceamento de idioma nas descrições. Ground truth é curado, sem holdout;
+nenhum pipeline vetorial foi avaliado.
