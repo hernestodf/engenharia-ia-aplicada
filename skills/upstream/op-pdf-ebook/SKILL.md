@@ -1,8 +1,8 @@
 ---
 name: op-pdf-ebook
 description: Convert any file format (markdown, text, HTML) into a professionally styled PDF e-book using WeasyPrint. Supports single files, directories of files, and custom styling. Use when generating PDF deliverables from content files.
-godnaterra/source: joshua/claude/assets/pdf-ebook/SKILL.md
-godnaterra/original-name: pdf-ebook
+engenharia-ia-aplicada/source: joshua/claude/assets/pdf-ebook/SKILL.md
+engenharia-ia-aplicada/original-name: pdf-ebook
 ---
 
 Convert content files to a styled PDF e-book: dados informados pelo usuario na mensagem

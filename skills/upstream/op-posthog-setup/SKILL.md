@@ -1,8 +1,8 @@
 ---
 name: op-posthog-setup
 description: Set up PostHog product analytics for this Next.js 15 + Supabase multi-tenant platform — person identification, group analytics (org + tenant), session replay, feature flags, funnels, and server-side event capture.
-godnaterra/source: joshua/claude/infrastructure/posthog-setup/SKILL.md
-godnaterra/original-name: posthog-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/posthog-setup/SKILL.md
+engenharia-ia-aplicada/original-name: posthog-setup
 ---
 
 Set up PostHog product analytics: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [archive, research, documentary, journalism, historical-footage, libraries, museums]
-godnaterra/source: autopunk/research/locations-logistics/archive-institution-finder/SKILL.md
-godnaterra/original-name: archive-institution-finder
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/archive-institution-finder/SKILL.md
+engenharia-ia-aplicada/original-name: archive-institution-finder
 ---
 # Archive Institution Finder
 

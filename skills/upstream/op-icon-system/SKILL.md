@@ -1,8 +1,8 @@
 ---
 name: op-icon-system
 description: Establish or validate the canonical Icon wrapper component, size token scale, stroke weight conventions, and illustration usage standards. Creates src/components/ui/icon.tsx and documents the full icon system. Run once to bootstrap, then as a validator.
-godnaterra/source: joshua/claude/design/icon-system/SKILL.md
-godnaterra/original-name: icon-system
+engenharia-ia-aplicada/source: joshua/claude/design/icon-system/SKILL.md
+engenharia-ia-aplicada/original-name: icon-system
 ---
 
 Establish or validate the canonical icon and illustration system for this project.

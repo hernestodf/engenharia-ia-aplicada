@@ -1,8 +1,8 @@
 ---
 name: op-test-coverage-improver
 description: 'Improve test coverage in the OpenAI Agents JS monorepo: run `pnpm test:coverage`, inspect coverage artifacts, identify low-coverage files and branches, propose high-impact tests, and confirm with the user before writing tests.'
-godnaterra/source: joshua/vendor/skills-openai/test-coverage-improver/SKILL.md
-godnaterra/original-name: test-coverage-improver
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/test-coverage-improver/SKILL.md
+engenharia-ia-aplicada/original-name: test-coverage-improver
 ---
 
 # Test Coverage Improver

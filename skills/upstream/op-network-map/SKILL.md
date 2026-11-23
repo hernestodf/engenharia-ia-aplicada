@@ -1,8 +1,8 @@
 ---
 name: op-network-map
 description: Map relationships, co-authorships, endorsements, and organizational connections across movement leaders. Reads existing per-leader research in docs/movement_leader_research/ and writes a cross-leader graph. Output table schemas align with the `jsh-movement-leader-substrate` Network graph section so per-leader substrate files can be regenerated from this data.
-godnaterra/source: joshua/claude/movemental/network-map/SKILL.md
-godnaterra/original-name: network-map
+engenharia-ia-aplicada/source: joshua/claude/movemental/network-map/SKILL.md
+engenharia-ia-aplicada/original-name: network-map
 ---
 
 > **Relationship to substrate.** Per-leader edges (co-authors, endorsements, organizational affiliations) live inside each leader's `{SLUG}_RESEARCH_COLLATED.md` Section 10 (Network graph). This skill produces the **cross-leader** view — clusters, bridges, isolates — by reading all substrates together. The per-leader edge tables in this skill's output MUST match the substrate's column schema so they can be lifted into a substrate refresh.

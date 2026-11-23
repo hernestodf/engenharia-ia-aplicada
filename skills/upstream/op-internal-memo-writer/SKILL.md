@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.50
 tags: [pr, internal-communications, memo, briefing, staff-update, corporate-comms]
-godnaterra/source: autopunk/pr-communications/content/internal-memo-writer/SKILL.md
-godnaterra/original-name: internal-memo-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/content/internal-memo-writer/SKILL.md
+engenharia-ia-aplicada/original-name: internal-memo-writer
 ---
 # Internal Memo Writer
 

@@ -1,8 +1,8 @@
 ---
 name: op-movemental-leader-corpus-upload
 description: Load a movement leader's research into Supabase movement_leader_corpus_data and the related onboarding tables (corpus_review_items, onboarding_tasks, movement_leader_welcome_letters, organizations.onboarding_state). Runs the research:bridge → etl → publish → publish-letter → verify pipeline that compiles the on-disk research tree (profile/, content/, network/, reflected-understanding) into the typed JSONB columns (identity, biography, theology, voice_analysis, calling_profile, books, articles, audio, videos, frameworks, organizations, reflected_understanding_md). Use this WHENEVER asked to push/load/sync/ETL a movement leader's research or dossier into Supabase, wire up movement_leader_corpus_data, fill empty dossier dimensions (videos, audio, frameworks, "A Letter"/reflected understanding, theology, calling), re-run the corpus pipeline, or onboard a leader's corpus — even if the request says "dossier" or "/profile" rather than "corpus_data". Knows the file→column→parser map and the critical substrate rule (substrate-loaded leaders must be wired via targeted SQL, never re-ETL'd).
-godnaterra/source: joshua/claude/movemental/movemental-leader-corpus-upload/SKILL.md
-godnaterra/original-name: movemental-leader-corpus-upload
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-leader-corpus-upload/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-leader-corpus-upload
 ---
 
 # Movemental Leader Corpus Upload

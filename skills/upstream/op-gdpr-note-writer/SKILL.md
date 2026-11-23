@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.2
 tags: [gdpr, data-protection, privacy, compliance, personal-data]
-godnaterra/source: autopunk/archive-legal/gdpr-note-writer/SKILL.md
-godnaterra/original-name: gdpr-note-writer
+engenharia-ia-aplicada/source: autopunk/archive-legal/gdpr-note-writer/SKILL.md
+engenharia-ia-aplicada/original-name: gdpr-note-writer
 ---
 # GDPR Note Writer
 

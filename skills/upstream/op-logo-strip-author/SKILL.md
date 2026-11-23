@@ -1,8 +1,8 @@
 ---
 name: op-logo-strip-author
 description: Author a complete social proof / logo strip section for an author or leader — copy, grouping strategy, TypeScript content definition, React component spec, CSS/Tailwind implementation, and logo download checklist. Run after affiliation-scrape and affiliation-audit.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-logo-strip-author-2/SKILL.md
-godnaterra/original-name: logo-strip-author
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-logo-strip-author-2/SKILL.md
+engenharia-ia-aplicada/original-name: logo-strip-author
 ---
 
 Author the logo strip section for: dados informados pelo usuario na mensagem

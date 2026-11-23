@@ -1,8 +1,8 @@
 ---
 name: op-tailwind-cleanup-general
 description: Design-agnostic Tailwind best-practice cleanup that conforms to the CURRENT repo's design schema. If the schema is already documented, it enforces it; if not, it first documents the schema as a layered charter (charter → tokens → primitives → components → layouts) by reading the repo, then runs the cleanup and applies fixes. Use whenever a Tailwind/CSS best-practice pass is needed in any repo and you want fixes that stay inside the established design system instead of imposing a new one. Triggers: "clean up the tailwind", "tailwind audit", "make the styling consistent", "enforce the design system", "document then clean up the styles".
-godnaterra/source: joshua/claude/design/tailwind-cleanup-general/SKILL.md
-godnaterra/original-name: tailwind-cleanup-general
+engenharia-ia-aplicada/source: joshua/claude/design/tailwind-cleanup-general/SKILL.md
+engenharia-ia-aplicada/original-name: tailwind-cleanup-general
 ---
 
 Run a best-practice Tailwind cleanup that stays **inside the design system this repo already uses**. This skill is intentionally **design-agnostic**: it does not assume shadcn, Material-3, an "ink" system, CSS-variable arbitrary values, or any particular palette. It discovers what the repo does, treats the *best* of that as the standard, documents it if it isn't already, and then makes the code consistent with it.

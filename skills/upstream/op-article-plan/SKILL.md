@@ -1,8 +1,8 @@
 ---
 name: op-article-plan
 description: Strategically plan a single evergreen article — pillar assignment, keyword targeting, section outline, corpus references, internal link targets, and CTA. Run this before article-author when you want to align on strategy before writing. Use when deciding what to write or how to structure a specific article.
-godnaterra/source: joshua/claude/content/article-plan/SKILL.md
-godnaterra/original-name: article-plan
+engenharia-ia-aplicada/source: joshua/claude/content/article-plan/SKILL.md
+engenharia-ia-aplicada/original-name: article-plan
 ---
 
 Plan an evergreen article about: dados informados pelo usuario na mensagem

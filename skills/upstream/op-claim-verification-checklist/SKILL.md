@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.0
 eval_score: 4.5
 tags: [journalism, fact-checking, verification, editing]
-godnaterra/source: autopunk/magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md
-godnaterra/original-name: claim-verification-checklist
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/fact-checking/claim-verification-checklist/SKILL.md
+engenharia-ia-aplicada/original-name: claim-verification-checklist
 ---
 # Claim Verification Checklist
 

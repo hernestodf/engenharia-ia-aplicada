@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.3
 tags: [social-media, strategy, hashtags, reach, instagram, tiktok, discoverability]
-godnaterra/source: autopunk/social-media/strategy/hashtag-strategy-writer/SKILL.md
-godnaterra/original-name: hashtag-strategy-writer
+engenharia-ia-aplicada/source: autopunk/social-media/strategy/hashtag-strategy-writer/SKILL.md
+engenharia-ia-aplicada/original-name: hashtag-strategy-writer
 ---
 # Hashtag Strategy Writer
 

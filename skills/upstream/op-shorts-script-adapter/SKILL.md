@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.1
 eval_score: 4.5
 tags: [youtube, scripting, shorts, vertical-video, short-form, adaptation]
-godnaterra/source: autopunk/youtube/scripting/shorts-script-adapter/SKILL.md
-godnaterra/original-name: shorts-script-adapter
+engenharia-ia-aplicada/source: autopunk/youtube/scripting/shorts-script-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: shorts-script-adapter
 ---
 # Shorts Script Adapter
 

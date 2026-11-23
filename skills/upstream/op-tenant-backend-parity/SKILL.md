@@ -11,8 +11,8 @@ description: >
   flags vs db", "verify tenant org", or finishes the stitch UI and needs live data.
   Tenant-agnostic: org id, project id, reference repo, and leak patterns come from
   TENANT_MANIFEST.md. Delegates to tenant-migrate, type-safety-chain, validate, tenant-check.
-godnaterra/source: joshua/claude/movemental/tenant-backend-parity/SKILL.md
-godnaterra/original-name: tenant-backend-parity
+engenharia-ia-aplicada/source: joshua/claude/movemental/tenant-backend-parity/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-backend-parity
 ---
 
 # Tenant backend parity

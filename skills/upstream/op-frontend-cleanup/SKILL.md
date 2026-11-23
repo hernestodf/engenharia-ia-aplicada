@@ -9,8 +9,8 @@ description: Audit a React/Next.js codebase for unused components, -v2 naming de
   - "Grep"
   - "Agent"
   - "TodoWrite"
-godnaterra/source: joshua/claude/design/frontend-cleanup/SKILL.md
-godnaterra/original-name: frontend-cleanup
+engenharia-ia-aplicada/source: joshua/claude/design/frontend-cleanup/SKILL.md
+engenharia-ia-aplicada/original-name: frontend-cleanup
 ---
 
 # Frontend Component Cleanup

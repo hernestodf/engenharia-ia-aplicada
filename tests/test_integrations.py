@@ -96,7 +96,7 @@ class SkillsIntegradasTest(unittest.TestCase):
             self.assertTrue(md.is_file(), md)
             texto = md.read_text(encoding="utf-8")
             self.assertIn(f"name: {nome}", texto)
-            self.assertIn("godnaterra/layer: core", texto)
+            self.assertIn("engenharia-ia-aplicada/layer: core", texto)
             self.assertIn("pendente", texto)
 
     def test_preflight_nao_instala(self) -> None:

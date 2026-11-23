@@ -1,8 +1,8 @@
 ---
 name: op-design-audit
 description: Audit a page or component against the Digital Curator design spec (DESIGN.md) and movemental project conventions. Use to check visual quality, accessibility, token compliance, and consistency before shipping.
-godnaterra/source: joshua/claude/design/jsh-design-audit-2/SKILL.md
-godnaterra/original-name: design-audit
+engenharia-ia-aplicada/source: joshua/claude/design/jsh-design-audit-2/SKILL.md
+engenharia-ia-aplicada/original-name: design-audit
 ---
 
 Audit the specified file(s) against movemental design quality standards.

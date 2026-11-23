@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [interview, location, pre-production, documentary, journalism, recce, production-design]
-godnaterra/source: autopunk/research/locations-logistics/interview-location-researcher/SKILL.md
-godnaterra/original-name: interview-location-researcher
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/interview-location-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: interview-location-researcher
 ---
 # Interview Location Researcher
 

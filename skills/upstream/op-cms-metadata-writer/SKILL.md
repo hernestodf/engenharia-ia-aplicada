@@ -7,8 +7,8 @@ subcategory: formatting
 version: 1.0
 eval_score: 4.44
 tags: [production-support, CMS, metadata, publishing, web, SEO]
-godnaterra/source: autopunk/production-support/formatting/cms-metadata-writer/SKILL.md
-godnaterra/original-name: cms-metadata-writer
+engenharia-ia-aplicada/source: autopunk/production-support/formatting/cms-metadata-writer/SKILL.md
+engenharia-ia-aplicada/original-name: cms-metadata-writer
 ---
 # CMS Metadata Writer
 

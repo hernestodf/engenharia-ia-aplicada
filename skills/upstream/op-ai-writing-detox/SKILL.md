@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.8
 tags: [editing, voice, ai-slop, plain-language, copy-editing, house-style]
-godnaterra/source: autopunk/editing/ai-writing-detox/SKILL.md
-godnaterra/original-name: ai-writing-detox
+engenharia-ia-aplicada/source: autopunk/editing/ai-writing-detox/SKILL.md
+engenharia-ia-aplicada/original-name: ai-writing-detox
 ---
 # AI Writing Detox
 

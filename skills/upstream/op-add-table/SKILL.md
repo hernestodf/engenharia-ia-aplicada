@@ -1,8 +1,8 @@
 ---
 name: op-add-table
 description: Add a new database table and generate all six layers. Use when adding a new entity to the platform.
-godnaterra/source: joshua/claude/codegen/add-table/SKILL.md
-godnaterra/original-name: add-table
+engenharia-ia-aplicada/source: joshua/claude/codegen/add-table/SKILL.md
+engenharia-ia-aplicada/original-name: add-table
 ---
 
 Add a new entity to the platform by working bottom-up through all six layers.

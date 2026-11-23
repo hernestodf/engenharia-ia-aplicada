@@ -7,8 +7,8 @@ subcategory: audience-distribution
 version: 1.0
 eval_score: 4.2
 tags: [headlines, a/b-testing, click-through, SEO, digital-publishing]
-godnaterra/source: autopunk/audience-distribution/headline-ab-variants-writer/SKILL.md
-godnaterra/original-name: headline-ab-variants-writer
+engenharia-ia-aplicada/source: autopunk/audience-distribution/headline-ab-variants-writer/SKILL.md
+engenharia-ia-aplicada/original-name: headline-ab-variants-writer
 ---
 # Headline A/B Variants Writer
 

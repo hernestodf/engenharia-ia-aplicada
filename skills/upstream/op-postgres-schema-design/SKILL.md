@@ -1,8 +1,8 @@
 ---
 name: op-postgres-schema-design
 description: Comprehensive PostgreSQL-specific table design reference covering data types, indexing, constraints, performance patterns, and advanced features
-godnaterra/source: joshua/claude/infrastructure/postgres-schema-design/SKILL.md
-godnaterra/original-name: postgres-schema-design
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/postgres-schema-design/SKILL.md
+engenharia-ia-aplicada/original-name: postgres-schema-design
 ---
 
 # PostgreSQL Table Design

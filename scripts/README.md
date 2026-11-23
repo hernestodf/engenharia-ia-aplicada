@@ -21,7 +21,7 @@ python3 scripts/generate_manifest.py --check
 
 | Script | Função |
 |---|---|
-| `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__GODNATERRA_ROOT__`. `--apply` é o modo legado global. |
+| `generate_adapters.py` | Gera `adapters/opencode/generated/opencode.json` e `adapters/claude-code/generated/install-skills.sh` a partir da fonte canônica. Usa token `__EIA_ROOT__`. `--apply` é o modo legado global. |
 
 Nunca edite `adapters/*/generated/` na mão.
 
@@ -29,7 +29,7 @@ Nunca edite `adapters/*/generated/` na mão.
 
 | Script | Função |
 |---|---|
-| `godnaterra.py` | CLI `version`, `audit`, `status`, `doctor`, `init`, `update`. Tudo read-only a menos que `--apply`. |
+| `eia.py` | CLI `version`, `audit`, `status`, `doctor`, `init`, `update`. Tudo read-only a menos que `--apply`. |
 
 ## Validação
 
@@ -44,7 +44,7 @@ Nunca edite `adapters/*/generated/` na mão.
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/verify_adapters.py
-python3 scripts/godnaterra.py audit
+python3 scripts/eia.py audit
 python3 scripts/run_evals.py --provider none --no-record
 python3 scripts/run_evals.py --suite tasks --provider none --no-record
 ```
@@ -53,5 +53,5 @@ python3 scripts/run_evals.py --suite tasks --provider none --no-record
 
 - Nenhum script apaga arquivos, faz deploy, reindexa ou rotaciona segredo sem autorização explícita.
 - `install.py` falha fechado se o manifesto divergir.
-- Backups são timestampados (`*.bak-godnaterra-<UTC>`).
-- Nenhuma skill externa é executada sem o gate do `godnaterra-qa-security`.
+- Backups são timestampados (`*.bak-eia-<UTC>`).
+- Nenhuma skill externa é executada sem o gate do `eia-qa-security`.

@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.2
 tags: [comments, audience-feedback, reader-engagement, editorial, community]
-godnaterra/source: autopunk/audience-distribution/reader-comments-analyzer/SKILL.md
-godnaterra/original-name: reader-comments-analyzer
+engenharia-ia-aplicada/source: autopunk/audience-distribution/reader-comments-analyzer/SKILL.md
+engenharia-ia-aplicada/original-name: reader-comments-analyzer
 ---
 # Reader Comments Analyzer
 

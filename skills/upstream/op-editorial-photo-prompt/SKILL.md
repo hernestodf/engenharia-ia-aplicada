@@ -7,8 +7,8 @@ subcategory: flux
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, flux, editorial, photography, journalism, documentary]
-godnaterra/source: autopunk/image-prompting/flux/editorial-photo-prompt/SKILL.md
-godnaterra/original-name: editorial-photo-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/flux/editorial-photo-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: editorial-photo-prompt
 ---
 # Editorial Photo Prompt
 

@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [grant, funding, application, journalism, narrative, investigative]
-godnaterra/source: autopunk/writing/institutional/journalism-grant-application-writer/SKILL.md
-godnaterra/original-name: journalism-grant-application-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/journalism-grant-application-writer/SKILL.md
+engenharia-ia-aplicada/original-name: journalism-grant-application-writer
 ---
 # Journalism Grant Application Writer
 

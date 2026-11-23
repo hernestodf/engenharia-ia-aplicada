@@ -1,8 +1,8 @@
 ---
 name: op-video-researcher
 description: Research real-world statistics, insights, and compelling data about online courses, completion rates, learning effectiveness, and transformative education — then organize findings into suggested video components, script lines, and data visualizations for course explainer videos. Use before scripting or updating video content.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-video-researcher-2/SKILL.md
-godnaterra/original-name: video-researcher
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-video-researcher-2/SKILL.md
+engenharia-ia-aplicada/original-name: video-researcher
 ---
 
 Research for transformative course videos: dados informados pelo usuario na mensagem

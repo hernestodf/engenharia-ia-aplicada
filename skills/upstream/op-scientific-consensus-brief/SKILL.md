@@ -7,8 +7,8 @@ subcategory: academic
 version: 1.0
 eval_score: 4.44
 tags: [research, science, consensus, evidence, analysis, academic]
-godnaterra/source: autopunk/research/academic/scientific-consensus-brief/SKILL.md
-godnaterra/original-name: scientific-consensus-brief
+engenharia-ia-aplicada/source: autopunk/research/academic/scientific-consensus-brief/SKILL.md
+engenharia-ia-aplicada/original-name: scientific-consensus-brief
 ---
 # Scientific Consensus Brief
 

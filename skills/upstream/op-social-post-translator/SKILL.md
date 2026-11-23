@@ -7,8 +7,8 @@ subcategory: digital
 version: 1.0
 eval_score: 4.33
 tags: [translation, social-media, digital, adaptation, platforms, localization]
-godnaterra/source: autopunk/translation/digital/social-post-translator/SKILL.md
-godnaterra/original-name: social-post-translator
+engenharia-ia-aplicada/source: autopunk/translation/digital/social-post-translator/SKILL.md
+engenharia-ia-aplicada/original-name: social-post-translator
 ---
 # Social Post Translator
 

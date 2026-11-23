@@ -1,8 +1,8 @@
 ---
 name: op-auth-setup
 description: "Set up Supabase Auth for Next.js 15 (App Router) or Vite + React — sign-up, sign-in, OAuth providers, session middleware, protected routes, RLS user scoping, and auth UI components. Handles both frameworks with SSR-safe cookie patterns. Use when bootstrapping auth on any new project."
-godnaterra/source: joshua/claude/infrastructure/auth-setup/SKILL.md
-godnaterra/original-name: auth-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/auth-setup/SKILL.md
+engenharia-ia-aplicada/original-name: auth-setup
 ---
 
 Set up Supabase Auth: dados informados pelo usuario na mensagem

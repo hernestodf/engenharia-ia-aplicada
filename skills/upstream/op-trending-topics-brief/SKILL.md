@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [trending, editorial-planning, beat-reporting, story-discovery, audience-signals]
-godnaterra/source: autopunk/research/media-competitive/trending-topics-brief/SKILL.md
-godnaterra/original-name: trending-topics-brief
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/trending-topics-brief/SKILL.md
+engenharia-ia-aplicada/original-name: trending-topics-brief
 ---
 # Trending Topics Brief
 

@@ -1,8 +1,8 @@
 ---
 name: op-studio-prompt
 description: Generate a complete AI Studio prompt package — System Instructions, Build Prompt, and Iteration Templates — for any UI feature or app. Uses intent-first prompting so AI Studio acts as the expert designer: business goals and mood direction, never hex codes or Tailwind classes.
-godnaterra/source: joshua/claude/studio/studio-prompt/SKILL.md
-godnaterra/original-name: studio-prompt
+engenharia-ia-aplicada/source: joshua/claude/studio/studio-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: studio-prompt
 ---
 
 Generate a complete AI Studio prompt package for: dados informados pelo usuario na mensagem

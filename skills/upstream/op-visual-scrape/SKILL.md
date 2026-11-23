@@ -1,8 +1,8 @@
 ---
 name: op-visual-scrape
 description: Extract visuals (charts, diagrams, illustrations) from a PDF book and generate contextual markdown — each image paired with what it communicates and why it matters in context. Use when scraping book visuals.
-godnaterra/source: joshua/claude/research/visual-scrape/SKILL.md
-godnaterra/original-name: visual-scrape
+engenharia-ia-aplicada/source: joshua/claude/research/visual-scrape/SKILL.md
+engenharia-ia-aplicada/original-name: visual-scrape
 ---
 
 Extract visuals from a PDF book and contextualize them: dados informados pelo usuario na mensagem

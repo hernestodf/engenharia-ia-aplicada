@@ -1,8 +1,8 @@
 ---
 name: op-type-safety-chain
 description: "Implement the full six-layer type safety chain in a new project — DB → Drizzle schema → Zod schemas → services → API routes → React hooks. Installs dependencies, writes all infrastructure files, generates all layers from the live database, and validates each layer bottom-up. Use for new projects that need this architecture from scratch, or to verify and repair an existing chain. Supabase MCP required for DB verification."
-godnaterra/source: joshua/claude/infrastructure/type-safety-chain/SKILL.md
-godnaterra/original-name: type-safety-chain
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/type-safety-chain/SKILL.md
+engenharia-ia-aplicada/original-name: type-safety-chain
 ---
 
 Implement the full type safety chain for: dados informados pelo usuario na mensagem

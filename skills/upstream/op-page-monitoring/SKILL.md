@@ -7,8 +7,8 @@ subcategory: preservation
 version: 1.0
 eval_score: 4.90
 tags: [journalism, monitoring, change-detection, alerts, investigation, web-tracking]
-godnaterra/source: autopunk/research/preservation/page-monitoring/SKILL.md
-godnaterra/original-name: page-monitoring
+engenharia-ia-aplicada/source: autopunk/research/preservation/page-monitoring/SKILL.md
+engenharia-ia-aplicada/original-name: page-monitoring
 ---
 # Page monitoring
 

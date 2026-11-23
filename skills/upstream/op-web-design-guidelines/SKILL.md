@@ -1,8 +1,8 @@
 ---
 name: op-web-design-guidelines
 description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
-godnaterra/source: joshua/claude/design/web-design-guidelines/SKILL.md
-godnaterra/original-name: web-design-guidelines
+engenharia-ia-aplicada/source: joshua/claude/design/web-design-guidelines/SKILL.md
+engenharia-ia-aplicada/original-name: web-design-guidelines
 ---
 
 # Web Interface Guidelines

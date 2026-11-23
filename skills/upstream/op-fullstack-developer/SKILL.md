@@ -6,8 +6,8 @@ description: |
   deploying web apps, or when user mentions React, Next.js, Express, REST API, GraphQL, MongoDB,
   PostgreSQL, or full-stack development.
 license: MIT
-godnaterra/source: joshua/claude/codegen/fullstack-developer/SKILL.md
-godnaterra/original-name: fullstack-developer
+engenharia-ia-aplicada/source: joshua/claude/codegen/fullstack-developer/SKILL.md
+engenharia-ia-aplicada/original-name: fullstack-developer
 ---
 
 # Full-Stack Developer

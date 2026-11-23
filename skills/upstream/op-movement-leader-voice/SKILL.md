@@ -1,8 +1,8 @@
 ---
 name: op-movement-leader-voice
 description: Author the canonical voice & style guide for a movement leader at `docs/voice/{SLUG}_VOICE.md` — a self-contained, corpus-grounded reference (five weighted voice markers, prose character, signature rhetoric, failure modes, argument patterns, signature phrases, citation habits, audit rubric, and sample passages) describing how this leader sounds, on their own terms, not by comparison to anyone else. Run inside a leader's website repo against `docs/books/`, `docs/movement_leader_research/`, and any other content. Use when standing up or refreshing a leader's voice identity for Writing Studio, AI Lab, agents, and human editors. Distinct from the Movemental company voice ([[movemental-voice]]) and the generic [[voice-designer]]. Reference implementation is the brad-brisco repo.
-godnaterra/source: joshua/claude/movemental/movement-leader-voice/SKILL.md
-godnaterra/original-name: movement-leader-voice
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-voice/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-voice
 ---
 
 # Movement Leader Voice

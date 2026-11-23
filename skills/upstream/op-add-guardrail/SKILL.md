@@ -1,8 +1,8 @@
 ---
 name: op-add-guardrail
 description: Add input or output guardrails to an agent — use when asked to validate, filter, or protect agent input/output, block unwanted content, enforce domain scope, or add rate limiting to agent requests.
-godnaterra/source: joshua/claude/agents/add-guardrail/SKILL.md
-godnaterra/original-name: add-guardrail
+engenharia-ia-aplicada/source: joshua/claude/agents/add-guardrail/SKILL.md
+engenharia-ia-aplicada/original-name: add-guardrail
 ---
 
 Add guardrails to an agent: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.3
 tags: [media-business, legal, releases, production, talent, location]
-godnaterra/source: autopunk/media-business/legal/release-form-writer/SKILL.md
-godnaterra/original-name: release-form-writer
+engenharia-ia-aplicada/source: autopunk/media-business/legal/release-form-writer/SKILL.md
+engenharia-ia-aplicada/original-name: release-form-writer
 ---
 # Release Form Writer
 

@@ -7,8 +7,8 @@ subcategory: visualization
 version: 1.0
 eval_score: 4.4
 tags: [infographic, design brief, data visualization, visual journalism]
-godnaterra/source: autopunk/data-journalism/visualization/infographic-brief/SKILL.md
-godnaterra/original-name: infographic-brief
+engenharia-ia-aplicada/source: autopunk/data-journalism/visualization/infographic-brief/SKILL.md
+engenharia-ia-aplicada/original-name: infographic-brief
 ---
 # Infographic Brief
 

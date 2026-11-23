@@ -1,8 +1,8 @@
 ---
 name: op-course-scaffold
 description: Scaffold a new 8-week course with all canonical section types, database rows, and optional markdown file structure. Use when creating a new course from scratch.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-course-scaffold-2/SKILL.md
-godnaterra/original-name: course-scaffold
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-course-scaffold-2/SKILL.md
+engenharia-ia-aplicada/original-name: course-scaffold
 ---
 
 Scaffold a new course: dados informados pelo usuario na mensagem

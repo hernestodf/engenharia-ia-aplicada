@@ -2,8 +2,8 @@
 name: op-nano-banana-pro
 description: Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro). Use when the user asks to create an image, generate a picture, produce AI-generated artwork, edit a photo, compose multiple images, or upscale an image to higher resolution. Supports text-to-image generation, single-image editing, and multi-image composition using the Gemini API.
 homepage: https://ai.google.dev/
-godnaterra/source: joshua/claude/assets/nano-banana-pro/SKILL.md
-godnaterra/original-name: nano-banana-pro
+engenharia-ia-aplicada/source: joshua/claude/assets/nano-banana-pro/SKILL.md
+engenharia-ia-aplicada/original-name: nano-banana-pro
 ---
 
 # Nano Banana Pro (Gemini 3 Pro Image)

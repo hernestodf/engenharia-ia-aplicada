@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.4
 tags: [youtube, pre-production, thumbnails, visual, design-brief]
-godnaterra/source: autopunk/youtube/pre-production/thumbnail-concept-brief/SKILL.md
-godnaterra/original-name: thumbnail-concept-brief
+engenharia-ia-aplicada/source: autopunk/youtube/pre-production/thumbnail-concept-brief/SKILL.md
+engenharia-ia-aplicada/original-name: thumbnail-concept-brief
 ---
 # Thumbnail Concept Brief
 

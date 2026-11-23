@@ -1,8 +1,8 @@
 ---
 name: op-env-setup
 description: "Scaffold and validate environment variables for Next.js 15 or Vite + Express — Zod-validated env schema, .env.example with all required vars, runtime validation that fails fast on missing values, and a check:env script. Use when starting a new project or auditing env var hygiene."
-godnaterra/source: joshua/claude/infrastructure/env-setup/SKILL.md
-godnaterra/original-name: env-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/env-setup/SKILL.md
+engenharia-ia-aplicada/original-name: env-setup
 ---
 
 Set up environment variable validation: dados informados pelo usuario na mensagem

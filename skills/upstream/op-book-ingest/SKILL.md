@@ -9,8 +9,8 @@ description: >
   chapters whose `content_sha256` changed. Use after `/book-frontmatter`
   passes Zod validation. Trigger phrases: "ingest into supabase", "upsert
   the book", "phase 03", "load the corpus into the database".
-godnaterra/source: joshua/claude/content/book-ingest/SKILL.md
-godnaterra/original-name: book-ingest
+engenharia-ia-aplicada/source: joshua/claude/content/book-ingest/SKILL.md
+engenharia-ia-aplicada/original-name: book-ingest
 ---
 
 # Book Ingest — Phase 03: MDX → Supabase

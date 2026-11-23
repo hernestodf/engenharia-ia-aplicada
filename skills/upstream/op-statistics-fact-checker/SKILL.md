@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.1
 eval_score: 4.60
 tags: [journalism, fact-checking, statistics, data, numeracy]
-godnaterra/source: autopunk/magazine-journalism/fact-checking/statistics-fact-checker/SKILL.md
-godnaterra/original-name: statistics-fact-checker
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/fact-checking/statistics-fact-checker/SKILL.md
+engenharia-ia-aplicada/original-name: statistics-fact-checker
 ---
 # Statistics Fact Checker
 

@@ -1,15 +1,15 @@
 ---
-name: op-godnaterra-delivery
-description: Orienta instalação, modos, rollback e limites de entrega do pacote Godnaterra. Use antes de instalar adaptadores, trocar modo ou mexer em config global.
-godnaterra/layer: core
-godnaterra/source: canonical
+name: op-eia-delivery
+description: Orienta instalação, modos, rollback e limites de entrega do pacote EngenhariaIaAplicada. Use antes de instalar adaptadores, trocar modo ou mexer em config global.
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
-# Entrega Godnaterra
+# Entrega EngenhariaIaAplicada
 
 ## Modos
 
-`god` / `godnaterra` = todas as skills visíveis. `curated` = subconjunto. `status` = relatório. Ver `skill_mode.py` e `docs/guides/INSTALL.md`.
+`god` / `EngenhariaIaAplicada` = todas as skills visíveis. `curated` = subconjunto. `status` = relatório. Ver `skill_mode.py` e `docs/guides/INSTALL.md`.
 
 ## Instalação segura
 
@@ -20,7 +20,7 @@ godnaterra/source: canonical
 
 ## Rollback
 
-- OpenCode: `opencode.json.bak-godnaterra-*`.
+- OpenCode: `opencode.json.bak-eia-*`.
 - Claude: remover symlinks `~/.claude/skills/op-*`; fonte canônica intacta.
 - Packs originais (`autopunk`, `joshua`, `techsaurabh`) preservados como trilha de retorno.
 

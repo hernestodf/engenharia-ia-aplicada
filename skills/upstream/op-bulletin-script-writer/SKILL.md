@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [radio, scripting, news, bulletin, broadcast]
-godnaterra/source: autopunk/radio-audio/scripting/bulletin-script-writer/SKILL.md
-godnaterra/original-name: bulletin-script-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/scripting/bulletin-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: bulletin-script-writer
 ---
 # Bulletin Script Writer
 

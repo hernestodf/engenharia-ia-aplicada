@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.5
 tags: [pr, content, speech, keynote, spokesperson]
-godnaterra/source: autopunk/pr-communications/content/speech-writer/SKILL.md
-godnaterra/original-name: speech-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/content/speech-writer/SKILL.md
+engenharia-ia-aplicada/original-name: speech-writer
 ---
 # Speech Writer
 

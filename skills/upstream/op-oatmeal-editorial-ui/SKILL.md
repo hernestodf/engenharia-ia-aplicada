@@ -9,8 +9,8 @@ description: >
   Keywords: oatmeal, cream paper, Playfair Display, Inter, pill CTA, surface
   tiers, hairlines, terminal period, ml- components, design chain, static HTML,
   reveal-on-scroll, data-theme oatmeal.
-godnaterra/source: joshua/claude/design/oatmeal-editorial-ui/SKILL.md
-godnaterra/original-name: oatmeal-editorial-ui
+engenharia-ia-aplicada/source: joshua/claude/design/oatmeal-editorial-ui/SKILL.md
+engenharia-ia-aplicada/original-name: oatmeal-editorial-ui
 ---
 
 # Oatmeal Editorial UI (movemental-html-template)

@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.5
 tags: [data, story development, analysis, news judgement]
-godnaterra/source: autopunk/data-journalism/analysis/data-story-finder/SKILL.md
-godnaterra/original-name: data-story-finder
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/data-story-finder/SKILL.md
+engenharia-ia-aplicada/original-name: data-story-finder
 ---
 # Data Story Finder
 

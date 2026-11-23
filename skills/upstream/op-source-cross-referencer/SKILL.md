@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [fact-checking, sourcing, verification, research, credibility]
-godnaterra/source: autopunk/research/facts-context/source-cross-referencer/SKILL.md
-godnaterra/original-name: source-cross-referencer
+engenharia-ia-aplicada/source: autopunk/research/facts-context/source-cross-referencer/SKILL.md
+engenharia-ia-aplicada/original-name: source-cross-referencer
 ---
 # Source Cross-Referencer
 

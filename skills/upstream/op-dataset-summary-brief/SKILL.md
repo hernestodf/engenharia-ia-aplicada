@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.4
 tags: [datasets, briefing, data overview, story development]
-godnaterra/source: autopunk/data-journalism/analysis/dataset-summary-brief/SKILL.md
-godnaterra/original-name: dataset-summary-brief
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/dataset-summary-brief/SKILL.md
+engenharia-ia-aplicada/original-name: dataset-summary-brief
 ---
 # Dataset Summary Brief
 

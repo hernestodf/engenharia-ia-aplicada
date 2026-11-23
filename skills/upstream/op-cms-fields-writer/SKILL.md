@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [cms, metadata, tags, categories, keywords, content management, publishing workflow]
-godnaterra/source: autopunk/archive-legal/cms-fields-writer/SKILL.md
-godnaterra/original-name: cms-fields-writer
+engenharia-ia-aplicada/source: autopunk/archive-legal/cms-fields-writer/SKILL.md
+engenharia-ia-aplicada/original-name: cms-fields-writer
 ---
 # CMS Fields Writer
 

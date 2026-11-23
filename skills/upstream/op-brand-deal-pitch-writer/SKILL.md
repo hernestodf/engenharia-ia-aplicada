@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [youtube, business, brand-deals, sponsorship, outreach, monetization]
-godnaterra/source: autopunk/youtube/business/brand-deal-pitch-writer/SKILL.md
-godnaterra/original-name: brand-deal-pitch-writer
+engenharia-ia-aplicada/source: autopunk/youtube/business/brand-deal-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: brand-deal-pitch-writer
 ---
 # Brand Deal Pitch Writer
 

@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.4
 tags: [podcast, pre-production, concepts, episode-planning, ideation]
-godnaterra/source: autopunk/podcast/pre-production/episode-concept-generator/SKILL.md
-godnaterra/original-name: episode-concept-generator
+engenharia-ia-aplicada/source: autopunk/podcast/pre-production/episode-concept-generator/SKILL.md
+engenharia-ia-aplicada/original-name: episode-concept-generator
 ---
 # Episode Concept Generator
 

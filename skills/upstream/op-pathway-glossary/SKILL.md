@@ -1,8 +1,8 @@
 ---
 name: op-pathway-glossary
 description: Generate glossary terms for an Alan Hirsch pathway page. Produces 5–10 movemental vocabulary definitions drawn from Alan's books, using his language, linked to the full glossary. These are the terms a reader needs to inhabit this pathway — not a dictionary, but a language school.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-glossary/SKILL.md
-godnaterra/original-name: pathway-glossary
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-glossary/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-glossary
 ---
 
 Generate glossary terms for: dados informados pelo usuario na mensagem

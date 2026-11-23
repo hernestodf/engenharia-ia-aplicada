@@ -1,8 +1,8 @@
 ---
 name: op-responsive-audit
 description: Audit and fix responsiveness issues for movemental — breakpoint coverage, layout collapse, touch targets, typography scaling, overflow, and navigation. Enforces mobile-first design for Next.js 16 + Tailwind v4.
-godnaterra/source: joshua/claude/design/jsh-responsive-audit-2/SKILL.md
-godnaterra/original-name: responsive-audit
+engenharia-ia-aplicada/source: joshua/claude/design/jsh-responsive-audit-2/SKILL.md
+engenharia-ia-aplicada/original-name: responsive-audit
 ---
 
 Audit and fix responsiveness across the specified section or page(s).

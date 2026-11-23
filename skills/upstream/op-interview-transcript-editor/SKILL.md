@@ -7,8 +7,8 @@ subcategory: writing
 version: 2.0
 eval_score: 4.5
 tags: [journalism, writing, transcript, interview, editing, Q&A, broadcast, fact-check, quotes, ethics]
-godnaterra/source: autopunk/magazine-journalism/writing/interview-transcript-editor/SKILL.md
-godnaterra/original-name: interview-transcript-editor
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/interview-transcript-editor/SKILL.md
+engenharia-ia-aplicada/original-name: interview-transcript-editor
 ---
 # Interview Transcript Editor
 

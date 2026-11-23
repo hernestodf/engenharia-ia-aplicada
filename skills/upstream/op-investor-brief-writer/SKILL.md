@@ -7,8 +7,8 @@ subcategory: funding
 version: 1.0
 eval_score: 4.3
 tags: [media-business, funding, investors, business, commercial, revenue]
-godnaterra/source: autopunk/media-business/funding/investor-brief-writer/SKILL.md
-godnaterra/original-name: investor-brief-writer
+engenharia-ia-aplicada/source: autopunk/media-business/funding/investor-brief-writer/SKILL.md
+engenharia-ia-aplicada/original-name: investor-brief-writer
 ---
 # Investor Brief Writer
 

@@ -12,8 +12,8 @@ description: >
   Use after `/book-convert` + `/book-validate` complete, or before re-uploading
   to the OpenAI vector store. Trigger phrases: "audit this book", "grade the
   conversion", "BookQuality audit", "is this corpus production-ready".
-godnaterra/source: joshua/claude/content/book-audit/SKILL.md
-godnaterra/original-name: book-audit
+engenharia-ia-aplicada/source: joshua/claude/content/book-audit/SKILL.md
+engenharia-ia-aplicada/original-name: book-audit
 ---
 
 # Book Quality Audit — BookQuality Auditor v1.0

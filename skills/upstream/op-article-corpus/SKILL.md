@@ -1,8 +1,8 @@
 ---
 name: op-article-corpus
 description: Look up passages, themes, and arguments from Alan Hirsch's book corpus — both from the local markdown files and the Supabase database. Use when researching what Alan actually says about a topic before writing an article. Returns quoted passages with proper citations.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-article-corpus-2/SKILL.md
-godnaterra/original-name: article-corpus
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-article-corpus-2/SKILL.md
+engenharia-ia-aplicada/original-name: article-corpus
 ---
 
 Find what Alan Hirsch says about: dados informados pelo usuario na mensagem

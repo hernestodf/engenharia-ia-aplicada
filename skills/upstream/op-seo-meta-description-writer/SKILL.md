@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.39
 tags: [social-media, SEO, meta-descriptions, web, search, SERP, click-through]
-godnaterra/source: autopunk/social-media/content/seo-meta-description-writer/SKILL.md
-godnaterra/original-name: seo-meta-description-writer
+engenharia-ia-aplicada/source: autopunk/social-media/content/seo-meta-description-writer/SKILL.md
+engenharia-ia-aplicada/original-name: seo-meta-description-writer
 ---
 # SEO Meta Description Writer
 

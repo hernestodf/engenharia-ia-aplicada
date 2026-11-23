@@ -1,8 +1,8 @@
 ---
 name: op-author-content
 description: Write course content for a specific element (M.N.X) of a transformational course — readings, video scripts, reflection questions, exercises, discussion prompts, and more. Use when authoring or generating course content for a specific week and element code.
-godnaterra/source: joshua/claude/content/author-content/SKILL.md
-godnaterra/original-name: author-content
+engenharia-ia-aplicada/source: joshua/claude/content/author-content/SKILL.md
+engenharia-ia-aplicada/original-name: author-content
 ---
 
 Author course content: dados informados pelo usuario na mensagem

@@ -8,8 +8,8 @@ description: >
   Done, Iteration — plus role, output format, guardrails, and a closed-loop
   acceptance protocol. Interprets confidently; asks only when truly ambiguous;
   iterates with the user until the Definition of Done is met.
-godnaterra/source: joshua/claude/codegen/build-prompt/SKILL.md
-godnaterra/original-name: build-prompt
+engenharia-ia-aplicada/source: joshua/claude/codegen/build-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: build-prompt
 ---
 
 # build-prompt

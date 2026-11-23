@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [science, research, plain-language, explainer, journalism]
-godnaterra/source: autopunk/research/scientific-academic/paper-plain-language-summary/SKILL.md
-godnaterra/original-name: paper-plain-language-summary
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/paper-plain-language-summary/SKILL.md
+engenharia-ia-aplicada/original-name: paper-plain-language-summary
 ---
 # Paper Plain Language Summary
 

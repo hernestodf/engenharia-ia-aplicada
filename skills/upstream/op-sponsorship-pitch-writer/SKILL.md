@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [podcast, business, sponsorship, monetization, pitch]
-godnaterra/source: autopunk/podcast/business/sponsorship-pitch-writer/SKILL.md
-godnaterra/original-name: sponsorship-pitch-writer
+engenharia-ia-aplicada/source: autopunk/podcast/business/sponsorship-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: sponsorship-pitch-writer
 ---
 # Sponsorship Pitch Writer
 

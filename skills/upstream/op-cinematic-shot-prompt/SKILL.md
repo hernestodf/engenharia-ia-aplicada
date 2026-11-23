@@ -7,8 +7,8 @@ subcategory: midjourney
 version: 1.0
 eval_score: 4.5
 tags: [image-prompting, midjourney, cinematic, film-grammar, visual-storytelling]
-godnaterra/source: autopunk/image-prompting/midjourney/cinematic-shot-prompt/SKILL.md
-godnaterra/original-name: cinematic-shot-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/midjourney/cinematic-shot-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: cinematic-shot-prompt
 ---
 # Cinematic Shot Prompt
 

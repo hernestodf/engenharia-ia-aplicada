@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [style-guide, script, broadcast, editing, consistency]
-godnaterra/source: autopunk/editing/script-style-guide-checker/SKILL.md
-godnaterra/original-name: script-style-guide-checker
+engenharia-ia-aplicada/source: autopunk/editing/script-style-guide-checker/SKILL.md
+engenharia-ia-aplicada/original-name: script-style-guide-checker
 ---
 # Script Style Guide Checker
 

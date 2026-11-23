@@ -1,8 +1,8 @@
 ---
 name: op-agent-guardrail
 description: Add input/output guardrails to an agent pipeline — validation, content filtering, safety rules. Use when adding safety or quality gates to agents.
-godnaterra/source: joshua/claude/agents/agent-guardrail/SKILL.md
-godnaterra/original-name: agent-guardrail
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-guardrail/SKILL.md
+engenharia-ia-aplicada/original-name: agent-guardrail
 ---
 
 Add guardrails to an agent: dados informados pelo usuario na mensagem

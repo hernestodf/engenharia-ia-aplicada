@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.1
 eval_score: 4.60
 tags: [journalism, investigation, timeline, research, chronology]
-godnaterra/source: autopunk/magazine-journalism/investigation/investigation-timeline-builder/SKILL.md
-godnaterra/original-name: investigation-timeline-builder
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/investigation-timeline-builder/SKILL.md
+engenharia-ia-aplicada/original-name: investigation-timeline-builder
 ---
 # Investigation Timeline Builder
 

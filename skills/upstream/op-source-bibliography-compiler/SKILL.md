@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.44
 tags: [business, legal, bibliography, sources, documentation, fact-checking, editorial-records]
-godnaterra/source: autopunk/media-business/legal/source-bibliography-compiler/SKILL.md
-godnaterra/original-name: source-bibliography-compiler
+engenharia-ia-aplicada/source: autopunk/media-business/legal/source-bibliography-compiler/SKILL.md
+engenharia-ia-aplicada/original-name: source-bibliography-compiler
 ---
 # Source Bibliography Compiler
 

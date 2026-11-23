@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.83
 tags: [journalism, news, writing, hard-news, inverted-pyramid, articles]
-godnaterra/source: autopunk/writing/articles/news-article-writer/SKILL.md
-godnaterra/original-name: news-article-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/news-article-writer/SKILL.md
+engenharia-ia-aplicada/original-name: news-article-writer
 ---
 # News Article Writer
 

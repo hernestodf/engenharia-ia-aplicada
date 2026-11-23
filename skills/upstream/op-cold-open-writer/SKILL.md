@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [cold open, teaser, broadcast, script, hook, documentary, television]
-godnaterra/source: autopunk/writing/broadcast/cold-open-writer/SKILL.md
-godnaterra/original-name: cold-open-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/cold-open-writer/SKILL.md
+engenharia-ia-aplicada/original-name: cold-open-writer
 ---
 # Cold Open Writer
 

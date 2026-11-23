@@ -7,8 +7,8 @@ subcategory: pitching
 version: 1.0
 eval_score: 4.4
 tags: [media-business, pitching, elevator-pitch, development, verbal]
-godnaterra/source: autopunk/media-business/pitching/elevator-pitch-writer/SKILL.md
-godnaterra/original-name: elevator-pitch-writer
+engenharia-ia-aplicada/source: autopunk/media-business/pitching/elevator-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: elevator-pitch-writer
 ---
 # Elevator Pitch Writer
 

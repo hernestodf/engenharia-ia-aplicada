@@ -1,8 +1,8 @@
 ---
 name: op-design-section
 description: Design a new UI section or component for movemental using DESIGN.md conventions — tonal stacking, primitives, semantic tokens, and the Stitch-informed editorial style.
-godnaterra/source: joshua/claude/design/design-section/SKILL.md
-godnaterra/original-name: design-section
+engenharia-ia-aplicada/source: joshua/claude/design/design-section/SKILL.md
+engenharia-ia-aplicada/original-name: design-section
 ---
 
 Design and implement a UI section using movemental's Digital Curator design system.

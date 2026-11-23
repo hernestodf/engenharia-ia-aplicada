@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.47
 tags: [journalism, writing, profile, feature, portrait, interview, magazine]
-godnaterra/source: autopunk/magazine-journalism/writing/profile-writer/SKILL.md
-godnaterra/original-name: profile-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/profile-writer/SKILL.md
+engenharia-ia-aplicada/original-name: profile-writer
 ---
 # Profile Writer
 

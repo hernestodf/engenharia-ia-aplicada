@@ -7,8 +7,8 @@ description: >
   Use when running the platform checklist, auditing component gaps, building remaining
   pages, platform build, master-component-checklist, or remediating missing shell/themes/
   library/formation routes. Run from any movement-leader repo root.
-godnaterra/source: joshua/claude/movemental/movement-leader-platform-build/SKILL.md
-godnaterra/original-name: movement-leader-platform-build
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-platform-build/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-platform-build
 ---
 
 # Movement Leader Platform Build

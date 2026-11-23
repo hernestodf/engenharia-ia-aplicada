@@ -7,8 +7,8 @@ subcategory: background
 version: 1.0
 eval_score: 4.56
 tags: [research, history, precedent, context, analysis, background]
-godnaterra/source: autopunk/research/background/historical-precedent-finder/SKILL.md
-godnaterra/original-name: historical-precedent-finder
+engenharia-ia-aplicada/source: autopunk/research/background/historical-precedent-finder/SKILL.md
+engenharia-ia-aplicada/original-name: historical-precedent-finder
 ---
 # Historical Precedent Finder
 

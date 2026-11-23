@@ -1,8 +1,8 @@
 ---
 name: op-integration-tests
 description: Run the integration-tests pipeline that depends on a local npm registry (Verdaccio). Use when asked to execute integration tests or local publish workflows in this repo.
-godnaterra/source: joshua/vendor/skills-openai/integration-tests/SKILL.md
-godnaterra/original-name: integration-tests
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/integration-tests/SKILL.md
+engenharia-ia-aplicada/original-name: integration-tests
 ---
 
 # Integration Tests

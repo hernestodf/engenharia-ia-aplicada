@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [screenwriting, scripting, dialogue, rewrite, voice]
-godnaterra/source: autopunk/screenwriting/scripting/dialogue-polisher/SKILL.md
-godnaterra/original-name: dialogue-polisher
+engenharia-ia-aplicada/source: autopunk/screenwriting/scripting/dialogue-polisher/SKILL.md
+engenharia-ia-aplicada/original-name: dialogue-polisher
 ---
 # Dialogue Polisher
 

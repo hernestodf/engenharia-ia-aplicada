@@ -1,8 +1,8 @@
 ---
 name: op-movement-leader-substrate
 description: Author the machine-readable substrate document for a movement leader — identity resolution, relational traversal, conceptual indexing, voice fidelity. Produces a single `{SLUG}_RESEARCH_COLLATED.md` matching the canonical substrate schema. Use when creating or refreshing the primary research artifact for a movement leader. NOT a consulting deliverable — no fit scores, gap analyses, or marketing playbooks.
-godnaterra/source: joshua/claude/movemental/movement-leader-substrate/SKILL.md
-godnaterra/original-name: movement-leader-substrate
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-substrate/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-substrate
 ---
 
 # Movement Leader Substrate

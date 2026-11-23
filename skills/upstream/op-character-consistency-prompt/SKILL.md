@@ -7,8 +7,8 @@ subcategory: midjourney
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, midjourney, character, consistency, series]
-godnaterra/source: autopunk/image-prompting/midjourney/character-consistency-prompt/SKILL.md
-godnaterra/original-name: character-consistency-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/midjourney/character-consistency-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: character-consistency-prompt
 ---
 # Character Consistency Prompt
 

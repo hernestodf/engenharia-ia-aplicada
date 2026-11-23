@@ -1,8 +1,8 @@
 ---
 name: op-affiliation-audit
 description: Audit collected affiliation data against logo strip and social proof best practices. Evaluates logo quality, grouping strategy, copy framing, prominence ordering, and strip-readiness. Run after affiliation-scrape, before logo-strip-author.
-godnaterra/source: joshua/claude/movemental/affiliation-audit/SKILL.md
-godnaterra/original-name: affiliation-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/affiliation-audit/SKILL.md
+engenharia-ia-aplicada/original-name: affiliation-audit
 ---
 
 Audit affiliation data for: dados informados pelo usuario na mensagem

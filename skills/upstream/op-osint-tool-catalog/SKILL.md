@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.76
 tags: [journalism, OSINT, tools, investigation, geolocation, verification, research]
-godnaterra/source: autopunk/magazine-journalism/investigation/osint-tool-catalog/SKILL.md
-godnaterra/original-name: osint-tool-catalog
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/osint-tool-catalog/SKILL.md
+engenharia-ia-aplicada/original-name: osint-tool-catalog
 ---
 # OSINT tool catalog
 

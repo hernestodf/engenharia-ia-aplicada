@@ -1,8 +1,8 @@
 ---
 name: op-asset-video-prompt
 description: Generate video transition prompts for AI video models (Runway, Kling, Pika, Higgsfield). Creates start/end frame descriptions, transition choreography, and model-agnostic instructions. Use for scroll-stopping social content, product reveals, course trailers, or any motion asset.
-godnaterra/source: joshua/claude/assets/asset-video-prompt/SKILL.md
-godnaterra/original-name: asset-video-prompt
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-video-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: asset-video-prompt
 ---
 
 Generate AI video prompts: dados informados pelo usuario na mensagem

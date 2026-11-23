@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [table-of-contents, long-form, navigation, editorial, structure]
-godnaterra/source: autopunk/production-support/table-of-contents-writer/SKILL.md
-godnaterra/original-name: table-of-contents-writer
+engenharia-ia-aplicada/source: autopunk/production-support/table-of-contents-writer/SKILL.md
+engenharia-ia-aplicada/original-name: table-of-contents-writer
 ---
 # Table of Contents Writer
 

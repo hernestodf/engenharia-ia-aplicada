@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [youtube, scripting, script, long-form, writing]
-godnaterra/source: autopunk/youtube/scripting/full-script-writer/SKILL.md
-godnaterra/original-name: full-script-writer
+engenharia-ia-aplicada/source: autopunk/youtube/scripting/full-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: full-script-writer
 ---
 # Full Script Writer
 

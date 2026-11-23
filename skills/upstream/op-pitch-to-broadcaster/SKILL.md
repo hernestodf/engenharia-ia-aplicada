@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.3
 tags: [radio, strategy, pitch, broadcaster, commissioning, proposal]
-godnaterra/source: autopunk/radio-audio/strategy/pitch-to-broadcaster/SKILL.md
-godnaterra/original-name: pitch-to-broadcaster
+engenharia-ia-aplicada/source: autopunk/radio-audio/strategy/pitch-to-broadcaster/SKILL.md
+engenharia-ia-aplicada/original-name: pitch-to-broadcaster
 ---
 # Pitch to Broadcaster
 

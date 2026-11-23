@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.89
 tags: [research, background, briefing, journalism, pre-production, organisation]
-godnaterra/source: autopunk/research/facts-context/topic-background-brief/SKILL.md
-godnaterra/original-name: topic-background-brief
+engenharia-ia-aplicada/source: autopunk/research/facts-context/topic-background-brief/SKILL.md
+engenharia-ia-aplicada/original-name: topic-background-brief
 ---
 # Topic Background Brief
 

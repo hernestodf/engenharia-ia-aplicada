@@ -7,8 +7,8 @@ description: >-
   tokens → L2 tailwind → L3 primitives → L4 components → L5 layouts). Use for stitch to
   react, HTML to React, wireframe migration, or any Stitch screen conversion in
   movement-leader-websites.
-godnaterra/source: joshua/cursor/stitch-to-react/SKILL.md
-godnaterra/original-name: stitch-to-react
+engenharia-ia-aplicada/source: joshua/cursor/stitch-to-react/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-to-react
 ---
 
 # Stitch → React (full migration)

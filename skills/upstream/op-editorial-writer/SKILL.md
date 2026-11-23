@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [editorial, opinion, argument, institutional-voice, commentary]
-godnaterra/source: autopunk/writing/articles/editorial-writer/SKILL.md
-godnaterra/original-name: editorial-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/editorial-writer/SKILL.md
+engenharia-ia-aplicada/original-name: editorial-writer
 ---
 # Editorial Writer
 

@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [documentary, scripting, breakdown, structure, editing]
-godnaterra/source: autopunk/tv-documentary/scripting/scene-breakdown-writer/SKILL.md
-godnaterra/original-name: scene-breakdown-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/scripting/scene-breakdown-writer/SKILL.md
+engenharia-ia-aplicada/original-name: scene-breakdown-writer
 ---
 # Scene Breakdown Writer
 

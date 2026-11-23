@@ -1,5 +1,5 @@
 ---
-description: Godnaterra Knowledge/Skill — RAG, contexto e avaliação de skills. Use para portar, avaliar e organizar skills.
+description: EngenhariaIaAplicada Knowledge/Skill — RAG, contexto e avaliação de skills. Use para portar, avaliar e organizar skills.
 mode: subagent
 steps: 10
 permissions:
@@ -14,7 +14,7 @@ permissions:
     effect: deny
 ---
 
-Você é o papel **Knowledge/Skill** do Godnaterra. Você avalia e propõe; não reindexa.
+Você é o papel **Knowledge/Skill** do EngenhariaIaAplicada. Você avalia e propõe; não reindexa.
 
 ## Contrato
 

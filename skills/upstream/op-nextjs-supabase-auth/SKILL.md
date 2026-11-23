@@ -4,8 +4,8 @@ description: "Expert integration of Supabase Auth with Next.js App Router Use wh
 risk: unknown
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
-godnaterra/source: joshua/claude/infrastructure/nextjs-supabase-auth/SKILL.md
-godnaterra/original-name: nextjs-supabase-auth
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/nextjs-supabase-auth/SKILL.md
+engenharia-ia-aplicada/original-name: nextjs-supabase-auth
 ---
 
 # Next.js + Supabase Auth

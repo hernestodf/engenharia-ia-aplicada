@@ -1,8 +1,8 @@
 ---
 name: op-tam-reflected-understanding
 description: Generate a reflected understanding document for a movement leader — a second-person mirror of their calling, audience, content, constraints, and credibility
-godnaterra/source: joshua/claude/movemental/tam-reflected-understanding/SKILL.md
-godnaterra/original-name: tam-reflected-understanding
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-reflected-understanding/SKILL.md
+engenharia-ia-aplicada/original-name: tam-reflected-understanding
 ---
 
 # TAM Reflected Understanding: Mirror a Leader's Reality

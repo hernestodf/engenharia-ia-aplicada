@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.39
 tags: [newsletter, segmentation, audience, strategy, targeting, email-marketing]
-godnaterra/source: autopunk/newsletter/strategy/newsletter-audience-segmenter/SKILL.md
-godnaterra/original-name: newsletter-audience-segmenter
+engenharia-ia-aplicada/source: autopunk/newsletter/strategy/newsletter-audience-segmenter/SKILL.md
+engenharia-ia-aplicada/original-name: newsletter-audience-segmenter
 ---
 # Newsletter Audience Segmenter
 

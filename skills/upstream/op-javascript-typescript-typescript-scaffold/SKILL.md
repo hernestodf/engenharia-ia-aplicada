@@ -4,8 +4,8 @@ description: "You are a TypeScript project architecture expert specializing in s
 risk: unknown
 source: community
 date_added: "2026-02-27"
-godnaterra/source: joshua/claude/codegen/javascript-typescript-typescript-scaffold/SKILL.md
-godnaterra/original-name: javascript-typescript-typescript-scaffold
+engenharia-ia-aplicada/source: joshua/claude/codegen/javascript-typescript-typescript-scaffold/SKILL.md
+engenharia-ia-aplicada/original-name: javascript-typescript-typescript-scaffold
 ---
 
 # TypeScript Project Scaffolding

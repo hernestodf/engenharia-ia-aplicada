@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [transcript, interview, Q&A, cleanup, formatting, filler-words, speaker-labels]
-godnaterra/source: autopunk/production-support/transcript-qa-formatter/SKILL.md
-godnaterra/original-name: transcript-qa-formatter
+engenharia-ia-aplicada/source: autopunk/production-support/transcript-qa-formatter/SKILL.md
+engenharia-ia-aplicada/original-name: transcript-qa-formatter
 ---
 # Transcript Q&A Formatter
 

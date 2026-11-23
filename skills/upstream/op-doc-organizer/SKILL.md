@@ -1,8 +1,8 @@
 ---
 name: op-doc-organizer
 description: "Scan repos in <repo atual>/ for markdown and HTML documentation, classify each file as repo-local (stays in place) or centralizable content (guides, courses, articles), then generate an inventory and optionally consolidate content docs into the centralized docs repo. Use when documentation is scattered and needs organizing."
-godnaterra/source: joshua/cursor/doc-organizer/SKILL.md
-godnaterra/original-name: doc-organizer
+engenharia-ia-aplicada/source: joshua/cursor/doc-organizer/SKILL.md
+engenharia-ia-aplicada/original-name: doc-organizer
 ---
 
 Organize documentation across: dados informados pelo usuario na mensagem

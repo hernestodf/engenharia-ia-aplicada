@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.4
 tags: [social-media, content, carousel, instagram, linkedin, slides]
-godnaterra/source: autopunk/social-media/content/carousel-script-writer/SKILL.md
-godnaterra/original-name: carousel-script-writer
+engenharia-ia-aplicada/source: autopunk/social-media/content/carousel-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: carousel-script-writer
 ---
 # Carousel Script Writer
 

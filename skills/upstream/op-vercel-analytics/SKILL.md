@@ -1,8 +1,8 @@
 ---
 name: op-vercel-analytics
 description: Set up Vercel Analytics (page views, custom events) and Speed Insights (Core Web Vitals) for this Next.js 15 project. Zero-config on Vercel deployments — no API key needed for basic tracking.
-godnaterra/source: joshua/claude/infrastructure/vercel-analytics/SKILL.md
-godnaterra/original-name: vercel-analytics
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/vercel-analytics/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-analytics
 ---
 
 Set up Vercel Analytics and Speed Insights: dados informados pelo usuario na mensagem

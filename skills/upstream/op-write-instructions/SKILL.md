@@ -1,8 +1,8 @@
 ---
 name: op-write-instructions
 description: Author or refine agent instructions — use when asked to write a system prompt, create or update agent instructions, compose instruction layers (identity, theme, mode, style, dynamic context), or tune agent voice and behavior.
-godnaterra/source: joshua/claude/codegen/write-instructions/SKILL.md
-godnaterra/original-name: write-instructions
+engenharia-ia-aplicada/source: joshua/claude/codegen/write-instructions/SKILL.md
+engenharia-ia-aplicada/original-name: write-instructions
 ---
 
 Author or refine agent instructions: dados informados pelo usuario na mensagem

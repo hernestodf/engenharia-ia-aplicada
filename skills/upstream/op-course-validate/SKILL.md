@@ -1,8 +1,8 @@
 ---
 name: op-course-validate
 description: Validate a course against the Transformational Course Charter — checks Four Necessities, section completeness, word counts, and structure. Use before publishing or after authoring.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-course-validate-2/SKILL.md
-godnaterra/original-name: course-validate
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-course-validate-2/SKILL.md
+engenharia-ia-aplicada/original-name: course-validate
 ---
 
 Validate course against the Charter: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: investigation
 version: 2.0
 eval_score: 4.81
 tags: [journalism, investigation, foia, research, public-records, state-records, appeals, redaction]
-godnaterra/source: autopunk/magazine-journalism/investigation/foia-request-writer/SKILL.md
-godnaterra/original-name: foia-request-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/foia-request-writer/SKILL.md
+engenharia-ia-aplicada/original-name: foia-request-writer
 ---
 # FOIA & Public Records Request Writer
 

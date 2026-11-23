@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [locations, pre-production, documentary, filming, weather, scheduling, cinematography]
-godnaterra/source: autopunk/research/locations-logistics/filming-conditions-brief/SKILL.md
-godnaterra/original-name: filming-conditions-brief
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/filming-conditions-brief/SKILL.md
+engenharia-ia-aplicada/original-name: filming-conditions-brief
 ---
 # Filming Conditions Brief
 

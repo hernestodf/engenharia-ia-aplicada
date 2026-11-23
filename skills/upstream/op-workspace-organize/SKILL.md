@@ -1,8 +1,8 @@
 ---
 name: op-workspace-organize
 description: "Audit and fix workspace doc organization — frontmatter hygiene, section placement, sidebar rendering, and frontend-safe content. Ensures docs/workspace/ files render cleanly with no metadata leaking into the reader view. Use when adding docs, reorganizing sections, or before deploying."
-godnaterra/source: joshua/claude/infrastructure/workspace-organize/SKILL.md
-godnaterra/original-name: workspace-organize
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/workspace-organize/SKILL.md
+engenharia-ia-aplicada/original-name: workspace-organize
 ---
 
 Audit and organize workspace documents: dados informados pelo usuario na mensagem

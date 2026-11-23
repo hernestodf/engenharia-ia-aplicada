@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.0
 eval_score: 4.5
 tags: [research, fact-checking, claims, misinformation, sourcing, verification]
-godnaterra/source: autopunk/research/fact-checking/claim-origin-tracer/SKILL.md
-godnaterra/original-name: claim-origin-tracer
+engenharia-ia-aplicada/source: autopunk/research/fact-checking/claim-origin-tracer/SKILL.md
+engenharia-ia-aplicada/original-name: claim-origin-tracer
 ---
 # Claim Origin Tracer
 

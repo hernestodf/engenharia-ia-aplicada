@@ -7,8 +7,8 @@ description:
   render props, context providers, or component architecture. Includes React 19
   API changes.
 license: MIT
-godnaterra/source: joshua/claude/codegen/composition-patterns/SKILL.md
-godnaterra/original-name: vercel-composition-patterns
+engenharia-ia-aplicada/source: joshua/claude/codegen/composition-patterns/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-composition-patterns
 ---
 
 # React Composition Patterns

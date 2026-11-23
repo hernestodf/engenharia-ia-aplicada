@@ -1,8 +1,8 @@
 ---
 name: op-movemental-pdf
 description: Produce branded Movemental PDFs (the Movemental, LLC visual identity used at movemental.ai — wordmark logo, Inter typography, monochrome palette with warm-gray accents, generous whitespace, brand panels and stat cards). Use this skill whenever the user asks for a Movemental-branded document, a Movemental Field Guide, a Movemental MOU or proposal, a Movemental report, whitepaper, or any PDF matching the movemental.ai aesthetic. Use it even when the user only says "make this look like our brand", "the way we did it last time", or "in our house style" if the context is Movemental, and any time the deliverable is a PDF for Joshua Shepherd or Movemental, LLC. The skill includes the logo, Inter web fonts, a component library (cover, section openers, brand panels, stat cards, comparison tables, layer pages, checklists, framework callouts, citations, colophon), and a two-pass Chromium render pipeline that produces print-ready PDFs with running header, page-numbered footer, and a suppressed-chrome cover page.
-godnaterra/source: joshua/claude/assets/movemental-pdf/SKILL.md
-godnaterra/original-name: movemental-pdf
+engenharia-ia-aplicada/source: joshua/claude/assets/movemental-pdf/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-pdf
 ---
 
 # Movemental PDF

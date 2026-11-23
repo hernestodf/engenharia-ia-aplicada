@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.4
 tags: [journalism, writing, structure, long-form, narrative, reportage]
-godnaterra/source: autopunk/magazine-journalism/writing/reportage-structure/SKILL.md
-godnaterra/original-name: reportage-structure
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/reportage-structure/SKILL.md
+engenharia-ia-aplicada/original-name: reportage-structure
 ---
 # Reportage Structure
 

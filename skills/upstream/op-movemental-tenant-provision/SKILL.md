@@ -1,8 +1,8 @@
 ---
 name: op-movemental-tenant-provision
 description: Provision Movemental movement-leader tenants end-to-end on Supabase — runs Phase 0 prerequisite security/auth gates first, then per-leader identity → auth user → user_profile → owned org → owner membership. Targets the canonical author cohort (Alan Hirsch, Brad Brisco, Liz Rios, Rowland Smith, JR Woodward, Lucas Pulley, Jamie Roach) and the Movemental admin org. Use when asked to "wire up Movemental tenants", "onboard a movement leader", "provision the author orgs", or "run the tenant-wiring prompt".
-godnaterra/source: joshua/claude/movemental/movemental-tenant-provision/SKILL.md
-godnaterra/original-name: movemental-tenant-provision
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-tenant-provision/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-tenant-provision
 ---
 
 Provision Movemental tenants from the canonical runbook: dados informados pelo usuario na mensagem

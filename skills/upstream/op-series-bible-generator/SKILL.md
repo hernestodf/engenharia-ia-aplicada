@@ -7,8 +7,8 @@ subcategory: development
 version: 1.1
 eval_score: 4.60
 tags: [documentary, development, series-bible, pitch, tv]
-godnaterra/source: autopunk/tv-documentary/development/series-bible-generator/SKILL.md
-godnaterra/original-name: series-bible-generator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/development/series-bible-generator/SKILL.md
+engenharia-ia-aplicada/original-name: series-bible-generator
 ---
 # Series Bible Generator
 

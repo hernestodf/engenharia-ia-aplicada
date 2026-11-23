@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.78
 tags: [youtube, pre-production, hooks, retention, podcast, documentary]
-godnaterra/source: autopunk/youtube/pre-production/hook-generator/SKILL.md
-godnaterra/original-name: hook-generator
+engenharia-ia-aplicada/source: autopunk/youtube/pre-production/hook-generator/SKILL.md
+engenharia-ia-aplicada/original-name: hook-generator
 ---
 # Hook Generator
 

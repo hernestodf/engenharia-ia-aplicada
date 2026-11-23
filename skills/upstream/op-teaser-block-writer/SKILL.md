@@ -7,8 +7,8 @@ subcategory: reference
 version: 1.0
 eval_score: 4.33
 tags: [production-support, teasers, web, layout, navigation, newsletters]
-godnaterra/source: autopunk/production-support/reference/teaser-block-writer/SKILL.md
-godnaterra/original-name: teaser-block-writer
+engenharia-ia-aplicada/source: autopunk/production-support/reference/teaser-block-writer/SKILL.md
+engenharia-ia-aplicada/original-name: teaser-block-writer
 ---
 # Teaser Block Writer
 

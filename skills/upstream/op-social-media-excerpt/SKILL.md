@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.4
 tags: [journalism, distribution, social-media, twitter, instagram, linkedin]
-godnaterra/source: autopunk/magazine-journalism/distribution/social-media-excerpt/SKILL.md
-godnaterra/original-name: social-media-excerpt
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/distribution/social-media-excerpt/SKILL.md
+engenharia-ia-aplicada/original-name: social-media-excerpt
 ---
 # Social Media Excerpt
 

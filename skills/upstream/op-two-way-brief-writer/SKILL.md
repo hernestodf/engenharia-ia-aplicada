@@ -7,8 +7,8 @@ subcategory: news-packages
 version: 1.0
 eval_score: 4.4
 tags: [radio, news, two-way, live, brief, presenter, reporter]
-godnaterra/source: autopunk/radio-audio/news-packages/two-way-brief-writer/SKILL.md
-godnaterra/original-name: two-way-brief-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/news-packages/two-way-brief-writer/SKILL.md
+engenharia-ia-aplicada/original-name: two-way-brief-writer
 ---
 # Two-Way Brief Writer
 

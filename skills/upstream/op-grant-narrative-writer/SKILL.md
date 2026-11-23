@@ -7,8 +7,8 @@ subcategory: funding
 version: 1.0
 eval_score: 4.3
 tags: [media-business, funding, grants, narrative, arts-council, documentary]
-godnaterra/source: autopunk/media-business/funding/grant-narrative-writer/SKILL.md
-godnaterra/original-name: grant-narrative-writer
+engenharia-ia-aplicada/source: autopunk/media-business/funding/grant-narrative-writer/SKILL.md
+engenharia-ia-aplicada/original-name: grant-narrative-writer
 ---
 # Grant Narrative Writer
 

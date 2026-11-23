@@ -7,8 +7,8 @@ subcategory: people
 version: 1.0
 eval_score: 4.39
 tags: [research, press-office, media-relations, contacts, people]
-godnaterra/source: autopunk/research/people/press-office-finder/SKILL.md
-godnaterra/original-name: press-office-finder
+engenharia-ia-aplicada/source: autopunk/research/people/press-office-finder/SKILL.md
+engenharia-ia-aplicada/original-name: press-office-finder
 ---
 # Press Office Finder
 

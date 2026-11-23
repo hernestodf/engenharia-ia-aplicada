@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [recap, running-story, series-journalism, explainer, catch-up, ongoing-coverage]
-godnaterra/source: autopunk/writing/articles/series-recap-writer/SKILL.md
-godnaterra/original-name: series-recap-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/series-recap-writer/SKILL.md
+engenharia-ia-aplicada/original-name: series-recap-writer
 ---
 # Series Recap Writer
 

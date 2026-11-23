@@ -2,8 +2,8 @@
 name: op-web-artifacts-builder
 description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
 license: Complete terms in LICENSE.txt
-godnaterra/source: joshua/_reference/skills-anthropic/skills/web-artifacts-builder/SKILL.md
-godnaterra/original-name: web-artifacts-builder
+engenharia-ia-aplicada/source: joshua/_reference/skills-anthropic/skills/web-artifacts-builder/SKILL.md
+engenharia-ia-aplicada/original-name: web-artifacts-builder
 ---
 
 # Web Artifacts Builder

@@ -7,8 +7,8 @@ subcategory: press-office
 version: 1.0
 eval_score: 4.5
 tags: [pr, media-alert, press-office, event, journalist-outreach]
-godnaterra/source: autopunk/pr-communications/press-office/media-alert-writer/SKILL.md
-godnaterra/original-name: media-alert-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/press-office/media-alert-writer/SKILL.md
+engenharia-ia-aplicada/original-name: media-alert-writer
 ---
 # Media Alert Writer
 

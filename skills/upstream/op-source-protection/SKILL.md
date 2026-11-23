@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.0
 eval_score: 4.81
 tags: [research, journalism, source-protection, ethics, security, confidentiality]
-godnaterra/source: autopunk/research/fact-checking/source-protection/SKILL.md
-godnaterra/original-name: source-protection
+engenharia-ia-aplicada/source: autopunk/research/fact-checking/source-protection/SKILL.md
+engenharia-ia-aplicada/original-name: source-protection
 ---
 # Source-Protection Assessment
 

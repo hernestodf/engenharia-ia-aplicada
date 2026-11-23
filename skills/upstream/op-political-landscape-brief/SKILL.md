@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [research, politics, context, background, government, power, region]
-godnaterra/source: autopunk/research/facts-context/political-landscape-brief/SKILL.md
-godnaterra/original-name: political-landscape-brief
+engenharia-ia-aplicada/source: autopunk/research/facts-context/political-landscape-brief/SKILL.md
+engenharia-ia-aplicada/original-name: political-landscape-brief
 ---
 # Political Landscape Brief
 

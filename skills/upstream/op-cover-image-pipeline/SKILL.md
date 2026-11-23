@@ -7,8 +7,8 @@ subcategory: workflows
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, workflows, cover, pipeline, multi-format, podcast, youtube]
-godnaterra/source: autopunk/image-prompting/workflows/cover-image-pipeline/SKILL.md
-godnaterra/original-name: cover-image-pipeline
+engenharia-ia-aplicada/source: autopunk/image-prompting/workflows/cover-image-pipeline/SKILL.md
+engenharia-ia-aplicada/original-name: cover-image-pipeline
 ---
 # Cover Image Pipeline
 

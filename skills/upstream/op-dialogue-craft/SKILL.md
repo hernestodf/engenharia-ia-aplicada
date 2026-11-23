@@ -1,8 +1,8 @@
 ---
 name: op-dialogue-craft
 description: Dialogue craft for fiction and conversational AI agents — subtext, character voice differentiation, pacing, exposition handling, conflict in conversation, and the art of what people don't say. Use when writing dialogue, designing agent conversation patterns, or auditing dialogue quality.
-godnaterra/source: joshua/claude/content/dialogue-craft/SKILL.md
-godnaterra/original-name: dialogue-craft
+engenharia-ia-aplicada/source: joshua/claude/content/dialogue-craft/SKILL.md
+engenharia-ia-aplicada/original-name: dialogue-craft
 ---
 
 Write or improve dialogue: dados informados pelo usuario na mensagem

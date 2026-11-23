@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [title-verification, job-title, source-vetting, accuracy, pre-publication]
-godnaterra/source: autopunk/research/people-contacts/title-verification-brief/SKILL.md
-godnaterra/original-name: title-verification-brief
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/title-verification-brief/SKILL.md
+engenharia-ia-aplicada/original-name: title-verification-brief
 ---
 # Title Verification Brief
 

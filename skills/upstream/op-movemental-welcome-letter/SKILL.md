@@ -1,8 +1,8 @@
 ---
 name: op-movemental-welcome-letter
 description: Draft the Movemental dashboard welcome letter for a specific movement leader from their fragmentation-story dossier. Use whenever the operator says "write the welcome letter for <author>", "draft the dashboard welcome for <leader>", "generate the fragmentation welcome letter", "do a welcome letter for <slug>", or any phrasing that pairs a movement-leader name with the words welcome, letter, or dashboard intro. Reads the leader's research dossier under docs/movement_leader_research/<slug>/ and emits a 1,000–1,050-word, seven-move letter dense with the leader's actual proper nouns — book titles, podcast appearances, partner publications, and the named city of a future practitioner. Save-to-disk is on by default. Pair with movemental-welcome-letter-publish to ship the finished letter to the database.
-godnaterra/source: joshua/claude/movemental/movemental-welcome-letter/SKILL.md
-godnaterra/original-name: movemental-welcome-letter
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-welcome-letter/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-welcome-letter
 ---
 
 # Movemental welcome-letter drafter

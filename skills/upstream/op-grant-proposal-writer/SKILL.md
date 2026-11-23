@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [documentary, business, funding, grants, development-finance]
-godnaterra/source: autopunk/tv-documentary/business/grant-proposal-writer/SKILL.md
-godnaterra/original-name: grant-proposal-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/business/grant-proposal-writer/SKILL.md
+engenharia-ia-aplicada/original-name: grant-proposal-writer
 ---
 # Grant Proposal Writer
 

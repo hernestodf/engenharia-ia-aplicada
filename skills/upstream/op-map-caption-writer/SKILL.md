@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [caption, map, geography, visual journalism, location, articles]
-godnaterra/source: autopunk/writing/articles/map-caption-writer/SKILL.md
-godnaterra/original-name: map-caption-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/map-caption-writer/SKILL.md
+engenharia-ia-aplicada/original-name: map-caption-writer
 ---
 # Map Caption Writer
 

@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [newsletter, email, distribution, blurb, journalism, audience-engagement]
-godnaterra/source: autopunk/writing/digital-social/newsletter-blurb-writer/SKILL.md
-godnaterra/original-name: newsletter-blurb-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/newsletter-blurb-writer/SKILL.md
+engenharia-ia-aplicada/original-name: newsletter-blurb-writer
 ---
 # Newsletter Blurb Writer
 

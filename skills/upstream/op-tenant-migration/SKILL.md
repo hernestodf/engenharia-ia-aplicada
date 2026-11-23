@@ -1,8 +1,8 @@
 ---
 name: op-tenant-migration
 description: "End-to-end migration skill for spinning up a new movement leader platform from an existing tenant baseline. Covers repo setup, Vercel deployment, env vars, org/tenant config, Supabase storage, Claude/Cursor project files, docs cleanup, front-end customization, and post-migration verification. The default migration strategy for all new tenant platforms."
-godnaterra/source: joshua/claude/infrastructure/tenant-migration/SKILL.md
-godnaterra/original-name: tenant-migration
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/tenant-migration/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-migration
 ---
 
 Migrate or plan a new tenant platform: dados informados pelo usuario na mensagem

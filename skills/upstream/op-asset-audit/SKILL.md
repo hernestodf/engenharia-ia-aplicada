@@ -1,8 +1,8 @@
 ---
 name: op-asset-audit
 description: Audit image assets across the project to find missing, broken, or mismatched images — trigger phrases include "audit images", "find missing images", "check image slots", "which images are missing", or "image inventory".
-godnaterra/source: joshua/claude/assets/asset-audit/SKILL.md
-godnaterra/original-name: asset-audit
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-audit/SKILL.md
+engenharia-ia-aplicada/original-name: asset-audit
 ---
 
 Match available images to image slots across the project: dados informados pelo usuario na mensagem

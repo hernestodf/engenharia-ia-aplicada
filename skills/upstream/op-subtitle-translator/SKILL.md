@@ -7,8 +7,8 @@ subcategory: localization
 version: 1.0
 eval_score: 4.2
 tags: [translation, subtitles, localization, documentary, broadcast, accessibility]
-godnaterra/source: autopunk/translation-localization/subtitle-translator/SKILL.md
-godnaterra/original-name: subtitle-translator
+engenharia-ia-aplicada/source: autopunk/translation-localization/subtitle-translator/SKILL.md
+engenharia-ia-aplicada/original-name: subtitle-translator
 ---
 # Subtitle Translator
 

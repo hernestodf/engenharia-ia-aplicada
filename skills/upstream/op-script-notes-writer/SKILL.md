@@ -7,8 +7,8 @@ subcategory: revision
 version: 1.0
 eval_score: 4.4
 tags: [screenwriting, revision, script-notes, feedback, development]
-godnaterra/source: autopunk/screenwriting/revision/script-notes-writer/SKILL.md
-godnaterra/original-name: script-notes-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/revision/script-notes-writer/SKILL.md
+engenharia-ia-aplicada/original-name: script-notes-writer
 ---
 # Script Notes Writer
 

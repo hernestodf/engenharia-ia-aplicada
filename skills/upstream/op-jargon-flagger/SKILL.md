@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.44
 tags: [journalism, editing, jargon, accessibility, plain-language, clarity]
-godnaterra/source: autopunk/magazine-journalism/editing/jargon-flagger/SKILL.md
-godnaterra/original-name: jargon-flagger
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/jargon-flagger/SKILL.md
+engenharia-ia-aplicada/original-name: jargon-flagger
 ---
 # Jargon Flagger
 

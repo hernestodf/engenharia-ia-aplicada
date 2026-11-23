@@ -8,8 +8,8 @@ description: >
   and _docs/_build/design/SCHOLARLY_EDITORIAL.md. Keywords: plum, parchment,
   Newsreader, Manrope, scholarly, editorial, tonal surfaces, no-line rule,
   shadcn, Radix, motion/react, design tokens, theming.
-godnaterra/source: joshua/claude/design/scholarly-editorial-ui/SKILL.md
-godnaterra/original-name: scholarly-editorial-ui
+engenharia-ia-aplicada/source: joshua/claude/design/scholarly-editorial-ui/SKILL.md
+engenharia-ia-aplicada/original-name: scholarly-editorial-ui
 ---
 
 # Scholarly Editorial UI (alan-hirsch)

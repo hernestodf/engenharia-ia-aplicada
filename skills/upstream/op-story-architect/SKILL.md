@@ -1,8 +1,8 @@
 ---
 name: op-story-architect
 description: Narrative structure skill for fiction and creative non-fiction — plot architecture, character arcs, scene construction, tension/release, theme, and pacing. Use when planning, outlining, diagnosing, or restructuring a narrative. Also use when building agents that generate structured stories.
-godnaterra/source: joshua/claude/content/story-architect/SKILL.md
-godnaterra/original-name: story-architect
+engenharia-ia-aplicada/source: joshua/claude/content/story-architect/SKILL.md
+engenharia-ia-aplicada/original-name: story-architect
 ---
 
 Design or diagnose narrative structure: dados informados pelo usuario na mensagem

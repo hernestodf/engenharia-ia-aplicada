@@ -1,11 +1,11 @@
 ---
-name: op-godnaterra-portability
-description: Aplica as regras de portagem de skills para o formato Godnaterra e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre runtime, mantendo a fonte canônica vendor-free.
-godnaterra/layer: core
-godnaterra/source: canonical
+name: op-eia-portability
+description: Aplica as regras de portagem de skills para o formato EngenhariaIaAplicada e decide quando gerar adaptador derivado. Use ao portar, renomear ou adaptar skills entre runtime, mantendo a fonte canônica vendor-free.
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
-# Portabilidade Godnaterra
+# Portabilidade EngenhariaIaAplicada
 
 ## Regras de portagem
 

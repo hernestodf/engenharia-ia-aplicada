@@ -7,8 +7,8 @@ subcategory: media-relations
 version: 1.0
 eval_score: 4.6
 tags: [pr, media-relations, spokesperson, briefing, interview-prep]
-godnaterra/source: autopunk/pr-communications/media-relations/spokesperson-briefing-note/SKILL.md
-godnaterra/original-name: spokesperson-briefing-note
+engenharia-ia-aplicada/source: autopunk/pr-communications/media-relations/spokesperson-briefing-note/SKILL.md
+engenharia-ia-aplicada/original-name: spokesperson-briefing-note
 ---
 # Spokesperson Briefing Note
 

@@ -10,8 +10,8 @@ description: >
   scholarly authority, cream paper, deep navy, amethyst sidebar, Newsreader,
   Inter, Manrope, Material Symbols, StatusChip, no-line rule, Tailwind v4,
   shadcn, Radix, design tokens, designer-dashboard.
-godnaterra/source: joshua/claude/design/scholarly-authority-ui/SKILL.md
-godnaterra/original-name: scholarly-authority-ui
+engenharia-ia-aplicada/source: joshua/claude/design/scholarly-authority-ui/SKILL.md
+engenharia-ia-aplicada/original-name: scholarly-authority-ui
 ---
 
 # Warm Scholarly Authority UI (movemental-visual-editor-main)

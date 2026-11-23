@@ -1,8 +1,8 @@
 ---
 name: op-stripe-integration
 description: Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.
-godnaterra/source: joshua/claude/infrastructure/stripe-integration/SKILL.md
-godnaterra/original-name: stripe-integration
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/stripe-integration/SKILL.md
+engenharia-ia-aplicada/original-name: stripe-integration
 ---
 
 # Stripe Integration

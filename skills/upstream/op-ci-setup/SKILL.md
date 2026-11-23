@@ -1,8 +1,8 @@
 ---
 name: op-ci-setup
 description: "Set up GitHub Actions CI/CD pipeline for Next.js 15 or Vite + Express — lint, typecheck, unit tests, e2e tests, build validation, and Vercel preview deployment. Writes workflow YAML files and configures branch protection. Use when setting up CI on any new project."
-godnaterra/source: joshua/claude/infrastructure/ci-setup/SKILL.md
-godnaterra/original-name: ci-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/ci-setup/SKILL.md
+engenharia-ia-aplicada/original-name: ci-setup
 ---
 
 Set up GitHub Actions CI/CD: dados informados pelo usuario na mensagem

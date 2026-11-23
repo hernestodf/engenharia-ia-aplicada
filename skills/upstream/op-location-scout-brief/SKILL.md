@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.1
 eval_score: 4.54
 tags: [documentary, pre-production, locations, production, scouting]
-godnaterra/source: autopunk/tv-documentary/pre-production/location-scout-brief/SKILL.md
-godnaterra/original-name: location-scout-brief
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/location-scout-brief/SKILL.md
+engenharia-ia-aplicada/original-name: location-scout-brief
 ---
 # Location Scout Brief
 

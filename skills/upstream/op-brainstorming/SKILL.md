@@ -1,8 +1,8 @@
 ---
 name: op-brainstorming
 description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
-godnaterra/source: joshua/claude/research/brainstorming/SKILL.md
-godnaterra/original-name: brainstorming
+engenharia-ia-aplicada/source: joshua/claude/research/brainstorming/SKILL.md
+engenharia-ia-aplicada/original-name: brainstorming
 ---
 
 # Brainstorming Ideas Into Designs

@@ -9,8 +9,8 @@ description: >
   layer goes back to Phase 01 before advancing. Use after `/book-convert`,
   before `/book-frontmatter`. Trigger phrases: "validate this book", "run
   the harness", "prove no words were lost", "phase 01b".
-godnaterra/source: joshua/claude/content/book-validate/SKILL.md
-godnaterra/original-name: book-validate
+engenharia-ia-aplicada/source: joshua/claude/content/book-validate/SKILL.md
+engenharia-ia-aplicada/original-name: book-validate
 ---
 
 # Book Validate — Phase 01b: Layered Validation

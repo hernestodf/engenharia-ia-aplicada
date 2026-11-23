@@ -1,8 +1,8 @@
 ---
 name: op-alan-course
 description: Author course content for Alan Hirsch's 8-week transformational courses — video scripts, readings, case studies, reflection questions, field experiments, and all elements of the canonical transformation loop. Writes in Alan's voice with formation-over-information pedagogy and the Four Necessities (dissonance, action, reflection, community) present in every module.
-godnaterra/source: joshua/cursor/alan-course/SKILL.md
-godnaterra/original-name: alan-course
+engenharia-ia-aplicada/source: joshua/cursor/alan-course/SKILL.md
+engenharia-ia-aplicada/original-name: alan-course
 ---
 
 Author course content: dados informados pelo usuario na mensagem

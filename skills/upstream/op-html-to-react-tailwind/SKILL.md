@@ -8,8 +8,8 @@ description: Convert HTML/CSS/JS files into production-ready React components wi
   - "Grep"
   - "Glob"
   - "Agent"
-godnaterra/source: joshua/claude/design/html-to-react-tailwind/SKILL.md
-godnaterra/original-name: html-to-react-tailwind
+engenharia-ia-aplicada/source: joshua/claude/design/html-to-react-tailwind/SKILL.md
+engenharia-ia-aplicada/original-name: html-to-react-tailwind
 ---
 
 # HTML/CSS/JS to React + Tailwind Conversion

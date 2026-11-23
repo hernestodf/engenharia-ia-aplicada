@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.5
 tags: [documentary, business, sales, distribution, festival, one-sheet]
-godnaterra/source: autopunk/tv-documentary/business/one-sheet-writer/SKILL.md
-godnaterra/original-name: one-sheet-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/business/one-sheet-writer/SKILL.md
+engenharia-ia-aplicada/original-name: one-sheet-writer
 ---
 # One Sheet Writer
 

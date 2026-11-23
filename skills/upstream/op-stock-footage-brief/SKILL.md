@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [stock footage, archive, research, pre-production, licensing]
-godnaterra/source: autopunk/research/locations-logistics/stock-footage-brief/SKILL.md
-godnaterra/original-name: stock-footage-brief
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/stock-footage-brief/SKILL.md
+engenharia-ia-aplicada/original-name: stock-footage-brief
 ---
 # Stock Footage Brief
 

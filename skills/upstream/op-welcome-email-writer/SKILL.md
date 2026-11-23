@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.5
 tags: [newsletter, writing, onboarding, welcome-email, subscriber-retention]
-godnaterra/source: autopunk/newsletter/writing/welcome-email-writer/SKILL.md
-godnaterra/original-name: welcome-email-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/writing/welcome-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: welcome-email-writer
 ---
 # Welcome Email Writer
 

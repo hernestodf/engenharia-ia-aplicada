@@ -7,8 +7,8 @@ subcategory: investigation
 version: 2.0
 eval_score: 4.73
 tags: [journalism, verification, SIFT, OSINT, fact-checking, deepfake, EXIF, C2PA, anonymous-sources, document-forensics, expert-verification]
-godnaterra/source: autopunk/magazine-journalism/investigation/source-verification/SKILL.md
-godnaterra/original-name: source-verification
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/source-verification/SKILL.md
+engenharia-ia-aplicada/original-name: source-verification
 ---
 # Source Verification
 

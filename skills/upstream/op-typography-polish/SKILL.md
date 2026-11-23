@@ -1,8 +1,8 @@
 ---
 name: op-typography-polish
 description: Audit and fix typography across movemental — heading hierarchy, Inter font compliance, display tracking, eyebrow conventions, prose width, and content readability across all page surfaces.
-godnaterra/source: joshua/claude/design/typography-polish/SKILL.md
-godnaterra/original-name: typography-polish
+engenharia-ia-aplicada/source: joshua/claude/design/typography-polish/SKILL.md
+engenharia-ia-aplicada/original-name: typography-polish
 ---
 
 Audit and fix typography for all rendered content across movemental pages and components.

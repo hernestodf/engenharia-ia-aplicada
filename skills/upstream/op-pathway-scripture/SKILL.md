@@ -1,8 +1,8 @@
 ---
 name: op-pathway-scripture
 description: Write exegetical Scripture content for Alan Hirsch pathway pages. Produces a primary passage with theological commentary, 3–5 supporting references, and a redemptive history thread — all in Alan's voice. This is theology, not homiletics. Scripture is woven into the argument, grounding the pathway's concepts in biblical reality. Use when writing the Scripture section of any pathway page.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-scripture/SKILL.md
-godnaterra/original-name: pathway-scripture
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-scripture/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-scripture
 ---
 
 Write Scripture content for: dados informados pelo usuario na mensagem

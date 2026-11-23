@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [journalism, editing, layout, print, digital, quotes]
-godnaterra/source: autopunk/writing/articles/pull-quote-selector/SKILL.md
-godnaterra/original-name: pull-quote-selector
+engenharia-ia-aplicada/source: autopunk/writing/articles/pull-quote-selector/SKILL.md
+engenharia-ia-aplicada/original-name: pull-quote-selector
 ---
 # Pull Quote Selector
 

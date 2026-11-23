@@ -7,8 +7,8 @@ subcategory: editing
 version: 2.0
 eval_score: 4.4
 tags: [journalism, editing, fact-checking, verification, accuracy, claims, sources, interviews, statistics, legal, scientific]
-godnaterra/source: autopunk/magazine-journalism/editing/fact-check-prompt/SKILL.md
-godnaterra/original-name: fact-check-prompt
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/fact-check-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: fact-check-prompt
 ---
 # Fact Check Prompt
 

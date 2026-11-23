@@ -7,8 +7,8 @@ subcategory: art-direction
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, art-direction, color, palette, visual-identity]
-godnaterra/source: autopunk/image-prompting/art-direction/color-palette-brief/SKILL.md
-godnaterra/original-name: color-palette-brief
+engenharia-ia-aplicada/source: autopunk/image-prompting/art-direction/color-palette-brief/SKILL.md
+engenharia-ia-aplicada/original-name: color-palette-brief
 ---
 # Color Palette Brief
 

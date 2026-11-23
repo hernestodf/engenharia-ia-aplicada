@@ -1,8 +1,8 @@
 ---
 name: op-pathway-audit
 description: Audit a pathway page against the canonical 12-section architecture. Reports what's missing, what's below spec, what's complete, and what needs improvement for SEO/GEO, voice, and formation quality. Use before publishing a pathway or after adding new sections.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-pathway-audit-2/SKILL.md
-godnaterra/original-name: pathway-audit
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-pathway-audit-2/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-audit
 ---
 
 Audit pathway: dados informados pelo usuario na mensagem

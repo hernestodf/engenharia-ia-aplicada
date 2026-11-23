@@ -7,8 +7,8 @@ subcategory: pitching
 version: 1.0
 eval_score: 4.5
 tags: [media-business, pitching, series, broadcasters, development]
-godnaterra/source: autopunk/media-business/pitching/series-pitch-deck-writer/SKILL.md
-godnaterra/original-name: series-pitch-deck-writer
+engenharia-ia-aplicada/source: autopunk/media-business/pitching/series-pitch-deck-writer/SKILL.md
+engenharia-ia-aplicada/original-name: series-pitch-deck-writer
 ---
 # Series Pitch Deck Writer
 

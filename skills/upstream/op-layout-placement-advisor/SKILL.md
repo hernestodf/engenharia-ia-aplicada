@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [layout, design, images, pull quotes, infographics, editorial, production]
-godnaterra/source: autopunk/production-support/layout-placement-advisor/SKILL.md
-godnaterra/original-name: layout-placement-advisor
+engenharia-ia-aplicada/source: autopunk/production-support/layout-placement-advisor/SKILL.md
+engenharia-ia-aplicada/original-name: layout-placement-advisor
 ---
 # Layout Placement Advisor
 

@@ -1,8 +1,8 @@
 ---
 name: op-content-ingest
 description: Ingest, organize, and structure raw content (book chapters, transcripts, articles, research notes) into the repository's canonical format. Use when bringing new source material into the content library.
-godnaterra/source: joshua/claude/content/content-ingest/SKILL.md
-godnaterra/original-name: content-ingest
+engenharia-ia-aplicada/source: joshua/claude/content/content-ingest/SKILL.md
+engenharia-ia-aplicada/original-name: content-ingest
 ---
 
 Ingest content: dados informados pelo usuario na mensagem

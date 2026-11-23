@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.44
 tags: [social-media, push-notifications, mobile, news-apps, engagement, breaking-news]
-godnaterra/source: autopunk/social-media/content/push-notification-writer/SKILL.md
-godnaterra/original-name: push-notification-writer
+engenharia-ia-aplicada/source: autopunk/social-media/content/push-notification-writer/SKILL.md
+engenharia-ia-aplicada/original-name: push-notification-writer
 ---
 # Push Notification Writer
 

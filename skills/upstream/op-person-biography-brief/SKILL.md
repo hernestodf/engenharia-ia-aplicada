@@ -7,8 +7,8 @@ subcategory: people
 version: 1.0
 eval_score: 4.5
 tags: [research, biography, profiling, people, investigation]
-godnaterra/source: autopunk/research/people/person-biography-brief/SKILL.md
-godnaterra/original-name: person-biography-brief
+engenharia-ia-aplicada/source: autopunk/research/people/person-biography-brief/SKILL.md
+engenharia-ia-aplicada/original-name: person-biography-brief
 ---
 # Person Biography Brief
 

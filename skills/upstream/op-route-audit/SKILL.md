@@ -8,8 +8,8 @@ description: >-
   app, check every page, are the routes working, audit Create/Organize/Reach/Money, sign off routes,
   resume route audit, verify routes.manifest, run audit:routes, or "is /?view=X broken?". Reads
   routes.manifest.yaml + docs/audit/routes/STATE.md; never marks signed_off on the same turn as a fix.
-godnaterra/source: joshua/route-audit/SKILL.md
-godnaterra/original-name: route-audit
+engenharia-ia-aplicada/source: joshua/route-audit/SKILL.md
+engenharia-ia-aplicada/original-name: route-audit
 ---
 
 # Route Audit (ZenWrite)

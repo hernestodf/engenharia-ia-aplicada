@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.50
 tags: [journalism, editing, cutting, word-count, condensing, tight-writing]
-godnaterra/source: autopunk/magazine-journalism/editing/text-condenser/SKILL.md
-godnaterra/original-name: text-condenser
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/text-condenser/SKILL.md
+engenharia-ia-aplicada/original-name: text-condenser
 ---
 # Text Condenser
 

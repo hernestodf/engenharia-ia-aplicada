@@ -1,8 +1,8 @@
 ---
 name: op-workspace-author
 description: "Write new workspace documents — articles, research notes, project docs, and ebook sections — following Brad Brisco's voice identity, EEAT theme taxonomy, and the workspace frontmatter conventions. Use when creating new content for docs/workspace/."
-godnaterra/source: joshua/claude/infrastructure/workspace-author/SKILL.md
-godnaterra/original-name: workspace-author
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/workspace-author/SKILL.md
+engenharia-ia-aplicada/original-name: workspace-author
 ---
 
 Write a new workspace document: dados informados pelo usuario na mensagem

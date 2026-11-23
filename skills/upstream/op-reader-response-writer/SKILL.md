@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.50
 tags: [newsletter, reader-response, audience, communication, writing, community]
-godnaterra/source: autopunk/newsletter/writing/reader-response-writer/SKILL.md
-godnaterra/original-name: reader-response-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/writing/reader-response-writer/SKILL.md
+engenharia-ia-aplicada/original-name: reader-response-writer
 ---
 # Reader Response Writer
 

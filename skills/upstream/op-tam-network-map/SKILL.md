@@ -1,8 +1,8 @@
 ---
 name: op-tam-network-map
 description: Map relationships, co-authorships, endorsements, and organizational connections between movement leaders in the TAM
-godnaterra/source: joshua/claude/movemental/tam-network-map/SKILL.md
-godnaterra/original-name: tam-network-map
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-network-map/SKILL.md
+engenharia-ia-aplicada/original-name: tam-network-map
 ---
 
 # TAM Network Map: Trace the Movement Leader Graph

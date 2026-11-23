@@ -1,8 +1,8 @@
 ---
 name: op-vite-audit
 description: Audit Vite configuration for correctness and optimization — build performance, plugins, resolve config, dev server, environment variables, and production output. Use before deploying or after config changes.
-godnaterra/source: joshua/claude/infrastructure/vite-audit/SKILL.md
-godnaterra/original-name: vite-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/vite-audit/SKILL.md
+engenharia-ia-aplicada/original-name: vite-audit
 ---
 
 Audit the Vite configuration for this React 19 + Express SPA project. Check for correctness, performance, and optimization opportunities.

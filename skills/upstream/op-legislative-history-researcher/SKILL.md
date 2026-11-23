@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [legislation, policy, regulation, history, background, research]
-godnaterra/source: autopunk/research/facts-context/legislative-history-researcher/SKILL.md
-godnaterra/original-name: legislative-history-researcher
+engenharia-ia-aplicada/source: autopunk/research/facts-context/legislative-history-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: legislative-history-researcher
 ---
 # Legislative History Researcher
 

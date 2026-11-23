@@ -1,8 +1,8 @@
 ---
 name: op-tailwind-cleanup
 description: Scan and fix Tailwind anti-patterns for movemental — hardcoded colors, arbitrary values, raw HTML bypassing shadcn/primitives, border violations, and non-semantic tokens. Enforces DESIGN.md token-first design.
-godnaterra/source: joshua/claude/design/tailwind-cleanup/SKILL.md
-godnaterra/original-name: tailwind-cleanup
+engenharia-ia-aplicada/source: joshua/claude/design/tailwind-cleanup/SKILL.md
+engenharia-ia-aplicada/original-name: tailwind-cleanup
 ---
 
 Scan and fix Tailwind anti-patterns across the movemental codebase, enforcing DESIGN.md token-first design.

@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.4
 tags: [data cleaning, data preparation, analysis prep, investigation]
-godnaterra/source: autopunk/data-journalism/investigation/data-cleaning-brief/SKILL.md
-godnaterra/original-name: data-cleaning-brief
+engenharia-ia-aplicada/source: autopunk/data-journalism/investigation/data-cleaning-brief/SKILL.md
+engenharia-ia-aplicada/original-name: data-cleaning-brief
 ---
 # Data Cleaning Brief
 

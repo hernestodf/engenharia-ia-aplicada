@@ -1,8 +1,8 @@
 ---
 name: op-zenwrite-design-chain
 description: Build new UI or audit/align existing UI for the ZenWrite scholarly-writing app — its light-primary, dual-sphere design system (Newsreader serif + Manrope, brand-violet content sphere, sky/emerald/rose community sphere) plus React 19 + Tailwind v4 and general web/a11y/responsive best practice. Use whenever creating, editing, reviewing, or "bringing into alignment" any ZenWrite component, panel, screen, or page — even when the user only says "build a component," "make this match our style," "audit this page," "clean up the styling," "check design consistency," or "flush drift." Both an auditor and a builder for the ZenWrite design chain (Tokens → Primitives → Components → Built → Patterns).
-godnaterra/source: joshua/claude/design/zenwrite-design-chain/SKILL.md
-godnaterra/original-name: zenwrite-design-chain
+engenharia-ia-aplicada/source: joshua/claude/design/zenwrite-design-chain/SKILL.md
+engenharia-ia-aplicada/original-name: zenwrite-design-chain
 ---
 
 # ZenWrite Design Chain — Auditor & Builder

@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [footnotes, endnotes, citations, references, style-guide]
-godnaterra/source: autopunk/production-support/footnotes-formatter/SKILL.md
-godnaterra/original-name: footnotes-formatter
+engenharia-ia-aplicada/source: autopunk/production-support/footnotes-formatter/SKILL.md
+engenharia-ia-aplicada/original-name: footnotes-formatter
 ---
 # Footnotes Formatter
 

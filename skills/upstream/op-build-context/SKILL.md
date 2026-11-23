@@ -1,8 +1,8 @@
 ---
 name: op-build-context
 description: Work on agent context — use when asked to build, modify, or debug the user context system for an agent, including context schemas, RunContract mapping, context block rendering, or catalog slug validation.
-godnaterra/source: joshua/claude/agents/build-context/SKILL.md
-godnaterra/original-name: build-context
+engenharia-ia-aplicada/source: joshua/claude/agents/build-context/SKILL.md
+engenharia-ia-aplicada/original-name: build-context
 ---
 
 Work on agent context: dados informados pelo usuario na mensagem

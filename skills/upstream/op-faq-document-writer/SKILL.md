@@ -7,8 +7,8 @@ subcategory: crisis-comms
 version: 1.0
 eval_score: 4.5
 tags: [pr, crisis, faq, crisis-comms, media-handling]
-godnaterra/source: autopunk/pr-communications/crisis-comms/faq-document-writer/SKILL.md
-godnaterra/original-name: faq-document-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/crisis-comms/faq-document-writer/SKILL.md
+engenharia-ia-aplicada/original-name: faq-document-writer
 ---
 # FAQ Document Writer
 

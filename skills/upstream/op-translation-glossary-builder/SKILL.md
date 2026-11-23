@@ -7,8 +7,8 @@ subcategory: reference
 version: 1.0
 eval_score: 4.44
 tags: [translation, glossary, terminology, consistency, reference, localization]
-godnaterra/source: autopunk/translation/reference/translation-glossary-builder/SKILL.md
-godnaterra/original-name: translation-glossary-builder
+engenharia-ia-aplicada/source: autopunk/translation/reference/translation-glossary-builder/SKILL.md
+engenharia-ia-aplicada/original-name: translation-glossary-builder
 ---
 # Translation Glossary Builder
 

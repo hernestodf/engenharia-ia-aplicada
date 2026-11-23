@@ -7,8 +7,8 @@ subcategory: pitching
 version: 1.0
 eval_score: 4.39
 tags: [business, collaboration, partnerships, proposals, co-production, cross-platform]
-godnaterra/source: autopunk/media-business/pitching/collaboration-proposal-writer/SKILL.md
-godnaterra/original-name: collaboration-proposal-writer
+engenharia-ia-aplicada/source: autopunk/media-business/pitching/collaboration-proposal-writer/SKILL.md
+engenharia-ia-aplicada/original-name: collaboration-proposal-writer
 ---
 # Collaboration Proposal Writer
 

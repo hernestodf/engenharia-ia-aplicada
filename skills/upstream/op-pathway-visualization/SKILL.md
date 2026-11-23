@@ -1,8 +1,8 @@
 ---
 name: op-pathway-visualization
 description: Generate visualization design briefs for Alan Hirsch pathway pages. Produces detailed specifications for diagrams, charts, and visual models that illustrate each pathway's core framework — suitable for handoff to a designer or asset-generate tool. Understands Alan's existing visual models (U-Shaped curve, mDNA hexagon, APEST pentagon, etc.) and translates them into actionable design briefs.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-visualization/SKILL.md
-godnaterra/original-name: pathway-visualization
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-visualization/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-visualization
 ---
 
 Generate visualization briefs for: dados informados pelo usuario na mensagem

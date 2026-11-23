@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [location, permits, filming, access, logistics, pre-production]
-godnaterra/source: autopunk/research/locations-logistics/location-permit-brief/SKILL.md
-godnaterra/original-name: location-permit-brief
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/location-permit-brief/SKILL.md
+engenharia-ia-aplicada/original-name: location-permit-brief
 ---
 # Location Permit Brief
 

@@ -1,8 +1,8 @@
 ---
 name: op-migrations-workflow
 description: "Manage the full Drizzle ORM migration lifecycle — generate, review, apply, rollback, and sync with Supabase. Covers the safe workflow for schema changes, CI migration checks, and multi-environment migration strategy. Use when making any database schema change."
-godnaterra/source: joshua/claude/infrastructure/migrations-workflow/SKILL.md
-godnaterra/original-name: migrations-workflow
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/migrations-workflow/SKILL.md
+engenharia-ia-aplicada/original-name: migrations-workflow
 ---
 
 Manage database migrations: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: formatting
 version: 1.0
 eval_score: 4.39
 tags: [production-support, formatting, manuscript, style-guide, publishing, submission]
-godnaterra/source: autopunk/production-support/formatting/manuscript-formatter/SKILL.md
-godnaterra/original-name: manuscript-formatter
+engenharia-ia-aplicada/source: autopunk/production-support/formatting/manuscript-formatter/SKILL.md
+engenharia-ia-aplicada/original-name: manuscript-formatter
 ---
 # Manuscript Formatter
 

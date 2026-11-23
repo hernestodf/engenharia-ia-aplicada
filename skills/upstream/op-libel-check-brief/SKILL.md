@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.1
 eval_score: 4.60
 tags: [journalism, legal, libel, defamation, editing, pre-publication]
-godnaterra/source: autopunk/magazine-journalism/legal/libel-check-brief/SKILL.md
-godnaterra/original-name: libel-check-brief
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/legal/libel-check-brief/SKILL.md
+engenharia-ia-aplicada/original-name: libel-check-brief
 ---
 # Libel Check Brief
 

@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [research, sourcing, interviews, contacts, journalism, documentary, podcast]
-godnaterra/source: autopunk/research/people-contacts/interview-partners-brief/SKILL.md
-godnaterra/original-name: interview-partners-brief
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/interview-partners-brief/SKILL.md
+engenharia-ia-aplicada/original-name: interview-partners-brief
 ---
 # Interview Partners Brief
 

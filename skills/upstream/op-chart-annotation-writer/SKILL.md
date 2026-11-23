@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [data, charts, annotation, callouts, data-journalism, visualization, writing]
-godnaterra/source: autopunk/writing/articles/chart-annotation-writer/SKILL.md
-godnaterra/original-name: chart-annotation-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/chart-annotation-writer/SKILL.md
+engenharia-ia-aplicada/original-name: chart-annotation-writer
 ---
 # Chart Annotation Writer
 

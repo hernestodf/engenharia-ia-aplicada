@@ -7,8 +7,8 @@ subcategory: news-packages
 version: 1.0
 eval_score: 4.4
 tags: [radio, news, package, script, reporter-track, actuality]
-godnaterra/source: autopunk/radio-audio/news-packages/package-script-writer/SKILL.md
-godnaterra/original-name: package-script-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/news-packages/package-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: package-script-writer
 ---
 # Package Script Writer
 

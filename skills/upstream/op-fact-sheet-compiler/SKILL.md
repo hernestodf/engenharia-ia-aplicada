@@ -7,8 +7,8 @@ subcategory: reference
 version: 1.0
 eval_score: 4.44
 tags: [production-support, fact-sheet, reference, research, editorial, briefing]
-godnaterra/source: autopunk/production-support/reference/fact-sheet-compiler/SKILL.md
-godnaterra/original-name: fact-sheet-compiler
+engenharia-ia-aplicada/source: autopunk/production-support/reference/fact-sheet-compiler/SKILL.md
+engenharia-ia-aplicada/original-name: fact-sheet-compiler
 ---
 # Fact Sheet Compiler
 

@@ -1,8 +1,8 @@
 ---
 name: op-video-consult
 description: Consult on video production for a course — scripture grounding, narrative arc, storyboard, scene structure, and script. Bridges Alan's voice, course theology, and Remotion video production. Use when planning or authoring video content for any course.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-video-consult-2/SKILL.md
-godnaterra/original-name: video-consult
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-video-consult-2/SKILL.md
+engenharia-ia-aplicada/original-name: video-consult
 ---
 
 Consult on video production: dados informados pelo usuario na mensagem

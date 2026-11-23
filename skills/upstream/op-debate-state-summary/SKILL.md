@@ -7,8 +7,8 @@ subcategory: background
 version: 1.0
 eval_score: 4.5
 tags: [research, debate, controversy, positions, analysis, background]
-godnaterra/source: autopunk/research/background/debate-state-summary/SKILL.md
-godnaterra/original-name: debate-state-summary
+engenharia-ia-aplicada/source: autopunk/research/background/debate-state-summary/SKILL.md
+engenharia-ia-aplicada/original-name: debate-state-summary
 ---
 # Debate State Summary
 

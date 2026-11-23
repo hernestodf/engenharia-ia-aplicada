@@ -1,8 +1,8 @@
 ---
 name: op-tenant-check
 description: Audit components for hardcoded tenant strings, non-semantic colors, or missing feature flags. Use before PR review or to check tenant isolation readiness.
-godnaterra/source: joshua/claude/infrastructure/tenant-check/SKILL.md
-godnaterra/original-name: tenant-check
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/tenant-check/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-check
 ---
 
 Audit the movemental codebase for tenant config violations.

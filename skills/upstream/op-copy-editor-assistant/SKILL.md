@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.5
 tags: [journalism, editing, copy-editing, grammar, consistency, style]
-godnaterra/source: autopunk/magazine-journalism/editing/copy-editor-assistant/SKILL.md
-godnaterra/original-name: copy-editor-assistant
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/copy-editor-assistant/SKILL.md
+engenharia-ia-aplicada/original-name: copy-editor-assistant
 ---
 # Copy Editor Assistant
 

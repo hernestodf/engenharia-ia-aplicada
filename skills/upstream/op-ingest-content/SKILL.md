@@ -1,8 +1,8 @@
 ---
 name: op-ingest-content
 description: Ingest course content from markdown files or a content directory into the database — parsing, validating, and upserting weeks, lessons, reflection questions, discussion prompts, and exercises. Use when loading or re-loading course content into the platform database.
-godnaterra/source: joshua/claude/content/ingest-content/SKILL.md
-godnaterra/original-name: ingest-content
+engenharia-ia-aplicada/source: joshua/claude/content/ingest-content/SKILL.md
+engenharia-ia-aplicada/original-name: ingest-content
 ---
 
 Ingest course content: dados informados pelo usuario na mensagem

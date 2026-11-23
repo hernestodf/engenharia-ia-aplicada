@@ -1,8 +1,8 @@
 ---
 name: op-agent-test
 description: Write tests for agents — unit tests for tools/instructions/routing, smoke tests for end-to-end behavior, e2e specs for API contracts. Use when adding test coverage to agents.
-godnaterra/source: joshua/claude/agents/agent-test/SKILL.md
-godnaterra/original-name: agent-test
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-test/SKILL.md
+engenharia-ia-aplicada/original-name: agent-test
 ---
 
 Write agent tests: dados informados pelo usuario na mensagem

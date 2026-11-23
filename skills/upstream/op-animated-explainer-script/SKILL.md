@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.44
 tags: [documentary, scripting, animation, explainer, narration, graphics, data-visualisation]
-godnaterra/source: autopunk/tv-documentary/scripting/animated-explainer-script/SKILL.md
-godnaterra/original-name: animated-explainer-script
+engenharia-ia-aplicada/source: autopunk/tv-documentary/scripting/animated-explainer-script/SKILL.md
+engenharia-ia-aplicada/original-name: animated-explainer-script
 ---
 # Animated Explainer Script
 

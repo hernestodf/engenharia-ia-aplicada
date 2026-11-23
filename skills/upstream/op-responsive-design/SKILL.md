@@ -1,8 +1,8 @@
 ---
 name: op-responsive-design
 description: Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.
-godnaterra/source: joshua/claude/design/responsive-design/SKILL.md
-godnaterra/original-name: responsive-design
+engenharia-ia-aplicada/source: joshua/claude/design/responsive-design/SKILL.md
+engenharia-ia-aplicada/original-name: responsive-design
 ---
 
 # Responsive Design

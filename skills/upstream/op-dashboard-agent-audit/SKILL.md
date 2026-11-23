@@ -1,8 +1,8 @@
 ---
 name: op-dashboard-agent-audit
 description: Sign into the Movemental Studio dashboard via Playwright as EACH movement-leader tenant (or a chosen subset), traverse a route span (dashboard, content-books, settings, profile), surface console/API/runtime errors per tenant, and write per-leader JSON audit reports. Use when asked to dashboard audit, run span audit, surface dashboard errors, check whether each tenant/leader is good to go, Playwright audit, traverse dashboard routes, agent audit dashboard, or smoke-test the dashboard as signed-in users. Works headless on Ubuntu/WSL/CI — do not default to Chrome DevTools MCP.
-godnaterra/source: joshua/claude/movemental/dashboard-agent-audit/SKILL.md
-godnaterra/original-name: dashboard-agent-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/dashboard-agent-audit/SKILL.md
+engenharia-ia-aplicada/original-name: dashboard-agent-audit
 ---
 
 # Dashboard Agent Audit

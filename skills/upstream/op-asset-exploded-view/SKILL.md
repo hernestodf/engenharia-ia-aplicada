@@ -1,8 +1,8 @@
 ---
 name: op-asset-exploded-view
 description: Generate deconstructed/exploded view prompts using Nano Banana 2. Use for scroll-stop content, framework visualizations, concept illustrations, or any object elegantly taken apart into its components.
-godnaterra/source: joshua/claude/assets/asset-exploded-view/SKILL.md
-godnaterra/original-name: asset-exploded-view
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-exploded-view/SKILL.md
+engenharia-ia-aplicada/original-name: asset-exploded-view
 ---
 
 Generate an exploded/deconstructed view using Nano Banana 2: dados informados pelo usuario na mensagem

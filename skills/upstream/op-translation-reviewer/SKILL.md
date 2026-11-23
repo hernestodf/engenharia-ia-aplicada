@@ -7,8 +7,8 @@ subcategory: quality
 version: 1.0
 eval_score: 4.50
 tags: [translation, quality, review, accuracy, editing, proofreading]
-godnaterra/source: autopunk/translation/quality/translation-reviewer/SKILL.md
-godnaterra/original-name: translation-reviewer
+engenharia-ia-aplicada/source: autopunk/translation/quality/translation-reviewer/SKILL.md
+engenharia-ia-aplicada/original-name: translation-reviewer
 ---
 # Translation Reviewer
 

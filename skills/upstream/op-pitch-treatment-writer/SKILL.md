@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.4
 tags: [documentary, development, pitching, treatment, broadcaster]
-godnaterra/source: autopunk/tv-documentary/development/pitch-treatment-writer/SKILL.md
-godnaterra/original-name: pitch-treatment-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/development/pitch-treatment-writer/SKILL.md
+engenharia-ia-aplicada/original-name: pitch-treatment-writer
 ---
 # Pitch Treatment Writer
 

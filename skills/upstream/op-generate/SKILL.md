@@ -1,8 +1,8 @@
 ---
 name: op-generate
 description: Regenerate a specific layer (schemas, services, routes, hooks, ui) or all layers. Use after schema changes or when generated code is out of date.
-godnaterra/source: joshua/claude/codegen/generate/SKILL.md
-godnaterra/original-name: generate
+engenharia-ia-aplicada/source: joshua/claude/codegen/generate/SKILL.md
+engenharia-ia-aplicada/original-name: generate
 ---
 
 Regenerate code for the specified layer: $0

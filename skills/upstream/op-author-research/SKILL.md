@@ -1,8 +1,8 @@
 ---
 name: op-author-research
 description: Deep research for book authors — searches Google Scholar, Internet Archive, JSTOR, Google Books/Ngram, Library of Congress, HathiTrust, OECD/World Bank data, historic newspapers, and news archives. Produces an organized research dossier with primary sources, data, historical context, and full citations.
-godnaterra/source: joshua/claude/content/author-research/SKILL.md
-godnaterra/original-name: author-research
+engenharia-ia-aplicada/source: joshua/claude/content/author-research/SKILL.md
+engenharia-ia-aplicada/original-name: author-research
 ---
 
 Conduct deep research for a book or long-form writing project on: dados informados pelo usuario na mensagem

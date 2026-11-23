@@ -1,8 +1,8 @@
 ---
 name: op-agent-create
 description: Scaffold a new OpenAI Agents SDK agent with instructions, tools, API route, and bridge wiring. Use when creating a new specialized agent from scratch.
-godnaterra/source: joshua/claude/agents/agent-create/SKILL.md
-godnaterra/original-name: agent-create
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-create/SKILL.md
+engenharia-ia-aplicada/original-name: agent-create
 ---
 
 Scaffold a new agent: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "skills": [
-    "__GODNATERRA_ROOT__/skills/core",
-    "__GODNATERRA_ROOT__/skills/upstream"
+    "__EIA_ROOT__/skills/core",
+    "__EIA_ROOT__/skills/upstream"
   ],
   "mcp": {
     "servers": {

@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.89
 tags: [research, sourcing, experts, journalism, pre-production, investigation]
-godnaterra/source: autopunk/research/people-contacts/expert-identifier/SKILL.md
-godnaterra/original-name: expert-identifier
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/expert-identifier/SKILL.md
+engenharia-ia-aplicada/original-name: expert-identifier
 ---
 # Expert Identifier
 

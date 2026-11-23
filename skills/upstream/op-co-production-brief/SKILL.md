@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [documentary, business, co-production, international, financing]
-godnaterra/source: autopunk/tv-documentary/business/co-production-brief/SKILL.md
-godnaterra/original-name: co-production-brief
+engenharia-ia-aplicada/source: autopunk/tv-documentary/business/co-production-brief/SKILL.md
+engenharia-ia-aplicada/original-name: co-production-brief
 ---
 # Co-Production Brief
 

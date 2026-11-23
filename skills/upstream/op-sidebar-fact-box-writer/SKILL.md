@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.4
 tags: [journalism, writing, sidebar, fact-box, print, feature]
-godnaterra/source: autopunk/magazine-journalism/writing/sidebar-fact-box-writer/SKILL.md
-godnaterra/original-name: sidebar-fact-box-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/sidebar-fact-box-writer/SKILL.md
+engenharia-ia-aplicada/original-name: sidebar-fact-box-writer
 ---
 # Sidebar Fact Box Writer
 

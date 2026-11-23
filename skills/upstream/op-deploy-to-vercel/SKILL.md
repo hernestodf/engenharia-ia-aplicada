@@ -1,8 +1,8 @@
 ---
 name: op-deploy-to-vercel
 description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment". Supports both interactive login and token-based authentication.
-godnaterra/source: joshua/claude/infrastructure/deploy-to-vercel/SKILL.md
-godnaterra/original-name: deploy-to-vercel
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/deploy-to-vercel/SKILL.md
+engenharia-ia-aplicada/original-name: deploy-to-vercel
 ---
 
 # Deploy to Vercel

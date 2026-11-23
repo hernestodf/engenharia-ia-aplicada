@@ -6,8 +6,8 @@ description: >-
   draft-by-default with namespaced slugs. Uses leaders.manifest.json for org/author IDs. Run after
   content-harvest (and media-transcribe for A/V). Distinct from movemental-leader-corpus-upload
   (dossier JSONB) and demo-pack ingest (synthetic seed).
-godnaterra/source: joshua/claude/movemental/movement-leader-harvest-ingest/SKILL.md
-godnaterra/original-name: movement-leader-harvest-ingest
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-harvest-ingest/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-harvest-ingest
 ---
 
 # Movement Leader Harvest Ingest

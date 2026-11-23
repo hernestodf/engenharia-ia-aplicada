@@ -1,8 +1,8 @@
 ---
 name: op-supabase-add-tenant-user
 description: Provision a new multi-tenant user on a Supabase-backed app with one auth user → one user_profiles row → one owned organization → one organization_memberships row. Tuned for the Movemental / alan-hirsch visual-editor schema (public.user_profiles, public.organizations, public.organization_memberships). Use whenever the user asks to "add a new user", "invite a creator", "onboard a tenant", or "add a member to an org".
-godnaterra/source: joshua/claude/infrastructure/supabase-add-tenant-user/SKILL.md
-godnaterra/original-name: supabase-add-tenant-user
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/supabase-add-tenant-user/SKILL.md
+engenharia-ia-aplicada/original-name: supabase-add-tenant-user
 ---
 
 Add a new multi-tenant user: dados informados pelo usuario na mensagem

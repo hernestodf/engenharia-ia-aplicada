@@ -1,8 +1,8 @@
 ---
 name: op-image-optimize
 description: Optimize images from the local images repo (convert to WebP, generate responsive variants, resize) and upload to Supabase Storage preserving the multi-tenant folder structure. Use when adding new images, syncing the images repo to storage, or generating responsive sets for existing assets.
-godnaterra/source: joshua/claude/assets/image-optimize/SKILL.md
-godnaterra/original-name: image-optimize
+engenharia-ia-aplicada/source: joshua/claude/assets/image-optimize/SKILL.md
+engenharia-ia-aplicada/original-name: image-optimize
 ---
 
 Optimize and upload images to Supabase Storage: dados informados pelo usuario na mensagem

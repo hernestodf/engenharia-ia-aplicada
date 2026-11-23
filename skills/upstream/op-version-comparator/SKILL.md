@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.44
 tags: [journalism, editing, comparison, versions, tracking, revisions]
-godnaterra/source: autopunk/magazine-journalism/editing/version-comparator/SKILL.md
-godnaterra/original-name: version-comparator
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/version-comparator/SKILL.md
+engenharia-ia-aplicada/original-name: version-comparator
 ---
 # Version Comparator
 

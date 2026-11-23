@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.44
 tags: [social-media, tags, keywords, SEO, discoverability, YouTube, podcast, CMS]
-godnaterra/source: autopunk/social-media/strategy/tag-keyword-generator/SKILL.md
-godnaterra/original-name: tag-keyword-generator
+engenharia-ia-aplicada/source: autopunk/social-media/strategy/tag-keyword-generator/SKILL.md
+engenharia-ia-aplicada/original-name: tag-keyword-generator
 ---
 # Tag & Keyword Generator
 

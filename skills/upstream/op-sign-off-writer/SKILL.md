@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [broadcast, sign-off, closing-script, presenter, reporter, podcast, outro]
-godnaterra/source: autopunk/writing/broadcast/sign-off-writer/SKILL.md
-godnaterra/original-name: sign-off-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/sign-off-writer/SKILL.md
+engenharia-ia-aplicada/original-name: sign-off-writer
 ---
 # Sign-Off Writer
 

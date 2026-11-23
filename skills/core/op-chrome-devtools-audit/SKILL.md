@@ -6,8 +6,8 @@ category: engineering
 subcategory: browser-diagnostics
 version: 1.0
 tags: [browser, devtools, mcp, debugging, accessibility, ui]
-godnaterra/layer: core
-godnaterra/source: canonical
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
 # Diagnostico de browser com Chrome DevTools MCP

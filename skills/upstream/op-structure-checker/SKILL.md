@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.50
 tags: [journalism, editing, structure, flow, organization, architecture]
-godnaterra/source: autopunk/magazine-journalism/editing/structure-checker/SKILL.md
-godnaterra/original-name: structure-checker
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/structure-checker/SKILL.md
+engenharia-ia-aplicada/original-name: structure-checker
 ---
 # Structure Checker
 

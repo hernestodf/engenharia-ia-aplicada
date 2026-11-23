@@ -12,8 +12,8 @@ description: >
   route", or runs the playbook per-cluster. Underlying per-screen mechanic is the
   stitch-react skill. Tenant-agnostic: copy slots, pathways, and design come from
   TENANT_MANIFEST.md. See references/clusters.md for per-cluster section orders.
-godnaterra/source: joshua/claude/movemental/stitch-page-port/SKILL.md
-godnaterra/original-name: stitch-page-port
+engenharia-ia-aplicada/source: joshua/claude/movemental/stitch-page-port/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-page-port
 ---
 
 # Stitch page port

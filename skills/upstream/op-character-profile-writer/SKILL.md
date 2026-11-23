@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.4
 tags: [screenwriting, development, character, profile, backstory]
-godnaterra/source: autopunk/screenwriting/development/character-profile-writer/SKILL.md
-godnaterra/original-name: character-profile-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/development/character-profile-writer/SKILL.md
+engenharia-ia-aplicada/original-name: character-profile-writer
 ---
 # Character Profile Writer
 

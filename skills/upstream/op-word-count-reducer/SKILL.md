@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [editing, writing, word-count, tightening, journalism, digital, print]
-godnaterra/source: autopunk/writing/articles/word-count-reducer/SKILL.md
-godnaterra/original-name: word-count-reducer
+engenharia-ia-aplicada/source: autopunk/writing/articles/word-count-reducer/SKILL.md
+engenharia-ia-aplicada/original-name: word-count-reducer
 ---
 # Word Count Reducer
 

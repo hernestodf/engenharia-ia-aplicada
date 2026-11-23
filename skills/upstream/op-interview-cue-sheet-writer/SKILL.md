@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [radio, scripting, interview, cue-sheet, presenter, live]
-godnaterra/source: autopunk/radio-audio/scripting/interview-cue-sheet-writer/SKILL.md
-godnaterra/original-name: interview-cue-sheet-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/scripting/interview-cue-sheet-writer/SKILL.md
+engenharia-ia-aplicada/original-name: interview-cue-sheet-writer
 ---
 # Interview Cue Sheet Writer
 

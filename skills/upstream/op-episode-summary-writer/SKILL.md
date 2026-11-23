@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [podcast, post-production, summary, directories, promotion]
-godnaterra/source: autopunk/podcast/post-production/episode-summary-writer/SKILL.md
-godnaterra/original-name: episode-summary-writer
+engenharia-ia-aplicada/source: autopunk/podcast/post-production/episode-summary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: episode-summary-writer
 ---
 # Episode Summary Writer
 

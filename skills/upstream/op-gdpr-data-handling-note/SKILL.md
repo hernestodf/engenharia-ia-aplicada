@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.33
 tags: [business, legal, GDPR, privacy, compliance, data-protection, journalism]
-godnaterra/source: autopunk/media-business/legal/gdpr-data-handling-note/SKILL.md
-godnaterra/original-name: gdpr-data-handling-note
+engenharia-ia-aplicada/source: autopunk/media-business/legal/gdpr-data-handling-note/SKILL.md
+engenharia-ia-aplicada/original-name: gdpr-data-handling-note
 ---
 # GDPR Data Handling Note
 

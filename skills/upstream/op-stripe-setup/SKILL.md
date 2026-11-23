@@ -1,8 +1,8 @@
 ---
 name: op-stripe-setup
 description: "Set up Stripe payments for Next.js 15 or Vite + Express — subscriptions, one-time payments, webhooks, customer portal, billing middleware, and Supabase subscription sync. Use when adding payments to any project in this stack."
-godnaterra/source: joshua/claude/infrastructure/stripe-setup/SKILL.md
-godnaterra/original-name: stripe-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/stripe-setup/SKILL.md
+engenharia-ia-aplicada/original-name: stripe-setup
 ---
 
 Set up Stripe payments: dados informados pelo usuario na mensagem

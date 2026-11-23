@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.39
 tags: [documentary, pre-production, budget, finance, planning, costing]
-godnaterra/source: autopunk/tv-documentary/pre-production/production-budget-estimator/SKILL.md
-godnaterra/original-name: production-budget-estimator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/production-budget-estimator/SKILL.md
+engenharia-ia-aplicada/original-name: production-budget-estimator
 ---
 # Production Budget Estimator
 

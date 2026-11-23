@@ -2,8 +2,8 @@
 name: op-postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
 origin: ECC
-godnaterra/source: joshua/claude/infrastructure/postgres-patterns/SKILL.md
-godnaterra/original-name: postgres-patterns
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/postgres-patterns/SKILL.md
+engenharia-ia-aplicada/original-name: postgres-patterns
 ---
 
 # PostgreSQL Patterns

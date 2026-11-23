@@ -7,8 +7,8 @@ subcategory: ideation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, planning, editorial-calendar, content-strategy, production-management]
-godnaterra/source: autopunk/magazine-journalism/ideation/editorial-calendar-planner/SKILL.md
-godnaterra/original-name: editorial-calendar-planner
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/ideation/editorial-calendar-planner/SKILL.md
+engenharia-ia-aplicada/original-name: editorial-calendar-planner
 ---
 # Editorial Calendar Planner
 

@@ -1,8 +1,8 @@
 ---
 name: op-ui-hook-wiring-audit
 description: "Audit and fix UI component data wiring — verifies every component renders the correct data by tracing rendered fields back to the type-safe hooks layer. Checks that book thumbnails, author profiles, course cards, video metadata, and all other domain data reach the correct UI locations through the right simplified or custom hooks. Reports status for each component, then fixes only incorrectly wired paths."
-godnaterra/source: joshua/claude/design/ui-hook-wiring-audit/SKILL.md
-godnaterra/original-name: ui-hook-wiring-audit
+engenharia-ia-aplicada/source: joshua/claude/design/ui-hook-wiring-audit/SKILL.md
+engenharia-ia-aplicada/original-name: ui-hook-wiring-audit
 ---
 
 Audit and fix UI ↔ hook wiring for: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 ---
 name: op-asset-brand-check
 description: Audit generated image assets against the platform's brand guidelines. Use before publishing to verify color palette, typography, tone, and visual consistency.
-godnaterra/source: joshua/claude/assets/asset-brand-check/SKILL.md
-godnaterra/original-name: asset-brand-check
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-brand-check/SKILL.md
+engenharia-ia-aplicada/original-name: asset-brand-check
 ---
 
 Audit image assets against brand guidelines: dados informados pelo usuario na mensagem

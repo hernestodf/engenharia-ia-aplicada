@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.5
 tags: [methodology, transparency, data journalism, publication, editorial]
-godnaterra/source: autopunk/data-journalism/publishing/methodology-explainer/SKILL.md
-godnaterra/original-name: methodology-explainer
+engenharia-ia-aplicada/source: autopunk/data-journalism/publishing/methodology-explainer/SKILL.md
+engenharia-ia-aplicada/original-name: methodology-explainer
 ---
 # Methodology Explainer
 

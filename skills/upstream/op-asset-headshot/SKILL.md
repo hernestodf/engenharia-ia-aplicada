@@ -1,8 +1,8 @@
 ---
 name: op-asset-headshot
 description: Create polished headshots and avatars from existing author photos using Nano Banana 2. Handles background replacement, relighting, color grading, cropping, and format adaptation for avatars, team pages, bio cards, OG images, and instructor photos. Use when you need a consistent, on-brand headshot at any size or context.
-godnaterra/source: joshua/claude/assets/asset-headshot/SKILL.md
-godnaterra/original-name: asset-headshot
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-headshot/SKILL.md
+engenharia-ia-aplicada/original-name: asset-headshot
 ---
 
 Create a headshot or avatar from an existing photo: dados informados pelo usuario na mensagem

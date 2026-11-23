@@ -7,8 +7,8 @@ subcategory: visualization
 version: 1.0
 eval_score: 4.3
 tags: [tables, data formatting, publication, copy editing]
-godnaterra/source: autopunk/data-journalism/visualization/data-table-formatter/SKILL.md
-godnaterra/original-name: data-table-formatter
+engenharia-ia-aplicada/source: autopunk/data-journalism/visualization/data-table-formatter/SKILL.md
+engenharia-ia-aplicada/original-name: data-table-formatter
 ---
 # Data Table Formatter
 

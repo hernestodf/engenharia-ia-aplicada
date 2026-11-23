@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.39
 tags: [data-journalism, statistics, calculations, analysis, numbers, percentages, averages]
-godnaterra/source: autopunk/data-journalism/analysis/basic-statistics-calculator/SKILL.md
-godnaterra/original-name: basic-statistics-calculator
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/basic-statistics-calculator/SKILL.md
+engenharia-ia-aplicada/original-name: basic-statistics-calculator
 ---
 # Basic Statistics Calculator
 

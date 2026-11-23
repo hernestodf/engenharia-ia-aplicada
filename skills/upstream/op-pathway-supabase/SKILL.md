@@ -1,8 +1,8 @@
 ---
 name: op-pathway-supabase
 description: Pull pathway, portal, and theme content from the Supabase movemental database for the alan-hirsch tenant. Queries pathways, books, courses, articles, and content_items tables for portal-tagged records. Exports results as organized markdown into the docs repo.
-godnaterra/source: joshua/cursor/pathway-supabase/SKILL.md
-godnaterra/original-name: pathway-supabase
+engenharia-ia-aplicada/source: joshua/cursor/pathway-supabase/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-supabase
 ---
 
 Pull pathway content from Supabase: dados informados pelo usuario na mensagem

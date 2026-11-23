@@ -1,8 +1,8 @@
 ---
 name: op-type-fix
 description: Run type safety checks across all 6 layers, regenerate any failing layers, and loop until all layers pass with zero errors. Follows the lock-before-proceed protocol from _docs/type/.
-godnaterra/source: joshua/claude/infrastructure/type-fix/SKILL.md
-godnaterra/original-name: type-fix
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/type-fix/SKILL.md
+engenharia-ia-aplicada/original-name: type-fix
 ---
 
 # Type Safety Fix Loop

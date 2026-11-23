@@ -1,8 +1,8 @@
 ---
 name: op-pathway-organizer
 description: Organize discovered pathway/portal/theme content into the docs repo structure. Copies new files, resolves duplicates, updates the README, and ensures each portal directory has complete coverage. Run after pathway-collector to consolidate content.
-godnaterra/source: joshua/cursor/pathway-organizer/SKILL.md
-godnaterra/original-name: pathway-organizer
+engenharia-ia-aplicada/source: joshua/cursor/pathway-organizer/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-organizer
 ---
 
 Organize pathway content into the docs repo: dados informados pelo usuario na mensagem

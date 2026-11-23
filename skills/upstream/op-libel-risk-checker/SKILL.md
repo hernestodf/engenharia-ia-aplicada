@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, legal, risk, defamation, pre-publication]
-godnaterra/source: autopunk/editing/libel-risk-checker/SKILL.md
-godnaterra/original-name: libel-risk-checker
+engenharia-ia-aplicada/source: autopunk/editing/libel-risk-checker/SKILL.md
+engenharia-ia-aplicada/original-name: libel-risk-checker
 ---
 # Libel Risk Checker
 

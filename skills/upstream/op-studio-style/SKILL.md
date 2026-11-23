@@ -1,8 +1,8 @@
 ---
 name: op-studio-style
 description: Generate a 1-pager style foundation prompt for AI Studio — hero, typography section, and card grid only. Establishes the visual language for any subsequent development (dashboards, e-readers, webpages, etc.) through three exemplary sections that showcase pattern, type, color, motion, and interaction decisions.
-godnaterra/source: joshua/claude/studio/studio-style/SKILL.md
-godnaterra/original-name: studio-style
+engenharia-ia-aplicada/source: joshua/claude/studio/studio-style/SKILL.md
+engenharia-ia-aplicada/original-name: studio-style
 ---
 
 Generate an AI Studio style foundation prompt for: dados informados pelo usuario na mensagem

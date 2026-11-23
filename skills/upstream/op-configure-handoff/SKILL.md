@@ -1,8 +1,8 @@
 ---
 name: op-configure-handoff
 description: Configure agent handoffs — use when asked to set up multi-agent routing, delegate conversations between specialist agents, configure handoff rules, or wire agents together via an agent registry.
-godnaterra/source: joshua/claude/agents/configure-handoff/SKILL.md
-godnaterra/original-name: configure-handoff
+engenharia-ia-aplicada/source: joshua/claude/agents/configure-handoff/SKILL.md
+engenharia-ia-aplicada/original-name: configure-handoff
 ---
 
 Configure agent handoffs: dados informados pelo usuario na mensagem

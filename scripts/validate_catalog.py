@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida o catálogo canônico Godnaterra (core/ + upstream/).
+"""Valida o catálogo canônico EngenhariaIaAplicada (core/ + upstream/).
 
 Uso: python3 scripts/validate_catalog.py
 Saída: contadores + lista de problemas. Exit 1 se houver problema.
@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAIZES = (ROOT / "skills" / "core", ROOT / "skills" / "upstream")
 
 # Esta skill documenta os padrões proibidos; cita-los é obrigatório.
-DOCUMENTA_PADROES = {"op-godnaterra-portability"}
+DOCUMENTA_PADROES = {"op-eia-portability"}
 
 PROIBIDOS = {
     "ARGUMENTS": re.compile(r"\$ARGUMENTS\b"),

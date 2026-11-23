@@ -1,8 +1,8 @@
 ---
 name: op-analytics-dashboard
 description: Build React analytics dashboard components for this platform — KPI metric cards, time series charts (Recharts), funnel views, and per-tenant data scoping. Uses shadcn/ui + Recharts, wired to React Query hooks over the analytics_events Supabase table.
-godnaterra/source: joshua/claude/infrastructure/analytics-dashboard/SKILL.md
-godnaterra/original-name: analytics-dashboard
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/analytics-dashboard/SKILL.md
+engenharia-ia-aplicada/original-name: analytics-dashboard
 ---
 
 Build analytics dashboard components: dados informados pelo usuario na mensagem

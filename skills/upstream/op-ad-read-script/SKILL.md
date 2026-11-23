@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [podcast, scripting, ads, sponsorship, host-read, monetization]
-godnaterra/source: autopunk/podcast/scripting/ad-read-script/SKILL.md
-godnaterra/original-name: ad-read-script
+engenharia-ia-aplicada/source: autopunk/podcast/scripting/ad-read-script/SKILL.md
+engenharia-ia-aplicada/original-name: ad-read-script
 ---
 # Ad Read Script
 

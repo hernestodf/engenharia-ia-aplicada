@@ -7,8 +7,8 @@ subcategory:
 version: 1.0
 eval_score: 5.0
 tags: [editing, copy-editing, style, clarity, consistency, journalism, writing]
-godnaterra/source: autopunk/editing/copy-editor/SKILL.md
-godnaterra/original-name: copy-editor
+engenharia-ia-aplicada/source: autopunk/editing/copy-editor/SKILL.md
+engenharia-ia-aplicada/original-name: copy-editor
 ---
 # Copy Editor
 

@@ -1,8 +1,8 @@
 ---
 name: op-art
 description: Generate illustrations, technical diagrams, mermaid flowcharts, infographics, header images, thumbnails, comics, and PAI pack icons using multiple rendering backends. USE WHEN art, header images, visualizations, mermaid, flowchart, technical diagram, infographic, PAI icon, pack icon, YouTube thumbnails, ad hoc thumbnails, annotated screenshots, aphorisms, comics, comparisons, D3 dashboards, embossed logo wallpaper, essay illustration, frameworks, maps, recipe cards, remove background, stats, taxonomies, timelines, brand wallpaper, visualize, generate image, Midjourney, compose thumbnail, generate prompt.
-godnaterra/source: joshua/claude/assets/art/SKILL.md
-godnaterra/original-name: Art
+engenharia-ia-aplicada/source: joshua/claude/assets/art/SKILL.md
+engenharia-ia-aplicada/original-name: Art
 ---
 
 # Art Skill

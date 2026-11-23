@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.4
 tags: [social-media, content, threads, twitter, x, long-form, journalism]
-godnaterra/source: autopunk/social-media/content/thread-writer/SKILL.md
-godnaterra/original-name: thread-writer
+engenharia-ia-aplicada/source: autopunk/social-media/content/thread-writer/SKILL.md
+engenharia-ia-aplicada/original-name: thread-writer
 ---
 # Thread Writer
 

@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [festival, synopsis, documentary, film, competition, submission]
-godnaterra/source: autopunk/writing/institutional/festival-entry-synopsis-writer/SKILL.md
-godnaterra/original-name: festival-entry-synopsis-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/festival-entry-synopsis-writer/SKILL.md
+engenharia-ia-aplicada/original-name: festival-entry-synopsis-writer
 ---
 # Festival Entry Synopsis Writer
 

@@ -7,8 +7,8 @@ subcategory: text
 version: 1.0
 eval_score: 4.39
 tags: [translation, quotes, interviews, tone, nuance, attribution]
-godnaterra/source: autopunk/translation/text/quote-translator/SKILL.md
-godnaterra/original-name: quote-translator
+engenharia-ia-aplicada/source: autopunk/translation/text/quote-translator/SKILL.md
+engenharia-ia-aplicada/original-name: quote-translator
 ---
 # Quote Translator
 

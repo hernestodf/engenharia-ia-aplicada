@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida o contrato dos incidentes do loop de aprendizado Godnaterra.
+"""Valida o contrato dos incidentes do loop de aprendizado EngenhariaIaAplicada.
 
 Entrada: evaluations/incidents/INC-*.json
 

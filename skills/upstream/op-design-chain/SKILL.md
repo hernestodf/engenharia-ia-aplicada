@@ -1,8 +1,8 @@
 ---
 name: op-design-chain
 description: Audit and enforce the five-layer design chain (tokens → Tailwind → primitives → sections → pages) across all components and pages. Finds hardcoded values, layer violations, broken mode parity, and missing primitives.
-godnaterra/source: joshua/claude/design/design-chain/SKILL.md
-godnaterra/original-name: design-chain
+engenharia-ia-aplicada/source: joshua/claude/design/design-chain/SKILL.md
+engenharia-ia-aplicada/original-name: design-chain
 ---
 
 Audit and enforce the five-layer design chain across components and pages: dados informados pelo usuario na mensagem

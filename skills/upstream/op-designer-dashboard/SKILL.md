@@ -1,8 +1,8 @@
 ---
 name: op-designer-dashboard
 description: Apply the Stitch → tokens → primitives → components → layouts design chain to React/Tailwind dashboard UI for cohesive, on-brand surfaces. Use when building or refactoring dashboard routes, course/lesson editors, metadata pages, shell chrome, or running an agentic UI pass that must stay token-aligned.
-godnaterra/source: joshua/claude/design/designer-dashboard/SKILL.md
-godnaterra/original-name: designer-dashboard
+engenharia-ia-aplicada/source: joshua/claude/design/designer-dashboard/SKILL.md
+engenharia-ia-aplicada/original-name: designer-dashboard
 ---
 
 **Cursor:** Read this skill whenever the user asks for dashboard design cohesion, a “design system” pass on `(dashboard)` routes, or work that should match Stitch-derived visuals without ad hoc styling.

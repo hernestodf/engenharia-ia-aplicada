@@ -7,8 +7,8 @@ subcategory: midjourney
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, midjourney, style, visual-reference, art-direction]
-godnaterra/source: autopunk/image-prompting/midjourney/style-reference-prompt/SKILL.md
-godnaterra/original-name: style-reference-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/midjourney/style-reference-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: style-reference-prompt
 ---
 # Style Reference Prompt
 

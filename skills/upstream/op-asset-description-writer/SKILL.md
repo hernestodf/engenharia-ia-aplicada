@@ -7,8 +7,8 @@ subcategory: formatting
 version: 1.0
 eval_score: 4.39
 tags: [production-support, DAM, metadata, assets, archiving, search]
-godnaterra/source: autopunk/production-support/formatting/asset-description-writer/SKILL.md
-godnaterra/original-name: asset-description-writer
+engenharia-ia-aplicada/source: autopunk/production-support/formatting/asset-description-writer/SKILL.md
+engenharia-ia-aplicada/original-name: asset-description-writer
 ---
 # Asset Description Writer
 

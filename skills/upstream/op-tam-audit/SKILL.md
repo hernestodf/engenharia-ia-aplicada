@@ -1,8 +1,8 @@
 ---
 name: op-tam-audit
 description: Audit the TAM master list for gaps, staleness, scoring inconsistencies, demographic imbalances, and missing research — produces an actionable health report
-godnaterra/source: joshua/claude/movemental/tam-audit/SKILL.md
-godnaterra/original-name: tam-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-audit/SKILL.md
+engenharia-ia-aplicada/original-name: tam-audit
 ---
 
 # TAM Audit: Health Check the Movement Leader List

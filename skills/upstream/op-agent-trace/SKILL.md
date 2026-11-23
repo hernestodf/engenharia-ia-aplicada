@@ -1,8 +1,8 @@
 ---
 name: op-agent-trace
 description: Debug agent execution with tracing — analyze traces, tool calls, durations, errors, and performance metrics. Use when investigating agent behavior.
-godnaterra/source: joshua/claude/agents/agent-trace/SKILL.md
-godnaterra/original-name: agent-trace
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-trace/SKILL.md
+engenharia-ia-aplicada/original-name: agent-trace
 ---
 
 Debug agent execution: dados informados pelo usuario na mensagem

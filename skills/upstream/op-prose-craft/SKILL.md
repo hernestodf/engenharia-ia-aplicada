@@ -1,8 +1,8 @@
 ---
 name: op-prose-craft
 description: Core writing craft skill — sentence-level quality, rhythm, voice, show-don't-tell, sensory detail, pacing, and line-level revision. Use when writing, rewriting, or polishing prose in any genre. Also use when tuning an agent's prose output quality.
-godnaterra/source: joshua/claude/content/prose-craft/SKILL.md
-godnaterra/original-name: prose-craft
+engenharia-ia-aplicada/source: joshua/claude/content/prose-craft/SKILL.md
+engenharia-ia-aplicada/original-name: prose-craft
 ---
 
 Improve or generate prose: dados informados pelo usuario na mensagem

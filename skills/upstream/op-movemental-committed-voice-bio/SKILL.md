@@ -1,8 +1,8 @@
 ---
 name: op-movemental-committed-voice-bio
 description: Generate the Committed Voices onboarding entry for a specific movement leader from their research dossier. Use when asked to "draft the committed-voice bio for <leader>", "generate Committed Voices entry for <slug>", or "extract committed-voices markdown for <author>". Reads the leader's research dossier under movemental-ai/docs/movement_leader_research/<slug>/ and emits one structured markdown file (YAML frontmatter + slightly-warm third-person editorial bio) that maps directly onto the CommittedVoice type rendered at /onboarding/committed-voices.
-godnaterra/source: joshua/claude/movemental/movemental-committed-voice-bio/SKILL.md
-godnaterra/original-name: movemental-committed-voice-bio
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-committed-voice-bio/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-committed-voice-bio
 ---
 
 Generate the Committed Voices markdown for the leader in `dados informados pelo usuario na mensagem`.

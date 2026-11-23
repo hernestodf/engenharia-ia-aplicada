@@ -1,8 +1,8 @@
 ---
 name: op-platform-demo-architect
 description: Interactive 9-step process to design a cutting-edge, best-case platform demo for a specific audience — audience intel, problem thesis, capability map, personality/theming, then auto-generated sitemap, component specs, and agent roster (Next/Vite, Tailwind, Supabase RLS, Vercel, Stripe+Shopify, Resend, tenant-scoped agents). Opinionated, high-signal; use when scoping a tailored tenant platform or stakeholder demo.
-godnaterra/source: joshua/claude/movemental/platform-demo-architect/SKILL.md
-godnaterra/original-name: platform-demo-architect
+engenharia-ia-aplicada/source: joshua/claude/movemental/platform-demo-architect/SKILL.md
+engenharia-ia-aplicada/original-name: platform-demo-architect
 ---
 
 Run the **Platform Demo Architect** process: dados informados pelo usuario na mensagem

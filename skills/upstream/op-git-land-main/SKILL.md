@@ -10,8 +10,8 @@ description: >-
   branches. Never commit or push directly to main; never force-push main; never
   delete a branch until origin/main has it. GitHub Actions billing is not a
   merge blocker; do not make repos public to get free minutes.
-godnaterra/source: joshua/cursor/git-land-main/SKILL.md
-godnaterra/original-name: git-land-main
+engenharia-ia-aplicada/source: joshua/cursor/git-land-main/SKILL.md
+engenharia-ia-aplicada/original-name: git-land-main
 ---
 
 # Git land → main

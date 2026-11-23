@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [linkedin, social-media, distribution, journalism, thought-leadership]
-godnaterra/source: autopunk/writing/digital-social/linkedin-post-writer/SKILL.md
-godnaterra/original-name: linkedin-post-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/linkedin-post-writer/SKILL.md
+engenharia-ia-aplicada/original-name: linkedin-post-writer
 ---
 # LinkedIn Post Writer
 

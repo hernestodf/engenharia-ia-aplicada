@@ -4,8 +4,8 @@ description: "Comprehensive PostgreSQL reference covering performance optimizati
 risk: unknown
 source: community
 date_added: "2026-02-27"
-godnaterra/source: joshua/claude/infrastructure/postgres-best-practices/SKILL.md
-godnaterra/original-name: postgres-best-practices
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/postgres-best-practices/SKILL.md
+engenharia-ia-aplicada/original-name: postgres-best-practices
 ---
 
 # PostgreSQL Best Practices

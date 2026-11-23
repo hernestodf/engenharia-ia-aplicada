@@ -1,8 +1,8 @@
 ---
 name: op-career
 description: Career management skill covering resume coaching (review, score, tailor, audit), job evaluation, rubric development, content extraction from conversations, and pipeline quality assurance.
-godnaterra/source: joshua/claude/content/career/SKILL.md
-godnaterra/original-name: career
+engenharia-ia-aplicada/source: joshua/claude/content/career/SKILL.md
+engenharia-ia-aplicada/original-name: career
 ---
 
 # Career

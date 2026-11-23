@@ -1,8 +1,8 @@
 ---
 name: op-pathway-case-study
 description: Research and write case studies for Alan Hirsch pathway pages. Produces 2–4 case studies per pathway — biblical, historical, and contemporary — with card-level summaries for the pathway page and full narrative pages for dedicated URLs. Draws from Alan's books, documented movements, and his research. Each case study follows the pathway's own arc (U-shape for Metanoia, reframes for Reframation, etc.).
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-case-study/SKILL.md
-godnaterra/original-name: pathway-case-study
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-case-study/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-case-study
 ---
 
 Write case studies for: dados informados pelo usuario na mensagem

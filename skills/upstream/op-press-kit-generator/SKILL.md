@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [documentary, post-production, press-kit, publicity, distribution]
-godnaterra/source: autopunk/tv-documentary/post-production/press-kit-generator/SKILL.md
-godnaterra/original-name: press-kit-generator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/press-kit-generator/SKILL.md
+engenharia-ia-aplicada/original-name: press-kit-generator
 ---
 # Press Kit Generator
 

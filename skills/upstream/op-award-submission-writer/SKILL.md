@@ -7,8 +7,8 @@ subcategory: pitching
 version: 1.0
 eval_score: 4.44
 tags: [business, awards, submissions, pitching, recognition, festival, competition]
-godnaterra/source: autopunk/media-business/pitching/award-submission-writer/SKILL.md
-godnaterra/original-name: award-submission-writer
+engenharia-ia-aplicada/source: autopunk/media-business/pitching/award-submission-writer/SKILL.md
+engenharia-ia-aplicada/original-name: award-submission-writer
 ---
 # Award Submission Writer
 

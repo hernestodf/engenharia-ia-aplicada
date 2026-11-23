@@ -1,8 +1,8 @@
 ---
 name: op-tam-score
 description: Score and rank movement leader candidates using the Seven Gates and 100-point Movemental rubric
-godnaterra/source: joshua/claude/movemental/tam-score/SKILL.md
-godnaterra/original-name: tam-score
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-score/SKILL.md
+engenharia-ia-aplicada/original-name: tam-score
 ---
 
 # TAM Score: Evaluate Movement Leader Candidates

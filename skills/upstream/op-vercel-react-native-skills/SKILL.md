@@ -6,8 +6,8 @@ description:
   implementing animations, or working with native modules. Triggers on tasks
   involving React Native, Expo, mobile performance, or native platform APIs.
 license: MIT
-godnaterra/source: joshua/claude/codegen/react-native-skills/SKILL.md
-godnaterra/original-name: vercel-react-native-skills
+engenharia-ia-aplicada/source: joshua/claude/codegen/react-native-skills/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-react-native-skills
 ---
 
 # React Native Skills

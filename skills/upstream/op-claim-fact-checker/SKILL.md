@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [fact-checking, verification, research, claims, sourcing]
-godnaterra/source: autopunk/research/facts-context/claim-fact-checker/SKILL.md
-godnaterra/original-name: claim-fact-checker
+engenharia-ia-aplicada/source: autopunk/research/facts-context/claim-fact-checker/SKILL.md
+engenharia-ia-aplicada/original-name: claim-fact-checker
 ---
 # Claim Fact Checker
 

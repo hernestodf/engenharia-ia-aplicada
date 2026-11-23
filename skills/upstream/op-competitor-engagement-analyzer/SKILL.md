@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [competitive-research, audience-analysis, editorial-strategy]
-godnaterra/source: autopunk/research/media-competitive/competitor-engagement-analyzer/SKILL.md
-godnaterra/original-name: competitor-engagement-analyzer
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/competitor-engagement-analyzer/SKILL.md
+engenharia-ia-aplicada/original-name: competitor-engagement-analyzer
 ---
 # Competitor Engagement Analyzer
 

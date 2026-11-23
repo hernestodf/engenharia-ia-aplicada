@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [presenter, briefing, pre-production, interview, moderator, on-camera]
-godnaterra/source: autopunk/pre-production/presenter-briefing-writer/SKILL.md
-godnaterra/original-name: presenter-briefing-writer
+engenharia-ia-aplicada/source: autopunk/pre-production/presenter-briefing-writer/SKILL.md
+engenharia-ia-aplicada/original-name: presenter-briefing-writer
 ---
 # Presenter Briefing Writer
 

@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.44
 tags: [journalism, editing, corrections, editorial, transparency, ethics]
-godnaterra/source: autopunk/magazine-journalism/editing/editor-note-writer/SKILL.md
-godnaterra/original-name: editor-note-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/editor-note-writer/SKILL.md
+engenharia-ia-aplicada/original-name: editor-note-writer
 ---
 # Editor Note Writer
 

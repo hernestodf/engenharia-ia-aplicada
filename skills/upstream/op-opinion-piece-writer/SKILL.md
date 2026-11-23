@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [opinion, op-ed, commentary, column, argument, editorial]
-godnaterra/source: autopunk/writing/articles/opinion-piece-writer/SKILL.md
-godnaterra/original-name: opinion-piece-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/opinion-piece-writer/SKILL.md
+engenharia-ia-aplicada/original-name: opinion-piece-writer
 ---
 # Opinion Piece Writer
 

@@ -7,8 +7,8 @@ subcategory:
 version: 1.0
 eval_score: 4.2
 tags: [budget, pre-production, planning, finance, production]
-godnaterra/source: autopunk/pre-production/budget-estimator/SKILL.md
-godnaterra/original-name: budget-estimator
+engenharia-ia-aplicada/source: autopunk/pre-production/budget-estimator/SKILL.md
+engenharia-ia-aplicada/original-name: budget-estimator
 ---
 # Budget estimator
 

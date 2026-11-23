@@ -7,8 +7,8 @@ subcategory: flux
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, flux, dark, noir, moody, atmosphere]
-godnaterra/source: autopunk/image-prompting/flux/dark-aesthetic-prompt/SKILL.md
-godnaterra/original-name: dark-aesthetic-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/flux/dark-aesthetic-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: dark-aesthetic-prompt
 ---
 # Dark Aesthetic Prompt
 

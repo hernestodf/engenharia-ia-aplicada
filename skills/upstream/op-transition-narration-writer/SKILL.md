@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [narration, transitions, broadcast, scripting, documentary, tv]
-godnaterra/source: autopunk/writing/broadcast/transition-narration-writer/SKILL.md
-godnaterra/original-name: transition-narration-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/transition-narration-writer/SKILL.md
+engenharia-ia-aplicada/original-name: transition-narration-writer
 ---
 # Transition Narration Writer
 

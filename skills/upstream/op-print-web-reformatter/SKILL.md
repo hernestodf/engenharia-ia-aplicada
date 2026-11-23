@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [print, web, reformatting, column-breaks, widows, digital-publishing, production]
-godnaterra/source: autopunk/production-support/print-web-reformatter/SKILL.md
-godnaterra/original-name: print-web-reformatter
+engenharia-ia-aplicada/source: autopunk/production-support/print-web-reformatter/SKILL.md
+engenharia-ia-aplicada/original-name: print-web-reformatter
 ---
 # Print/Web Reformatter
 

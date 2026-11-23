@@ -7,8 +7,8 @@ subcategory: workflows
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, workflows, social-media, batch, campaign, content-calendar]
-godnaterra/source: autopunk/image-prompting/workflows/social-media-visual-batch/SKILL.md
-godnaterra/original-name: social-media-visual-batch
+engenharia-ia-aplicada/source: autopunk/image-prompting/workflows/social-media-visual-batch/SKILL.md
+engenharia-ia-aplicada/original-name: social-media-visual-batch
 ---
 # Social Media Visual Batch
 

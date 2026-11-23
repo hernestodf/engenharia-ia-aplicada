@@ -1,8 +1,8 @@
 ---
 name: op-asset-text-overlay
 description: Generate images with precise text rendering using Nano Banana 2. Use for social cards, OG images, course certificates, marketing banners, and any asset that needs legible text.
-godnaterra/source: joshua/claude/assets/asset-text-overlay/SKILL.md
-godnaterra/original-name: asset-text-overlay
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-text-overlay/SKILL.md
+engenharia-ia-aplicada/original-name: asset-text-overlay
 ---
 
 Generate an image with text overlay using Nano Banana 2: dados informados pelo usuario na mensagem

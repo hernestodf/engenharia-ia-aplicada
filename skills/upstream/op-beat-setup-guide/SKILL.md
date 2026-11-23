@@ -7,8 +7,8 @@ subcategory: ideation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, beat-reporting, sources, contacts, planning, onboarding]
-godnaterra/source: autopunk/magazine-journalism/ideation/beat-setup-guide/SKILL.md
-godnaterra/original-name: beat-setup-guide
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/ideation/beat-setup-guide/SKILL.md
+engenharia-ia-aplicada/original-name: beat-setup-guide
 ---
 # Beat Setup Guide
 

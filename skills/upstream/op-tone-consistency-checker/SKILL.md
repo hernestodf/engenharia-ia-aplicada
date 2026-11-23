@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, tone, register, voice, consistency, copy-editing]
-godnaterra/source: autopunk/editing/tone-consistency-checker/SKILL.md
-godnaterra/original-name: tone-consistency-checker
+engenharia-ia-aplicada/source: autopunk/editing/tone-consistency-checker/SKILL.md
+engenharia-ia-aplicada/original-name: tone-consistency-checker
 ---
 # Tone Consistency Checker
 

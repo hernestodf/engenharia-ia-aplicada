@@ -7,8 +7,8 @@ subcategory: media-relations
 version: 1.0
 eval_score: 4.39
 tags: [pr, email, thank-you, media-relations, relationship-building, journalist]
-godnaterra/source: autopunk/pr-communications/media-relations/thank-you-email-writer/SKILL.md
-godnaterra/original-name: thank-you-email-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/media-relations/thank-you-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: thank-you-email-writer
 ---
 # Thank-You Email Writer
 

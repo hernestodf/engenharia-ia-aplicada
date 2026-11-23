@@ -1,8 +1,8 @@
 ---
 name: op-author-style-guide
 description: Create or update the author visual style guide that ensures consistent lighting, color grade, and composition across all author imagery — trigger phrases include "author style guide", "visual style for author", "create style guide", "update style guide", or "ensure image consistency".
-godnaterra/source: joshua/claude/content/author-style-guide/SKILL.md
-godnaterra/original-name: author-style-guide
+engenharia-ia-aplicada/source: joshua/claude/content/author-style-guide/SKILL.md
+engenharia-ia-aplicada/original-name: author-style-guide
 ---
 
 Define or update the author visual style guide: dados informados pelo usuario na mensagem

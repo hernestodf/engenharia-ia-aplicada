@@ -7,8 +7,8 @@ subcategory: analytics
 version: 1.0
 eval_score: 4.5
 tags: [youtube, analytics, testing, titles, seo, optimization, click-through-rate]
-godnaterra/source: autopunk/youtube/analytics/ab-title-test-brief/SKILL.md
-godnaterra/original-name: ab-title-test-brief
+engenharia-ia-aplicada/source: autopunk/youtube/analytics/ab-title-test-brief/SKILL.md
+engenharia-ia-aplicada/original-name: ab-title-test-brief
 ---
 # A/B Title Test Brief
 

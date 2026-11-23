@@ -1,8 +1,8 @@
 ---
 name: op-alan-voice
 description: Write, edit, or audit content in Alan Hirsch's exact voice — using the same five voice markers, argument patterns, rhetorical posture, and failure mode guards as the AI Lab agent. Use when writing any published content, course material, marketing copy, agent prompts, or social posts that must sound authentically like Alan.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-alan-voice-2/SKILL.md
-godnaterra/original-name: alan-voice
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-alan-voice-2/SKILL.md
+engenharia-ia-aplicada/original-name: alan-voice
 ---
 
 Write content in Alan Hirsch's voice: dados informados pelo usuario na mensagem

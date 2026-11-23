@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Testes do pacote Godnaterra (não das skills upstream).
+"""Testes do pacote EngenhariaIaAplicada (não das skills upstream).
 
 Executa com: python3 -m unittest discover -s tests -v
 Sem dependências externas.
@@ -38,10 +38,10 @@ class CatalogoTest(unittest.TestCase):
         self.assertEqual(len(upstream), 764)
 
     def test_agentes_e_papeis(self) -> None:
-        agentes = sorted(p.name for p in (ROOT / "agents").glob("godnaterra-*.md"))
+        agentes = sorted(p.name for p in (ROOT / "agents").glob("eia-*.md"))
         self.assertEqual(len(agentes), 7)
-        self.assertIn("godnaterra-router.md", agentes)
-        self.assertIn("godnaterra-qa-security.md", agentes)
+        self.assertIn("eia-router.md", agentes)
+        self.assertIn("eia-qa-security.md", agentes)
 
 
 class AdaptadoresTest(unittest.TestCase):
@@ -49,7 +49,7 @@ class AdaptadoresTest(unittest.TestCase):
         cfg = json.loads((ROOT / "adapters/opencode/generated/opencode.json").read_text())
         self.assertEqual(len(cfg["skills"]), 2)
         for raiz in cfg["skills"]:
-            resolvida = raiz.replace("__GODNATERRA_ROOT__", str(ROOT))
+            resolvida = raiz.replace("__EIA_ROOT__", str(ROOT))
             self.assertTrue(Path(resolvida).is_dir(), resolvida)
 
     def test_artefatos_derivados_sem_caminho_da_maquina_geradora(self) -> None:

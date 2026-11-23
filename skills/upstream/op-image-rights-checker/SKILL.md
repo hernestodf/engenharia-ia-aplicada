@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.2
 tags: [rights, licensing, images, photos, archive, clearance]
-godnaterra/source: autopunk/archive-legal/image-rights-checker/SKILL.md
-godnaterra/original-name: image-rights-checker
+engenharia-ia-aplicada/source: autopunk/archive-legal/image-rights-checker/SKILL.md
+engenharia-ia-aplicada/original-name: image-rights-checker
 ---
 # Image Rights Checker
 

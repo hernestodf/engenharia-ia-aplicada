@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.1
 eval_score: 4.54
 tags: [journalism, fact-checking, sources, credibility, verification]
-godnaterra/source: autopunk/magazine-journalism/fact-checking/source-credibility-brief/SKILL.md
-godnaterra/original-name: source-credibility-brief
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/fact-checking/source-credibility-brief/SKILL.md
+engenharia-ia-aplicada/original-name: source-credibility-brief
 ---
 # Source Credibility Brief
 

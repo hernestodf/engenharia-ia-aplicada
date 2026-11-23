@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.4
 tags: [media-business, legal, licensing, rights, music, archive, IP]
-godnaterra/source: autopunk/media-business/legal/licensing-brief-writer/SKILL.md
-godnaterra/original-name: licensing-brief-writer
+engenharia-ia-aplicada/source: autopunk/media-business/legal/licensing-brief-writer/SKILL.md
+engenharia-ia-aplicada/original-name: licensing-brief-writer
 ---
 # Licensing Brief Writer
 

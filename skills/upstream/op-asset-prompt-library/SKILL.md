@@ -1,8 +1,8 @@
 ---
 name: op-asset-prompt-library
 description: Manage reusable NB2 prompt templates for recurring asset types. Use to store, retrieve, list, or customize prompt templates for consistent asset generation.
-godnaterra/source: joshua/claude/assets/asset-prompt-library/SKILL.md
-godnaterra/original-name: asset-prompt-library
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-prompt-library/SKILL.md
+engenharia-ia-aplicada/original-name: asset-prompt-library
 ---
 
 Manage the NB2 prompt template library: dados informados pelo usuario na mensagem

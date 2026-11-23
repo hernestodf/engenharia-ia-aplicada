@@ -2,8 +2,8 @@
 name: op-supabase-postgres-best-practices
 description: Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
 license: MIT
-godnaterra/source: joshua/agents/supabase-postgres-best-practices/SKILL.md
-godnaterra/original-name: supabase-postgres-best-practices
+engenharia-ia-aplicada/source: joshua/agents/supabase-postgres-best-practices/SKILL.md
+engenharia-ia-aplicada/original-name: supabase-postgres-best-practices
 ---
 
 # Supabase Postgres Best Practices

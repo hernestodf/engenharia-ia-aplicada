@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [podcast, business, media-kit, sponsorship, press]
-godnaterra/source: autopunk/podcast/business/podcast-media-kit-generator/SKILL.md
-godnaterra/original-name: podcast-media-kit-generator
+engenharia-ia-aplicada/source: autopunk/podcast/business/podcast-media-kit-generator/SKILL.md
+engenharia-ia-aplicada/original-name: podcast-media-kit-generator
 ---
 # Podcast Media Kit Generator
 

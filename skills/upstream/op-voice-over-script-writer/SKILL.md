@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [voice-over, narration, broadcast, scripting, documentary, tv, radio]
-godnaterra/source: autopunk/writing/broadcast/voice-over-script-writer/SKILL.md
-godnaterra/original-name: voice-over-script-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/voice-over-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: voice-over-script-writer
 ---
 # Voice-Over Script Writer
 

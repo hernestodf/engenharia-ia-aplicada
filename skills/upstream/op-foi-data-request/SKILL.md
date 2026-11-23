@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.5
 tags: [FOI, freedom of information, data request, investigation, public records]
-godnaterra/source: autopunk/data-journalism/investigation/foi-data-request/SKILL.md
-godnaterra/original-name: foi-data-request
+engenharia-ia-aplicada/source: autopunk/data-journalism/investigation/foi-data-request/SKILL.md
+engenharia-ia-aplicada/original-name: foi-data-request
 ---
 # FOI Data Request
 

@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [youtube, post-production, community, engagement, social]
-godnaterra/source: autopunk/youtube/post-production/community-post-generator/SKILL.md
-godnaterra/original-name: community-post-generator
+engenharia-ia-aplicada/source: autopunk/youtube/post-production/community-post-generator/SKILL.md
+engenharia-ia-aplicada/original-name: community-post-generator
 ---
 # Community Post Generator
 

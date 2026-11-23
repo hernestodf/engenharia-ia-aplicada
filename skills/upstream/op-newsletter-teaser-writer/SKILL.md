@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.5
 tags: [journalism, distribution, newsletter, email, promotion]
-godnaterra/source: autopunk/magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md
-godnaterra/original-name: newsletter-teaser-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/distribution/newsletter-teaser-writer/SKILL.md
+engenharia-ia-aplicada/original-name: newsletter-teaser-writer
 ---
 # Newsletter Teaser Writer
 

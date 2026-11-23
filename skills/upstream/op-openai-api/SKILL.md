@@ -1,8 +1,8 @@
 ---
 name: op-openai-api
 description: Build, refine, and master agents using the OpenAI API — Chat Completions, Responses API, and OpenAI Agents SDK. Covers function calling, structured output, streaming, multi-agent handoffs, and the full gpt-5.4 family. Fetches live docs from platform.openai.com and openai.github.io/openai-agents-python. Use when building or debugging anything on OpenAI.
-godnaterra/source: joshua/claude/integrations/openai-api/SKILL.md
-godnaterra/original-name: openai-api
+engenharia-ia-aplicada/source: joshua/claude/integrations/openai-api/SKILL.md
+engenharia-ia-aplicada/original-name: openai-api
 ---
 
 Build or refine an OpenAI agent: dados informados pelo usuario na mensagem

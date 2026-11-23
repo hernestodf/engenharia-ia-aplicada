@@ -1,8 +1,8 @@
 ---
 name: op-movemental-publish-gate
 description: Pre-publication quality gate for research and authoritative content headed to movemental.ai. Run before posting any article, research synthesis, field guide, footnote source, /voices or /footnotes claim, or long-form doc. Checks ten red-light gates — AI-slop and register-jargon, citation and evidence integrity, factual/hallucination risk, doctrine drift (movement leaders vs orgs, "Trusted voices"), EEAT self-evidence, mechanical correctness, and legal/sensitivity — and returns a RED / YELLOW / GREEN verdict with the exact blocking items and which fix skill to run. A slop, mistake, and quality-control checker that decides "is this safe to publish yet?" Use whenever the user says publish / post / ship / "is this ready" / "check this before it goes live" / "QC this" about Movemental content. Routes to plain-prose, movemental-prose, and movemental-narrative-audit rather than duplicating them.
-godnaterra/source: joshua/claude/movemental/movemental-publish-gate/SKILL.md
-godnaterra/original-name: movemental-publish-gate
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-publish-gate/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-publish-gate
 ---
 
 Run the publication gate on Movemental content: dados informados pelo usuario na mensagem

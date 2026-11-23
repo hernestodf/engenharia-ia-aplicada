@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [thumbnail, youtube, social-media, visual, text-overlay, video]
-godnaterra/source: autopunk/writing/digital-social/thumbnail-text-writer/SKILL.md
-godnaterra/original-name: thumbnail-text-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/thumbnail-text-writer/SKILL.md
+engenharia-ia-aplicada/original-name: thumbnail-text-writer
 ---
 # Thumbnail Text Writer
 

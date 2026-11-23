@@ -1,8 +1,8 @@
 ---
 name: op-e2e-studio-tests
 description: Run e2e tests in the Studio app. Use when asked to run e2e tests, run studio tests, playwright tests, or test the feature.
-godnaterra/source: joshua/claude/infrastructure/e2e-studio-tests/SKILL.md
-godnaterra/original-name: e2e-studio-tests
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/e2e-studio-tests/SKILL.md
+engenharia-ia-aplicada/original-name: e2e-studio-tests
 ---
 
 # E2E Studio Tests

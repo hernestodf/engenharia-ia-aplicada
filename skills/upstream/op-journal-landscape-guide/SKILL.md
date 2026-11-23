@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [research, science, journals, academic-literature, health, orientation]
-godnaterra/source: autopunk/research/scientific-academic/journal-landscape-guide/SKILL.md
-godnaterra/original-name: journal-landscape-guide
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/journal-landscape-guide/SKILL.md
+engenharia-ia-aplicada/original-name: journal-landscape-guide
 ---
 # Journal Landscape Guide
 

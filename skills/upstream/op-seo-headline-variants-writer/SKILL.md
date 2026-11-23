@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [SEO, headlines, search intent, digital editing, keyword optimisation, click-through rate]
-godnaterra/source: autopunk/writing/digital-social/seo-headline-variants-writer/SKILL.md
-godnaterra/original-name: seo-headline-variants-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/seo-headline-variants-writer/SKILL.md
+engenharia-ia-aplicada/original-name: seo-headline-variants-writer
 ---
 # SEO Headline Variants Writer
 

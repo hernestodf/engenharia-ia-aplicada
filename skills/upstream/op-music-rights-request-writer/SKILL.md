@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.2
 tags: [music-licensing, sync-rights, broadcast-rights, rights-clearance, legal]
-godnaterra/source: autopunk/archive-legal/music-rights-request-writer/SKILL.md
-godnaterra/original-name: music-rights-request-writer
+engenharia-ia-aplicada/source: autopunk/archive-legal/music-rights-request-writer/SKILL.md
+engenharia-ia-aplicada/original-name: music-rights-request-writer
 ---
 # Music Rights Request Writer
 

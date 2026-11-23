@@ -6,7 +6,7 @@
     "esperado": "quatro estados: implementado, testado, pendente e nao verificado",
     "tipo": "deterministico",
     "criterios": [
-      {"id": "C1", "descricao": "quatro estados documentados", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-evidence/SKILL.md", "termos": ["implementado", "testado", "pendente", "não verificado"]}}
+      {"id": "C1", "descricao": "quatro estados documentados", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-eia-evidence/SKILL.md", "termos": ["implementado", "testado", "pendente", "não verificado"]}}
     ]
   },
   {
@@ -16,7 +16,7 @@
     "esperado": "nao; a skill proibe explicitamente",
     "tipo": "deterministico",
     "criterios": [
-      {"id": "C1", "descricao": "proibicao de fingir sucesso", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-evidence/SKILL.md", "termos": ["Nunca escreva \"passou\"", "Critério de saída é evidência"]}}
+      {"id": "C1", "descricao": "proibicao de fingir sucesso", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-eia-evidence/SKILL.md", "termos": ["Nunca escreva \"passou\"", "Critério de saída é evidência"]}}
     ]
   },
   {

@@ -7,8 +7,8 @@ subcategory: audience-distribution
 version: 1.0
 eval_score: 4.2
 tags: [feedback, audience, comments, reader-response, analytics]
-godnaterra/source: autopunk/audience-distribution/audience-feedback-summariser/SKILL.md
-godnaterra/original-name: audience-feedback-summariser
+engenharia-ia-aplicada/source: autopunk/audience-distribution/audience-feedback-summariser/SKILL.md
+engenharia-ia-aplicada/original-name: audience-feedback-summariser
 ---
 # Audience Feedback Summariser
 

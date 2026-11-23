@@ -7,8 +7,8 @@ subcategory: production
 version: 1.0
 eval_score: 4.4
 tags: [radio, production, running-order, programme, cue-sheet, scheduling]
-godnaterra/source: autopunk/radio-audio/production/running-order-builder/SKILL.md
-godnaterra/original-name: running-order-builder
+engenharia-ia-aplicada/source: autopunk/radio-audio/production/running-order-builder/SKILL.md
+engenharia-ia-aplicada/original-name: running-order-builder
 ---
 # Running Order Builder
 

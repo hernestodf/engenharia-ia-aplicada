@@ -4,8 +4,8 @@ description: "Expert guidance for crafting effective prompts in Google Stitch, t
 risk: safe
 source: self
 date_added: "2026-02-27"
-godnaterra/source: joshua/claude/stitch/stitch-ui-design/SKILL.md
-godnaterra/original-name: stitch-ui-design
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-ui-design/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-ui-design
 ---
 
 # Stitch UI Design Prompting

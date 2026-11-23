@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [demographics, population, research, background-brief, data-journalism]
-godnaterra/source: autopunk/research/data-statistics/demographic-data-brief/SKILL.md
-godnaterra/original-name: demographic-data-brief
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/demographic-data-brief/SKILL.md
+engenharia-ia-aplicada/original-name: demographic-data-brief
 ---
 # Demographic Data Brief
 

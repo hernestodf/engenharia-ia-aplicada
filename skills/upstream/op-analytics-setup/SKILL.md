@@ -1,8 +1,8 @@
 ---
 name: op-analytics-setup
 description: Bootstrap the complete analytics stack for this Next.js 15 + Supabase project — GA4 (org-wide + per-tenant), PostHog, Vercel Analytics, and Supabase-native analytics. Runs sub-skills in sequence and validates each layer.
-godnaterra/source: joshua/claude/infrastructure/analytics-setup/SKILL.md
-godnaterra/original-name: analytics-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/analytics-setup/SKILL.md
+engenharia-ia-aplicada/original-name: analytics-setup
 ---
 
 Bootstrap the full analytics stack: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [editing, clarity, rewriting, journalism, plain-language, accessibility]
-godnaterra/source: autopunk/writing/articles/paragraph-clarity-rewriter/SKILL.md
-godnaterra/original-name: paragraph-clarity-rewriter
+engenharia-ia-aplicada/source: autopunk/writing/articles/paragraph-clarity-rewriter/SKILL.md
+engenharia-ia-aplicada/original-name: paragraph-clarity-rewriter
 ---
 # Paragraph Clarity Rewriter
 

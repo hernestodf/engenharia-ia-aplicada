@@ -1,8 +1,8 @@
 ---
 name: op-chat-ui-audit
 description: Audit and fix chat-based AI UI (chatbots, agents, floating chat) against production best practices from Claude, ChatGPT, and modern conversational AI interfaces. Use when building, reviewing, or improving any chat UI.
-godnaterra/source: joshua/claude/design/chat-ui-audit/SKILL.md
-godnaterra/original-name: chat-ui-audit
+engenharia-ia-aplicada/source: joshua/claude/design/chat-ui-audit/SKILL.md
+engenharia-ia-aplicada/original-name: chat-ui-audit
 ---
 
 Audit and iteratively fix chat UI against conversational AI best practices.

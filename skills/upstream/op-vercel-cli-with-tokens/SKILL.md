@@ -1,8 +1,8 @@
 ---
 name: op-vercel-cli-with-tokens
 description: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".
-godnaterra/source: joshua/claude/infrastructure/vercel-cli-with-tokens/SKILL.md
-godnaterra/original-name: vercel-cli-with-tokens
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/vercel-cli-with-tokens/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-cli-with-tokens
 ---
 
 # Vercel CLI with Tokens

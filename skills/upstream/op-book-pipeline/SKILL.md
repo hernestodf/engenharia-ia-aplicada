@@ -10,8 +10,8 @@ description: >
   re-process a corrected book through every downstream stage. Trigger
   phrases: "run the full pipeline", "ingest this book end to end",
   "phase 01 through 04", "ship this book".
-godnaterra/source: joshua/claude/content/book-pipeline/SKILL.md
-godnaterra/original-name: book-pipeline
+engenharia-ia-aplicada/source: joshua/claude/content/book-pipeline/SKILL.md
+engenharia-ia-aplicada/original-name: book-pipeline
 ---
 
 # Book Pipeline — Full End-to-End Orchestrator

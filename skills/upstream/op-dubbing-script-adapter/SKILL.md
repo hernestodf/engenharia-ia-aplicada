@@ -7,8 +7,8 @@ subcategory: localization
 version: 1.0
 eval_score: 4.5
 tags: [documentary, localization, dubbing, lip-sync, narration]
-godnaterra/source: autopunk/tv-documentary/localization/dubbing-script-adapter/SKILL.md
-godnaterra/original-name: dubbing-script-adapter
+engenharia-ia-aplicada/source: autopunk/tv-documentary/localization/dubbing-script-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: dubbing-script-adapter
 ---
 # Dubbing Script Adapter
 

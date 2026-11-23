@@ -7,8 +7,8 @@ subcategory: revision
 version: 1.0
 eval_score: 4.5
 tags: [screenwriting, revision, coverage, script-notes, development]
-godnaterra/source: autopunk/screenwriting/revision/coverage-report-writer/SKILL.md
-godnaterra/original-name: coverage-report-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/revision/coverage-report-writer/SKILL.md
+engenharia-ia-aplicada/original-name: coverage-report-writer
 ---
 # Coverage Report Writer
 

@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.67
 tags: [journalism, FOI, FOIA, EU, transparency, access-to-documents, IFG, BGÖG, CADA]
-godnaterra/source: autopunk/magazine-journalism/investigation/eu-document-access-builder/SKILL.md
-godnaterra/original-name: eu-document-access-builder
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/eu-document-access-builder/SKILL.md
+engenharia-ia-aplicada/original-name: eu-document-access-builder
 ---
 # EU document access builder
 

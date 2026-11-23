@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.9
 tags: [journalism, lede, writing, news, features, articles]
-godnaterra/source: autopunk/writing/articles/lede-writer/SKILL.md
-godnaterra/original-name: lede-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/lede-writer/SKILL.md
+engenharia-ia-aplicada/original-name: lede-writer
 ---
 # Lede Writer
 

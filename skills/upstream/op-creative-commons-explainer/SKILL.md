@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.50
 tags: [business, legal, creative-commons, licensing, rights, open-access, attribution]
-godnaterra/source: autopunk/media-business/legal/creative-commons-explainer/SKILL.md
-godnaterra/original-name: creative-commons-explainer
+engenharia-ia-aplicada/source: autopunk/media-business/legal/creative-commons-explainer/SKILL.md
+engenharia-ia-aplicada/original-name: creative-commons-explainer
 ---
 # Creative Commons Explainer
 

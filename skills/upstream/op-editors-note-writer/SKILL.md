@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [editor's note, transparency, corrections, disclosure, articles]
-godnaterra/source: autopunk/writing/articles/editors-note-writer/SKILL.md
-godnaterra/original-name: editors-note-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/editors-note-writer/SKILL.md
+engenharia-ia-aplicada/original-name: editors-note-writer
 ---
 # Editor's Note Writer
 

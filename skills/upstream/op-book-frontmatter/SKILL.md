@@ -10,8 +10,8 @@ description: >
   `/book-validate` pass, before `/book-ingest`. Trigger phrases: "fix the
   frontmatter", "regenerate frontmatter", "validate book.json", "phase 02",
   "schema-validate the corpus".
-godnaterra/source: joshua/claude/content/book-frontmatter/SKILL.md
-godnaterra/original-name: book-frontmatter
+engenharia-ia-aplicada/source: joshua/claude/content/book-frontmatter/SKILL.md
+engenharia-ia-aplicada/original-name: book-frontmatter
 ---
 
 # Book Frontmatter — Phase 02: Markdown → MDX (frontmatter-validated)

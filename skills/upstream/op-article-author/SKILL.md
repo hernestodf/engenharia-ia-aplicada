@@ -1,8 +1,8 @@
 ---
 name: op-article-author
 description: Write a complete evergreen pillar article in Alan Hirsch's voice — with corpus research from his books, full SEO/GEO architecture, and proper citations. This is the main writing skill. It runs planning, corpus research, and writing in sequence. Use when writing any new article for the platform.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-article-author-3/SKILL.md
-godnaterra/original-name: article-author
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-article-author-3/SKILL.md
+engenharia-ia-aplicada/original-name: article-author
 ---
 
 Write an evergreen article about: dados informados pelo usuario na mensagem

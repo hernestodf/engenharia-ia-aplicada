@@ -1,8 +1,8 @@
 ---
 name: op-storybook-setup
 description: "Set up Storybook 8 for Next.js 15 or Vite + React — component dev environment, story scaffolding, shadcn/ui integration, dark mode toggle, accessibility checks (a11y addon), and visual regression snapshot configuration. Use when setting up a component library or design system workflow."
-godnaterra/source: joshua/claude/codegen/storybook-setup/SKILL.md
-godnaterra/original-name: storybook-setup
+engenharia-ia-aplicada/source: joshua/claude/codegen/storybook-setup/SKILL.md
+engenharia-ia-aplicada/original-name: storybook-setup
 ---
 
 Set up Storybook: dados informados pelo usuario na mensagem

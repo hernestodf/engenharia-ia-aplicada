@@ -1,8 +1,8 @@
 ---
 name: op-gemini-api
 description: Build, refine, and master agents using the Google Gemini API and @google/generative-ai SDK. Covers generateContent, function calling, Google Search grounding, multimodal input (text/image/audio/video), streaming, context caching, and the Gemini 2.5 and 3.x model families. Fetches live docs from ai.google.dev. Use when building or debugging anything on Google Gemini.
-godnaterra/source: joshua/claude/integrations/gemini-api/SKILL.md
-godnaterra/original-name: gemini-api
+engenharia-ia-aplicada/source: joshua/claude/integrations/gemini-api/SKILL.md
+engenharia-ia-aplicada/original-name: gemini-api
 ---
 
 Build or refine a Gemini API agent: dados informados pelo usuario na mensagem

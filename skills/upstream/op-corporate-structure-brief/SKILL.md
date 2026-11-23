@@ -7,8 +7,8 @@ subcategory: background
 version: 1.0
 eval_score: 4.44
 tags: [research, corporate, ownership, structure, investigation, background]
-godnaterra/source: autopunk/research/background/corporate-structure-brief/SKILL.md
-godnaterra/original-name: corporate-structure-brief
+engenharia-ia-aplicada/source: autopunk/research/background/corporate-structure-brief/SKILL.md
+engenharia-ia-aplicada/original-name: corporate-structure-brief
 ---
 # Corporate Structure Brief
 

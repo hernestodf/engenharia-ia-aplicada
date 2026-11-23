@@ -1,8 +1,8 @@
 ---
 name: op-docs-sync
 description: Analyze main branch implementation and configuration to find missing, incorrect, or outdated documentation in docs/. Use when asked to audit doc coverage, sync docs with code, or propose doc updates/structure changes. Only update English docs (docs/src/content/docs/**) and never touch translated docs under docs/src/content/docs/ja, ko, or zh. Provide a report and ask for approval before editing docs.
-godnaterra/source: joshua/vendor/skills-openai/docs-sync/SKILL.md
-godnaterra/original-name: docs-sync
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/docs-sync/SKILL.md
+engenharia-ia-aplicada/original-name: docs-sync
 ---
 
 # Docs Sync

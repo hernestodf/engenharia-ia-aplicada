@@ -1,8 +1,8 @@
 ---
 name: op-workspace-strategy
 description: "Strategic planning for the workspace doc system — content roadmaps, agentic workflow design, context coding architecture, research priorities, and reflection. Use when deciding what to build, write, or research next in docs/workspace/."
-godnaterra/source: joshua/claude/infrastructure/workspace-strategy/SKILL.md
-godnaterra/original-name: workspace-strategy
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/workspace-strategy/SKILL.md
+engenharia-ia-aplicada/original-name: workspace-strategy
 ---
 
 Strategize about workspace documents: dados informados pelo usuario na mensagem

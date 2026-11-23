@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [corrections, accuracy, editorial-standards, transparency]
-godnaterra/source: autopunk/writing/articles/correction-notice-writer/SKILL.md
-godnaterra/original-name: correction-notice-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/correction-notice-writer/SKILL.md
+engenharia-ia-aplicada/original-name: correction-notice-writer
 ---
 # Correction Notice Writer
 

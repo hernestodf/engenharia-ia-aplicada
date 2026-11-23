@@ -1,8 +1,8 @@
 ---
 name: op-pathway-author
 description: Write or update content for a pathway page — any single section or a full pathway. Follows the canonical 12-section architecture, Alan Hirsch's voice, and SEO/GEO best practices. Use when writing new pathways, filling missing sections, or improving existing content.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-pathway-author-2/SKILL.md
-godnaterra/original-name: pathway-author
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-pathway-author-2/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-author
 ---
 
 Author pathway content: dados informados pelo usuario na mensagem

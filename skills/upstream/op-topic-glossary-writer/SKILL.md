@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [glossary, terminology, research, briefing, pre-production]
-godnaterra/source: autopunk/pre-production/topic-glossary-writer/SKILL.md
-godnaterra/original-name: topic-glossary-writer
+engenharia-ia-aplicada/source: autopunk/pre-production/topic-glossary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: topic-glossary-writer
 ---
 # Topic Glossary Writer
 

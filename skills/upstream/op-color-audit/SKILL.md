@@ -1,8 +1,8 @@
 ---
 name: op-color-audit
 description: Expert color palette audit for movemental — verify semantic token completeness, WCAG contrast compliance, 60-30-10 distribution, and tonal stacking correctness. Light-primary site with regional Midnight sections.
-godnaterra/source: joshua/claude/design/jsh-color-audit-2/SKILL.md
-godnaterra/original-name: color-audit
+engenharia-ia-aplicada/source: joshua/claude/design/jsh-color-audit-2/SKILL.md
+engenharia-ia-aplicada/original-name: color-audit
 ---
 
 Expert color palette audit — verify semantic token completeness, WCAG contrast compliance, 60-30-10 distribution, and tonal stacking correctness across the movemental platform.

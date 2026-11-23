@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.3
 tags: [social-media, strategy, planning, platforms, media-brand]
-godnaterra/source: autopunk/social-media/strategy/platform-strategy-brief/SKILL.md
-godnaterra/original-name: platform-strategy-brief
+engenharia-ia-aplicada/source: autopunk/social-media/strategy/platform-strategy-brief/SKILL.md
+engenharia-ia-aplicada/original-name: platform-strategy-brief
 ---
 # Platform Strategy Brief
 

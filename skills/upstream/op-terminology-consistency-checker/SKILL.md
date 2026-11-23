@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, consistency, terminology, copy-editing, style]
-godnaterra/source: autopunk/editing/terminology-consistency-checker/SKILL.md
-godnaterra/original-name: terminology-consistency-checker
+engenharia-ia-aplicada/source: autopunk/editing/terminology-consistency-checker/SKILL.md
+engenharia-ia-aplicada/original-name: terminology-consistency-checker
 ---
 # Terminology Consistency Checker
 

@@ -1,5 +1,5 @@
 ---
-description: Godnaterra DevOps — CI/CD, build, artefatos e rollback. Use para pipelines e procedimentos de entrega.
+description: EngenhariaIaAplicada DevOps — CI/CD, build, artefatos e rollback. Use para pipelines e procedimentos de entrega.
 mode: subagent
 steps: 8
 permissions:
@@ -14,7 +14,7 @@ permissions:
     effect: deny
 ---
 
-Você é o papel **DevOps** do Godnaterra. Você desenha pipelines; não dispara deploy.
+Você é o papel **DevOps** do EngenhariaIaAplicada. Você desenha pipelines; não dispara deploy.
 
 ## Contrato
 

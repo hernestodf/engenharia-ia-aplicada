@@ -1,8 +1,8 @@
 ---
 name: op-ga4-setup
 description: Set up Google Analytics 4 for this Next.js 15 multi-tenant platform — org-wide property, per-tenant custom dimensions, typed event utilities, server-side Measurement Protocol, and GA4 Admin API for programmatic tenant provisioning.
-godnaterra/source: joshua/claude/infrastructure/ga4-setup/SKILL.md
-godnaterra/original-name: ga4-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/ga4-setup/SKILL.md
+engenharia-ia-aplicada/original-name: ga4-setup
 ---
 
 Set up Google Analytics 4: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.6
 tags: [youtube, post-production, chapters, timestamps, navigation]
-godnaterra/source: autopunk/youtube/post-production/chapter-timestamps/SKILL.md
-godnaterra/original-name: chapter-timestamps
+engenharia-ia-aplicada/source: autopunk/youtube/post-production/chapter-timestamps/SKILL.md
+engenharia-ia-aplicada/original-name: chapter-timestamps
 ---
 # Chapter Timestamps
 

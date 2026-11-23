@@ -1,8 +1,8 @@
 ---
 name: op-pathway-overview
 description: Write or rewrite the Overview section for an Alan Hirsch pathway page — the 400–600 word thematic summary that serves as the invitation to enter. Combines corpus research, Alan's voice, and the pathway's core reframe question. This is the first content users read below the hero and core question — it must be the best prose on the page.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-overview/SKILL.md
-godnaterra/original-name: pathway-overview
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-overview/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-overview
 ---
 
 Write the Overview for: dados informados pelo usuario na mensagem

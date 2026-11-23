@@ -1,8 +1,8 @@
 ---
 name: op-nonfiction-craft
 description: Non-fiction writing craft — argument construction, evidence handling, essay structure, chapter architecture, research integration, and the art of making ideas vivid. Use when writing, planning, or reviewing non-fiction of any kind (books, essays, articles, thought leadership).
-godnaterra/source: joshua/claude/content/nonfiction-craft/SKILL.md
-godnaterra/original-name: nonfiction-craft
+engenharia-ia-aplicada/source: joshua/claude/content/nonfiction-craft/SKILL.md
+engenharia-ia-aplicada/original-name: nonfiction-craft
 ---
 
 Write or plan non-fiction: dados informados pelo usuario na mensagem

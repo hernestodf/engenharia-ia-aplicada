@@ -7,8 +7,8 @@ subcategory: fact-checking
 version: 1.0
 eval_score: 4.39
 tags: [research, legal, law, regulation, framework, fact-checking]
-godnaterra/source: autopunk/research/fact-checking/legal-framework-brief/SKILL.md
-godnaterra/original-name: legal-framework-brief
+engenharia-ia-aplicada/source: autopunk/research/fact-checking/legal-framework-brief/SKILL.md
+engenharia-ia-aplicada/original-name: legal-framework-brief
 ---
 # Legal Framework Brief
 

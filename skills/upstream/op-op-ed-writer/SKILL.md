@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.5
 tags: [pr, content, op-ed, thought-leadership, byline]
-godnaterra/source: autopunk/pr-communications/content/op-ed-writer/SKILL.md
-godnaterra/original-name: op-ed-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/content/op-ed-writer/SKILL.md
+engenharia-ia-aplicada/original-name: op-ed-writer
 ---
 # Op-Ed Writer
 

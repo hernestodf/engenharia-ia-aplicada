@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [youtube, description, seo, metadata, search, above-the-fold]
-godnaterra/source: autopunk/writing/digital-social/youtube-description-writer/SKILL.md
-godnaterra/original-name: youtube-description-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/youtube-description-writer/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-description-writer
 ---
 # YouTube Description Writer
 

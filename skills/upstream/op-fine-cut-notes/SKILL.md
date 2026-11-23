@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.48
 tags: [documentary, post-production, editing, fine-cut, notes, pacing, tone]
-godnaterra/source: autopunk/tv-documentary/post-production/fine-cut-notes/SKILL.md
-godnaterra/original-name: fine-cut-notes
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/fine-cut-notes/SKILL.md
+engenharia-ia-aplicada/original-name: fine-cut-notes
 ---
 # Fine Cut Notes
 

@@ -7,8 +7,8 @@ subcategory: visualization
 version: 1.0
 eval_score: 4.2
 tags: [data-journalism, visualization, charts, labels, annotations]
-godnaterra/source: autopunk/data-journalism/visualization/chart-labels-writer/SKILL.md
-godnaterra/original-name: chart-labels-writer
+engenharia-ia-aplicada/source: autopunk/data-journalism/visualization/chart-labels-writer/SKILL.md
+engenharia-ia-aplicada/original-name: chart-labels-writer
 ---
 # Chart labels writer
 

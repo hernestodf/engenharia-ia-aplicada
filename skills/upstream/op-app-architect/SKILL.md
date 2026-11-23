@@ -1,8 +1,8 @@
 ---
 name: op-app-architect
 description: Generate a full architectural documentation package for any app, project, or feature — a _PURPOSE.md narrative plus individual page-level specs, navigation, and cross-cutting concerns. Outputs to _docs/ai-studio/ for use in AI Studio or any prototyping tool.
-godnaterra/source: joshua/claude/codegen/app-architect/SKILL.md
-godnaterra/original-name: app-architect
+engenharia-ia-aplicada/source: joshua/claude/codegen/app-architect/SKILL.md
+engenharia-ia-aplicada/original-name: app-architect
 ---
 
 Generate an architectural documentation package for: dados informados pelo usuario na mensagem

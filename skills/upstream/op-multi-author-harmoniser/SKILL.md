@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, style, voice, collaboration, consistency]
-godnaterra/source: autopunk/editing/multi-author-harmoniser/SKILL.md
-godnaterra/original-name: multi-author-harmoniser
+engenharia-ia-aplicada/source: autopunk/editing/multi-author-harmoniser/SKILL.md
+engenharia-ia-aplicada/original-name: multi-author-harmoniser
 ---
 # Multi-Author Harmoniser
 

@@ -1,8 +1,8 @@
 ---
 name: op-course-ingest
 description: Ingest course content from markdown files into the database. Parses manifest + module files, validates, and upserts course_lessons, reflection_questions, discussion_prompts, and exercises.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-course-ingest-2/SKILL.md
-godnaterra/original-name: course-ingest
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-course-ingest-2/SKILL.md
+engenharia-ia-aplicada/original-name: course-ingest
 ---
 
 Ingest course content: dados informados pelo usuario na mensagem

@@ -6,8 +6,8 @@ category: engineering
 subcategory: code-review
 version: 1.0
 tags: [review, diff, quality, security, ocr]
-godnaterra/layer: core
-godnaterra/source: canonical
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
 # Revisao de codigo com OpenCodeReview

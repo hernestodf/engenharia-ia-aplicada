@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Porta os 879 SKILL.md dos packs originais para o Godnaterra (OpenCode-native).
+"""Porta os 879 SKILL.md dos packs originais para o EngenhariaIaAplicada (OpenCode-native).
 
 SEGURANCA: executa apenas leitura + transformacao deterministica de texto.
 Nenhuma skill externa e executada. Padrao e --dry-run; use --apply para gravar.
@@ -15,7 +15,7 @@ import hashlib
 import re
 
 ROOT = Path.home() / ".config/opencode/skill-packs"
-GOD = ROOT / "godnaterra"
+GOD = ROOT / "engenharia-ia-aplicada"
 DEST = GOD / "skills" / "upstream"
 PACKS = ("autopunk", "joshua", "techsaurabh")
 
@@ -125,7 +125,7 @@ def known_names(rows):
 
 def clean_frontmatter(fm, final_id, row):
     if not fm:
-        return f"name: {final_id}\ndescription: Skill portada para Godnaterra."
+        return f"name: {final_id}\ndescription: Skill portada para EngenhariaIaAplicada."
     # descriptions tambem precisam de limpeza de paths e placeholders.
     fm = re.sub(r"~/Desktop/[Dd]ev/repos/?", "<repo atual>/", fm)
     fm = re.sub(r"~/", "<casa do usuario>/", fm)
@@ -135,7 +135,7 @@ def clean_frontmatter(fm, final_id, row):
         fm,
     )
     if not fm:
-        return f"name: {final_id}\ndescription: Skill portada para Godnaterra."
+        return f"name: {final_id}\ndescription: Skill portada para EngenhariaIaAplicada."
     out = []
     skip = False
     for line in fm.split("\n"):
@@ -147,7 +147,7 @@ def clean_frontmatter(fm, final_id, row):
         if key == "name":
             out.append(f"name: {final_id}")
             continue
-        if key == "godnaterra/source" or key == "godnaterra/original-name" or key == "metadata":
+        if key == "engenharia-ia-aplicada/source" or key == "engenharia-ia-aplicada/original-name" or key == "metadata":
             skip = True
             continue
         if skip and (line.startswith(" ") or line.startswith("\t") or not line.strip()):
@@ -155,8 +155,8 @@ def clean_frontmatter(fm, final_id, row):
         skip = False
         out.append(line)
     out += [
-        f"godnaterra/source: {row['path']}",
-        f"godnaterra/original-name: {row['name']}",
+        f"engenharia-ia-aplicada/source: {row['path']}",
+        f"engenharia-ia-aplicada/original-name: {row['name']}",
     ]
     return "\n".join(out)
 
@@ -287,7 +287,7 @@ def main():
 
     DEST.mkdir(parents=True, exist_ok=True)
     manifest_lines = [
-        "# Manifesto de Portagem — Godnaterra",
+        "# Manifesto de Portagem — EngenhariaIaAplicada",
         "",
         "Gerado por `scripts/port_skills.py`. Origem -> destino de cada SKILL.md.",
         "",

@@ -7,8 +7,8 @@ subcategory: background
 version: 1.0
 eval_score: 4.44
 tags: [research, legislation, policy, regulation, history, background]
-godnaterra/source: autopunk/research/background/legislative-history-brief/SKILL.md
-godnaterra/original-name: legislative-history-brief
+engenharia-ia-aplicada/source: autopunk/research/background/legislative-history-brief/SKILL.md
+engenharia-ia-aplicada/original-name: legislative-history-brief
 ---
 # Legislative History Brief
 

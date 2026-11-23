@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [radio, scripting, presenter, links, continuity, programme-flow]
-godnaterra/source: autopunk/radio-audio/scripting/presenter-link-writer/SKILL.md
-godnaterra/original-name: presenter-link-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/scripting/presenter-link-writer/SKILL.md
+engenharia-ia-aplicada/original-name: presenter-link-writer
 ---
 # Presenter Link Writer
 

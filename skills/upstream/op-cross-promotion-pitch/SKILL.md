@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.4
 tags: [social-media, strategy, cross-promotion, collaboration, partnerships]
-godnaterra/source: autopunk/social-media/strategy/cross-promotion-pitch/SKILL.md
-godnaterra/original-name: cross-promotion-pitch
+engenharia-ia-aplicada/source: autopunk/social-media/strategy/cross-promotion-pitch/SKILL.md
+engenharia-ia-aplicada/original-name: cross-promotion-pitch
 ---
 # Cross-Promotion Pitch
 

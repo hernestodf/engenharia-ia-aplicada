@@ -1,8 +1,8 @@
 ---
 name: op-movemental-site-template-publish
 description: Publish a Stitch-authored HTML/Tailwind one-page site mockup into the Movemental Studio front-end-template catalog so it shows up as a selectable option in the onboarding template selector. Use WHENEVER the operator hands over a Stitch (or any standalone Tailwind) HTML file and wants it "uploaded to Supabase", "added as a template", "added to the template selector / options", "published as a front-end template", or "turned into a site template". Takes the raw HTML, derives catalog metadata, saves the reference HTML, screenshots a desktop + mobile preview, uploads the previews to the `template-previews` Storage bucket, upserts a `front_end_templates` row (status=published), and verifies the template now appears in the published catalog the selector reads. Runs in the `movemental-visual-editor-main` repo.
-godnaterra/source: joshua/claude/movemental/movemental-site-template-publish/SKILL.md
-godnaterra/original-name: movemental-site-template-publish
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-site-template-publish/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-site-template-publish
 ---
 
 # Movemental site-template publisher

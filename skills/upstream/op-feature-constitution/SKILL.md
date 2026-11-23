@@ -1,8 +1,8 @@
 ---
 name: op-feature-constitution
 description: Export a platform feature as a product constitution — data model, API contracts, business rules, and acceptance criteria for pasting into AI Studio Build mode or any prototyping tool. Use when generating a feature spec, exporting a course/article/agent feature, or creating a data reference document.
-godnaterra/source: joshua/claude/infrastructure/feature-constitution/SKILL.md
-godnaterra/original-name: feature-constitution
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/feature-constitution/SKILL.md
+engenharia-ia-aplicada/original-name: feature-constitution
 ---
 
 Export a platform feature as a product constitution and data reference: dados informados pelo usuario na mensagem

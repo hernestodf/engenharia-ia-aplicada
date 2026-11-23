@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.5
 tags: [workflow, project-setup, skill-selection, onboarding, navigation]
-godnaterra/source: autopunk/editing/template-selector/SKILL.md
-godnaterra/original-name: template-selector
+engenharia-ia-aplicada/source: autopunk/editing/template-selector/SKILL.md
+engenharia-ia-aplicada/original-name: template-selector
 ---
 
 # Template Selector

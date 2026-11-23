@@ -1,8 +1,8 @@
 ---
 name: op-design-chain-audit
 description: Unified design chain audit for Movemental — flushes drift across all 5 layers (Stitch → tokens → primitives → components → layouts) covering color, typography, Tailwind hygiene, pattern, a11y, and interaction fidelity against the "Warm Scholarly Authority" design system. Use before shipping any UI or after a large build sprint.
-godnaterra/source: joshua/claude/design/design-chain-audit/SKILL.md
-godnaterra/original-name: design-chain-audit
+engenharia-ia-aplicada/source: joshua/claude/design/design-chain-audit/SKILL.md
+engenharia-ia-aplicada/original-name: design-chain-audit
 ---
 
 **Cursor:** Read this skill when the user asks for a design audit, design chain check, token audit, color audit, typography audit, Tailwind cleanup, or "flush drift." This is the **unified** audit — it supersedes running `jsh-design-audit`, `jsh-color-audit`, `jsh-tailwind-cleanup`, and `jsh-typography-polish` individually by combining all four with chain-specific rules.

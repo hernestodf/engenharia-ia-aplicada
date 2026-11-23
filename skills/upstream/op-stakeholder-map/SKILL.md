@@ -1,8 +1,8 @@
 ---
 name: op-stakeholder-map
 description: Deep-research Youthfront stakeholders and map their full connection networks for donor cultivation
-godnaterra/source: joshua/claude/movemental/stakeholder-map/SKILL.md
-godnaterra/original-name: stakeholder-map
+engenharia-ia-aplicada/source: joshua/claude/movemental/stakeholder-map/SKILL.md
+engenharia-ia-aplicada/original-name: stakeholder-map
 ---
 
 Research and map the full connection network for Youthfront stakeholders: dados informados pelo usuario na mensagem

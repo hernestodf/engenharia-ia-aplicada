@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [podcast, post-production, transcript, editing, accessibility]
-godnaterra/source: autopunk/podcast/post-production/transcript-cleanup/SKILL.md
-godnaterra/original-name: transcript-cleanup
+engenharia-ia-aplicada/source: autopunk/podcast/post-production/transcript-cleanup/SKILL.md
+engenharia-ia-aplicada/original-name: transcript-cleanup
 ---
 # Transcript Cleanup
 

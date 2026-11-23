@@ -1,8 +1,8 @@
 ---
 name: op-review-scrape
 description: Scrape book reviews from Goodreads and Amazon — fetches actual review text, ratings, dates, and reviewer metadata. Organizes by book, extracts quotable lines, analyzes sentiment patterns, and outputs structured markdown for copy strategy and social proof.
-godnaterra/source: joshua/claude/research/review-scrape/SKILL.md
-godnaterra/original-name: review-scrape
+engenharia-ia-aplicada/source: joshua/claude/research/review-scrape/SKILL.md
+engenharia-ia-aplicada/original-name: review-scrape
 ---
 
 Scrape book reviews for: dados informados pelo usuario na mensagem

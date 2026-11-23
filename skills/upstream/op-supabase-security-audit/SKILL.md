@@ -1,8 +1,8 @@
 ---
 name: op-supabase-security-audit
 description: Audit a Supabase project for security issues — RLS, auth config, role grants, storage, functions, and exposed secrets. Returns prioritized findings with fix recommendations.
-godnaterra/source: joshua/claude/infrastructure/supabase-security-audit/SKILL.md
-godnaterra/original-name: supabase-security-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/supabase-security-audit/SKILL.md
+engenharia-ia-aplicada/original-name: supabase-security-audit
 ---
 
 Run a comprehensive Supabase security audit: dados informados pelo usuario na mensagem

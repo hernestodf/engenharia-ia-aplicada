@@ -1,8 +1,8 @@
 ---
 name: op-react-audit
 description: Audit React 19 configuration and usage patterns for correctness and optimization — hooks, components, error boundaries, routing, state management, performance, and best practices. Use to check React health before shipping.
-godnaterra/source: joshua/claude/infrastructure/react-audit/SKILL.md
-godnaterra/original-name: react-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/react-audit/SKILL.md
+engenharia-ia-aplicada/original-name: react-audit
 ---
 
 Audit the React 19 configuration and usage patterns for this Vite SPA project. Check for correctness, performance, and modern best practices.

@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [documentary, business, pitching, broadcasters, commissioning]
-godnaterra/source: autopunk/tv-documentary/business/broadcaster-pitch-writer/SKILL.md
-godnaterra/original-name: broadcaster-pitch-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/business/broadcaster-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: broadcaster-pitch-writer
 ---
 # Broadcaster Pitch Writer
 

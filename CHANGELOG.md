@@ -1,7 +1,28 @@
 # Changelog
 
-Todas as mudanças relevantes do Godnaterra são registradas aqui.
+Todas as mudanças relevantes do EngenhariaIaAplicada são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
+
+## [0.5.0] — 2026-11-23
+
+Rebrand: `Godnaterra` passa a se chamar **EngenhariaIaAplicada**.
+
+### Mudanças
+
+- Slug, diretório de instalação e repositório GitHub: `engenharia-ia-aplicada`.
+- CLI: `scripts/eia.py` (comando `eia`); namespace de skills e agentes: `eia`.
+- 5 skills core viram `op-eia-*`; 7 agentes viram `eia-*`; 14 renames preservados com `git mv`.
+- Schema `engenharia-ia-aplicada/project@v1`, token derivado `__EIA_ROOT__` e metadata `engenharia-ia-aplicada/*`.
+- Tarball do Release passa a se chamar `engenharia-ia-aplicada-<versao>.tar.gz`.
+
+### Nota de evidência
+
+Os resultados em `evaluations/RESULTS.md` e `evaluations/RESULTS.jsonl` foram medidos sob o nome anterior e **não foram reescritos**. São trilha de auditoria; a data e a versão originais continuam válidas.
+
+### Não verificado
+
+- Carga das skills renomeadas pelo runtime depende de reinício da sessão.
+- Tag e Release `v0.5.0` não criadas neste commit.
 
 ## [0.4.0] — 2026-11-23
 
@@ -72,11 +93,11 @@ Instalação isolada por cliente, portabilidade total e release verificável.
 - `scripts/generate_manifest.py` + `install-manifest.json`: SHA256 de 801 arquivos da fonte canônica; a instalação aborta se houver drift.
 - `tests/test_install.py`: 6 testes de integridade, dry-run sem escrita, isolamento project, idempotência, rollback, merge de config em user scope e bloqueio por manifesto divergente. Total do pacote: **37 testes**.
 - `scripts/README.md`: catálogo dos scripts.
-- Comando `status` no `scripts/godnaterra.py`: conta skills ativas na config efetiva, read-only — substitui a dependência do `skill_mode.py` externo.
+- Comando `status` no `scripts/eia.py`: conta skills ativas na config efetiva, read-only — substitui a dependência do `skill_mode.py` externo.
 
 ### Alterado
 
-- `scripts/generate_adapters.py`: artefatos derivados usam o token `__GODNATERRA_ROOT__` em vez de caminhos absolutos da máquina geradora; `os.path.relpath` para symlinks, `subprocess`/Python direto sem `os.system`, merge de `opencode.json` preservando chaves existentes.
+- `scripts/generate_adapters.py`: artefatos derivados usam o token `__EIA_ROOT__` em vez de caminhos absolutos da máquina geradora; `os.path.relpath` para symlinks, `subprocess`/Python direto sem `os.system`, merge de `opencode.json` preservando chaves existentes.
 - `README.md` e `docs/guides/INSTALL.md`: reescritos sem paths absolutos e sem `skill_mode.py`; fluxo "clone → dry-run → apply project → status".
 - `.gitignore`: ignora `.opencode/` e `.claude/skills/` locais.
 - `.github/workflows/ci.yml`: auditoria do operador, `status`, reproduzibilidade dos adaptadores, `generate_manifest.py --check`, `git diff --check` e actions pinadas por SHA obtido via `git ls-remote`.
@@ -86,7 +107,7 @@ Instalação isolada por cliente, portabilidade total e release verificável.
 ### Corrigido
 
 - Caminhos absolutos da máquina geradora removidos dos artefatos `generated/` e da documentação.
-- `godnaterra.py status`: typo no docstring e leitura dupla de SKILL.md corrigidos.
+- `eia.py status`: typo no docstring e leitura dupla de SKILL.md corrigidos.
 
 ### Não verificado
 
@@ -123,7 +144,7 @@ Instalação isolada por cliente, portabilidade total e release verificável.
 ### Alterado
 
 - `.github/workflows/ci.yml`: novo step de validação de incidentes e step do harness com `--provider none --no-record` (sem credencial de LLM).
-- `scripts/godnaterra.py`: `audit` passou a validar incidentes além do catálogo.
+- `scripts/eia.py`: `audit` passou a validar incidentes além do catálogo.
 - `evaluations/RESULTS.md` e `evaluations/README.md`: baseline medido, comando de reprodução e separação entre presença de termos e julgamento semântico.
 - `--provider`: opções derivadas de `ARGV_PROVIDER` em vez de lista fixa; registrar runtime não exige mudar o parser.
 
@@ -140,22 +161,22 @@ Primeira versão publicada. Pacote canônico, vendor-free e portátil.
 
 - 764 skills canônicas em `skills/upstream/` e 5 em `skills/core/` — 769 no total.
 - 70 variantes divergentes preservadas em `references/`; 45 duplicatas idênticas fundidas e rastreadas no `MANIFEST.csv`.
-- 7 agentes Godnaterra: 1 router primário e 6 subagents read-only, um papel por tarefa.
+- 7 agentes EngenhariaIaAplicada: 1 router primário e 6 subagents read-only, um papel por tarefa.
 - `scripts/generate_adapters.py`: gerador derivado para OpenCode e Claude Code.
 - `scripts/validate_catalog.py` e 8 testes unitários (número da `0.1.0`; total atual em `[Não publicado]`).
-- `scripts/godnaterra.py`: `version`, `audit`, `doctor`, `init`, `update`.
+- `scripts/eia.py`: `version`, `audit`, `doctor`, `init`, `update`.
 - Design system, contrato Qdrant (`contract-only`) e CI/CD sem deploy.
 - 4 cenários de avaliação em `evaluations/`.
 - `SECURITY_CLASSIFICATION.md` com triagem dos achados de análise estática.
 
 ### Alterado
 
-- Visibilidade padrão `godnaterra`: 769 skills visíveis, `autoinvoke: true`.
-- Modos `god`, `godnaterra`, `curated` e `status` preservados em `skill_mode.py`.
+- Visibilidade padrão `EngenhariaIaAplicada`: 769 skills visíveis, `autoinvoke: true`.
+- Modos `god`, `EngenhariaIaAplicada`, `curated` e `status` preservados em `skill_mode.py`.
 
 ### Segurança
 
 - Nenhuma skill externa foi executada; achados classificados por risco real.
 - Nenhum deploy, reindexação, rotação de segredo ou mudança em produção.
 
-[0.1.0]: https://github.com/hernestodf/godnaterra
+[0.1.0]: https://github.com/hernestodf/engenharia-ia-aplicada

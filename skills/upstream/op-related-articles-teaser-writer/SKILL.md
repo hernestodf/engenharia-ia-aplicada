@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [related-content, internal-linking, digital-publishing, reader-retention, teasers]
-godnaterra/source: autopunk/writing/articles/related-articles-teaser-writer/SKILL.md
-godnaterra/original-name: related-articles-teaser-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/related-articles-teaser-writer/SKILL.md
+engenharia-ia-aplicada/original-name: related-articles-teaser-writer
 ---
 # Related Articles Teaser Writer
 

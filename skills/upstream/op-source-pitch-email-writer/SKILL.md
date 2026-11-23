@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [email, sourcing, interview-request, outreach, journalism]
-godnaterra/source: autopunk/writing/institutional/source-pitch-email-writer/SKILL.md
-godnaterra/original-name: source-pitch-email-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/source-pitch-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: source-pitch-email-writer
 ---
 # Source Pitch Email Writer
 

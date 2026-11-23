@@ -1,21 +1,21 @@
-# Godnaterra
+# EngenhariaIaAplicada
 
 Pacote de engenharia de software assistida por IA, **vendor-neutral e portátil**. Núcleo genérico; perfis opcionais entram como camadas derivadas. Sem lock-in de LLM/provider, sem vendor, sem Kilo.
 
-Versão: `0.4.0`
+Versão: `0.5.0`
 
 ## Comece aqui
 
 Numa máquina nova,clone e instale no escopo do projeto (isolado por cliente):
 
 ```bash
-git clone git@github.com:hernestodf/godnaterra.git
-cd godnaterra
+git clone git@github.com:hernestodf/engenharia-ia-aplicada.git
+cd engenharia-ia-aplicada
 
 python3 scripts/install.py                 # 1) DRY-RUN: mostra o plano, não escreve nada
 python3 scripts/install.py --apply         # 2) instala DENTRO do clone (padrão --scope project)
-python3 scripts/godnaterra.py status       # 3) confirma as skills ativas
-python3 scripts/godnaterra.py audit        # 4) auditoria read-only
+python3 scripts/eia.py status       # 3) confirma as skills ativas
+python3 scripts/eia.py audit        # 4) auditoria read-only
 ```
 
 `--apply` é a autorização explícita. Sem ele, nada é escrito. O padrão `--scope project` grava apenas `.opencode/` e `.claude/skills/` **dentro do clone** — nada toca a config global da máquina. Para instalar globalmente, use `--apply --scope user` (faz backup e preserva chaves existentes).
@@ -35,12 +35,12 @@ Git **não executa hooks** de um repositório recém-clonado (é proteção cont
 ## Comandos do operador
 
 ```bash
-python3 scripts/godnaterra.py version    # versão do pacote
-python3 scripts/godnaterra.py audit      # catálogo + incidentes + JSONs derivados
-python3 scripts/godnaterra.py status     # skills ativas na config efetiva (leitura)
-python3 scripts/godnaterra.py doctor     # runtimes, configs e backups (leitura)
-python3 scripts/godnaterra.py init       # DRY-RUN do gerador de adaptadores
-python3 scripts/godnaterra.py update --apply
+python3 scripts/eia.py version    # versão do pacote
+python3 scripts/eia.py audit      # catálogo + incidentes + JSONs derivados
+python3 scripts/eia.py status     # skills ativas na config efetiva (leitura)
+python3 scripts/eia.py doctor     # runtimes, configs e backups (leitura)
+python3 scripts/eia.py init       # DRY-RUN do gerador de adaptadores
+python3 scripts/eia.py update --apply
 ```
 
 Nenhum comando apaga arquivos, reindexa, faz deploy ou rotaciona segredos.
@@ -53,7 +53,7 @@ python3 scripts/validate_incidents.py
 python3 -m unittest discover -s tests -v        # 66 testes
 python3 scripts/run_evals.py --suite tasks --provider none   # baseline + regressão
 python3 scripts/verify_adapters.py              # pins, licenças e disabled
-python3 scripts/godnaterra.py audit
+python3 scripts/eia.py audit
 python3 scripts/generate_manifest.py --check
 git diff --check
 ```

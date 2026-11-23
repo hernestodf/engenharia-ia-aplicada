@@ -1,8 +1,8 @@
 ---
 name: op-tailwind-design-system
 description: Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.
-godnaterra/source: joshua/claude/design/tailwind-design-system/SKILL.md
-godnaterra/original-name: tailwind-design-system
+engenharia-ia-aplicada/source: joshua/claude/design/tailwind-design-system/SKILL.md
+engenharia-ia-aplicada/original-name: tailwind-design-system
 ---
 
 # Tailwind Design System (v4)

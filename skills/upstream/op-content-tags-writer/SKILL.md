@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [tags, keywords, seo, metadata, youtube, articles, discoverability]
-godnaterra/source: autopunk/writing/digital-social/content-tags-writer/SKILL.md
-godnaterra/original-name: content-tags-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/content-tags-writer/SKILL.md
+engenharia-ia-aplicada/original-name: content-tags-writer
 ---
 # Content Tags Writer
 

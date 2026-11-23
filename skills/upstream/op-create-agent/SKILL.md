@@ -1,8 +1,8 @@
 ---
 name: op-create-agent
 description: Scaffold and develop AI agents — use when asked to create, build, or set up a new AI agent, including agent definition, instructions, tools, guardrails, handoffs, context, RAG pipelines, streaming, API routes, testing, and debugging.
-godnaterra/source: joshua/claude/agents/create-agent/SKILL.md
-godnaterra/original-name: create-agent
+engenharia-ia-aplicada/source: joshua/claude/agents/create-agent/SKILL.md
+engenharia-ia-aplicada/original-name: create-agent
 ---
 
 Scaffold or develop an agent: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 ---
 name: op-mcp-server-builder
 description: Scaffold a Model Context Protocol (MCP) server in TypeScript with typed tools, input validation and a test checklist. Use when the user wants to expose an API, database or internal tool to an AI assistant through MCP.
-godnaterra/source: techsaurabh/mcp-server-builder/SKILL.md
-godnaterra/original-name: mcp-server-builder
+engenharia-ia-aplicada/source: techsaurabh/mcp-server-builder/SKILL.md
+engenharia-ia-aplicada/original-name: mcp-server-builder
 ---
 
 # MCP Server Builder

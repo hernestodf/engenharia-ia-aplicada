@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [youtube, scripting, cta, subscribe, engagement]
-godnaterra/source: autopunk/youtube/scripting/call-to-action-generator/SKILL.md
-godnaterra/original-name: call-to-action-generator
+engenharia-ia-aplicada/source: autopunk/youtube/scripting/call-to-action-generator/SKILL.md
+engenharia-ia-aplicada/original-name: call-to-action-generator
 ---
 # Call To Action Generator
 

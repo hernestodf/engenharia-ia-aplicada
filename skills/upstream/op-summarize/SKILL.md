@@ -2,8 +2,8 @@
 name: op-summarize
 description: Summarizes, condenses, or extracts text, transcripts, and key points from URLs, articles, web pages, PDFs, podcasts, YouTube videos, and local files. Handles transcript extraction, transcript-to-document conversion, and acts as a fallback transcription tool when the user asks to transcribe, digest, recap, or get the gist of a link, video, or document.
 homepage: https://summarize.sh
-godnaterra/source: joshua/claude/research/summarize/SKILL.md
-godnaterra/original-name: summarize
+engenharia-ia-aplicada/source: joshua/claude/research/summarize/SKILL.md
+engenharia-ia-aplicada/original-name: summarize
 ---
 
 # Summarize

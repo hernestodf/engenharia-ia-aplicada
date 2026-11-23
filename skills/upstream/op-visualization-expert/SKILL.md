@@ -5,8 +5,8 @@ description: |
   Use when: creating visualizations, choosing chart types, designing dashboards, or when user
   mentions data visualization, charts, graphs, or needs help presenting data visually.
 license: MIT
-godnaterra/source: joshua/claude/codegen/visualization-expert/SKILL.md
-godnaterra/original-name: visualization-expert
+engenharia-ia-aplicada/source: joshua/claude/codegen/visualization-expert/SKILL.md
+engenharia-ia-aplicada/original-name: visualization-expert
 ---
 
 # Visualization Expert

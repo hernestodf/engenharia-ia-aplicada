@@ -1,8 +1,8 @@
 ---
 name: op-madden-youtube-meta
 description: Mine trusted Madden NFL YouTube strategy channels (and paired sites) for competitive meta — formations, plays, adjustments, and pro usage — using transcripts and structured extraction. Use when building playbook notes, meta briefs, or research docs from video sources; pairs with the youtube-transcript skill.
-godnaterra/source: joshua/cursor/madden-youtube-meta/SKILL.md
-godnaterra/original-name: madden-youtube-meta
+engenharia-ia-aplicada/source: joshua/cursor/madden-youtube-meta/SKILL.md
+engenharia-ia-aplicada/original-name: madden-youtube-meta
 ---
 
 # Madden YouTube meta research

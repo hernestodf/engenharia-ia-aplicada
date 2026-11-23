@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.83
 tags: [research, biography, interview-prep, journalism, pre-production, due-diligence]
-godnaterra/source: autopunk/research/people-contacts/biography-researcher/SKILL.md
-godnaterra/original-name: biography-researcher
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/biography-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: biography-researcher
 ---
 # Biography Researcher
 

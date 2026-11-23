@@ -1,8 +1,8 @@
 ---
 name: op-tam-profile
 description: Score a movement leader's fit with the Movemental platform — a consulting deliverable (Fit Score 1–10, NOTs assessment, opportunity ladder). Distinct from the substrate. For the canonical research artifact, use `jsh-movement-leader-substrate`.
-godnaterra/source: joshua/claude/movemental/tam-profile/SKILL.md
-godnaterra/original-name: tam-profile
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-profile/SKILL.md
+engenharia-ia-aplicada/original-name: tam-profile
 ---
 
 # TAM Profile (Fit Scoring)

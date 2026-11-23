@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [web, subheadings, article, formatting, digital, sections, readability, SEO]
-godnaterra/source: autopunk/production-support/web-section-breaker/SKILL.md
-godnaterra/original-name: web-section-breaker
+engenharia-ia-aplicada/source: autopunk/production-support/web-section-breaker/SKILL.md
+engenharia-ia-aplicada/original-name: web-section-breaker
 ---
 # Web Section Breaker
 

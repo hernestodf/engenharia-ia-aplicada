@@ -7,8 +7,8 @@ subcategory: media
 version: 1.0
 eval_score: 4.39
 tags: [research, media, press-review, roundup, analysis, summary]
-godnaterra/source: autopunk/research/media/press-roundup-writer/SKILL.md
-godnaterra/original-name: press-roundup-writer
+engenharia-ia-aplicada/source: autopunk/research/media/press-roundup-writer/SKILL.md
+engenharia-ia-aplicada/original-name: press-roundup-writer
 ---
 # Press Roundup Writer
 

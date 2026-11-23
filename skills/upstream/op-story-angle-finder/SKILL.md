@@ -7,8 +7,8 @@ subcategory: ideation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, ideation, angles, pitching, story-development]
-godnaterra/source: autopunk/magazine-journalism/ideation/story-angle-finder/SKILL.md
-godnaterra/original-name: story-angle-finder
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/ideation/story-angle-finder/SKILL.md
+engenharia-ia-aplicada/original-name: story-angle-finder
 ---
 # Story Angle Finder
 

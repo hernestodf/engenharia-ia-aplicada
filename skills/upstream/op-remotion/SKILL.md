@@ -1,8 +1,8 @@
 ---
 name: op-remotion
 description: Programmatic video creation with React via Remotion — compositions, animations, motion graphics, rendered to MP4. Includes Stitch project walkthrough workflows, content-to-animation pipelines, and export/rendering. USE WHEN video, animation, motion graphics, video rendering, React video, intro video, YouTube video, TikTok video, video production, render video, content to animation, animate content, video overlay, walkthrough video, Stitch screens.
-godnaterra/source: joshua/claude/assets/remotion/SKILL.md
-godnaterra/original-name: remotion
+engenharia-ia-aplicada/source: joshua/claude/assets/remotion/SKILL.md
+engenharia-ia-aplicada/original-name: remotion
 ---
 
 Create programmatic videos using Remotion: dados informados pelo usuario na mensagem

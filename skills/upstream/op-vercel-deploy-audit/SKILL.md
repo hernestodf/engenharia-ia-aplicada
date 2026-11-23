@@ -1,8 +1,8 @@
 ---
 name: op-vercel-deploy-audit
 description: Audit a Vite+Express workspace for Vercel deployment issues — API connectivity, env vars, serverless bundling, CORS, symlinks, rewrites, and build config. Returns prioritized findings with fixes.
-godnaterra/source: joshua/claude/infrastructure/vercel-deploy-audit/SKILL.md
-godnaterra/original-name: vercel-deploy-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/vercel-deploy-audit/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-deploy-audit
 ---
 
 Run a comprehensive Vercel deployment audit for the current workspace: dados informados pelo usuario na mensagem

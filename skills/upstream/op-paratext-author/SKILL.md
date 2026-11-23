@@ -1,8 +1,8 @@
 ---
 name: op-paratext-author
 description: Write missing or stub paratext for any platform surface — books, courses, podcast episodes — in Alan Hirsch's voice. Queries the database for gaps, writes content, and updates via SQL. Use after running /paratext-audit to fill what it found.
-godnaterra/source: joshua/claude/content/paratext-author/SKILL.md
-godnaterra/original-name: paratext-author
+engenharia-ia-aplicada/source: joshua/claude/content/paratext-author/SKILL.md
+engenharia-ia-aplicada/original-name: paratext-author
 ---
 
 Write paratext for: dados informados pelo usuario na mensagem

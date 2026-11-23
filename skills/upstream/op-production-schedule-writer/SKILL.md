@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.3
 tags: [documentary, pre-production, scheduling, production, logistics]
-godnaterra/source: autopunk/tv-documentary/pre-production/production-schedule-writer/SKILL.md
-godnaterra/original-name: production-schedule-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/production-schedule-writer/SKILL.md
+engenharia-ia-aplicada/original-name: production-schedule-writer
 ---
 # Production Schedule Writer
 

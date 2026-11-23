@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, revision, version-control, copy-editing, collaboration]
-godnaterra/source: autopunk/editing/version-diff-summariser/SKILL.md
-godnaterra/original-name: version-diff-summariser
+engenharia-ia-aplicada/source: autopunk/editing/version-diff-summariser/SKILL.md
+engenharia-ia-aplicada/original-name: version-diff-summariser
 ---
 # Version Diff Summariser
 

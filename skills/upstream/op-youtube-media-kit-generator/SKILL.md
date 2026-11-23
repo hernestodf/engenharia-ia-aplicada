@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.4
 tags: [youtube, business, media-kit, monetization, sponsorship, brand-partnerships]
-godnaterra/source: autopunk/youtube/business/youtube-media-kit-generator/SKILL.md
-godnaterra/original-name: youtube-media-kit-generator
+engenharia-ia-aplicada/source: autopunk/youtube/business/youtube-media-kit-generator/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-media-kit-generator
 ---
 # YouTube Media Kit Generator
 

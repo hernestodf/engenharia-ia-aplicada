@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [editorial, memo, decision, internal, journalism, institutional]
-godnaterra/source: autopunk/writing/institutional/editorial-decision-memo-writer/SKILL.md
-godnaterra/original-name: editorial-decision-memo-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/editorial-decision-memo-writer/SKILL.md
+engenharia-ia-aplicada/original-name: editorial-decision-memo-writer
 ---
 # Editorial Decision Memo Writer
 

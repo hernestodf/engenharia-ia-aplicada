@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.5
 tags: [newsletter, writing, subject-line, open-rate, email-marketing]
-godnaterra/source: autopunk/newsletter/writing/subject-line-writer/SKILL.md
-godnaterra/original-name: subject-line-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/writing/subject-line-writer/SKILL.md
+engenharia-ia-aplicada/original-name: subject-line-writer
 ---
 # Subject Line Writer
 

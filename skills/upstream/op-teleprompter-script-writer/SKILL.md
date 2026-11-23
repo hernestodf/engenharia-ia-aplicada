@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [broadcast, presenter, teleprompter, autocue, studio, television, on-camera]
-godnaterra/source: autopunk/writing/broadcast/teleprompter-script-writer/SKILL.md
-godnaterra/original-name: teleprompter-script-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/teleprompter-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: teleprompter-script-writer
 ---
 # Teleprompter Script Writer
 

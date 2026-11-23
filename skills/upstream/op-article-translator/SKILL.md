@@ -7,8 +7,8 @@ subcategory: text
 version: 1.0
 eval_score: 4.44
 tags: [translation, article, journalism, languages, precision, register]
-godnaterra/source: autopunk/translation/text/article-translator/SKILL.md
-godnaterra/original-name: article-translator
+engenharia-ia-aplicada/source: autopunk/translation/text/article-translator/SKILL.md
+engenharia-ia-aplicada/original-name: article-translator
 ---
 # Article Translator
 

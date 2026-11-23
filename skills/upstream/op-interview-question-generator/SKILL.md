@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [documentary, scripting, interview, questions, subject-research]
-godnaterra/source: autopunk/tv-documentary/scripting/interview-question-generator/SKILL.md
-godnaterra/original-name: interview-question-generator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/scripting/interview-question-generator/SKILL.md
+engenharia-ia-aplicada/original-name: interview-question-generator
 ---
 # Interview Question Generator
 

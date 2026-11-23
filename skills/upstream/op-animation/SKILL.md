@@ -1,8 +1,8 @@
 ---
 name: op-animation
 description: Add scroll animations, micro-interactions, or page transitions to a component using GSAP. Use when a section needs motion design or interactive polish.
-godnaterra/source: joshua/claude/design/animation/SKILL.md
-godnaterra/original-name: animation
+engenharia-ia-aplicada/source: joshua/claude/design/animation/SKILL.md
+engenharia-ia-aplicada/original-name: animation
 ---
 
 Add animation/interaction to a component or section.

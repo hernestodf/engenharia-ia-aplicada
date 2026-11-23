@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [statistics, fact-checking, data, verification, numbers]
-godnaterra/source: autopunk/research/facts-context/statistics-verifier/SKILL.md
-godnaterra/original-name: statistics-verifier
+engenharia-ia-aplicada/source: autopunk/research/facts-context/statistics-verifier/SKILL.md
+engenharia-ia-aplicada/original-name: statistics-verifier
 ---
 # Statistics Verifier
 

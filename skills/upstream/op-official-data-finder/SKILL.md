@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [data, official-sources, government-statistics, research, verification]
-godnaterra/source: autopunk/research/data-statistics/official-data-finder/SKILL.md
-godnaterra/original-name: official-data-finder
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/official-data-finder/SKILL.md
+engenharia-ia-aplicada/original-name: official-data-finder
 ---
 # Official Data Finder
 

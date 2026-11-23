@@ -1,8 +1,8 @@
 ---
 name: op-analytics-audit
 description: Audit the analytics implementation across all providers (GA4, PostHog, Vercel Analytics, Supabase) — verifies events fire correctly, tenant_id is set on all events, no duplicates, user identity is wired, and privacy/GDPR compliance is met.
-godnaterra/source: joshua/claude/infrastructure/analytics-audit/SKILL.md
-godnaterra/original-name: analytics-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/analytics-audit/SKILL.md
+engenharia-ia-aplicada/original-name: analytics-audit
 ---
 
 Run a comprehensive analytics audit: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 ---
 name: op-docs-setup
 description: "Bootstrap the canonical two-part _docs directory for any context-coded project in the Claude/AntiGravity environment. Creates _build/ (finite agent-only technical docs) and _public/ (facts/, insights/, proposals/) plus a CONSTITUTION.md that governs the split. Writes every README, seeding voice and audience expectations for _public. Run once at project start, or run on an existing project to audit and migrate into the correct structure."
-godnaterra/source: joshua/claude/docs/docs-setup/SKILL.md
-godnaterra/original-name: docs-setup
+engenharia-ia-aplicada/source: joshua/claude/docs/docs-setup/SKILL.md
+engenharia-ia-aplicada/original-name: docs-setup
 ---
 
 Bootstrap the _docs directory for: dados informados pelo usuario na mensagem

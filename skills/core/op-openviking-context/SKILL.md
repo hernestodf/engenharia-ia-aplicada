@@ -6,8 +6,8 @@ category: engineering
 subcategory: context-memory
 version: 1.0
 tags: [memory, context, rag, retrieval, openviking]
-godnaterra/layer: core
-godnaterra/source: canonical
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
 # Contexto e memoria com OpenViking

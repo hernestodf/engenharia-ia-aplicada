@@ -1,8 +1,8 @@
 ---
 name: op-pathway-builder
 description: "Build type-safe React pathway pages from pathway_sections database content — generates types, hooks, section components, and page composition. Triggers on: pathway page, pathway builder, build pathway, pathway components. NOT for: pathway content editing, seed scripts, schema changes, or Stitch conversions."
-godnaterra/source: joshua/claude/content/pathway-builder/SKILL.md
-godnaterra/original-name: pathway-builder
+engenharia-ia-aplicada/source: joshua/claude/content/pathway-builder/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-builder
 ---
 
 Build pathway page components for: dados informados pelo usuario na mensagem

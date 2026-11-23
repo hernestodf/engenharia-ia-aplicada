@@ -7,8 +7,8 @@ subcategory: media-relations
 version: 1.0
 eval_score: 4.81
 tags: [pr, media-relations, embargo, press-release, communications]
-godnaterra/source: autopunk/pr-communications/media-relations/embargo-management/SKILL.md
-godnaterra/original-name: embargo-management
+engenharia-ia-aplicada/source: autopunk/pr-communications/media-relations/embargo-management/SKILL.md
+engenharia-ia-aplicada/original-name: embargo-management
 ---
 # Embargo Management
 

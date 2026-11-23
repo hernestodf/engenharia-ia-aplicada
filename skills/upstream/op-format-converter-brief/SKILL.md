@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [formatting, markdown, html, conversion, production, workflow]
-godnaterra/source: autopunk/production-support/format-converter-brief/SKILL.md
-godnaterra/original-name: format-converter-brief
+engenharia-ia-aplicada/source: autopunk/production-support/format-converter-brief/SKILL.md
+engenharia-ia-aplicada/original-name: format-converter-brief
 ---
 # Format Converter Brief
 

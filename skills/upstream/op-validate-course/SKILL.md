@@ -1,8 +1,8 @@
 ---
 name: op-validate-course
 description: Validate a course against the Transformational Course Charter — checking 8-week structure, Four Necessities compliance, section completeness, content quality, and exclusions. Use when reviewing a course before publishing or after authoring to ensure it meets Charter requirements.
-godnaterra/source: joshua/claude/content/validate-course/SKILL.md
-godnaterra/original-name: validate-course
+engenharia-ia-aplicada/source: joshua/claude/content/validate-course/SKILL.md
+engenharia-ia-aplicada/original-name: validate-course
 ---
 
 Validate course against the Charter: dados informados pelo usuario na mensagem

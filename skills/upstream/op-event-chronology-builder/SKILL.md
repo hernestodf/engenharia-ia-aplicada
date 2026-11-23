@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [chronology, research, background, timeline, fact-checking]
-godnaterra/source: autopunk/research/facts-context/event-chronology-builder/SKILL.md
-godnaterra/original-name: event-chronology-builder
+engenharia-ia-aplicada/source: autopunk/research/facts-context/event-chronology-builder/SKILL.md
+engenharia-ia-aplicada/original-name: event-chronology-builder
 ---
 # Event Chronology Builder
 

@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.5
 tags: [youtube, business, sponsorship, email, outreach, monetization]
-godnaterra/source: autopunk/youtube/business/sponsorship-email-writer/SKILL.md
-godnaterra/original-name: sponsorship-email-writer
+engenharia-ia-aplicada/source: autopunk/youtube/business/sponsorship-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: sponsorship-email-writer
 ---
 # Sponsorship Email Writer
 

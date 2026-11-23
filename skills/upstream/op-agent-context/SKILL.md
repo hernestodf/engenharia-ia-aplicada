@@ -1,8 +1,8 @@
 ---
 name: op-agent-context
 description: Build or modify user context systems — profile assembly, RunContract payloads, context schemas, catalog validation. Use when working on how user data flows into agents.
-godnaterra/source: joshua/claude/agents/agent-context/SKILL.md
-godnaterra/original-name: agent-context
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-context/SKILL.md
+engenharia-ia-aplicada/original-name: agent-context
 ---
 
 Work on agent context: dados informados pelo usuario na mensagem

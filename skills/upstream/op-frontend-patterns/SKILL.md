@@ -2,8 +2,8 @@
 name: op-frontend-patterns
 description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 origin: ECC
-godnaterra/source: joshua/claude/design/frontend-patterns/SKILL.md
-godnaterra/original-name: frontend-patterns
+engenharia-ia-aplicada/source: joshua/claude/design/frontend-patterns/SKILL.md
+engenharia-ia-aplicada/original-name: frontend-patterns
 ---
 
 # Frontend Development Patterns

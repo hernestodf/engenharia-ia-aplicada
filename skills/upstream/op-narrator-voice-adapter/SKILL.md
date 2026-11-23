@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [documentary, scripting, voice, narration, adaptation]
-godnaterra/source: autopunk/tv-documentary/scripting/narrator-voice-adapter/SKILL.md
-godnaterra/original-name: narrator-voice-adapter
+engenharia-ia-aplicada/source: autopunk/tv-documentary/scripting/narrator-voice-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: narrator-voice-adapter
 ---
 # Narrator Voice Adapter
 

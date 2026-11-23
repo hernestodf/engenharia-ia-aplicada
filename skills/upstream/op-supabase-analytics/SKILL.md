@@ -1,8 +1,8 @@
 ---
 name: op-supabase-analytics
 description: Set up Supabase-native analytics for this multi-tenant platform — custom analytics_events table (RLS-scoped per org), per-tenant views, pg_stat_statements for query performance, and Logflare for log analytics.
-godnaterra/source: joshua/claude/infrastructure/supabase-analytics/SKILL.md
-godnaterra/original-name: supabase-analytics
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/supabase-analytics/SKILL.md
+engenharia-ia-aplicada/original-name: supabase-analytics
 ---
 
 Set up Supabase analytics: dados informados pelo usuario na mensagem

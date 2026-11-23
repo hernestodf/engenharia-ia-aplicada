@@ -1,8 +1,8 @@
 ---
 name: op-debug-traces
 description: Debug agent execution using traces — use when asked to investigate slow responses, diagnose tool failures, analyze guardrail rejections, query agent trace logs, or review agent performance metrics.
-godnaterra/source: joshua/claude/agents/debug-traces/SKILL.md
-godnaterra/original-name: debug-traces
+engenharia-ia-aplicada/source: joshua/claude/agents/debug-traces/SKILL.md
+engenharia-ia-aplicada/original-name: debug-traces
 ---
 
 Debug agent execution: dados informados pelo usuario na mensagem

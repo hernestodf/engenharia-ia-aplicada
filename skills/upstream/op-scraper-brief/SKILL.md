@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.3
 tags: [scraping, data collection, technical brief, web data, investigation]
-godnaterra/source: autopunk/data-journalism/investigation/scraper-brief/SKILL.md
-godnaterra/original-name: scraper-brief
+engenharia-ia-aplicada/source: autopunk/data-journalism/investigation/scraper-brief/SKILL.md
+engenharia-ia-aplicada/original-name: scraper-brief
 ---
 # Scraper Brief
 

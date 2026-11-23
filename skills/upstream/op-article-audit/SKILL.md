@@ -1,8 +1,8 @@
 ---
 name: op-article-audit
 description: Audit a complete article against all criteria — Alan's five voice markers, SEO/GEO requirements, section architecture, corpus citation quality, pillar alignment, and CTA. Returns per-criterion scores, specific failing passages, and a prioritized revision list. Use before publishing any article, or to diagnose why an article isn't performing.
-godnaterra/source: joshua/claude/content/article-audit/SKILL.md
-godnaterra/original-name: article-audit
+engenharia-ia-aplicada/source: joshua/claude/content/article-audit/SKILL.md
+engenharia-ia-aplicada/original-name: article-audit
 ---
 
 Audit this article: dados informados pelo usuario na mensagem

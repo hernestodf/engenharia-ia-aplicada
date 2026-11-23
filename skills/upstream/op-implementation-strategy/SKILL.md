@@ -1,8 +1,8 @@
 ---
 name: op-implementation-strategy
 description: Decide how to implement runtime and API changes in openai-agents-js before editing code. Use when a task changes exported APIs, runtime behavior, schemas, tests, or docs and you need to choose the compatibility boundary, whether shims or migrations are warranted, and when unreleased interfaces can be rewritten directly.
-godnaterra/source: joshua/vendor/skills-openai/implementation-strategy/SKILL.md
-godnaterra/original-name: implementation-strategy
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/implementation-strategy/SKILL.md
+engenharia-ia-aplicada/original-name: implementation-strategy
 ---
 
 # Implementation Strategy

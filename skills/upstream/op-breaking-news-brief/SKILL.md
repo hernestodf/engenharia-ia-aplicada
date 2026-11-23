@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.5
 tags: [journalism, breaking-news, newsroom, verification, editorial-workflow]
-godnaterra/source: autopunk/magazine-journalism/writing/breaking-news-brief/SKILL.md
-godnaterra/original-name: breaking-news-brief
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/breaking-news-brief/SKILL.md
+engenharia-ia-aplicada/original-name: breaking-news-brief
 ---
 # Breaking News Brief
 

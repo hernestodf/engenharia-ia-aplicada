@@ -1,8 +1,8 @@
 ---
 name: op-home-consult
 description: Strategic consultation for a movement leader home page — mandatory sections rubric, scroll-stop strategy (Spline/NB2/GSAP), copy evaluation, and conversion architecture. Designed for thought leaders in the missional/formation niche.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-home-consult-2/SKILL.md
-godnaterra/original-name: home-consult
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-home-consult-2/SKILL.md
+engenharia-ia-aplicada/original-name: home-consult
 ---
 
 Run a strategic home page consultation for a movement leader platform.

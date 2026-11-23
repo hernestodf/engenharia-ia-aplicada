@@ -1,8 +1,8 @@
 ---
 name: op-code-change-verification
 description: Run the mandatory verification stack when changes affect runtime code, tests, or build/test behavior in the OpenAI Agents JS monorepo.
-godnaterra/source: joshua/vendor/skills-openai/code-change-verification/SKILL.md
-godnaterra/original-name: code-change-verification
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/code-change-verification/SKILL.md
+engenharia-ia-aplicada/original-name: code-change-verification
 ---
 
 # Code Change Verification

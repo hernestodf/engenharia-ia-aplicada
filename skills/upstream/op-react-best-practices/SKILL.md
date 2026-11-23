@@ -1,8 +1,8 @@
 ---
 name: op-react-best-practices
 description: React performance optimization guidelines from Mastra Engineering. This skill should be used when writing, reviewing, or refactoring React code to ensure optimal performance patterns. Triggers on tasks involving React components, data fetching, bundle optimization, or performance improvements.
-godnaterra/source: joshua/claude/codegen/react-best-practices/SKILL.md
-godnaterra/original-name: react-best-practices
+engenharia-ia-aplicada/source: joshua/claude/codegen/react-best-practices/SKILL.md
+engenharia-ia-aplicada/original-name: react-best-practices
 ---
 
 # React Best Practices

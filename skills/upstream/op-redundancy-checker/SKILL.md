@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, clarity, concision, repetition, wordcount]
-godnaterra/source: autopunk/editing/redundancy-checker/SKILL.md
-godnaterra/original-name: redundancy-checker
+engenharia-ia-aplicada/source: autopunk/editing/redundancy-checker/SKILL.md
+engenharia-ia-aplicada/original-name: redundancy-checker
 ---
 # Redundancy Checker
 

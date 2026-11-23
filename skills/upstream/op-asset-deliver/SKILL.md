@@ -1,8 +1,8 @@
 ---
 name: op-asset-deliver
 description: Package generated prompts or assets into a polished interactive HTML page with tabbed navigation, one-click copy buttons, and visual polish. Use to deliver prompt sets, asset galleries, or comparison views as a premium shareable artifact.
-godnaterra/source: joshua/claude/assets/asset-deliver/SKILL.md
-godnaterra/original-name: asset-deliver
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-deliver/SKILL.md
+engenharia-ia-aplicada/original-name: asset-deliver
 ---
 
 Package and deliver asset prompts or images as an interactive HTML page: dados informados pelo usuario na mensagem

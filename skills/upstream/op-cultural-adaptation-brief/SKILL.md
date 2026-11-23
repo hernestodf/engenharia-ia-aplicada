@@ -7,8 +7,8 @@ subcategory: localization
 version: 1.0
 eval_score: 4.2
 tags: [localization, cultural-adaptation, translation, international, audience]
-godnaterra/source: autopunk/translation-localization/cultural-adaptation-brief/SKILL.md
-godnaterra/original-name: cultural-adaptation-brief
+engenharia-ia-aplicada/source: autopunk/translation-localization/cultural-adaptation-brief/SKILL.md
+engenharia-ia-aplicada/original-name: cultural-adaptation-brief
 ---
 # Cultural Adaptation Brief
 

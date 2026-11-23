@@ -1,8 +1,8 @@
 ---
 name: op-asset-edit
 description: Edit or refine an existing image using Nano Banana 2's conversational editing. Use when an asset needs color correction, element changes, style adjustments, or iterative refinement.
-godnaterra/source: joshua/claude/assets/asset-edit/SKILL.md
-godnaterra/original-name: asset-edit
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-edit/SKILL.md
+engenharia-ia-aplicada/original-name: asset-edit
 ---
 
 Edit an image asset using Nano Banana 2: dados informados pelo usuario na mensagem

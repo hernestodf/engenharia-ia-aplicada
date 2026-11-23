@@ -1,8 +1,8 @@
 ---
 name: op-affiliation-scrape
 description: Research organizations a leader is affiliated with AND fetch logos for them. Output is a JSON record optimized for rendering a logo strip / social-proof section on the platform site. NOT the same as substrate organizational affiliations — for the substrate's structured org list, use `jsh-movement-leader-substrate`.
-godnaterra/source: joshua/claude/movemental/jsh-affiliation-scrape-2/SKILL.md
-godnaterra/original-name: affiliation-scrape
+engenharia-ia-aplicada/source: joshua/claude/movemental/jsh-affiliation-scrape-2/SKILL.md
+engenharia-ia-aplicada/original-name: affiliation-scrape
 ---
 
 > **Scope guard.** This skill exists to populate **logo strips and social-proof sections on the platform site**. Its output (`content-library/affiliations/{slug}.json`) carries logo URLs, logo quality grades, strip groupings, and prominence scores — fields that the [`jsh-movement-leader-substrate`](../jsh-movement-leader-substrate/SKILL.md) intentionally omits. If you are working on the substrate document, do NOT invoke this skill — substrate's organizational affiliations come from `network/organizations.md` and use a simpler `| Organization | Role | Years | URL |` table without logo metadata.

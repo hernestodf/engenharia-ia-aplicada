@@ -7,8 +7,8 @@ subcategory: formatting
 version: 1.0
 eval_score: 4.44
 tags: [production-support, web, formatting, sections, layout, readability]
-godnaterra/source: autopunk/production-support/formatting/web-section-splitter/SKILL.md
-godnaterra/original-name: web-section-splitter
+engenharia-ia-aplicada/source: autopunk/production-support/formatting/web-section-splitter/SKILL.md
+engenharia-ia-aplicada/original-name: web-section-splitter
 ---
 # Web Section Splitter
 

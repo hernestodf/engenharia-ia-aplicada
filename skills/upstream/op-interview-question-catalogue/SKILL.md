@@ -7,8 +7,8 @@ subcategory:
 version: 1.0
 eval_score: 4.8
 tags: [interview, pre-production, journalism, podcast, documentary, questions]
-godnaterra/source: autopunk/pre-production/interview-question-catalogue/SKILL.md
-godnaterra/original-name: interview-question-catalogue
+engenharia-ia-aplicada/source: autopunk/pre-production/interview-question-catalogue/SKILL.md
+engenharia-ia-aplicada/original-name: interview-question-catalogue
 ---
 # Interview Question Catalogue
 

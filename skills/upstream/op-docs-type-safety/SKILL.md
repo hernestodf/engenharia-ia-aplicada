@@ -1,8 +1,8 @@
 ---
 name: op-docs-type-safety
 description: Audit and update the type safety documentation in _docs/type/ to match the actual codebase state. Ensures docs are the single source of truth without errors or gaps.
-godnaterra/source: joshua/claude/docs/docs-type-safety/SKILL.md
-godnaterra/original-name: docs-type-safety
+engenharia-ia-aplicada/source: joshua/claude/docs/docs-type-safety/SKILL.md
+engenharia-ia-aplicada/original-name: docs-type-safety
 ---
 
 # Type Safety Documentation Audit & Update

@@ -9,8 +9,8 @@ description: >
   in `corpus/alan_hirsch/<book-slug>/chapters/`. Use when ingesting a new book
   source file from `_inbox/` into the corpus. Trigger phrases: "convert this
   PDF", "ingest this book", "run phase 01", "PDF to markdown".
-godnaterra/source: joshua/claude/content/book-convert/SKILL.md
-godnaterra/original-name: book-convert
+engenharia-ia-aplicada/source: joshua/claude/content/book-convert/SKILL.md
+engenharia-ia-aplicada/original-name: book-convert
 ---
 
 # Book Convert — Phase 01: Source → Markdown

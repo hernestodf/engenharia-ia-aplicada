@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [rights, clearance, archive, permissions, letter, documentary, broadcast]
-godnaterra/source: autopunk/pre-production/rights-request-letter-writer/SKILL.md
-godnaterra/original-name: rights-request-letter-writer
+engenharia-ia-aplicada/source: autopunk/pre-production/rights-request-letter-writer/SKILL.md
+engenharia-ia-aplicada/original-name: rights-request-letter-writer
 ---
 # Rights Request Letter Writer
 

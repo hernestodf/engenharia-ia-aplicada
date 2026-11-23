@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [source-verification, credentials, expert-vetting, fact-checking, pre-interview]
-godnaterra/source: autopunk/research/people-contacts/source-credentials-checker/SKILL.md
-godnaterra/original-name: source-credentials-checker
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/source-credentials-checker/SKILL.md
+engenharia-ia-aplicada/original-name: source-credentials-checker
 ---
 # Source Credentials Checker
 

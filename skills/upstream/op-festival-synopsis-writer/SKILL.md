@@ -7,8 +7,8 @@ subcategory: localization
 version: 1.0
 eval_score: 4.5
 tags: [documentary, localization, festivals, synopsis, submission]
-godnaterra/source: autopunk/tv-documentary/localization/festival-synopsis-writer/SKILL.md
-godnaterra/original-name: festival-synopsis-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/localization/festival-synopsis-writer/SKILL.md
+engenharia-ia-aplicada/original-name: festival-synopsis-writer
 ---
 # Festival Synopsis Writer
 

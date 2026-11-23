@@ -7,8 +7,8 @@ subcategory: analytics
 version: 1.0
 eval_score: 4.4
 tags: [youtube, analytics, reporting, strategy, monthly-review]
-godnaterra/source: autopunk/youtube/analytics/performance-report-writer/SKILL.md
-godnaterra/original-name: performance-report-writer
+engenharia-ia-aplicada/source: autopunk/youtube/analytics/performance-report-writer/SKILL.md
+engenharia-ia-aplicada/original-name: performance-report-writer
 ---
 # Performance Report Writer
 

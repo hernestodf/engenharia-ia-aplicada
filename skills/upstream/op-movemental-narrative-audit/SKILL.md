@@ -8,8 +8,8 @@ description: >
   model”, framework drift, editorial re-alignment, or copy QA against the
   fragmentation book, fragmentation page, home page, docs/articles, or
   docs/design/DESIGN.md.
-godnaterra/source: joshua/claude/movemental/movemental-narrative-audit/SKILL.md
-godnaterra/original-name: movemental-narrative-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-narrative-audit/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-narrative-audit
 ---
 
 # Movemental narrative alignment audit

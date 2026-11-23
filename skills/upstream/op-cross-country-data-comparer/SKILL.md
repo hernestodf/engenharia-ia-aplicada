@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [comparative, international, statistics, data-journalism, research]
-godnaterra/source: autopunk/research/data-statistics/cross-country-data-comparer/SKILL.md
-godnaterra/original-name: cross-country-data-comparer
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/cross-country-data-comparer/SKILL.md
+engenharia-ia-aplicada/original-name: cross-country-data-comparer
 ---
 # Cross-Country Data Comparer
 

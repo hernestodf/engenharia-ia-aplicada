@@ -74,7 +74,7 @@ class HarnessTest(unittest.TestCase):
 
     def test_assertions_presenca_e_ausencia(self) -> None:
         ok, _ = reval.checar_assertions(
-            "01-routing", "Escolho godnaterra-backend. Fica não verificado o restante."
+            "01-routing", "Escolho eia-backend. Fica não verificado o restante."
         )
         self.assertTrue(ok)
         ok, motivo = reval.checar_assertions("01-routing", "sem conteúdo")
@@ -89,8 +89,8 @@ class HarnessTest(unittest.TestCase):
         self.assertIn("proibidos", motivo)
 
     def test_extrai_texto_de_json_do_provider(self) -> None:
-        bruto = '{"tipo":"text","content":"godnaterra-backend e nao verificado"}'
-        self.assertIn("godnaterra-backend", reval.extrair_texto_saida(bruto))
+        bruto = '{"tipo":"text","content":"eia-backend e nao verificado"}'
+        self.assertIn("eia-backend", reval.extrair_texto_saida(bruto))
 
     def test_extrator_ignora_snapshot_e_tool_use(self) -> None:
         """Regressão do falso positivo: snapshot/tool_use não são resposta."""
@@ -120,7 +120,7 @@ class HarnessTest(unittest.TestCase):
         for argv in reval.ARGV_PROVIDER.values():
             self.assertIn("--format", argv)
             self.assertIn("json", argv)
-            self.assertIn("godnaterra-qa-security", argv)
+            self.assertIn("eia-qa-security", argv)
             self.assertNotIn("--model", argv)
 
     def test_novo_provider_pode_ser_registrado(self) -> None:

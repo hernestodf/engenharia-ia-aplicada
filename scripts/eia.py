@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Instalador/operador do pacote Godnaterra.
+"""Instalador/operador do pacote EngenhariaIaAplicada.
 
 Comandos:
   version              imprime a versão do pacote
@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.4.0"
+VERSION = "0.5.0"
 
 OP_CONFIG = Path.home() / ".config/opencode/opencode.json"
 CLAUDE_SKILLS = Path.home() / ".claude/skills"
@@ -43,7 +43,7 @@ def executar(script: str, *args: str) -> subprocess.CompletedProcess[str]:
 def cmd_version(_: argparse.Namespace) -> int:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     m = re.search(r"Versão:\s*`?([0-9.]+)", readme)
-    print(f"godnaterra {m.group(1) if m else VERSION}")
+    print(f"EngenhariaIaAplicada {m.group(1) if m else VERSION}")
     return 0
 
 
@@ -120,7 +120,7 @@ def cmd_doctor(_: argparse.Namespace) -> int:
 
     print("=== backups ===")
     for nome, padrao in (
-        ("opencode", "opencode.json.bak-godnaterra-*"),
+        ("opencode", "opencode.json.bak-eia-*"),
     ):
         pasta = OP_CONFIG.parent
         print(f"  {nome}: {len(list(pasta.glob(padrao)))}")

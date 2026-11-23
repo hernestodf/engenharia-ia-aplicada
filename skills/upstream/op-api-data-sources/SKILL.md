@@ -1,8 +1,8 @@
 ---
 name: op-api-data-sources
 description: Discover, document, and produce an integration blueprint for all authoritative APIs and data sources relevant to a user-described project. Outputs a full research package with per-API docs, a data catalog, and a step-by-step integration guide for a React + Supabase + Vercel + AI Agents stack.
-godnaterra/source: joshua/cursor/api-data-sources/SKILL.md
-godnaterra/original-name: api-data-sources
+engenharia-ia-aplicada/source: joshua/cursor/api-data-sources/SKILL.md
+engenharia-ia-aplicada/original-name: api-data-sources
 ---
 
 Research and document all authoritative APIs and data sources for: dados informados pelo usuario na mensagem

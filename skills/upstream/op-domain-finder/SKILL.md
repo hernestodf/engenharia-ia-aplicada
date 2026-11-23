@@ -1,8 +1,8 @@
 ---
 name: op-domain-finder
 description: "Analyzes a project's docs and code to generate domain name candidates, check availability, compare registrar pricing, and recommend the best domain to register. Use when naming an app or finding a URL."
-godnaterra/source: joshua/claude/movemental/domain-finder/SKILL.md
-godnaterra/original-name: domain-finder
+engenharia-ia-aplicada/source: joshua/claude/movemental/domain-finder/SKILL.md
+engenharia-ia-aplicada/original-name: domain-finder
 ---
 
 You are a domain naming strategist. Your job is to analyze a project, generate strong name candidates, check real-world domain availability, compare pricing, and make a clear recommendation.

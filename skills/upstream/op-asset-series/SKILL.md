@@ -1,8 +1,8 @@
 ---
 name: op-asset-series
 description: Generate a visually consistent set of image assets using Nano Banana 2. Use for course module covers, book chapter headers, video series thumbnails, or any batch that needs visual continuity.
-godnaterra/source: joshua/claude/assets/asset-series/SKILL.md
-godnaterra/original-name: asset-series
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-series/SKILL.md
+engenharia-ia-aplicada/original-name: asset-series
 ---
 
 Generate a consistent asset series using Nano Banana 2: dados informados pelo usuario na mensagem

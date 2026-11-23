@@ -1,8 +1,8 @@
 ---
 name: op-technical-blog-writer
 description: Write developer-focused technical blog posts that rank in search and get cited by AI answer engines. Use when the user asks for a tutorial, how-to, comparison or explainer on programming, AI engineering, DevOps or web development.
-godnaterra/source: techsaurabh/technical-blog-writer/SKILL.md
-godnaterra/original-name: technical-blog-writer
+engenharia-ia-aplicada/source: techsaurabh/technical-blog-writer/SKILL.md
+engenharia-ia-aplicada/original-name: technical-blog-writer
 ---
 
 # Technical Blog Writer

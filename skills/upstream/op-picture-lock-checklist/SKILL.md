@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.57
 tags: [documentary, post-production, picture-lock, checklist, delivery, compliance]
-godnaterra/source: autopunk/tv-documentary/post-production/picture-lock-checklist/SKILL.md
-godnaterra/original-name: picture-lock-checklist
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/picture-lock-checklist/SKILL.md
+engenharia-ia-aplicada/original-name: picture-lock-checklist
 ---
 # Picture Lock Checklist
 

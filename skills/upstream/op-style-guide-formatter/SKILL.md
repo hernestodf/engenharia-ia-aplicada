@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [style-guide, copy-editing, formatting, AP, Chicago, house-style]
-godnaterra/source: autopunk/production-support/style-guide-formatter/SKILL.md
-godnaterra/original-name: style-guide-formatter
+engenharia-ia-aplicada/source: autopunk/production-support/style-guide-formatter/SKILL.md
+engenharia-ia-aplicada/original-name: style-guide-formatter
 ---
 # Style Guide Formatter
 

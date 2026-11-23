@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [competitive-research, editorial-strategy, framing-analysis]
-godnaterra/source: autopunk/research/media-competitive/competitor-framing-analyzer/SKILL.md
-godnaterra/original-name: competitor-framing-analyzer
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/competitor-framing-analyzer/SKILL.md
+engenharia-ia-aplicada/original-name: competitor-framing-analyzer
 ---
 # Competitor Framing Analyzer
 

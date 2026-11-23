@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [data, databases, research, statistics, open-data]
-godnaterra/source: autopunk/research/data-statistics/public-database-guide/SKILL.md
-godnaterra/original-name: public-database-guide
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/public-database-guide/SKILL.md
+engenharia-ia-aplicada/original-name: public-database-guide
 ---
 # Public Database Guide
 

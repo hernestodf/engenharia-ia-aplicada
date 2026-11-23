@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [podcast, scripting, intro, outro, branding, host-voice]
-godnaterra/source: autopunk/podcast/scripting/intro-outro-writer/SKILL.md
-godnaterra/original-name: intro-outro-writer
+engenharia-ia-aplicada/source: autopunk/podcast/scripting/intro-outro-writer/SKILL.md
+engenharia-ia-aplicada/original-name: intro-outro-writer
 ---
 # Intro Outro Writer
 

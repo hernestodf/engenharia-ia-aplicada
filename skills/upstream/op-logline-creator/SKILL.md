@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.5
 tags: [documentary, development, logline, pitching, synopsis]
-godnaterra/source: autopunk/tv-documentary/development/logline-creator/SKILL.md
-godnaterra/original-name: logline-creator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/development/logline-creator/SKILL.md
+engenharia-ia-aplicada/original-name: logline-creator
 ---
 # Logline Creator
 

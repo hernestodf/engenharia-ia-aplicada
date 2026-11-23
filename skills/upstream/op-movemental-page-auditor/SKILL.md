@@ -1,8 +1,8 @@
 ---
 name: op-movemental-page-auditor
 description: Audit any Movemental page (HTML mockup or production React) across six passes — narrative sequencing, copy & language, typography/hierarchy, UI/proof/demonstration, proof burden, and cross-site role — and return a structured, ranked critique. Use this skill whenever the user asks to audit, review, critique, diagnose, or "be tough on" a Movemental page (`/`, `/fragmentation`, audience pages, articles, `/book`, `/system`, `/walkthrough`, FAQ, `/assess`, `/assessment-new`, audience concept pages), or asks questions like "is this page working?", "what's weak here?", "what's missing?", "should this section exist?", "does this page duplicate /X?". Judges against Movemental canon (two intelligences, the AI Stewardship Sequence, six stages, formation, inspectability, field guide), not generic design best practices. Use this skill even when the user doesn't explicitly say "audit" — if they are asking for a serious, opinionated read of a whole page (not just one section), this is the right tool. Complements, does not replace, `movemental-narrative-audit` (strategic alignment only) and `jsh-page-audit` (UI/DESIGN.md compliance).
-godnaterra/source: joshua/claude/movemental/movemental-page-auditor/SKILL.md
-godnaterra/original-name: movemental-page-auditor
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-page-auditor/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-page-auditor
 ---
 
 # Movemental page auditor

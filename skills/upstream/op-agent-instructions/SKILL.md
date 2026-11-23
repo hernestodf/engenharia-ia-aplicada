@@ -1,8 +1,8 @@
 ---
 name: op-agent-instructions
 description: Author or refine agent system prompts using composable instruction layers (identity, theme, mode, style, context). Use when writing or tuning agent behavior.
-godnaterra/source: joshua/claude/agents/agent-instructions/SKILL.md
-godnaterra/original-name: agent-instructions
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-instructions/SKILL.md
+engenharia-ia-aplicada/original-name: agent-instructions
 ---
 
 Author or refine agent instructions: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.4
 tags: [media-business, legal, rights, clearance, music, archive, production]
-godnaterra/source: autopunk/media-business/legal/rights-clearance-checklist/SKILL.md
-godnaterra/original-name: rights-clearance-checklist
+engenharia-ia-aplicada/source: autopunk/media-business/legal/rights-clearance-checklist/SKILL.md
+engenharia-ia-aplicada/original-name: rights-clearance-checklist
 ---
 # Rights Clearance Checklist
 

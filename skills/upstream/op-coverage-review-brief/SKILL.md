@@ -7,8 +7,8 @@ subcategory: media
 version: 1.0
 eval_score: 4.44
 tags: [research, media, coverage, analysis, competitive, framing]
-godnaterra/source: autopunk/research/media/coverage-review-brief/SKILL.md
-godnaterra/original-name: coverage-review-brief
+engenharia-ia-aplicada/source: autopunk/research/media/coverage-review-brief/SKILL.md
+engenharia-ia-aplicada/original-name: coverage-review-brief
 ---
 # Coverage Review Brief
 

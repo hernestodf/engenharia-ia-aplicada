@@ -3,8 +3,8 @@ name: op-telemetry-standards
 description: PostHog event tracking standards for Supabase Studio. Use when reviewing
   PRs for telemetry compliance or implementing new event tracking. Covers event naming,
   property conventions, approved patterns, and implementation guide.
-godnaterra/source: joshua/claude/infrastructure/telemetry-standards/SKILL.md
-godnaterra/original-name: telemetry-standards
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/telemetry-standards/SKILL.md
+engenharia-ia-aplicada/original-name: telemetry-standards
 ---
 
 # Telemetry Standards for Supabase Studio

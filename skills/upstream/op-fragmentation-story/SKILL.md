@@ -9,8 +9,8 @@ description: >
   audit where their content is scattered, or produce a "where does it all live"
   report. Reads from `docs/movement_leader_research/{slug}/` and writes
   `fragmentation-story.md` into that leader's folder.
-godnaterra/source: joshua/claude/movemental/fragmentation-story/SKILL.md
-godnaterra/original-name: fragmentation-story
+engenharia-ia-aplicada/source: joshua/claude/movemental/fragmentation-story/SKILL.md
+engenharia-ia-aplicada/original-name: fragmentation-story
 ---
 
 Produce a fragmentation story for: dados informados pelo usuario na mensagem

@@ -2,8 +2,8 @@
 name: op-markitdown
 description: Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.
 license: MIT license
-godnaterra/source: joshua/claude/research/markitdown/SKILL.md
-godnaterra/original-name: markitdown
+engenharia-ia-aplicada/source: joshua/claude/research/markitdown/SKILL.md
+engenharia-ia-aplicada/original-name: markitdown
 ---
 
 # MarkItDown - File to Markdown Conversion

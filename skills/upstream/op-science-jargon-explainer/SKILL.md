@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [science, jargon, translation, explainer, accessibility, journalism]
-godnaterra/source: autopunk/research/scientific-academic/science-jargon-explainer/SKILL.md
-godnaterra/original-name: science-jargon-explainer
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/science-jargon-explainer/SKILL.md
+engenharia-ia-aplicada/original-name: science-jargon-explainer
 ---
 # Science Jargon Explainer
 

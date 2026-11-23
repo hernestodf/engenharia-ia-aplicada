@@ -1,8 +1,8 @@
 ---
 name: op-visual-storytelling-audit
 description: Cross-platform audit of visual storytelling components — cards, grids, stats, comparisons, numbered steps, section rhythm, and narrative flow. Ensures every visual element tells the story with the best design possible. Use when auditing pages for narrative clarity, visual hierarchy, and design token compliance.
-godnaterra/source: joshua/claude/design/visual-storytelling-audit/SKILL.md
-godnaterra/original-name: visual-storytelling-audit
+engenharia-ia-aplicada/source: joshua/claude/design/visual-storytelling-audit/SKILL.md
+engenharia-ia-aplicada/original-name: visual-storytelling-audit
 ---
 
 # Visual Storytelling Audit

@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [funding, NGO, think-tank, transparency, investigation, conflicts-of-interest]
-godnaterra/source: autopunk/research/facts-context/funding-sources-researcher/SKILL.md
-godnaterra/original-name: funding-sources-researcher
+engenharia-ia-aplicada/source: autopunk/research/facts-context/funding-sources-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: funding-sources-researcher
 ---
 # Funding Sources Researcher
 

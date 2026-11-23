@@ -1,8 +1,8 @@
 ---
 name: op-transcript-to-docs
 description: Process a video/audio transcript into structured markdown documentation — extracting key topics, organizing into logical sections, and producing a polished reference document.
-godnaterra/source: joshua/cursor/transcript-to-docs/SKILL.md
-godnaterra/original-name: transcript-to-docs
+engenharia-ia-aplicada/source: joshua/cursor/transcript-to-docs/SKILL.md
+engenharia-ia-aplicada/original-name: transcript-to-docs
 ---
 
 Turn a transcript into documentation: dados informados pelo usuario na mensagem

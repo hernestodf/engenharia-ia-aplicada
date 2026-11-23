@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.2
 tags: [data-journalism, analysis, outliers, anomalies, investigation]
-godnaterra/source: autopunk/data-journalism/analysis/data-outlier-finder/SKILL.md
-godnaterra/original-name: data-outlier-finder
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/data-outlier-finder/SKILL.md
+engenharia-ia-aplicada/original-name: data-outlier-finder
 ---
 # Data outlier finder
 

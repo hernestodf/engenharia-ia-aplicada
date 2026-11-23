@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [location, visual, cinematography, art-direction, recce, documentary, pre-production]
-godnaterra/source: autopunk/research/locations-logistics/location-visual-brief/SKILL.md
-godnaterra/original-name: location-visual-brief
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/location-visual-brief/SKILL.md
+engenharia-ia-aplicada/original-name: location-visual-brief
 ---
 # Location Visual Brief
 

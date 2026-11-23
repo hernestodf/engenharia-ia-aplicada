@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.1
 eval_score: 4.54
 tags: [journalism, investigation, experts, sourcing, research]
-godnaterra/source: autopunk/magazine-journalism/investigation/expert-finder-brief/SKILL.md
-godnaterra/original-name: expert-finder-brief
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/expert-finder-brief/SKILL.md
+engenharia-ia-aplicada/original-name: expert-finder-brief
 ---
 # Expert Finder Brief
 

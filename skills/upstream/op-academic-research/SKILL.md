@@ -1,8 +1,8 @@
 ---
 name: op-academic-research
 description: Deep academic research using free open-access sources — Semantic Scholar, OpenAlex, arXiv, PubMed Central, and CORE. Searches across databases, retrieves papers, extracts key findings, and produces a well-organized research report with full citations.
-godnaterra/source: joshua/claude/research/academic-research/SKILL.md
-godnaterra/original-name: academic-research
+engenharia-ia-aplicada/source: joshua/claude/research/academic-research/SKILL.md
+engenharia-ia-aplicada/original-name: academic-research
 ---
 
 Conduct deep academic research on: dados informados pelo usuario na mensagem

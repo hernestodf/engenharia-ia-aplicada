@@ -1,4 +1,4 @@
-# MANIFESTO Godnaterra
+# MANIFESTO EngenhariaIaAplicada
 
 Registro de proveniência e rastreabilidade do pacote. Nenhuma skill é portada, fundida ou descartada sem rastro aqui.
 
@@ -43,19 +43,19 @@ O número "394" vem do Skills Directory, não de um repositório único.
 
 ## FASE 5 — agentes, adapters e nucleus core
 
-**Implementado:** 7 agentes canônicos em `agents/` (6 `subagent` + `godnaterra-router` `primary`); 5 skills `core/` derivadas de `AGENTS.md`/`project.yaml` (`op-godnaterra-router`, `-security-gate`, `-evidence`, `-portability`, `-delivery`); gerador `scripts/generate_adapters.py`; artefatos derivados em `adapters/*/generated/`; `scripts/validate_catalog.py`.
+**Implementado:** 7 agentes canônicos em `agents/` (6 `subagent` + `eia-router` `primary`); 5 skills `core/` derivadas de `AGENTS.md`/`project.yaml` (`op-eia-router`, `-security-gate`, `-evidence`, `-portability`, `-delivery`); gerador `scripts/generate_adapters.py`; artefatos derivados em `adapters/*/generated/`; `scripts/validate_catalog.py`.
 
 **Testado:** `opencode debug agents` reconhece os 7; 769 symlinks em `~/.claude/skills/` sem quebrados; `skill_mode.py status` reporta 769 ativas/visíveis; `validate_catalog.py` retorna 0 problemas.
 
-**Correção de evidência:** a checagem da FASE 4 usava regex frouxa para `{{...}}` e não detectou 13 ocorrências de `{{course-slug}}` em 9 skills. Todas foram substituídas por `<slug>` na FASE 5. Expressões legítimas do GitHub Actions (`{{ secrets.* }}`, `{{ github.ref }}`) permanecem — são código, não placeholder. A skill `op-godnaterra-portability` é exceção declarada no validador porque documenta os padrões proibidos.
+**Correção de evidência:** a checagem da FASE 4 usava regex frouxa para `{{...}}` e não detectou 13 ocorrências de `{{course-slug}}` em 9 skills. Todas foram substituídas por `<slug>` na FASE 5. Expressões legítimas do GitHub Actions (`{{ secrets.* }}`, `{{ github.ref }}`) permanecem — são código, não placeholder. A skill `op-eia-portability` é exceção declarada no validador porque documenta os padrões proibidos.
 
 **Não verificado:** execução de LLM (`opencode run`) e Claude CLI (ausente).
 
 ## FASE 6–10 — pacote de engenharia
 
-**Implementado:** tokens neutros (`tokens.json`, `tokens.css`), contrato de primitivas e checklist de acessibilidade (FASE 6); 14 testes automatizados (sendo 7 do loop de incidentes) e 4 cenários de avaliação com registro honesto do número histórico não verificado de 430 evals/175 `pending` (FASE 7); loop de aprendizado com revisão humana em `evaluations/incidents/`, 1 incidente fechado e 1 em rascunho; `ci.yml` com `contents: read` e `cd.yml` que só empacota artefato, sem deploy (FASE 8); contrato MCP/Qdrant em modo `contract-only` (FASE 9); operador `scripts/godnaterra.py` com `version`, `audit`, `doctor`, `init`, `update`, dry-run por padrão e diff antes de aplicar (FASE 10).
+**Implementado:** tokens neutros (`tokens.json`, `tokens.css`), contrato de primitivas e checklist de acessibilidade (FASE 6); 14 testes automatizados (sendo 7 do loop de incidentes) e 4 cenários de avaliação com registro honesto do número histórico não verificado de 430 evals/175 `pending` (FASE 7); loop de aprendizado com revisão humana em `evaluations/incidents/`, 1 incidente fechado e 1 em rascunho; `ci.yml` com `contents: read` e `cd.yml` que só empacota artefato, sem deploy (FASE 8); contrato MCP/Qdrant em modo `contract-only` (FASE 9); operador `scripts/eia.py` com `version`, `audit`, `doctor`, `init`, `update`, dry-run por padrão e diff antes de aplicar (FASE 10).
 
-**Testado localmente:** `validate_catalog.py` → 769 skills, 0 problemas; `unittest` → 14/14 OK; `validate_incidents.py` → 2 incidentes, 0 problemas; ambos os YAMLs parseados com PyYAML; `godnaterra.py version` → `0.1.0`; `audit` → OK; `doctor` → 2 runtimes presentes, Claude ausente, 769 symlinks sem quebrados; `init` em dry-run → diffs vazios contra as configs ativas, nenhuma instalação global.
+**Testado localmente:** `validate_catalog.py` → 769 skills, 0 problemas; `unittest` → 14/14 OK; `validate_incidents.py` → 2 incidentes, 0 problemas; ambos os YAMLs parseados com PyYAML; `eia.py version` → `0.1.0`; `audit` → OK; `doctor` → 2 runtimes presentes, Claude ausente, 769 symlinks sem quebrados; `init` em dry-run → diffs vazios contra as configs ativas, nenhuma instalação global.
 
 **Não verificado:** execução real dos workflows no GitHub Actions; contraste, navegação por teclado e zoom em UI concreta; inferência com modelo nos cenários de roteamento e gate de segurança; CLI do Claude; endpoint/collection/embedding/dimensões/métrica do Qdrant.
 

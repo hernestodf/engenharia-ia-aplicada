@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.4
 tags: [media-business, distribution, streaming, pitching, commissioning]
-godnaterra/source: autopunk/media-business/distribution/streaming-platform-pitch/SKILL.md
-godnaterra/original-name: streaming-platform-pitch
+engenharia-ia-aplicada/source: autopunk/media-business/distribution/streaming-platform-pitch/SKILL.md
+engenharia-ia-aplicada/original-name: streaming-platform-pitch
 ---
 # Streaming Platform Pitch
 

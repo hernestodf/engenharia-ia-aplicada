@@ -1,8 +1,8 @@
 ---
 name: op-asset-generate
 description: Generate image assets using Nano Banana 2 (Gemini Flash Image). Use when creating hero images, course covers, book covers, thumbnails, social cards, or any visual asset for the platform.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-asset-generate-2/SKILL.md
-godnaterra/original-name: asset-generate
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-asset-generate-2/SKILL.md
+engenharia-ia-aplicada/original-name: asset-generate
 ---
 
 Generate an image asset using Nano Banana 2: dados informados pelo usuario na mensagem

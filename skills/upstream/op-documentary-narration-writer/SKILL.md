@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [radio, scripting, documentary, narration, audio, actuality, feature]
-godnaterra/source: autopunk/radio-audio/scripting/documentary-narration-writer/SKILL.md
-godnaterra/original-name: documentary-narration-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/scripting/documentary-narration-writer/SKILL.md
+engenharia-ia-aplicada/original-name: documentary-narration-writer
 ---
 # Documentary Narration Writer
 

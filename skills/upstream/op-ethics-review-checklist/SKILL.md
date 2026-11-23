@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.6
 tags: [journalism, ethics, editorial-standards, harm-minimization, source-protection, fact-checking]
-godnaterra/source: autopunk/magazine-journalism/editing/ethics-review-checklist/SKILL.md
-godnaterra/original-name: ethics-review-checklist
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/ethics-review-checklist/SKILL.md
+engenharia-ia-aplicada/original-name: ethics-review-checklist
 ---
 # Ethics Review Checklist
 

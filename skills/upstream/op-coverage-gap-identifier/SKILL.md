@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [competitive-research, story-development, editorial-planning]
-godnaterra/source: autopunk/research/media-competitive/coverage-gap-identifier/SKILL.md
-godnaterra/original-name: coverage-gap-identifier
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/coverage-gap-identifier/SKILL.md
+engenharia-ia-aplicada/original-name: coverage-gap-identifier
 ---
 # Coverage Gap Identifier
 

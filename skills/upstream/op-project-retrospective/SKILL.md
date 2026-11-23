@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.5
 tags: [workflow, retrospective, lessons-learned, project-management, editorial-process]
-godnaterra/source: autopunk/editing/project-retrospective/SKILL.md
-godnaterra/original-name: project-retrospective
+engenharia-ia-aplicada/source: autopunk/editing/project-retrospective/SKILL.md
+engenharia-ia-aplicada/original-name: project-retrospective
 ---
 # Project Retrospective
 

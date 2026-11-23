@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.4
 tags: [social-media, content, captions, copywriting, instagram, linkedin, tiktok]
-godnaterra/source: autopunk/social-media/content/caption-writer/SKILL.md
-godnaterra/original-name: caption-writer
+engenharia-ia-aplicada/source: autopunk/social-media/content/caption-writer/SKILL.md
+engenharia-ia-aplicada/original-name: caption-writer
 ---
 # Caption Writer
 

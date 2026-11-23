@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [monitoring, news-tracking, editorial-planning, beat-reporting]
-godnaterra/source: autopunk/research/media-competitive/news-topic-monitor-brief/SKILL.md
-godnaterra/original-name: news-topic-monitor-brief
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/news-topic-monitor-brief/SKILL.md
+engenharia-ia-aplicada/original-name: news-topic-monitor-brief
 ---
 # News Topic Monitor Brief
 

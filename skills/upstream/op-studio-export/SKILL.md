@@ -1,8 +1,8 @@
 ---
 name: op-studio-export
 description: Generate a feature constitution — data model, product story, and acceptance criteria for a platform slice/feature. Designed for pasting into AI Studio Build mode or any prototyping tool. No styling or UI constraints.
-godnaterra/source: joshua/claude/studio/studio-export/SKILL.md
-godnaterra/original-name: studio-export
+engenharia-ia-aplicada/source: joshua/claude/studio/studio-export/SKILL.md
+engenharia-ia-aplicada/original-name: studio-export
 ---
 
 Export a platform feature as a product constitution and data reference: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, writing, edition, long-form, content]
-godnaterra/source: autopunk/newsletter/writing/edition-writer/SKILL.md
-godnaterra/original-name: edition-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/writing/edition-writer/SKILL.md
+engenharia-ia-aplicada/original-name: edition-writer
 ---
 # Edition Writer
 

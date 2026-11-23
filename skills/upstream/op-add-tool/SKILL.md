@@ -1,8 +1,8 @@
 ---
 name: op-add-tool
 description: Create or modify an agent tool — use when asked to add a new capability to an agent, build a search/retrieval/analysis/API integration tool, or wire a tool into an existing agent.
-godnaterra/source: joshua/claude/agents/add-tool/SKILL.md
-godnaterra/original-name: add-tool
+engenharia-ia-aplicada/source: joshua/claude/agents/add-tool/SKILL.md
+engenharia-ia-aplicada/original-name: add-tool
 ---
 
 Create or modify an agent tool: dados informados pelo usuario na mensagem

@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.5
 tags: [documentary, scripting, narration, commentary, writing]
-godnaterra/source: autopunk/tv-documentary/scripting/commentary-writer/SKILL.md
-godnaterra/original-name: commentary-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/scripting/commentary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: commentary-writer
 ---
 # Commentary Writer
 

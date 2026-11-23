@@ -1,8 +1,8 @@
 ---
 name: op-tenant-migrate
 description: Audit and execute multi-tenant platform migration — determines what's needed when cloning a fully-built Movemental tenant (e.g. alan-hirsch) to bootstrap a new one (e.g. brad-brisco). Inspects Supabase via MCP, audits tenant config, env vars, feature flags, storage buckets, database org row, codebase leaks, middleware, and Vercel deployment. Does NOT handle visual theming (globals.css) or image assets — those are separate concerns. Use when onboarding a new thought leader onto the platform.
-godnaterra/source: joshua/claude/infrastructure/tenant-migrate/SKILL.md
-godnaterra/original-name: tenant-migrate
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/tenant-migrate/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-migrate
 ---
 
 # Tenant Migration Skill

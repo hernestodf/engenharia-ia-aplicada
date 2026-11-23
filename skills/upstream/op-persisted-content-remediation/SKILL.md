@@ -5,8 +5,8 @@ description: >-
   are in the wrong format (HTML, Markdown, MDX, plain text, hybrid, JSON, empty). Use for content
   format drift, ingest bypass, wrong-field storage, leaked markup, or batch normalization — always
   audit-first, backup, dry-run, deterministic transforms, never AI-rewrite in place.
-godnaterra/source: joshua/cursor/persisted-content-remediation/SKILL.md
-godnaterra/original-name: persisted-content-remediation
+engenharia-ia-aplicada/source: joshua/cursor/persisted-content-remediation/SKILL.md
+engenharia-ia-aplicada/original-name: persisted-content-remediation
 ---
 
 # Persisted Content Remediation

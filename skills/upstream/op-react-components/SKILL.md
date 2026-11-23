@@ -6,8 +6,8 @@ description: Converts Stitch designs into modular Vite and React components usin
   - "Read"
   - "Write"
   - "web_fetch"
-godnaterra/source: joshua/agents/react-components/SKILL.md
-godnaterra/original-name: react:components
+engenharia-ia-aplicada/source: joshua/agents/react-components/SKILL.md
+engenharia-ia-aplicada/original-name: react:components
 ---
 
 # Stitch to React Components

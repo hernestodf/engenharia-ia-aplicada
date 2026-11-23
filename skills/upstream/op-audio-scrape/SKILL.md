@@ -1,8 +1,8 @@
 ---
 name: op-audio-scrape
 description: Scrape podcast episodes, sermons, and audio sources — discovers via iTunes Search API, parses RSS feeds, downloads audio, transcribes via OpenAI Whisper, chunks for search, and upserts into the podcast_episodes table.
-godnaterra/source: joshua/claude/research/audio-scrape/SKILL.md
-godnaterra/original-name: audio-scrape
+engenharia-ia-aplicada/source: joshua/claude/research/audio-scrape/SKILL.md
+engenharia-ia-aplicada/original-name: audio-scrape
 ---
 
 Scrape audio sources: dados informados pelo usuario na mensagem

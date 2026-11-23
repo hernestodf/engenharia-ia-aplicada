@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.4
 tags: [social-media, content, short-form, video, tiktok, reels, shorts]
-godnaterra/source: autopunk/social-media/content/short-form-video-brief/SKILL.md
-godnaterra/original-name: short-form-video-brief
+engenharia-ia-aplicada/source: autopunk/social-media/content/short-form-video-brief/SKILL.md
+engenharia-ia-aplicada/original-name: short-form-video-brief
 ---
 # Short Form Video Brief
 

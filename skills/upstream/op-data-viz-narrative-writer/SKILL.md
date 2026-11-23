@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [data, visualization, narrative, charts, explainer]
-godnaterra/source: autopunk/writing/articles/data-viz-narrative-writer/SKILL.md
-godnaterra/original-name: data-viz-narrative-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/data-viz-narrative-writer/SKILL.md
+engenharia-ia-aplicada/original-name: data-viz-narrative-writer
 ---
 # Data Viz Narrative Writer
 

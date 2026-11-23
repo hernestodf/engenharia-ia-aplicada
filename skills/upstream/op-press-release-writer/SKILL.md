@@ -7,8 +7,8 @@ subcategory: press-office
 version: 1.0
 eval_score: 4.6
 tags: [pr, press-release, press-office, announcement, newswire]
-godnaterra/source: autopunk/pr-communications/press-office/press-release-writer/SKILL.md
-godnaterra/original-name: press-release-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/press-office/press-release-writer/SKILL.md
+engenharia-ia-aplicada/original-name: press-release-writer
 ---
 # Press Release Writer
 

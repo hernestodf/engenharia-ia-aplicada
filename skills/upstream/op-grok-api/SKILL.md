@@ -1,8 +1,8 @@
 ---
 name: op-grok-api
 description: Build, refine, and master agents using the xAI Grok API — OpenAI-compatible endpoint with grok-4.20 and grok-4-1-fast model families. Covers function calling, 2M context, multi-agent model, structured output, streaming, and cached inputs. Uses the OpenAI SDK with a base URL override. Fetches live docs from docs.x.ai. Use when building or debugging anything on xAI Grok.
-godnaterra/source: joshua/claude/integrations/grok-api/SKILL.md
-godnaterra/original-name: grok-api
+engenharia-ia-aplicada/source: joshua/claude/integrations/grok-api/SKILL.md
+engenharia-ia-aplicada/original-name: grok-api
 ---
 
 Build or refine a Grok API agent: dados informados pelo usuario na mensagem

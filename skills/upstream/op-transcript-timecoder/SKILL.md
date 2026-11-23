@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.39
 tags: [documentary, post-production, transcript, timecodes, editing, logging]
-godnaterra/source: autopunk/tv-documentary/post-production/transcript-timecoder/SKILL.md
-godnaterra/original-name: transcript-timecoder
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/transcript-timecoder/SKILL.md
+engenharia-ia-aplicada/original-name: transcript-timecoder
 ---
 # Transcript Timecoder
 

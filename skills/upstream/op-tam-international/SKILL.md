@@ -1,8 +1,8 @@
 ---
 name: op-tam-international
 description: Discover and research international movement leaders outside US/anglophone networks — mapping the global TAM
-godnaterra/source: joshua/claude/movemental/tam-international/SKILL.md
-godnaterra/original-name: tam-international
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-international/SKILL.md
+engenharia-ia-aplicada/original-name: tam-international
 ---
 
 # TAM International: Map the Global Movement Leader Landscape

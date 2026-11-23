@@ -1,10 +1,10 @@
-# Godnaterra — AGENTS.md
+# EngenhariaIaAplicada — AGENTS.md
 
 Fonte canônica de regras do pacote. Os adaptadores (`adapters/opencode`, `adapters/claude-code`) são **derivados daqui**. Não duplique regras entre este arquivo, `CLAUDE.md` e configurações específicas de agente.
 
 ## Identidade
 
-Godnaterra é um pacote de engenharia de software assistida por IA, **portátil e independente de fornecedor**. O núcleo funciona em qualquer stack. `profox-go` e `legacy-php` são perfis opcionais, não donos do pacote.
+EngenhariaIaAplicada é um pacote de engenharia de software assistida por IA, **portátil e independente de fornecedor**. O núcleo funciona em qualquer stack. `profox-go` e `legacy-php` são perfis opcionais, não donos do pacote.
 
 ## Princípios
 

@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.52
 tags: [documentary, post-production, editing, assembly, notes, structure]
-godnaterra/source: autopunk/tv-documentary/post-production/assembly-cut-notes/SKILL.md
-godnaterra/original-name: assembly-cut-notes
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/assembly-cut-notes/SKILL.md
+engenharia-ia-aplicada/original-name: assembly-cut-notes
 ---
 # Assembly Cut Notes
 

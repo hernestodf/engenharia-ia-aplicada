@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [screenwriting, scripting, scene, dialogue, action-lines]
-godnaterra/source: autopunk/screenwriting/scripting/scene-writer/SKILL.md
-godnaterra/original-name: scene-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/scripting/scene-writer/SKILL.md
+engenharia-ia-aplicada/original-name: scene-writer
 ---
 # Scene Writer
 

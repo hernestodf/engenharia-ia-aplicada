@@ -1,8 +1,8 @@
 ---
 name: op-new-page
 description: Scaffold a new public page following project conventions. Use when adding a new route under (public).
-godnaterra/source: joshua/claude/design/new-page/SKILL.md
-godnaterra/original-name: new-page
+engenharia-ia-aplicada/source: joshua/claude/design/new-page/SKILL.md
+engenharia-ia-aplicada/original-name: new-page
 ---
 
 Create a new page at `src/app/(public)/dados informados pelo usuario na mensagem/page.tsx`.

@@ -12,8 +12,8 @@ description: >
   stitch-token-bridge, stitch-page-port, stitch-migration-validate,
   tenant-backend-parity, and tenant-structural-port. Tenant-agnostic — all
   tenant values come from the manifest, never hardcoded.
-godnaterra/source: joshua/claude/movemental/tenant-migration-playbook/SKILL.md
-godnaterra/original-name: tenant-migration-playbook
+engenharia-ia-aplicada/source: joshua/claude/movemental/tenant-migration-playbook/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-migration-playbook
 ---
 
 # Tenant migration playbook (orchestrator)

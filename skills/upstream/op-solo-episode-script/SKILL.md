@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [podcast, scripting, solo, narrative, educational]
-godnaterra/source: autopunk/podcast/scripting/solo-episode-script/SKILL.md
-godnaterra/original-name: solo-episode-script
+engenharia-ia-aplicada/source: autopunk/podcast/scripting/solo-episode-script/SKILL.md
+engenharia-ia-aplicada/original-name: solo-episode-script
 ---
 # Solo Episode Script
 

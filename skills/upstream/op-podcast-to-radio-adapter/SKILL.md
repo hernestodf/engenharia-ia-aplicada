@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.3
 tags: [radio, strategy, podcast, adaptation, format, broadcast-standards]
-godnaterra/source: autopunk/radio-audio/strategy/podcast-to-radio-adapter/SKILL.md
-godnaterra/original-name: podcast-to-radio-adapter
+engenharia-ia-aplicada/source: autopunk/radio-audio/strategy/podcast-to-radio-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: podcast-to-radio-adapter
 ---
 # Podcast-to-Radio Adapter
 

@@ -7,8 +7,8 @@ subcategory: translation-localization
 version: 1.0
 eval_score: 4.2
 tags: [translation, glossary, terminology, localization, consistency]
-godnaterra/source: autopunk/translation-localization/translation-glossary-creator/SKILL.md
-godnaterra/original-name: translation-glossary-creator
+engenharia-ia-aplicada/source: autopunk/translation-localization/translation-glossary-creator/SKILL.md
+engenharia-ia-aplicada/original-name: translation-glossary-creator
 ---
 # Translation Glossary Creator
 

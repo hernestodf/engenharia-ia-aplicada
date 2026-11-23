@@ -1,8 +1,8 @@
 ---
 name: op-course-section
 description: Create a new course section component following the existing section pattern. Use when adding new content types to courses.
-godnaterra/source: joshua/claude/content/course-section/SKILL.md
-godnaterra/original-name: course-section
+engenharia-ia-aplicada/source: joshua/claude/content/course-section/SKILL.md
+engenharia-ia-aplicada/original-name: course-section
 ---
 
 Create a new course section component for the section type: $0

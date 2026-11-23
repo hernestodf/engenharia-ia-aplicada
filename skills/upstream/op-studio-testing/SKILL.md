@@ -4,8 +4,8 @@ description: Testing strategy for Supabase Studio. Use when writing tests, decid
   type of test to write, extracting logic from components into testable utility
   functions, or reviewing test coverage. Covers unit tests, component tests,
   and E2E test selection criteria.
-godnaterra/source: joshua/claude/studio/studio-testing/SKILL.md
-godnaterra/original-name: studio-testing
+engenharia-ia-aplicada/source: joshua/claude/studio/studio-testing/SKILL.md
+engenharia-ia-aplicada/original-name: studio-testing
 ---
 
 # Studio Testing Strategy

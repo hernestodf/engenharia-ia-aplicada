@@ -7,8 +7,8 @@ subcategory: press-office
 version: 1.0
 eval_score: 4.6
 tags: [pr, boilerplate, press-office, about, organisation]
-godnaterra/source: autopunk/pr-communications/press-office/boilerplate-writer/SKILL.md
-godnaterra/original-name: boilerplate-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/press-office/boilerplate-writer/SKILL.md
+engenharia-ia-aplicada/original-name: boilerplate-writer
 ---
 # Boilerplate Writer
 

@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.4
 tags: [youtube, scripting, b-roll, production, shot-list, video-production]
-godnaterra/source: autopunk/youtube/scripting/b-roll-shot-list/SKILL.md
-godnaterra/original-name: b-roll-shot-list
+engenharia-ia-aplicada/source: autopunk/youtube/scripting/b-roll-shot-list/SKILL.md
+engenharia-ia-aplicada/original-name: b-roll-shot-list
 ---
 # B-Roll Shot List
 

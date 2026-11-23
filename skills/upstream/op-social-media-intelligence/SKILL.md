@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.57
 tags: [journalism, OSINT, social-media, investigation, coordination-detection, narrative-tracking]
-godnaterra/source: autopunk/magazine-journalism/investigation/social-media-intelligence/SKILL.md
-godnaterra/original-name: social-media-intelligence
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/social-media-intelligence/SKILL.md
+engenharia-ia-aplicada/original-name: social-media-intelligence
 ---
 # Social media intelligence
 

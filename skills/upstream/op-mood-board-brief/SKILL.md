@@ -7,8 +7,8 @@ subcategory: art-direction
 version: 1.0
 eval_score: 4.5
 tags: [image-prompting, art-direction, mood-board, visual-brief, pre-production]
-godnaterra/source: autopunk/image-prompting/art-direction/mood-board-brief/SKILL.md
-godnaterra/original-name: mood-board-brief
+engenharia-ia-aplicada/source: autopunk/image-prompting/art-direction/mood-board-brief/SKILL.md
+engenharia-ia-aplicada/original-name: mood-board-brief
 ---
 # Mood Board Brief
 

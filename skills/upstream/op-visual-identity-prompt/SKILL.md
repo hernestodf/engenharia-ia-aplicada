@@ -7,8 +7,8 @@ subcategory: art-direction
 version: 1.0
 eval_score: 4.4
 tags: [image-prompting, art-direction, visual-identity, branding, show-art]
-godnaterra/source: autopunk/image-prompting/art-direction/visual-identity-prompt/SKILL.md
-godnaterra/original-name: visual-identity-prompt
+engenharia-ia-aplicada/source: autopunk/image-prompting/art-direction/visual-identity-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: visual-identity-prompt
 ---
 # Visual Identity Prompt
 

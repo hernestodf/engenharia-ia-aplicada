@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [briefing, management, internal, editorial, strategy, memo]
-godnaterra/source: autopunk/writing/institutional/management-briefing-writer/SKILL.md
-godnaterra/original-name: management-briefing-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/management-briefing-writer/SKILL.md
+engenharia-ia-aplicada/original-name: management-briefing-writer
 ---
 # Management Briefing Writer
 

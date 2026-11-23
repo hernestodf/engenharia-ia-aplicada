@@ -7,8 +7,8 @@ subcategory: media-relations
 version: 1.0
 eval_score: 4.6
 tags: [pr, media-relations, pitch, journalist, outreach]
-godnaterra/source: autopunk/pr-communications/media-relations/journalist-pitch-email/SKILL.md
-godnaterra/original-name: journalist-pitch-email
+engenharia-ia-aplicada/source: autopunk/pr-communications/media-relations/journalist-pitch-email/SKILL.md
+engenharia-ia-aplicada/original-name: journalist-pitch-email
 ---
 # Journalist Pitch Email
 

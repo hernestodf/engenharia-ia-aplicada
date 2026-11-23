@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.4
 tags: [corrections, accuracy, editorial standards, data journalism]
-godnaterra/source: autopunk/data-journalism/publishing/data-corrections-writer/SKILL.md
-godnaterra/original-name: data-corrections-writer
+engenharia-ia-aplicada/source: autopunk/data-journalism/publishing/data-corrections-writer/SKILL.md
+engenharia-ia-aplicada/original-name: data-corrections-writer
 ---
 # Data Corrections Writer
 

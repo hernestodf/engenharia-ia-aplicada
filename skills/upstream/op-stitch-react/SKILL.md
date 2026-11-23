@@ -1,8 +1,8 @@
 ---
 name: op-stitch-react
 description: "Convert Stitch screens to React components — fetches and caches designs locally, extracts design tokens, decomposes HTML into shadcn/ui components, generates TypeScript types, wires Layer 5 hooks, and archives existing pages. Triggers on: Stitch React, component conversion, React conversion, HTML to React. NOT for: new React apps, API routes, services, or schema changes."
-godnaterra/source: joshua/claude/stitch/stitch-react/SKILL.md
-godnaterra/original-name: stitch-react
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-react/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-react
 ---
 
 Convert Stitch screen(s) to React components for: dados informados pelo usuario na mensagem

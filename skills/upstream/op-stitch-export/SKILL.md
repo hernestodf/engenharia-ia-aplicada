@@ -1,8 +1,8 @@
 ---
 name: op-stitch-export
 description: Generate a screen-by-screen feature specification for a Stitch project — documenting what each screen does, its content, user flows, and data requirements. No design or component prescriptions. Output is optimized for Stitch's generate_screen_from_text API.
-godnaterra/source: joshua/claude/stitch/stitch-export/SKILL.md
-godnaterra/original-name: stitch-export
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-export/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-export
 ---
 
 Export a feature as a Stitch-ready screen specification: dados informados pelo usuario na mensagem

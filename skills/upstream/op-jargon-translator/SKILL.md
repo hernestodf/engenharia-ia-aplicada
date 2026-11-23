@@ -7,8 +7,8 @@ subcategory: academic
 version: 1.0
 eval_score: 4.56
 tags: [research, jargon, plain-language, translation, accessibility, academic]
-godnaterra/source: autopunk/research/academic/jargon-translator/SKILL.md
-godnaterra/original-name: jargon-translator
+engenharia-ia-aplicada/source: autopunk/research/academic/jargon-translator/SKILL.md
+engenharia-ia-aplicada/original-name: jargon-translator
 ---
 # Jargon Translator
 

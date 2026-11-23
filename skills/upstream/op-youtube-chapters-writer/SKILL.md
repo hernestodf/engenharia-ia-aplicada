@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [youtube, chapters, timestamps, navigation, video-structure]
-godnaterra/source: autopunk/writing/digital-social/youtube-chapters-writer/SKILL.md
-godnaterra/original-name: youtube-chapters-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/youtube-chapters-writer/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-chapters-writer
 ---
 # YouTube Chapters Writer
 

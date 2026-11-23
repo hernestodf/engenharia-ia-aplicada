@@ -7,8 +7,8 @@ subcategory: production
 version: 1.0
 eval_score: 4.4
 tags: [screenwriting, production, one-pager, pitch, sales]
-godnaterra/source: autopunk/screenwriting/production/one-pager-writer/SKILL.md
-godnaterra/original-name: one-pager-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/production/one-pager-writer/SKILL.md
+engenharia-ia-aplicada/original-name: one-pager-writer
 ---
 # One-Pager Writer
 

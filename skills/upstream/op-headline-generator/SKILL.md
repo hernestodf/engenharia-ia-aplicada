@@ -7,8 +7,8 @@ subcategory: ideation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, ideation, headlines, print, digital, subheads]
-godnaterra/source: autopunk/magazine-journalism/ideation/headline-generator/SKILL.md
-godnaterra/original-name: headline-generator
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/ideation/headline-generator/SKILL.md
+engenharia-ia-aplicada/original-name: headline-generator
 ---
 # Headline Generator
 

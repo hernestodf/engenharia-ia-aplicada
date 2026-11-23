@@ -1,8 +1,8 @@
 ---
 name: op-movemental-prose
 description: Audit and fix line-level prose in Movemental articles, book chapters, field guides, paratext, emails, and site copy. Catches fuzzy openings, bare cross-references, unanchored abstractions, drift vocabulary, and AI-shaped cadence — so the piece reads like a thoughtful human guide writing for senior leaders, not like AI-polished content. Use before publishing any Movemental prose.
-godnaterra/source: joshua/claude/movemental/movemental-prose/SKILL.md
-godnaterra/original-name: movemental-prose
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-prose/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-prose
 ---
 
 Audit and/or fix Movemental prose: dados informados pelo usuario na mensagem

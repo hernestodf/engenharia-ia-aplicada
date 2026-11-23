@@ -7,8 +7,8 @@ subcategory: audience-distribution
 version: 1.0
 eval_score: 4.2
 tags: [social-media, a/b-testing, engagement, distribution, copywriting]
-godnaterra/source: autopunk/audience-distribution/social-post-ab-variants-writer/SKILL.md
-godnaterra/original-name: social-post-ab-variants-writer
+engenharia-ia-aplicada/source: autopunk/audience-distribution/social-post-ab-variants-writer/SKILL.md
+engenharia-ia-aplicada/original-name: social-post-ab-variants-writer
 ---
 # Social Post A/B Variants Writer
 

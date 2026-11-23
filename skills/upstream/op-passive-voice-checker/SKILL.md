@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.44
 tags: [journalism, editing, passive-voice, active-voice, style, clarity]
-godnaterra/source: autopunk/magazine-journalism/editing/passive-voice-checker/SKILL.md
-godnaterra/original-name: passive-voice-checker
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/passive-voice-checker/SKILL.md
+engenharia-ia-aplicada/original-name: passive-voice-checker
 ---
 # Passive Voice Checker
 

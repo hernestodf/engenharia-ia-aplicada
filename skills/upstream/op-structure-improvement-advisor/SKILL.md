@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [structure, rewriting, narrative, editing, organisation]
-godnaterra/source: autopunk/editing/structure-improvement-advisor/SKILL.md
-godnaterra/original-name: structure-improvement-advisor
+engenharia-ia-aplicada/source: autopunk/editing/structure-improvement-advisor/SKILL.md
+engenharia-ia-aplicada/original-name: structure-improvement-advisor
 ---
 # Structure Improvement Advisor
 

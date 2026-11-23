@@ -7,8 +7,8 @@ description: >-
   asks to check caches, WSL shutdown, lag, swap, slow IDE, memory pressure,
   clear caches, compact VHD, or whether the machine needs a reset after heavy
   agent/context sessions. Prefer detect-then-recommend; never auto wsl --shutdown.
-godnaterra/source: joshua/cursor/wsl-cursor-health/SKILL.md
-godnaterra/original-name: wsl-cursor-health
+engenharia-ia-aplicada/source: joshua/cursor/wsl-cursor-health/SKILL.md
+engenharia-ia-aplicada/original-name: wsl-cursor-health
 ---
 
 # WSL + Cursor health

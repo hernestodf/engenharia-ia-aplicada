@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [youtube, post-production, seo, description, metadata]
-godnaterra/source: autopunk/youtube/post-production/description-seo-writer/SKILL.md
-godnaterra/original-name: description-seo-writer
+engenharia-ia-aplicada/source: autopunk/youtube/post-production/description-seo-writer/SKILL.md
+engenharia-ia-aplicada/original-name: description-seo-writer
 ---
 # Description SEO Writer
 

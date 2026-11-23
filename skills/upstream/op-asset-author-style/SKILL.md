@@ -1,8 +1,8 @@
 ---
 name: op-asset-author-style
 description: Define and maintain a consistent visual identity for an author/thought leader across all image assets. Creates a style guide document that all other asset-* skills reference for consistency. Use once to establish the look, then all headshots, heroes, and portraits will match.
-godnaterra/source: joshua/claude/assets/asset-author-style/SKILL.md
-godnaterra/original-name: asset-author-style
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-author-style/SKILL.md
+engenharia-ia-aplicada/original-name: asset-author-style
 ---
 
 Define or update the author visual style guide: dados informados pelo usuario na mensagem

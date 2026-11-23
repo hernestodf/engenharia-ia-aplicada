@@ -1,8 +1,8 @@
 ---
 name: op-remotion-best-practices
 description: Best practices for Remotion - Video creation in React
-godnaterra/source: joshua/claude/assets/remotion-best-practices/SKILL.md
-godnaterra/original-name: remotion-best-practices
+engenharia-ia-aplicada/source: joshua/claude/assets/remotion-best-practices/SKILL.md
+engenharia-ia-aplicada/original-name: remotion-best-practices
 ---
 
 ## When to use

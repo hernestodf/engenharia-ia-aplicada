@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [culture, religion, context, background, sensitivity]
-godnaterra/source: autopunk/research/facts-context/cultural-context-brief/SKILL.md
-godnaterra/original-name: cultural-context-brief
+engenharia-ia-aplicada/source: autopunk/research/facts-context/cultural-context-brief/SKILL.md
+engenharia-ia-aplicada/original-name: cultural-context-brief
 ---
 # Cultural Context Brief
 

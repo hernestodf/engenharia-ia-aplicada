@@ -1,8 +1,8 @@
 ---
 name: op-gpt-export
 description: Generate 21 markdown knowledge files + custom instructions for creating a Custom GPT strategic consultant from the current workspace project.
-godnaterra/source: joshua/claude/assets/gpt-export/SKILL.md
-godnaterra/original-name: gpt-export
+engenharia-ia-aplicada/source: joshua/claude/assets/gpt-export/SKILL.md
+engenharia-ia-aplicada/original-name: gpt-export
 ---
 
 # GPT Export — Custom GPT Knowledge Package

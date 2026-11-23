@@ -1,8 +1,8 @@
 ---
 name: op-docs-design-system
 description: Audit and update design documentation in _docs/_build/design/ to match the actual UI stack (tokens, Tailwind, shadcn primitives, domain components, pages). Keeps DESIGN_SYSTEM_SSOT.md and the design chain aligned with src/.
-godnaterra/source: joshua/claude/docs/docs-design-system/SKILL.md
-godnaterra/original-name: docs-design-system
+engenharia-ia-aplicada/source: joshua/claude/docs/docs-design-system/SKILL.md
+engenharia-ia-aplicada/original-name: docs-design-system
 ---
 
 # Design System Documentation Audit & Update

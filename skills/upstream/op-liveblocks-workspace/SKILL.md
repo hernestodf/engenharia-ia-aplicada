@@ -1,8 +1,8 @@
 ---
 name: op-liveblocks-workspace
 description: "Work with the Liveblocks + BlockNote collaborative workspace — add features, debug content rendering, configure rooms, manage auth, set up webhooks, add comments/threads, implement version history, or troubleshoot collaborative editing. Use when touching any workspace/docs collaboration code."
-godnaterra/source: joshua/claude/infrastructure/liveblocks-workspace/SKILL.md
-godnaterra/original-name: liveblocks-workspace
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/liveblocks-workspace/SKILL.md
+engenharia-ia-aplicada/original-name: liveblocks-workspace
 ---
 
 Liveblocks workspace task: dados informados pelo usuario na mensagem

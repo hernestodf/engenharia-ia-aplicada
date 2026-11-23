@@ -7,8 +7,8 @@ subcategory: translation-localization
 version: 1.0
 eval_score: 4.2
 tags: [translation, voice-over, dubbing, timing, localization, broadcast]
-godnaterra/source: autopunk/translation-localization/voice-over-translator/SKILL.md
-godnaterra/original-name: voice-over-translator
+engenharia-ia-aplicada/source: autopunk/translation-localization/voice-over-translator/SKILL.md
+engenharia-ia-aplicada/original-name: voice-over-translator
 ---
 # Voice-Over Translator
 

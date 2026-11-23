@@ -1,8 +1,8 @@
 ---
 name: op-applying-brand-guidelines
 description: This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging
-godnaterra/source: joshua/claude/design/applying-brand-guidelines/SKILL.md
-godnaterra/original-name: applying-brand-guidelines
+engenharia-ia-aplicada/source: joshua/claude/design/applying-brand-guidelines/SKILL.md
+engenharia-ia-aplicada/original-name: applying-brand-guidelines
 ---
 
 # Corporate Brand Guidelines Skill

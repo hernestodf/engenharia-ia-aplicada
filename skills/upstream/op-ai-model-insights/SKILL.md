@@ -1,8 +1,8 @@
 ---
 name: op-ai-model-insights
 description: Analyze AI model research (from ai-model-research) and generate strategic insights — capability comparisons, cost projections for real workloads, use case routing recommendations, and provider selection guidance. Run ai-model-research first to generate fresh data, then use this skill to interpret it.
-godnaterra/source: joshua/claude/research/ai-model-insights/SKILL.md
-godnaterra/original-name: ai-model-insights
+engenharia-ia-aplicada/source: joshua/claude/research/ai-model-insights/SKILL.md
+engenharia-ia-aplicada/original-name: ai-model-insights
 ---
 
 Generate AI model insights and recommendations for: dados informados pelo usuario na mensagem

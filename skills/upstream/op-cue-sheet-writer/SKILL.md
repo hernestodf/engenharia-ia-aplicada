@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [cue sheet, broadcast, production, rundown, timing, television, radio]
-godnaterra/source: autopunk/writing/broadcast/cue-sheet-writer/SKILL.md
-godnaterra/original-name: cue-sheet-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/cue-sheet-writer/SKILL.md
+engenharia-ia-aplicada/original-name: cue-sheet-writer
 ---
 # Cue Sheet Writer
 

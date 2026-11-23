@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [production, stakeholder-communication, documentary, journalism, project-management]
-godnaterra/source: autopunk/writing/institutional/production-status-update-writer/SKILL.md
-godnaterra/original-name: production-status-update-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/production-status-update-writer/SKILL.md
+engenharia-ia-aplicada/original-name: production-status-update-writer
 ---
 # Production Status Update Writer
 

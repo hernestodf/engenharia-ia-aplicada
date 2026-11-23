@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [archive, photography, historical images, picture research, rights, licensing]
-godnaterra/source: autopunk/research/locations-logistics/photo-archive-researcher/SKILL.md
-godnaterra/original-name: photo-archive-researcher
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/photo-archive-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: photo-archive-researcher
 ---
 # Photo Archive Researcher
 

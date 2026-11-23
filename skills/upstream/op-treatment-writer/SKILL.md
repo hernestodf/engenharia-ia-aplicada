@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.4
 tags: [screenwriting, development, treatment, feature-film, TV-pilot]
-godnaterra/source: autopunk/screenwriting/development/treatment-writer/SKILL.md
-godnaterra/original-name: treatment-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/development/treatment-writer/SKILL.md
+engenharia-ia-aplicada/original-name: treatment-writer
 ---
 # Treatment Writer
 

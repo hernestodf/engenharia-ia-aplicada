@@ -7,8 +7,8 @@ description: >-
   content-gathering pipeline for any leader slug in movement-leader-websites. Use when harvesting
   content, migrating external sources, running content gathering, or closing migration gaps for a
   movement leader writer.
-godnaterra/source: joshua/claude/movemental/movement-leader-content-harvest/SKILL.md
-godnaterra/original-name: movement-leader-content-harvest
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-content-harvest/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-content-harvest
 ---
 
 # Movement Leader Content Harvest

@@ -1,8 +1,8 @@
 ---
 name: op-email-setup
 description: "Set up transactional email via Resend for Next.js 15 or Vite + Express — React Email templates, send helpers, welcome/magic-link/notification emails, and local dev preview. Use when adding email to any project in this stack."
-godnaterra/source: joshua/claude/infrastructure/email-setup/SKILL.md
-godnaterra/original-name: email-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/email-setup/SKILL.md
+engenharia-ia-aplicada/original-name: email-setup
 ---
 
 Set up transactional email: dados informados pelo usuario na mensagem

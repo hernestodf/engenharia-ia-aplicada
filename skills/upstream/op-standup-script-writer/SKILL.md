@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [broadcast, reporter, field, standup, piece-to-camera, television]
-godnaterra/source: autopunk/writing/broadcast/standup-script-writer/SKILL.md
-godnaterra/original-name: standup-script-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/standup-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: standup-script-writer
 ---
 # Stand-Up Script Writer
 

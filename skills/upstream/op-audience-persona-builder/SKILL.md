@@ -7,8 +7,8 @@ subcategory: channel-strategy
 version: 1.0
 eval_score: 4.4
 tags: [youtube, strategy, audience, persona, demographics, channel-growth]
-godnaterra/source: autopunk/youtube/channel-strategy/audience-persona-builder/SKILL.md
-godnaterra/original-name: audience-persona-builder
+engenharia-ia-aplicada/source: autopunk/youtube/channel-strategy/audience-persona-builder/SKILL.md
+engenharia-ia-aplicada/original-name: audience-persona-builder
 ---
 # Audience Persona Builder
 

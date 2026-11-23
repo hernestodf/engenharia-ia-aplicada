@@ -7,8 +7,8 @@ subcategory:
 version: 1.0
 eval_score: 5.0
 tags: [editing, proofreading, grammar, spelling, punctuation, journalism, quality]
-godnaterra/source: autopunk/editing/proofreader/SKILL.md
-godnaterra/original-name: proofreader
+engenharia-ia-aplicada/source: autopunk/editing/proofreader/SKILL.md
+engenharia-ia-aplicada/original-name: proofreader
 ---
 # Proofreader
 

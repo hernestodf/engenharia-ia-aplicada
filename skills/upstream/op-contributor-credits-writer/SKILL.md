@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [credits, contributors, byline, acknowledgements, multi-author]
-godnaterra/source: autopunk/production-support/contributor-credits-writer/SKILL.md
-godnaterra/original-name: contributor-credits-writer
+engenharia-ia-aplicada/source: autopunk/production-support/contributor-credits-writer/SKILL.md
+engenharia-ia-aplicada/original-name: contributor-credits-writer
 ---
 # Contributor Credits Writer
 

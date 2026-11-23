@@ -1,8 +1,8 @@
 ---
 name: op-pathway-profile
 description: Research and write profiles of people and stories for Alan Hirsch pathway pages. Produces leader profiles, movement founder stories, and biographical narratives drawn from Alan's books and research — people who embody the pathway's principles. Use for the Content and Case Study sections, or for standalone biographical content.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-profile/SKILL.md
-godnaterra/original-name: pathway-profile
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-profile/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-profile
 ---
 
 Research and write a profile for: dados informados pelo usuario na mensagem

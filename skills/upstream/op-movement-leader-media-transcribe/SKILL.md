@@ -5,8 +5,8 @@ description: >-
   auto-captions for video, Whisper for podcast RSS/mp3 URLs. Writes verbatim transcripts to
   docs/harvest/transcripts/ and updates the manifest. Run after movement-leader-content-harvest
   and before movement-leader-harvest-ingest when LINK/TRANSCRIBE media needs text.
-godnaterra/source: joshua/claude/movemental/movement-leader-media-transcribe/SKILL.md
-godnaterra/original-name: movement-leader-media-transcribe
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-media-transcribe/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-media-transcribe
 ---
 
 # Movement Leader Media Transcribe

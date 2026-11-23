@@ -1,8 +1,8 @@
 ---
 name: op-data-storytelling
 description: "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations."
-godnaterra/source: joshua/cursor/data-storytelling/SKILL.md
-godnaterra/original-name: data-storytelling
+engenharia-ia-aplicada/source: joshua/cursor/data-storytelling/SKILL.md
+engenharia-ia-aplicada/original-name: data-storytelling
 ---
 
 Create a data story for: dados informados pelo usuario na mensagem

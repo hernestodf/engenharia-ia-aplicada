@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [media advisory, press, pr, event, news alert]
-godnaterra/source: autopunk/writing/institutional/media-advisory-writer/SKILL.md
-godnaterra/original-name: media-advisory-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/media-advisory-writer/SKILL.md
+engenharia-ia-aplicada/original-name: media-advisory-writer
 ---
 # Media Advisory Writer
 

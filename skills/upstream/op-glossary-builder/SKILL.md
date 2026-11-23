@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.36
 tags: [journalism, writing, glossary, terminology, reference, explainer, jargon]
-godnaterra/source: autopunk/magazine-journalism/writing/glossary-builder/SKILL.md
-godnaterra/original-name: glossary-builder
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/glossary-builder/SKILL.md
+engenharia-ia-aplicada/original-name: glossary-builder
 ---
 # Glossary Builder
 

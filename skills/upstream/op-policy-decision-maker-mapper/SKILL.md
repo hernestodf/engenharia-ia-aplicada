@@ -7,8 +7,8 @@ subcategory: people
 version: 1.0
 eval_score: 4.5
 tags: [research, policy, decision-makers, stakeholders, government, mapping]
-godnaterra/source: autopunk/research/people/policy-decision-maker-mapper/SKILL.md
-godnaterra/original-name: policy-decision-maker-mapper
+engenharia-ia-aplicada/source: autopunk/research/people/policy-decision-maker-mapper/SKILL.md
+engenharia-ia-aplicada/original-name: policy-decision-maker-mapper
 ---
 # Policy Decision-Maker Mapper
 

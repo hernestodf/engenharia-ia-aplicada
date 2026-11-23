@@ -3,7 +3,7 @@
   "titulo": "Gate read-only não verificado em provider externo por fallback de agente",
   "data": "2026-11-18",
   "status": "rascunho",
-  "origem": "verificação de provider externo após a instalação do catálogo Godnaterra",
+  "origem": "verificação de provider externo após a instalação do catálogo EngenhariaIaAplicada",
   "sintoma": "o agente de gate é subagent; a CLI faz fallback para o agente default, que não herda as regras deny",
   "evidencia": "observado em verificação anterior nesta máquina; não reproduzido nesta sessão porque o provider não está mais registrado no harness",
   "cenario": "04-unverified.md",

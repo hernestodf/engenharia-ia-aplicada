@@ -1,8 +1,8 @@
 ---
 name: op-runtime-behavior-probe
 description: Plan and execute runtime-behavior investigations with temporary TypeScript probe scripts, validation matrices, state controls, and findings-first reports. Use only when the user explicitly invokes this skill to verify actual runtime behavior beyond normal code-level checks, especially to uncover edge cases, undocumented behavior, or common failure modes in local or live integrations. A baseline smoke check is fine as an entry point, but do not stop at happy-path confirmation.
-godnaterra/source: joshua/vendor/skills-openai/runtime-behavior-probe/SKILL.md
-godnaterra/original-name: runtime-behavior-probe
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/runtime-behavior-probe/SKILL.md
+engenharia-ia-aplicada/original-name: runtime-behavior-probe
 ---
 
 # Runtime Behavior Probe

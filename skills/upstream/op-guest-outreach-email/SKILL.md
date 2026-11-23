@@ -7,8 +7,8 @@ subcategory: business
 version: 1.0
 eval_score: 4.5
 tags: [podcast, business, guests, outreach, email]
-godnaterra/source: autopunk/podcast/business/guest-outreach-email/SKILL.md
-godnaterra/original-name: guest-outreach-email
+engenharia-ia-aplicada/source: autopunk/podcast/business/guest-outreach-email/SKILL.md
+engenharia-ia-aplicada/original-name: guest-outreach-email
 ---
 # Guest Outreach Email
 

@@ -1,8 +1,8 @@
 ---
 name: op-tam-discover
 description: Discover new movement leader candidates for the Movemental TAM using network-based and content-based search strategies
-godnaterra/source: joshua/claude/movemental/tam-discover/SKILL.md
-godnaterra/original-name: tam-discover
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-discover/SKILL.md
+engenharia-ia-aplicada/original-name: tam-discover
 ---
 
 # TAM Discovery: Find New Movement Leader Candidates

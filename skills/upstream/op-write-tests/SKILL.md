@@ -1,8 +1,8 @@
 ---
 name: op-write-tests
 description: Write agent tests — use when asked to add unit tests, smoke tests, or E2E tests for agents, including tool tests, instruction composition tests, retrieval router tests, citation tests, and guardrail tests.
-godnaterra/source: joshua/claude/infrastructure/write-tests/SKILL.md
-godnaterra/original-name: write-tests
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/write-tests/SKILL.md
+engenharia-ia-aplicada/original-name: write-tests
 ---
 
 Write agent tests: dados informados pelo usuario na mensagem

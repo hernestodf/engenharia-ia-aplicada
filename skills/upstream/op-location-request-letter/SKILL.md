@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.47
 tags: [documentary, pre-production, location, permissions, correspondence, filming]
-godnaterra/source: autopunk/tv-documentary/pre-production/location-request-letter/SKILL.md
-godnaterra/original-name: location-request-letter
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/location-request-letter/SKILL.md
+engenharia-ia-aplicada/original-name: location-request-letter
 ---
 # Location Request Letter
 

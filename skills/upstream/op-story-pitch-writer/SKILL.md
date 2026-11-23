@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [pitch, editorial, story development, journalism, pre-production]
-godnaterra/source: autopunk/pre-production/story-pitch-writer/SKILL.md
-godnaterra/original-name: story-pitch-writer
+engenharia-ia-aplicada/source: autopunk/pre-production/story-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: story-pitch-writer
 ---
 # Story Pitch Writer
 

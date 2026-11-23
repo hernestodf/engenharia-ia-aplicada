@@ -1,8 +1,8 @@
 ---
 name: op-agent-rag
 description: Build or modify a RAG retrieval pipeline — vector store search, corpus routing, citation rendering, book fidelity. Use when adding retrieval to agents.
-godnaterra/source: joshua/claude/agents/agent-rag/SKILL.md
-godnaterra/original-name: agent-rag
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-rag/SKILL.md
+engenharia-ia-aplicada/original-name: agent-rag
 ---
 
 Build or modify RAG pipeline: dados informados pelo usuario na mensagem

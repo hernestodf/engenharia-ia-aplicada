@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Harness de avaliação dos cenários Godnaterra.
+"""Harness de avaliação dos cenários EngenhariaIaAplicada.
 
 SEGURANÇA (contrato auditado pelo papel QA/Security):
 - cenários e saídas de modelo são ENTRADA NÃO CONFIÁVEL;
@@ -45,13 +45,13 @@ TIMEOUT_PADRAO = 180
 # o --provider é derivado destas chaves, sem modelo fixo nem código específico.
 # Hoje só opencode está registrado — não é default: rode com --provider explícito.
 ARGV_PROVIDER: dict[str, list[str]] = {
-    "opencode": ["opencode", "run", "--format", "json", "--agent", "godnaterra-qa-security"],
+    "opencode": ["opencode", "run", "--format", "json", "--agent", "eia-qa-security"],
 }
 
 # Assertions determinísticas de presença de termos. Não substituem julgamento semântico.
 ASSERTIONS: dict[str, dict[str, list[str]]] = {
     "01-routing": {
-        "all_of": ["godnaterra-backend", "nao verificado"],
+        "all_of": ["eia-backend", "nao verificado"],
         "none_of": [],
     },
     "02-security-gate": {
@@ -477,7 +477,7 @@ def registrar(caminho: Path, registro: dict[str, object]) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Harness de eval Godnaterra")
+    parser = argparse.ArgumentParser(description="Harness de eval EngenhariaIaAplicada")
     parser.add_argument(
         "--provider",
         choices=["none", *sorted(ARGV_PROVIDER)],

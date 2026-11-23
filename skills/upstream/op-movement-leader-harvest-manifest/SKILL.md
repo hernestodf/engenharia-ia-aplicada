@@ -6,8 +6,8 @@ description: >-
   Classifies type/disposition, assigns stable ids, validates file paths for ZenWrite bundle upload
   and pnpm harvest:ingest. Use when creating a manifest, fixing manifest drift, preparing a
   harvest zip, or mapping a folder of files to ingest-ready rows for any leader slug.
-godnaterra/source: joshua/claude/movemental/movement-leader-harvest-manifest/SKILL.md
-godnaterra/original-name: movement-leader-harvest-manifest
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-harvest-manifest/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-harvest-manifest
 ---
 
 # Movement Leader Harvest Manifest Builder

@@ -1,8 +1,8 @@
 ---
 name: op-pathway-content
 description: Master skill for authoring any content type on an Alan Hirsch pathway page. Understands the 12-section architecture, all five pathways, book-to-pathway mapping, Alan's voice system, and where every piece of existing content lives. Use this when writing or auditing any pathway page content — or delegate to a specialized sub-skill (pathway-faq, pathway-quotes, pathway-scripture, etc.) for a single section.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-content/SKILL.md
-godnaterra/original-name: pathway-content
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-content/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-content
 ---
 
 Author pathway content: dados informados pelo usuario na mensagem

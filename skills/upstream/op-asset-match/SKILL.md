@@ -1,8 +1,8 @@
 ---
 name: op-asset-match
 description: Audit where images are needed across the project (heroes, covers, cards, OG images) vs what's available in public/images/. Reports matches, mismatches, missing assets, and broken references. Connects to asset generation skills for creating missing images.
-godnaterra/source: joshua/claude/assets/asset-match/SKILL.md
-godnaterra/original-name: asset-match
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-match/SKILL.md
+engenharia-ia-aplicada/original-name: asset-match
 ---
 
 Match available images to image slots across the project: dados informados pelo usuario na mensagem

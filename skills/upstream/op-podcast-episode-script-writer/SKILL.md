@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [podcast, scripting, solo-episode, interview, broadcast-writing]
-godnaterra/source: autopunk/writing/broadcast/podcast-episode-script-writer/SKILL.md
-godnaterra/original-name: podcast-episode-script-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/podcast-episode-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: podcast-episode-script-writer
 ---
 # Podcast Episode Script Writer
 

@@ -1,8 +1,8 @@
 ---
 name: op-pathway-faq
 description: Generate FAQ and QA content for an Alan Hirsch pathway page. Produces 6–10 GEO-optimized Q&A pairs grounded in Alan's books, written in his voice, covering common confusions, objections, term clarifications, and distortion warnings. High SEO/GEO value — AI engines cite FAQ pages directly.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-faq/SKILL.md
-godnaterra/original-name: pathway-faq
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-faq/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-faq
 ---
 
 Generate FAQ content for: dados informados pelo usuario na mensagem

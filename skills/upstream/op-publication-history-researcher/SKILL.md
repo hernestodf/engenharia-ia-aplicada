@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [research, source-research, expert-vetting, academic, journalism, author-profile]
-godnaterra/source: autopunk/research/people-contacts/publication-history-researcher/SKILL.md
-godnaterra/original-name: publication-history-researcher
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/publication-history-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: publication-history-researcher
 ---
 # Publication History Researcher
 

@@ -7,8 +7,8 @@ subcategory: development
 version: 1.1
 eval_score: 4.60
 tags: [documentary, development, character, narrative, structure]
-godnaterra/source: autopunk/tv-documentary/development/character-arc-planner/SKILL.md
-godnaterra/original-name: character-arc-planner
+engenharia-ia-aplicada/source: autopunk/tv-documentary/development/character-arc-planner/SKILL.md
+engenharia-ia-aplicada/original-name: character-arc-planner
 ---
 # Character Arc Planner
 

@@ -5,11 +5,11 @@
 O instalador grava dentro do próprio clone. Cada cliente tem seu clone, logo cada um tem sua config isolada. Nada é escrito em `$HOME`.
 
 ```bash
-git clone git@github.com:hernestodf/godnaterra.git
-cd godnaterra
+git clone git@github.com:hernestodf/engenharia-ia-aplicada.git
+cd engenharia-ia-aplicada
 python3 scripts/install.py                 # DRY-RUN — não escreve nada
 python3 scripts/install.py --apply         # aplica no clone (scope project)
-python3 scripts/godnaterra.py status
+python3 scripts/eia.py status
 ```
 
 Resultado em `<clone>/.opencode/opencode.json`:
@@ -24,7 +24,7 @@ Resultado em `<clone>/.opencode/opencode.json`:
 }
 ```
 
-Os caminhos são **resolvidos a partir do clone local** no momento da instalação. Os artefatos versionados em `adapters/*/generated/` usam o token `__GODNATERRA_ROOT__` e nunca contêm caminhos da máquina que os gerou.
+Os caminhos são **resolvidos a partir do clone local** no momento da instalação. Os artefatos versionados em `adapters/*/generated/` usam o token `__EIA_ROOT__` e nunca contêm caminhos da máquina que os gerou.
 
 ## Escopo global (somente quando explicitamente pedido)
 
@@ -34,7 +34,7 @@ python3 scripts/install.py --apply --scope user
 
 Grava em `$HOME/.config/opencode/opencode.json` e `$HOME/.config/opencode/agents`.
 
-- Faz **backup timestampado** (`opencode.json.bak-godnaterra-<UTC>`).
+- Faz **backup timestampado** (`opencode.json.bak-eia-<UTC>`).
 - **Preserva chaves existentes** do JSON — só substitui `$schema` e `skills`.
 - **Recusa JSON inválido** (ex.: JSONC com comentários): aborta sem escrever nada.
 - Symlinks Claude em `$HOME/.claude/skills` são relativos e nunca sobrescrevem destino existente.
@@ -103,7 +103,7 @@ Reproduzir:
 python3 scripts/validate_catalog.py
 python3 scripts/validate_incidents.py
 python3 -m unittest discover -s tests -v
-python3 scripts/godnaterra.py audit
+python3 scripts/eia.py audit
 ```
 
 ## Fora do escopo da instalação

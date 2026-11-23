@@ -7,8 +7,8 @@ subcategory: academic
 version: 1.0
 eval_score: 4.56
 tags: [research, science, academic, papers, plain-language, summary]
-godnaterra/source: autopunk/research/academic/scientific-paper-summarizer/SKILL.md
-godnaterra/original-name: scientific-paper-summarizer
+engenharia-ia-aplicada/source: autopunk/research/academic/scientific-paper-summarizer/SKILL.md
+engenharia-ia-aplicada/original-name: scientific-paper-summarizer
 ---
 # Scientific Paper Summarizer
 

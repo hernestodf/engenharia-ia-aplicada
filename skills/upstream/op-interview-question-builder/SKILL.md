@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.5
 tags: [podcast, pre-production, interview, questions, preparation]
-godnaterra/source: autopunk/podcast/pre-production/interview-question-builder/SKILL.md
-godnaterra/original-name: interview-question-builder
+engenharia-ia-aplicada/source: autopunk/podcast/pre-production/interview-question-builder/SKILL.md
+engenharia-ia-aplicada/original-name: interview-question-builder
 ---
 # Interview Question Builder
 

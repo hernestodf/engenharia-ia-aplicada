@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [structure, narrative-flow, editing, logic, organisation]
-godnaterra/source: autopunk/editing/structure-flow-checker/SKILL.md
-godnaterra/original-name: structure-flow-checker
+engenharia-ia-aplicada/source: autopunk/editing/structure-flow-checker/SKILL.md
+engenharia-ia-aplicada/original-name: structure-flow-checker
 ---
 # Structure Flow Checker
 

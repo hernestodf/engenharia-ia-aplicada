@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [trends, data analysis, journalism, statistics, reporting]
-godnaterra/source: autopunk/research/data-statistics/trend-identifier/SKILL.md
-godnaterra/original-name: trend-identifier
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/trend-identifier/SKILL.md
+engenharia-ia-aplicada/original-name: trend-identifier
 ---
 # Trend Identifier
 

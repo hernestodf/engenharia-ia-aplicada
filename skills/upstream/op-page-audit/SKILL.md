@@ -1,8 +1,8 @@
 ---
 name: op-page-audit
 description: Holistic audit of any movemental.com page — UI, content, architecture, UX, and conversion — writes a markdown report and a standalone fix prompt.
-godnaterra/source: joshua/claude/design/page-audit/SKILL.md
-godnaterra/original-name: page-audit
+engenharia-ia-aplicada/source: joshua/claude/design/page-audit/SKILL.md
+engenharia-ia-aplicada/original-name: page-audit
 ---
 
 # Page Audit

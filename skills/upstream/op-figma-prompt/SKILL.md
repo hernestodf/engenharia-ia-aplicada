@@ -1,8 +1,8 @@
 ---
 name: op-figma-prompt
 description: Generate a complete Figma Make prompt package — Context Primer, Checkpoint, Section Build Prompts, and Iteration Templates — for any UI page, component, or screen. Uses intent-first prompting and Figma-native vocabulary. Counterpart to the studio-prompt skill, tuned for design artifacts rather than working code.
-godnaterra/source: joshua/claude/design/figma-prompt/SKILL.md
-godnaterra/original-name: figma-prompt
+engenharia-ia-aplicada/source: joshua/claude/design/figma-prompt/SKILL.md
+engenharia-ia-aplicada/original-name: figma-prompt
 ---
 
 Generate a complete Figma Make prompt package for: dados informados pelo usuario na mensagem

@@ -71,14 +71,14 @@ jobs:
           python3 scripts/validate_catalog.py
           python3 scripts/validate_incidents.py
           python3 scripts/verify_adapters.py
-          python3 scripts/godnaterra.py audit
+          python3 scripts/eia.py audit
           python3 scripts/generate_manifest.py --check
           python3 -m unittest discover -s tests
 
       - name: Empacotar pacote completo
         run: |
           VERSAO=$(tr -d '\r\n' < VERSION)
-          NOME="godnaterra-${VERSAO}"
+          NOME="engenharia-ia-aplicada-${VERSAO}"
           tar --exclude=.git --exclude=.opencode --exclude=.claude \
             -czf "${NOME}.tar.gz" \
             AGENTS.md project.yaml MANIFESTO.md README.md CHANGELOG.md \
@@ -92,7 +92,7 @@ jobs:
       - name: Publicar artefato do tarball
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
-          name: godnaterra-source
+          name: engenharia-ia-aplicada-source
           path: |
             ${{ env.ASSET }}
             install-manifest.json
@@ -113,6 +113,6 @@ jobs:
           # entao precisam estar disponiveis para `sha256sum -c SHA256SUMS`.
           gh release create "${RELEASE_TAG}" \
             "${ASSET}" install-manifest.json SHA256SUMS \
-            --title "Godnaterra ${VERSAO}" \
+            --title "EngenhariaIaAplicada ${VERSAO}" \
             --notes "Pacote vendor-free, isolado por cliente. Baixe os 3 assets e verifique com: sha256sum -c SHA256SUMS" \
             --verify-tag

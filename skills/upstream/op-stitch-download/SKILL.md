@@ -1,8 +1,8 @@
 ---
 name: op-stitch-download
 description: "Browse Stitch projects, download all screens (HTML + screenshots), and generate an organized local gallery with an index.html for browser viewing. Use when reviewing designs before conversion, comparing screens, or sharing with stakeholders."
-godnaterra/source: joshua/claude/stitch/stitch-download/SKILL.md
-godnaterra/original-name: stitch-download
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-download/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-download
 ---
 
 Download and organize Stitch project designs for browser viewing: dados informados pelo usuario na mensagem

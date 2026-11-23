@@ -1,8 +1,8 @@
 ---
 name: op-nonprofit-pricing-research
 description: Produce transparent, defensible pricing intelligence for AI-literacy and applied AI training engagements for nonprofits. Runs a scoping intake, gathers real market comps, and outputs a client-ready memo plus internal pricing workbook with low/base/high ranges and a sensitivity table. Use when asked to price an AI training engagement, write a nonprofit AI training SOW, research what similar programs cost, or prepare a proposal for an AI rollout. NOT for legal, tax, or HR compensation advice.
-godnaterra/source: joshua/claude/movemental/nonprofit-pricing-research/SKILL.md
-godnaterra/original-name: nonprofit-pricing-research
+engenharia-ia-aplicada/source: joshua/claude/movemental/nonprofit-pricing-research/SKILL.md
+engenharia-ia-aplicada/original-name: nonprofit-pricing-research
 ---
 
 # Nonprofit AI Training Pricing Research

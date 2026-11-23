@@ -2,8 +2,8 @@
 name: op-brand-guidelines
 description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
 license: Complete terms in LICENSE.txt
-godnaterra/source: joshua/_reference/skills-anthropic/skills/brand-guidelines/SKILL.md
-godnaterra/original-name: brand-guidelines
+engenharia-ia-aplicada/source: joshua/_reference/skills-anthropic/skills/brand-guidelines/SKILL.md
+engenharia-ia-aplicada/original-name: brand-guidelines
 ---
 
 # Anthropic Brand Styling

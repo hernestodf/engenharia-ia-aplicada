@@ -7,8 +7,8 @@ subcategory: academic
 version: 1.0
 eval_score: 4.5
 tags: [research, science, methodology, evaluation, critical-analysis, academic]
-godnaterra/source: autopunk/research/academic/study-methodology-evaluator/SKILL.md
-godnaterra/original-name: study-methodology-evaluator
+engenharia-ia-aplicada/source: autopunk/research/academic/study-methodology-evaluator/SKILL.md
+engenharia-ia-aplicada/original-name: study-methodology-evaluator
 ---
 # Study Methodology Evaluator
 

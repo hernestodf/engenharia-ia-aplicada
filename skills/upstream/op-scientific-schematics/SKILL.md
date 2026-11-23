@@ -1,8 +1,8 @@
 ---
 name: op-scientific-schematics
 description: "Create publication-quality scientific diagrams using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations."
-godnaterra/source: joshua/claude/assets/scientific-schematics/SKILL.md
-godnaterra/original-name: scientific-schematics
+engenharia-ia-aplicada/source: joshua/claude/assets/scientific-schematics/SKILL.md
+engenharia-ia-aplicada/original-name: scientific-schematics
 ---
 
 # Scientific Schematics and Diagrams

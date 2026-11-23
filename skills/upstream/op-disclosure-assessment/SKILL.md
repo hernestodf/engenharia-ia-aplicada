@@ -7,8 +7,8 @@ subcategory: content
 version: 1.0
 eval_score: 4.90
 tags: [pr, content, disclosure, ftc, asa, sponsored-content, ethics, compliance]
-godnaterra/source: autopunk/pr-communications/content/disclosure-assessment/SKILL.md
-godnaterra/original-name: disclosure-assessment
+engenharia-ia-aplicada/source: autopunk/pr-communications/content/disclosure-assessment/SKILL.md
+engenharia-ia-aplicada/original-name: disclosure-assessment
 ---
 # Disclosure Assessment
 

@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [journalism, summary, tldr, writing, newsletters, digital]
-godnaterra/source: autopunk/writing/articles/tldr-writer/SKILL.md
-godnaterra/original-name: tldr-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/tldr-writer/SKILL.md
+engenharia-ia-aplicada/original-name: tldr-writer
 ---
 # TL;DR Writer
 

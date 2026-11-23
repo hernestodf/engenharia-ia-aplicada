@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.9
 tags: [journalism, captions, photography, writing, print, digital, news]
-godnaterra/source: autopunk/writing/articles/photo-caption-writer/SKILL.md
-godnaterra/original-name: photo-caption-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/photo-caption-writer/SKILL.md
+engenharia-ia-aplicada/original-name: photo-caption-writer
 ---
 # Photo Caption Writer
 

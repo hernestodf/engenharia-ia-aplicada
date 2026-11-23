@@ -7,8 +7,8 @@ subcategory: production
 version: 1.0
 eval_score: 4.4
 tags: [radio, production, brief, programme-proposal, format, editorial]
-godnaterra/source: autopunk/radio-audio/production/programme-brief-writer/SKILL.md
-godnaterra/original-name: programme-brief-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/production/programme-brief-writer/SKILL.md
+engenharia-ia-aplicada/original-name: programme-brief-writer
 ---
 # Programme Brief Writer
 

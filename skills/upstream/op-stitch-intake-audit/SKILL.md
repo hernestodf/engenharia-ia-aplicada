@@ -11,8 +11,8 @@ description: >
   Tenant-agnostic: reads TENANT_MANIFEST.md for the Stitch project, prompt library,
   and route scope. Does NOT convert to React (that's stitch-page-port) and does NOT
   change tokens (that's stitch-token-bridge).
-godnaterra/source: joshua/claude/movemental/stitch-intake-audit/SKILL.md
-godnaterra/original-name: stitch-intake-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/stitch-intake-audit/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-intake-audit
 ---
 
 # Stitch intake and gap audit

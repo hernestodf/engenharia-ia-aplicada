@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera adaptadores DERIVADOS da fonte canônica Godnaterra.
+"""Gera adaptadores DERIVADOS da fonte canônica EngenhariaIaAplicada.
 
 Fonte canônica: AGENTS.md, project.yaml, skills/core/, skills/upstream/, agents/.
 Nunca edite adapters/*/generated/ na mão — são artefatos.
@@ -38,7 +38,7 @@ AGENTES = ROOT / "agents"
 
 # Os artefatos versionados NAO podem conter caminhos da maquina que os gerou.
 # O token abaixo e resolvido para o ROOT local no momento da instalacao.
-ROOT_TOKEN = "__GODNATERRA_ROOT__"
+ROOT_TOKEN = "__EIA_ROOT__"
 
 OPENCODE_CONFIG = Path.home() / ".config" / "opencode" / "opencode.json"
 CLAUDE_SKILLS = Path.home() / ".claude" / "skills"
@@ -150,7 +150,7 @@ def criar_symlinks(raizes: tuple[Path, ...], destino: Path) -> tuple[int, int]:
 def backup(path: Path) -> Path | None:
     if not path.exists():
         return None
-    dest = path.with_name(f"{path.name}.bak-godnaterra-{stamp()}")
+    dest = path.with_name(f"{path.name}.bak-eia-{stamp()}")
     shutil.copy2(path, dest)
     print(f"  backup: {dest}")
     return dest
@@ -158,7 +158,7 @@ def backup(path: Path) -> Path | None:
 
 def restaurar(path: Path) -> bool:
     """Restaura o backup mais recente de um arquivo gerenciado."""
-    candidatos = sorted(path.parent.glob(f"{path.name}.bak-godnaterra-*"))
+    candidatos = sorted(path.parent.glob(f"{path.name}.bak-eia-*"))
     if not candidatos:
         print(f"  sem backup para: {path}")
         return False
@@ -225,7 +225,7 @@ def mesclar_config(
 def sincronizar_agentes(destino: Path) -> tuple[int, int]:
     destino.mkdir(parents=True, exist_ok=True)
     copiados = ignorados = 0
-    for ag in sorted(AGENTES.glob("godnaterra-*.md")):
+    for ag in sorted(AGENTES.glob("eia-*.md")):
         alvo = destino / ag.name
         if alvo.exists() and alvo.read_bytes() == ag.read_bytes():
             ignorados += 1

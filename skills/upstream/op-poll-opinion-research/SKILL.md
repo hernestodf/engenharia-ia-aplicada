@@ -1,8 +1,8 @@
 ---
 name: op-poll-opinion-research
 description: Research public opinion, polling data, and sentiment trends using Pew Research, Gallup, Ipsos, Eurobarometer, YouGov, and other major polling organizations. Produces a structured report with data tables, trend analysis, and full source attribution.
-godnaterra/source: joshua/claude/movemental/poll-opinion-research/SKILL.md
-godnaterra/original-name: poll-opinion-research
+engenharia-ia-aplicada/source: joshua/claude/movemental/poll-opinion-research/SKILL.md
+engenharia-ia-aplicada/original-name: poll-opinion-research
 ---
 
 Research public opinion and polling data on: dados informados pelo usuario na mensagem

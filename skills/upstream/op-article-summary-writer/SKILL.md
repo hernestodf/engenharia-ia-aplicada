@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.42
 tags: [journalism, writing, summary, abstract, TLDR, standfirst, deck]
-godnaterra/source: autopunk/magazine-journalism/writing/article-summary-writer/SKILL.md
-godnaterra/original-name: article-summary-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/article-summary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: article-summary-writer
 ---
 # Article Summary Writer
 

@@ -7,8 +7,8 @@ description: >
   visualizations are missing, clipped, zero-height, off-center, or non-interactive
   when they should work; keywords: broken chart, stitch visualization, ResponsiveContainer,
   radar, network graph, SVG motion.
-godnaterra/source: joshua/claude/codegen/visualization-repair/SKILL.md
-godnaterra/original-name: visualization-repair
+engenharia-ia-aplicada/source: joshua/claude/codegen/visualization-repair/SKILL.md
+engenharia-ia-aplicada/original-name: visualization-repair
 ---
 
 # Visualization repair (broken-first)

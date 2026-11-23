@@ -2,8 +2,8 @@
 name: op-webapp-testing
 description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
 license: Complete terms in LICENSE.txt
-godnaterra/source: joshua/_reference/skills-anthropic/skills/webapp-testing/SKILL.md
-godnaterra/original-name: webapp-testing
+engenharia-ia-aplicada/source: joshua/_reference/skills-anthropic/skills/webapp-testing/SKILL.md
+engenharia-ia-aplicada/original-name: webapp-testing
 ---
 
 # Web Application Testing

@@ -10,8 +10,8 @@ description: >
   approved edits to globals.css / tailwind.config.ts. Tenant-agnostic: the production
   theme (e.g. Editorial Indigo / Atelier Amber) comes from TENANT_MANIFEST <tema de design>.
   Prevents raw #111/#666 hex and wireframe fonts from leaking into production components.
-godnaterra/source: joshua/claude/movemental/stitch-token-bridge/SKILL.md
-godnaterra/original-name: stitch-token-bridge
+engenharia-ia-aplicada/source: joshua/claude/movemental/stitch-token-bridge/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-token-bridge
 ---
 
 # Stitch token bridge

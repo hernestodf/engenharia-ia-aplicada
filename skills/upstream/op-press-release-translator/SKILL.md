@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.50
 tags: [translation, press-release, institutional, corporate, multilingual, localization]
-godnaterra/source: autopunk/translation/institutional/press-release-translator/SKILL.md
-godnaterra/original-name: press-release-translator
+engenharia-ia-aplicada/source: autopunk/translation/institutional/press-release-translator/SKILL.md
+engenharia-ia-aplicada/original-name: press-release-translator
 ---
 # Press Release Translator
 

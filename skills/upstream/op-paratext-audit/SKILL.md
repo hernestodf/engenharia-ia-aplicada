@@ -1,8 +1,8 @@
 ---
 name: op-paratext-audit
 description: Audit paratext (supporting content) across all platform surfaces — courses, books, articles, exercises, field experiments, and reflection questions. Reports presence, voice quality, rendering gaps, and SEO/GEO readiness. Use before publishing content or to find what needs authoring.
-godnaterra/source: joshua/claude/content/paratext-audit/SKILL.md
-godnaterra/original-name: paratext-audit
+engenharia-ia-aplicada/source: joshua/claude/content/paratext-audit/SKILL.md
+engenharia-ia-aplicada/original-name: paratext-audit
 ---
 
 Audit paratext: dados informados pelo usuario na mensagem

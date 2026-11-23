@@ -1,8 +1,8 @@
 ---
 name: op-movemental-voice
 description: The Movemental company voice — write new copy, prompt agents, or audit drafts so anything carrying the Movemental name sounds like us. Use whenever drafting or reviewing reader-facing Movemental copy (web pages, emails, landing pages, decks, donor and board communication, church and seminary copy, ad copy, product microcopy), whenever building a Claude skill or agent prompt that must produce Movemental copy, and whenever someone asks whether a draft "sounds like Movemental," is on-brand, on-voice, hyped, salesy, or too corporate. Use it even when the user does not say the words "voice" or "brand" — if the text will carry the Movemental name and a reader will judge whether to trust us by how it reads, this is the standard. This is the COMPANY voice; it is distinct from an individual leader's voice (see [[alan-voice]]) and from line-level prose cleanup (see [[plain-prose]] and [[movemental-prose]]), though all share the plain-prose discipline, the refusals, and authorship care.
-godnaterra/source: joshua/claude/movemental/movemental-voice/SKILL.md
-godnaterra/original-name: movemental-voice
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-voice/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-voice
 ---
 
 Write, prompt, or audit in the Movemental company voice: dados informados pelo usuario na mensagem

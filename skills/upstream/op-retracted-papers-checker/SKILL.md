@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [fact-checking, retraction, research-integrity, science, verification]
-godnaterra/source: autopunk/research/scientific-academic/retracted-papers-checker/SKILL.md
-godnaterra/original-name: retracted-papers-checker
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/retracted-papers-checker/SKILL.md
+engenharia-ia-aplicada/original-name: retracted-papers-checker
 ---
 # Retracted Papers Checker
 

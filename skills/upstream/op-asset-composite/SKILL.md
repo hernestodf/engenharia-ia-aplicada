@@ -1,8 +1,8 @@
 ---
 name: op-asset-composite
 description: Combine multiple generated images into a single composite — grids, collages, mood boards, before/after comparisons, or series overviews. Use when reviewing batches, creating mood boards, or building multi-image marketing assets.
-godnaterra/source: joshua/claude/assets/asset-composite/SKILL.md
-godnaterra/original-name: asset-composite
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-composite/SKILL.md
+engenharia-ia-aplicada/original-name: asset-composite
 ---
 
 Create a composite image from multiple sources: dados informados pelo usuario na mensagem

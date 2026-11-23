@@ -1,8 +1,8 @@
 ---
 name: op-week-author
 description: Draft a complete course week — all transformation loop sections in Alan Hirsch's voice, grounded in corpus, following the canonical structure. Combines alan-voice + course-author + corpus retrieval + Trello prompt alignment into a single authoring pass. Use when generating an entire week of course content.
-godnaterra/source: joshua/claude/content/week-author/SKILL.md
-godnaterra/original-name: week-author
+engenharia-ia-aplicada/source: joshua/claude/content/week-author/SKILL.md
+engenharia-ia-aplicada/original-name: week-author
 ---
 
 Author a complete course week: dados informados pelo usuario na mensagem

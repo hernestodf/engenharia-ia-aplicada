@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [podcast, post-production, show-notes, seo, metadata]
-godnaterra/source: autopunk/podcast/post-production/show-notes-generator/SKILL.md
-godnaterra/original-name: show-notes-generator
+engenharia-ia-aplicada/source: autopunk/podcast/post-production/show-notes-generator/SKILL.md
+engenharia-ia-aplicada/original-name: show-notes-generator
 ---
 # Show Notes Generator
 

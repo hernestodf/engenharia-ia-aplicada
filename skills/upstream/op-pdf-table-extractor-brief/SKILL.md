@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.33
 tags: [data-journalism, PDF, tables, data-extraction, investigation, spreadsheet, public-records]
-godnaterra/source: autopunk/data-journalism/investigation/pdf-table-extractor-brief/SKILL.md
-godnaterra/original-name: pdf-table-extractor-brief
+engenharia-ia-aplicada/source: autopunk/data-journalism/investigation/pdf-table-extractor-brief/SKILL.md
+engenharia-ia-aplicada/original-name: pdf-table-extractor-brief
 ---
 # PDF Table Extractor Brief
 

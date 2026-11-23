@@ -1,8 +1,8 @@
 ---
 name: op-agent-stream
 description: Work on SSE streaming, plain-text transport, ChatKit events, and session continuity. Use when debugging or modifying agent streaming behavior.
-godnaterra/source: joshua/claude/agents/agent-stream/SKILL.md
-godnaterra/original-name: agent-stream
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-stream/SKILL.md
+engenharia-ia-aplicada/original-name: agent-stream
 ---
 
 Work on agent streaming: dados informados pelo usuario na mensagem

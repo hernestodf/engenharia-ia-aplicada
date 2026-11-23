@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [research, ownership, media, corporate, transparency, conflict-of-interest]
-godnaterra/source: autopunk/research/facts-context/ownership-structure-researcher/SKILL.md
-godnaterra/original-name: ownership-structure-researcher
+engenharia-ia-aplicada/source: autopunk/research/facts-context/ownership-structure-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: ownership-structure-researcher
 ---
 # Ownership Structure Researcher
 

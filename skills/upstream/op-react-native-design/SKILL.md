@@ -1,8 +1,8 @@
 ---
 name: op-react-native-design
 description: Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations.
-godnaterra/source: joshua/claude/codegen/react-native-design/SKILL.md
-godnaterra/original-name: react-native-design
+engenharia-ia-aplicada/source: joshua/claude/codegen/react-native-design/SKILL.md
+engenharia-ia-aplicada/original-name: react-native-design
 ---
 
 # React Native Design

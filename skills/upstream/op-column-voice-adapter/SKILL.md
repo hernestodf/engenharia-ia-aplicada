@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.4
 tags: [journalism, writing, voice, column, style, tone]
-godnaterra/source: autopunk/magazine-journalism/writing/column-voice-adapter/SKILL.md
-godnaterra/original-name: column-voice-adapter
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/column-voice-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: column-voice-adapter
 ---
 # Column Voice Adapter
 

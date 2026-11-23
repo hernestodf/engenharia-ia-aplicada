@@ -10,8 +10,8 @@ description: >
   - "Grep"
   - "Agent"
   - "TodoWrite"
-godnaterra/source: joshua/claude/infrastructure/repo-cleanup/SKILL.md
-godnaterra/original-name: repo-cleanup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/repo-cleanup/SKILL.md
+engenharia-ia-aplicada/original-name: repo-cleanup
 ---
 
 # Repo Cleanup

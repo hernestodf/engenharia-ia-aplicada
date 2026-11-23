@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.4
 tags: [media-business, distribution, sales, outreach, acquisitions]
-godnaterra/source: autopunk/media-business/distribution/distributor-outreach-email/SKILL.md
-godnaterra/original-name: distributor-outreach-email
+engenharia-ia-aplicada/source: autopunk/media-business/distribution/distributor-outreach-email/SKILL.md
+engenharia-ia-aplicada/original-name: distributor-outreach-email
 ---
 # Distributor Outreach Email
 

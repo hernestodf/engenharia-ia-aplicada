@@ -1,8 +1,8 @@
 ---
 name: op-pathway-article-gen
 description: Generate standalone articles for the Alan Hirsch platform — grounded in pathway themes, written in Alan's voice, with full corpus research, SEO/GEO architecture, and proper citations. Produces Tier 1 pillar articles (3,500–4,500 words), Tier 2 cluster articles (2,200–3,200 words), and Tier 3 long-tail articles (1,500–2,200 words). Each article maps to a pathway pillar and connects to the broader content ecosystem.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-article-gen/SKILL.md
-godnaterra/original-name: pathway-article-gen
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-article-gen/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-article-gen
 ---
 
 Write an article about: dados informados pelo usuario na mensagem

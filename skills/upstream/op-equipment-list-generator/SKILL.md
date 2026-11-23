@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.42
 tags: [documentary, pre-production, equipment, kit, logistics, camera, sound, lighting]
-godnaterra/source: autopunk/tv-documentary/pre-production/equipment-list-generator/SKILL.md
-godnaterra/original-name: equipment-list-generator
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/equipment-list-generator/SKILL.md
+engenharia-ia-aplicada/original-name: equipment-list-generator
 ---
 # Equipment List Generator
 

@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [broadcast, presenter, studio, introduction, television, anchor, package]
-godnaterra/source: autopunk/writing/broadcast/studio-intro-writer/SKILL.md
-godnaterra/original-name: studio-intro-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/studio-intro-writer/SKILL.md
+engenharia-ia-aplicada/original-name: studio-intro-writer
 ---
 # Studio Intro Writer
 

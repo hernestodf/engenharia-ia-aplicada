@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.5
 tags: [workflow, project-setup, context, memory, editorial-voice, session-management]
-godnaterra/source: autopunk/editing/project-memory/SKILL.md
-godnaterra/original-name: project-memory
+engenharia-ia-aplicada/source: autopunk/editing/project-memory/SKILL.md
+engenharia-ia-aplicada/original-name: project-memory
 ---
 
 # Project Memory

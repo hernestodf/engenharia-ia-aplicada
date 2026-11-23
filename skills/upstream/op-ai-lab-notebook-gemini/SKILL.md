@@ -10,8 +10,8 @@ description: >
   grounding in sources discover, or scripts/gemini-corpus-upload.ts /
   scripts/gemini-corpus-cache.ts. For generic Gemini API questions unrelated to this
   notebook, defer to the `jsh-gemini-api` skill.
-godnaterra/source: joshua/claude/integrations/ai-lab-notebook-gemini/SKILL.md
-godnaterra/original-name: ai-lab-notebook-gemini
+engenharia-ia-aplicada/source: joshua/claude/integrations/ai-lab-notebook-gemini/SKILL.md
+engenharia-ia-aplicada/original-name: ai-lab-notebook-gemini
 ---
 
 # AI Lab Notebook — Gemini Integration Skill

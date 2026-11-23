@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [controversy, debate, balance, background, explainer]
-godnaterra/source: autopunk/research/facts-context/debate-summary-writer/SKILL.md
-godnaterra/original-name: debate-summary-writer
+engenharia-ia-aplicada/source: autopunk/research/facts-context/debate-summary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: debate-summary-writer
 ---
 # Debate Summary Writer
 

@@ -1,8 +1,8 @@
 ---
 name: op-asset-mockup
 description: Place generated images into real-world context mockups — laptop screens, phone frames, book mockups, poster frames, billboard mockups. Use for marketing previews, social media content, and stakeholder presentations.
-godnaterra/source: joshua/claude/assets/asset-mockup/SKILL.md
-godnaterra/original-name: asset-mockup
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-mockup/SKILL.md
+engenharia-ia-aplicada/original-name: asset-mockup
 ---
 
 Create a device or context mockup: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 ---
 name: op-editorial-lens
 description: Multi-level editorial review — from developmental editing (structure, argument, arc) through line editing (prose quality, voice) to copy editing (grammar, consistency, fact-checking). Use when reviewing any written work or auditing an agent's output quality.
-godnaterra/source: joshua/claude/content/editorial-lens/SKILL.md
-godnaterra/original-name: editorial-lens
+engenharia-ia-aplicada/source: joshua/claude/content/editorial-lens/SKILL.md
+engenharia-ia-aplicada/original-name: editorial-lens
 ---
 
 Review or edit: dados informados pelo usuario na mensagem

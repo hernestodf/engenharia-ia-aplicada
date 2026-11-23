@@ -1,8 +1,8 @@
 ---
 name: op-resume-coach
 description: Resume review (formatting, design, content, job-specific), score-any-job evaluation (0-100 fit and interview odds, Definite No Go to Freaking Apply Now with resume revision recommendations for Good fit/Freaking Apply Now), rubric development and resume adaptation evaluation, content/data set development from unexplored conversations, and quality assurance for the resume generation chain. Use when the user asks for resume review, resume feedback, score this job, evaluate this job posting, should I apply, rubric development, resume tailoring evaluation, extracting content from conversations, or trusting/auditing the resume pipeline.
-godnaterra/source: joshua/cursor/resume-coach/SKILL.md
-godnaterra/original-name: resume-coach
+engenharia-ia-aplicada/source: joshua/cursor/resume-coach/SKILL.md
+engenharia-ia-aplicada/original-name: resume-coach
 ---
 
 # Resume coach

@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [research, contacts, outreach, sourcing, journalism]
-godnaterra/source: autopunk/research/people-contacts/contact-info-researcher/SKILL.md
-godnaterra/original-name: contact-info-researcher
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/contact-info-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: contact-info-researcher
 ---
 # Contact Info Researcher
 

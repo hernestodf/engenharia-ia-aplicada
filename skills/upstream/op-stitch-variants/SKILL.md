@@ -1,8 +1,8 @@
 ---
 name: op-stitch-variants
 description: Generate design variants of existing Stitch screens to explore alternative approaches. Controls creative range, aspects to vary, and number of variants.
-godnaterra/source: joshua/claude/stitch/stitch-variants/SKILL.md
-godnaterra/original-name: stitch-variants
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-variants/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-variants
 ---
 
 Generate variants for Stitch screens: dados informados pelo usuario na mensagem

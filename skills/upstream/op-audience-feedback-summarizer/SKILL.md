@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.44
 tags: [newsletter, feedback, audience, analysis, insights, reader-research]
-godnaterra/source: autopunk/newsletter/strategy/audience-feedback-summarizer/SKILL.md
-godnaterra/original-name: audience-feedback-summarizer
+engenharia-ia-aplicada/source: autopunk/newsletter/strategy/audience-feedback-summarizer/SKILL.md
+engenharia-ia-aplicada/original-name: audience-feedback-summarizer
 ---
 # Audience Feedback Summarizer
 

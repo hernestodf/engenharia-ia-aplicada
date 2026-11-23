@@ -8,8 +8,8 @@ description: Teaches agents to iteratively build websites using Stitch with an a
   - "Bash"
 risk: unknown
 source: community
-godnaterra/source: joshua/claude/stitch/stitch-loop/SKILL.md
-godnaterra/original-name: stitch-loop
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-loop/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-loop
 ---
 
 # Stitch Build Loop

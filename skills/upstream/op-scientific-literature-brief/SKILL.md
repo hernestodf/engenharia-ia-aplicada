@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [research, science, literature-review, briefing, journalism]
-godnaterra/source: autopunk/research/scientific-academic/scientific-literature-brief/SKILL.md
-godnaterra/original-name: scientific-literature-brief
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/scientific-literature-brief/SKILL.md
+engenharia-ia-aplicada/original-name: scientific-literature-brief
 ---
 # Scientific Literature Brief
 

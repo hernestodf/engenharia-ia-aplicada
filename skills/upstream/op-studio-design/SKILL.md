@@ -1,8 +1,8 @@
 ---
 name: op-studio-design
 description: Generate a rich AI Studio design prompt for any mock-up or prototype — pages, dashboards, heroes, apps. Combines AntiGravity 5-dimension framework, 67+ styles, template patterns, and evocative design language so AI Studio makes beautiful design decisions autonomously.
-godnaterra/source: joshua/claude/studio/studio-design/SKILL.md
-godnaterra/original-name: studio-design
+engenharia-ia-aplicada/source: joshua/claude/studio/studio-design/SKILL.md
+engenharia-ia-aplicada/original-name: studio-design
 ---
 
 Generate an AI Studio design prompt for: dados informados pelo usuario na mensagem

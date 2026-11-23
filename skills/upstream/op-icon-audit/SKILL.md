@@ -1,8 +1,8 @@
 ---
 name: op-icon-audit
 description: Audit and fix icon usage for movemental — mixed libraries, wrong sizes, hardcoded colors, missing accessibility, and illustration anti-patterns. Enforces lucide-react as the single icon library.
-godnaterra/source: joshua/claude/design/jsh-icon-audit-2/SKILL.md
-godnaterra/original-name: icon-audit
+engenharia-ia-aplicada/source: joshua/claude/design/jsh-icon-audit-2/SKILL.md
+engenharia-ia-aplicada/original-name: icon-audit
 ---
 
 Audit and fix icon anti-patterns across the movemental codebase.

@@ -1,8 +1,8 @@
 ---
 name: op-youtube-transcript
 description: Extract a plain-text transcript from any YouTube video URL. Returns timestamped and full-text versions of the transcript saved to a local file.
-godnaterra/source: joshua/claude/research/youtube-transcript/SKILL.md
-godnaterra/original-name: youtube-transcript
+engenharia-ia-aplicada/source: joshua/claude/research/youtube-transcript/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-transcript
 ---
 
 Extract the transcript from a YouTube video: dados informados pelo usuario na mensagem

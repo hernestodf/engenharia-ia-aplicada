@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [research, policy, government, contacts, sourcing]
-godnaterra/source: autopunk/research/people-contacts/policy-decisionmakers-finder/SKILL.md
-godnaterra/original-name: policy-decisionmakers-finder
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/policy-decisionmakers-finder/SKILL.md
+engenharia-ia-aplicada/original-name: policy-decisionmakers-finder
 ---
 # Policy Decisionmakers Finder
 

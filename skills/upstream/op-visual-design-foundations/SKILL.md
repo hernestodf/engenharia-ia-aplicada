@@ -1,8 +1,8 @@
 ---
 name: op-visual-design-foundations
 description: Apply typography, color theory, spacing systems, and iconography principles to create cohesive visual designs. Use when establishing design tokens, building style guides, or improving visual hierarchy and consistency.
-godnaterra/source: joshua/claude/design/visual-design-foundations/SKILL.md
-godnaterra/original-name: visual-design-foundations
+engenharia-ia-aplicada/source: joshua/claude/design/visual-design-foundations/SKILL.md
+engenharia-ia-aplicada/original-name: visual-design-foundations
 ---
 
 # Visual Design Foundations

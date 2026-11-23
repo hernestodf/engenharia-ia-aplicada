@@ -1,8 +1,8 @@
 ---
 name: op-pathway-collector
 description: Scan all repos in <repo atual>/ and the Supabase movemental database (alan-hirsch tenant) to discover all existing pathway, portal, and theme content — markdown, HTML, data files, skills, and database records. Produces a comprehensive inventory organized by portal. Use when you need a full picture of what pathway content exists.
-godnaterra/source: joshua/cursor/pathway-collector/SKILL.md
-godnaterra/original-name: pathway-collector
+engenharia-ia-aplicada/source: joshua/cursor/pathway-collector/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-collector
 ---
 
 Collect and inventory all pathway/portal/theme content: dados informados pelo usuario na mensagem

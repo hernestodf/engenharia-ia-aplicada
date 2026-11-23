@@ -7,8 +7,8 @@ subcategory: growth
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, growth, referral, word-of-mouth, subscriber-acquisition, sharing]
-godnaterra/source: autopunk/newsletter/growth/referral-copy-writer/SKILL.md
-godnaterra/original-name: referral-copy-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/growth/referral-copy-writer/SKILL.md
+engenharia-ia-aplicada/original-name: referral-copy-writer
 ---
 # Referral Copy Writer
 

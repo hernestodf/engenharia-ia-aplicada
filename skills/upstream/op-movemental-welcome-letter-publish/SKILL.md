@@ -1,8 +1,8 @@
 ---
 name: op-movemental-welcome-letter-publish
 description: Publish a finished Movemental dashboard welcome letter to the production Supabase database so the named movement leader sees it on their next dashboard load. Use whenever the user says "publish the welcome letter for <author>", "push <author>'s welcome letter live", "ship the dashboard letter", "publish welcome letter from <file>", or any phrasing that combines a finished welcome letter with making it visible to the leader. Companion to the movemental-welcome-letter skill, which generates the draft; this skill takes the finished draft (file or pasted text) and wires it into the right tenant. Run this after the human has read the draft and is ready to make it live.
-godnaterra/source: joshua/claude/movemental/movemental-welcome-letter-publish/SKILL.md
-godnaterra/original-name: movemental-welcome-letter-publish
+engenharia-ia-aplicada/source: joshua/claude/movemental/movemental-welcome-letter-publish/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-welcome-letter-publish
 ---
 
 # Movemental welcome-letter publisher

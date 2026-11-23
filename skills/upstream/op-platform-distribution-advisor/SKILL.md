@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.2
 tags: [distribution, platforms, audience, reach, publishing]
-godnaterra/source: autopunk/audience-distribution/platform-distribution-advisor/SKILL.md
-godnaterra/original-name: platform-distribution-advisor
+engenharia-ia-aplicada/source: autopunk/audience-distribution/platform-distribution-advisor/SKILL.md
+engenharia-ia-aplicada/original-name: platform-distribution-advisor
 ---
 # Platform Distribution Advisor
 

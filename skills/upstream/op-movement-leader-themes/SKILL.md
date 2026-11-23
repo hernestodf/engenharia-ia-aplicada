@@ -1,8 +1,8 @@
 ---
 name: op-movement-leader-themes
 description: Derive a movement leader's core themes from their own book corpus and research, then author the canonical theme docs in `docs/themes/` — a `CORE_THEMES.md` taxonomy (which themes earn pathway status, and why) plus one deep-dive `{slug}.md` per theme (12-section pathway content, grounded and cited). Run inside a leader's website repo against `docs/books/`, `docs/movement_leader_research/`, and any other content. Use when standing up or refreshing the theme system for a movement leader. Self-contained; reference implementation is the brad-brisco repo.
-godnaterra/source: joshua/claude/movemental/movement-leader-themes/SKILL.md
-godnaterra/original-name: movement-leader-themes
+engenharia-ia-aplicada/source: joshua/claude/movemental/movement-leader-themes/SKILL.md
+engenharia-ia-aplicada/original-name: movement-leader-themes
 ---
 
 # Movement Leader Themes

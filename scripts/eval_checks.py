@@ -175,7 +175,7 @@ def core_frontmatter_valido(_: dict[str, Any]) -> tuple[int, str]:
             continue
         bloco = cab[1]
         esperado = f"name: {md.parent.name}"
-        if (esperado in bloco and "godnaterra/layer: core" in bloco
+        if (esperado in bloco and "engenharia-ia-aplicada/layer: core" in bloco
                 and re.search(r"(?m)^description: \S", bloco)):
             bons += 1
         else:

@@ -9,8 +9,8 @@ description: >
   confidence overview for non-speakers. Use when asked to audit, grade, review, or quality-check
   any translation in the corpus. Trigger phrases: "audit [language] translation", "grade the
   Spanish", "check translation quality", "review the German corpus", "translation QA".
-godnaterra/source: joshua/claude/infrastructure/translation-audit/SKILL.md
-godnaterra/original-name: translation-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/translation-audit/SKILL.md
+engenharia-ia-aplicada/original-name: translation-audit
 ---
 
 # Translation Audit — Alan Hirsch Corpus

@@ -12,8 +12,8 @@ description: >-
   four-necessities-complete pathway markdown (the Phase 1 narrative content) that feeds the
   code-level pathway-author and pathway-audit skills. It is the CONTENT layer; it does not build
   the page template or the code-level [slug].ts.
-godnaterra/source: joshua/claude/content/pathway-content-author/SKILL.md
-godnaterra/original-name: pathway-content-author
+engenharia-ia-aplicada/source: joshua/claude/content/pathway-content-author/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-content-author
 ---
 
 Generate pathway page content: dados informados pelo usuario na mensagem

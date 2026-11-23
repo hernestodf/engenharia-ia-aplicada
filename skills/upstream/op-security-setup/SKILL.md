@@ -1,8 +1,8 @@
 ---
 name: op-security-setup
 description: "Harden a Next.js 15 or Vite + Express app for production — Content Security Policy headers, rate limiting (Upstash Redis), CORS policy, API input validation, secret scanning, and security checklist. Use before launching any project or when auditing security posture."
-godnaterra/source: joshua/claude/infrastructure/security-setup/SKILL.md
-godnaterra/original-name: security-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/security-setup/SKILL.md
+engenharia-ia-aplicada/original-name: security-setup
 ---
 
 Set up security hardening: dados informados pelo usuario na mensagem

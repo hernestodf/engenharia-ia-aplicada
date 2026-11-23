@@ -1,8 +1,8 @@
 ---
 name: op-asset-product-shot
 description: Generate clean product/object photography prompts using Nano Banana 2. Use for book mockups, course materials, merchandise, or any object that needs a professional studio-quality shot on white or contextual background.
-godnaterra/source: joshua/claude/assets/asset-product-shot/SKILL.md
-godnaterra/original-name: asset-product-shot
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-product-shot/SKILL.md
+engenharia-ia-aplicada/original-name: asset-product-shot
 ---
 
 Generate a product photography shot using Nano Banana 2: dados informados pelo usuario na mensagem

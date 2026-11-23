@@ -1,8 +1,8 @@
 ---
 name: op-voice-designer
 description: Build detailed voice profiles for characters, narrators, brands, or AI agents — covering diction, syntax, rhythm, worldview, signature patterns, and failure modes. Use when creating a character voice, designing an agent's persona, or auditing voice consistency.
-godnaterra/source: joshua/claude/movemental/voice-designer/SKILL.md
-godnaterra/original-name: voice-designer
+engenharia-ia-aplicada/source: joshua/claude/movemental/voice-designer/SKILL.md
+engenharia-ia-aplicada/original-name: voice-designer
 ---
 
 Design or audit a voice profile: dados informados pelo usuario na mensagem

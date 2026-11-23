@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [journalism, headlines, writing, editing, seo, digital, print]
-godnaterra/source: autopunk/writing/articles/headline-writer/SKILL.md
-godnaterra/original-name: headline-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/headline-writer/SKILL.md
+engenharia-ia-aplicada/original-name: headline-writer
 ---
 # Headline Writer
 

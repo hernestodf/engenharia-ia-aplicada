@@ -7,8 +7,8 @@ subcategory: monetization
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, monetization, paid-tier, subscription, upgrade, conversion]
-godnaterra/source: autopunk/newsletter/monetization/paid-tier-pitch-writer/SKILL.md
-godnaterra/original-name: paid-tier-pitch-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/monetization/paid-tier-pitch-writer/SKILL.md
+engenharia-ia-aplicada/original-name: paid-tier-pitch-writer
 ---
 # Paid Tier Pitch Writer
 

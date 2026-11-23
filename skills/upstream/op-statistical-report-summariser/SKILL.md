@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [statistics, summarising, plain-language, research, data]
-godnaterra/source: autopunk/research/data-statistics/statistical-report-summariser/SKILL.md
-godnaterra/original-name: statistical-report-summariser
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/statistical-report-summariser/SKILL.md
+engenharia-ia-aplicada/original-name: statistical-report-summariser
 ---
 # Statistical Report Summariser
 

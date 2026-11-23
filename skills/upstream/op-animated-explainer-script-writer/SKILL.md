@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [animation, explainer, narration, script, broadcast]
-godnaterra/source: autopunk/writing/broadcast/animated-explainer-script-writer/SKILL.md
-godnaterra/original-name: animated-explainer-script-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/animated-explainer-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: animated-explainer-script-writer
 ---
 # Animated Explainer Script Writer
 

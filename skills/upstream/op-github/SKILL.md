@@ -1,8 +1,8 @@
 ---
 name: op-github
 description: "Interact with GitHub using the `gh` CLI — PRs, issues, CI runs, code review, and API queries. Use when checking PR status, creating/commenting on issues, listing/filtering PRs, or viewing run logs."
-godnaterra/source: joshua/claude/integrations/github/SKILL.md
-godnaterra/original-name: github
+engenharia-ia-aplicada/source: joshua/claude/integrations/github/SKILL.md
+engenharia-ia-aplicada/original-name: github
 ---
 
 Use the `gh` CLI to interact with GitHub: dados informados pelo usuario na mensagem

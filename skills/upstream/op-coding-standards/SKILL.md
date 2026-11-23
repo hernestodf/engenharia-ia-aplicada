@@ -2,8 +2,8 @@
 name: op-coding-standards
 description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
 origin: ECC
-godnaterra/source: joshua/claude/codegen/coding-standards/SKILL.md
-godnaterra/original-name: coding-standards
+engenharia-ia-aplicada/source: joshua/claude/codegen/coding-standards/SKILL.md
+engenharia-ia-aplicada/original-name: coding-standards
 ---
 
 # Coding Standards & Best Practices

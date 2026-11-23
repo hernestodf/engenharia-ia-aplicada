@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [interview, questions, research, journalism, pre-production]
-godnaterra/source: autopunk/pre-production/tailored-interview-questions/SKILL.md
-godnaterra/original-name: tailored-interview-questions
+engenharia-ia-aplicada/source: autopunk/pre-production/tailored-interview-questions/SKILL.md
+engenharia-ia-aplicada/original-name: tailored-interview-questions
 ---
 # Tailored Interview Questions
 

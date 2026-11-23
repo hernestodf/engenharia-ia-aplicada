@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [timeline, research, structured-data, visual, fact-checking]
-godnaterra/source: autopunk/research/facts-context/event-timeline-compiler/SKILL.md
-godnaterra/original-name: event-timeline-compiler
+engenharia-ia-aplicada/source: autopunk/research/facts-context/event-timeline-compiler/SKILL.md
+engenharia-ia-aplicada/original-name: event-timeline-compiler
 ---
 # Event Timeline Compiler
 

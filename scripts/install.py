@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Instalador Godnaterra — isolado por cliente (padrao --scope project).
+"""Instalador EngenhariaIaAplicada — isolado por cliente (padrao --scope project).
 
 Uso:
   python3 scripts/install.py                             # DRY-RUN, nada escreve
@@ -70,7 +70,7 @@ def arquivos_canonicos(root: Path) -> list[str]:
         ("adapters", "*/*.json"),
         ("adapters", "*/*.md"),
         ("adapters", "*/*.py"),
-        ("agents", "godnaterra-*.md"),
+        ("agents", "eia-*.md"),
         ("scripts", "*.py"),
         ("tests", "*.py"),
         (".github/workflows", "*.yml"),
@@ -139,7 +139,7 @@ def destinos(scope: str, root: Path, home: Path) -> dict[str, Path]:
 
 
 def tem_backup(path: Path) -> bool:
-    return bool(sorted(path.parent.glob(f"{path.name}.bak-godnaterra-*")))
+    return bool(sorted(path.parent.glob(f"{path.name}.bak-eia-*")))
 
 
 def imprimir_plano(args: argparse.Namespace, dest: dict[str, Path], total: int) -> None:
@@ -168,7 +168,7 @@ def cmd_rollback(dest: dict[str, Path], args: argparse.Namespace) -> int:
             ok = restaurar(cfg) and ok
         else:
             print(f"  sem backup para: {cfg}")
-        for ag in sorted(AGENTES.glob("godnaterra-*.md")):
+        for ag in sorted(AGENTES.glob("eia-*.md")):
             alvo = dest["opencode_agents"] / ag.name
             if tem_backup(alvo):
                 ok = restaurar(alvo) and ok

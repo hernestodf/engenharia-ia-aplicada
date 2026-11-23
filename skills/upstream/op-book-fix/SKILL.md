@@ -9,8 +9,8 @@ description: >
   `fix-on-the-verge.md` and `fix-reframation.md`. Use after `/book-audit`
   returns YELLOW or RED. Trigger phrases: "fix this book", "remediate the
   conversion", "execute the fix prompt", "bring it to green".
-godnaterra/source: joshua/claude/content/book-fix/SKILL.md
-godnaterra/original-name: book-fix
+engenharia-ia-aplicada/source: joshua/claude/content/book-fix/SKILL.md
+engenharia-ia-aplicada/original-name: book-fix
 ---
 
 # Book Fix — Remediation Prompt Generator + Executor

@@ -7,8 +7,8 @@ subcategory: people-contacts
 version: 1.0
 eval_score: 4.2
 tags: [research, fact-checking, interview-prep, source-research, quotes]
-godnaterra/source: autopunk/research/people-contacts/prior-statements-researcher/SKILL.md
-godnaterra/original-name: prior-statements-researcher
+engenharia-ia-aplicada/source: autopunk/research/people-contacts/prior-statements-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: prior-statements-researcher
 ---
 # Prior Statements Researcher
 

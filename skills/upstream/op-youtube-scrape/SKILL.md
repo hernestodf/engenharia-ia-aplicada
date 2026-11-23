@@ -1,8 +1,8 @@
 ---
 name: op-youtube-scrape
 description: Scrape YouTube channel videos — fetches metadata, downloads transcripts via yt-dlp, chunks for search, and pulls comments. Upserts into the videos table.
-godnaterra/source: joshua/claude/research/youtube-scrape/SKILL.md
-godnaterra/original-name: youtube-scrape
+engenharia-ia-aplicada/source: joshua/claude/research/youtube-scrape/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-scrape
 ---
 
 Scrape YouTube videos: dados informados pelo usuario na mensagem

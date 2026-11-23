@@ -1,8 +1,8 @@
 ---
 name: op-integrate-stitch-template
 description: "Fully integrate a Google Stitch screen (or set of screens) into the movement-leader-html-templates platform. Given Stitch instructions (project title + ID and one or more screens with titles + screen IDs), this scaffolds the template folder, pulls the HTML + screenshot from Stitch, gives it a Framer-style name, copy-edits the content to fit the movement-leader author/pastor platform without breaking the UI, swaps placeholder/external images for local repo assets, extracts design tokens, and rebuilds + validates the catalog. Runs in both Claude Code and Cursor. Use when adding a new template from a Stitch design."
-godnaterra/source: joshua/claude/stitch/integrate-stitch-template/SKILL.md
-godnaterra/original-name: integrate-stitch-template
+engenharia-ia-aplicada/source: joshua/claude/stitch/integrate-stitch-template/SKILL.md
+engenharia-ia-aplicada/original-name: integrate-stitch-template
 ---
 
 Integrate a Stitch design into the template platform: dados informados pelo usuario na mensagem

@@ -3,12 +3,12 @@
     "id": "T01",
     "categoria": "roteamento",
     "prompt": "preciso de uma migration no schema e um contrato de API",
-    "esperado": "classificar como backend e apontar godnaterra-backend",
+    "esperado": "classificar como backend e apontar eia-backend",
     "tipo": "deterministico",
     "criterios": [
-      {"id": "C1", "descricao": "router define um papel por tarefa e nao executa", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["Um papel por tarefa", "Não lance vários subagents", "Ela não executa a tarefa"]}},
-      {"id": "C2", "descricao": "tabela cobre backend e qa-security", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["godnaterra-backend", "godnaterra-qa-security", "godnaterra-devops"]}},
-      {"id": "C3", "descricao": "fora da tabela resolva sem delegar", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["Fora dessas linhas: resolva sem delegar"]}}
+      {"id": "C1", "descricao": "router define um papel por tarefa e nao executa", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-eia-router/SKILL.md", "termos": ["Um papel por tarefa", "Não lance vários subagents", "Ela não executa a tarefa"]}},
+      {"id": "C2", "descricao": "tabela cobre backend e qa-security", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-eia-router/SKILL.md", "termos": ["eia-backend", "eia-qa-security", "eia-devops"]}},
+      {"id": "C3", "descricao": "fora da tabela resolva sem delegar", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-eia-router/SKILL.md", "termos": ["Fora dessas linhas: resolva sem delegar"]}}
     ]
   },
   {
@@ -18,7 +18,7 @@
     "esperado": "router nao contem chamadas de MCP nem markup obsoleto",
     "tipo": "deterministico",
     "criterios": [
-      {"id": "C1", "descricao": "sem chamadas MCP ou placeholders", "verificador": "arquivo_ausencia", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "proibidos": ["mcp__", "$ARGUMENTS", "/Users/", "{{"]}}
+      {"id": "C1", "descricao": "sem chamadas MCP ou placeholders", "verificador": "arquivo_ausencia", "params": {"arquivo": "skills/core/op-eia-router/SKILL.md", "proibidos": ["mcp__", "$ARGUMENTS", "/Users/", "{{"]}}
     ]
   },
   {
@@ -45,8 +45,8 @@
     "id": "T05",
     "categoria": "roteamento",
     "prompt": "preciso de uma migration no schema e um contrato de API. Qual papel e o que fica sem verificacao?",
-    "esperado": "godnaterra-backend e declarar nao verificado",
+    "esperado": "eia-backend e declarar nao verificado",
     "tipo": "llm",
-    "assercoes": {"all_of": ["godnaterra-backend", "não verificado"], "none_of": []}
+    "assercoes": {"all_of": ["eia-backend", "não verificado"], "none_of": []}
   }
 ]

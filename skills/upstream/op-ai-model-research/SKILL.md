@@ -1,8 +1,8 @@
 ---
 name: op-ai-model-research
 description: Live browser research on all major AI models — OpenAI, Gemini, Claude, and Grok. Extracts authoritative model profiles, capability breakdowns, benchmark data, use case guidance, and full pricing for every model tier. Produces a dated snapshot report with source index for future reference. Run this before ai-model-insights.
-godnaterra/source: joshua/claude/research/ai-model-research/SKILL.md
-godnaterra/original-name: ai-model-research
+engenharia-ia-aplicada/source: joshua/claude/research/ai-model-research/SKILL.md
+engenharia-ia-aplicada/original-name: ai-model-research
 ---
 
 Research and document the current state of all major AI models for: dados informados pelo usuario na mensagem

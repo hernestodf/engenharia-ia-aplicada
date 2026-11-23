@@ -11,8 +11,8 @@ description: >
   Inter body, Caveat hand, IBM Plex Mono labels, ink-blue #22409b pen, ink
   gestures, mast/screen/voice/composer, closed screen set, tonal stacking,
   hairline borders, staggered reveal, Tailwind v4, shadcn.
-godnaterra/source: joshua/claude/design/movemental-ink/SKILL.md
-godnaterra/original-name: movemental-ink
+engenharia-ia-aplicada/source: joshua/claude/design/movemental-ink/SKILL.md
+engenharia-ia-aplicada/original-name: movemental-ink
 ---
 
 # Ink Band UI (movemental-ai)

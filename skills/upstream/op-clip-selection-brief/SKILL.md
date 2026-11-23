@@ -7,8 +7,8 @@ subcategory: news-packages
 version: 1.0
 eval_score: 4.3
 tags: [radio, news, clips, actuality, selection, edit, transcript]
-godnaterra/source: autopunk/radio-audio/news-packages/clip-selection-brief/SKILL.md
-godnaterra/original-name: clip-selection-brief
+engenharia-ia-aplicada/source: autopunk/radio-audio/news-packages/clip-selection-brief/SKILL.md
+engenharia-ia-aplicada/original-name: clip-selection-brief
 ---
 # Clip Selection Brief
 

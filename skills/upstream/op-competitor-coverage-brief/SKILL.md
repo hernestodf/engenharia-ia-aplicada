@@ -7,8 +7,8 @@ subcategory: media-competitive
 version: 1.0
 eval_score: 4.2
 tags: [competitive-research, editorial-planning, story-development]
-godnaterra/source: autopunk/research/media-competitive/competitor-coverage-brief/SKILL.md
-godnaterra/original-name: competitor-coverage-brief
+engenharia-ia-aplicada/source: autopunk/research/media-competitive/competitor-coverage-brief/SKILL.md
+engenharia-ia-aplicada/original-name: competitor-coverage-brief
 ---
 # Competitor Coverage Brief
 

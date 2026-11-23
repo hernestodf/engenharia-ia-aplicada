@@ -10,8 +10,8 @@ description: >
   Use after `/book-chunk` produces an updated `chunks.jsonl`. Trigger phrases:
   "push to vector stores", "upload chunks", "phase 04 fan-out", "rag deploy",
   "smoke test rag".
-godnaterra/source: joshua/claude/content/book-rag-push/SKILL.md
-godnaterra/original-name: book-rag-push
+engenharia-ia-aplicada/source: joshua/claude/content/book-rag-push/SKILL.md
+engenharia-ia-aplicada/original-name: book-rag-push
 ---
 
 # Book RAG Push — Phase 04b: Chunks → 3 Vector Stores

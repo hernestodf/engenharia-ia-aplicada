@@ -7,8 +7,8 @@ subcategory: localization
 version: 1.0
 eval_score: 4.39
 tags: [translation, localization, regional, adaptation, variants, dialect]
-godnaterra/source: autopunk/translation/localization/regional-variant-adapter/SKILL.md
-godnaterra/original-name: regional-variant-adapter
+engenharia-ia-aplicada/source: autopunk/translation/localization/regional-variant-adapter/SKILL.md
+engenharia-ia-aplicada/original-name: regional-variant-adapter
 ---
 # Regional Variant Adapter
 

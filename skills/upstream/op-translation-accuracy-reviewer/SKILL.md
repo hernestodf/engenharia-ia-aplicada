@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [editing, translation, accuracy, localization, fact-checking, multilingual]
-godnaterra/source: autopunk/editing/translation-accuracy-reviewer/SKILL.md
-godnaterra/original-name: translation-accuracy-reviewer
+engenharia-ia-aplicada/source: autopunk/editing/translation-accuracy-reviewer/SKILL.md
+engenharia-ia-aplicada/original-name: translation-accuracy-reviewer
 ---
 # Translation Accuracy Reviewer
 

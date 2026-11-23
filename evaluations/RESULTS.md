@@ -1,5 +1,7 @@
 # Resultados das avaliações — FASE 7 + FASE 12
 
+> Nota de auditoria: os registros abaixo foram medidos sob o nome anterior (`Godnaterra`), antes do rebrand para `EngenhariaIaAplicada` em `0.5.0`. O conteúdo original foi preservado; identificadores antigos nestes arquivos são históricos, não resíduos de renomeação.
+
 ## FASE 12 — suíte de tarefas determinísticas
 
 Comando exato (sem credencial, sem registro):

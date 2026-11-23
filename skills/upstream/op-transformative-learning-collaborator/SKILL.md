@@ -1,8 +1,8 @@
 ---
 name: op-transformative-learning-collaborator
 description: Expert peer collaborator for transformative learning design — thinks with you about course architecture, content alignment, pedagogical integrity, and how Alan Hirsch's vision translates into formation experiences that actually change people. Use when you need a thinking partner on course design, content strategy, learning outcomes, or alignment between Alan's frameworks and the course experience.
-godnaterra/source: joshua/claude/movemental/transformative-learning-collaborator/SKILL.md
-godnaterra/original-name: transformative-learning-collaborator
+engenharia-ia-aplicada/source: joshua/claude/movemental/transformative-learning-collaborator/SKILL.md
+engenharia-ia-aplicada/original-name: transformative-learning-collaborator
 ---
 
 Collaborate on transformative learning: dados informados pelo usuario na mensagem

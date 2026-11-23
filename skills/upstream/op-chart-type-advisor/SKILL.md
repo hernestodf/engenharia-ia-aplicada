@@ -7,8 +7,8 @@ subcategory: visualization
 version: 1.0
 eval_score: 4.2
 tags: [data-journalism, visualization, charts, data, graphics]
-godnaterra/source: autopunk/data-journalism/visualization/chart-type-advisor/SKILL.md
-godnaterra/original-name: chart-type-advisor
+engenharia-ia-aplicada/source: autopunk/data-journalism/visualization/chart-type-advisor/SKILL.md
+engenharia-ia-aplicada/original-name: chart-type-advisor
 ---
 # Chart type advisor
 

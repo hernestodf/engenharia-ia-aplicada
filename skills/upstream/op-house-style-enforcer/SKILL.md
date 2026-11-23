@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.4
 tags: [journalism, editing, style-guide, house-style, consistency, standardization]
-godnaterra/source: autopunk/magazine-journalism/editing/house-style-enforcer/SKILL.md
-godnaterra/original-name: house-style-enforcer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/house-style-enforcer/SKILL.md
+engenharia-ia-aplicada/original-name: house-style-enforcer
 ---
 # House Style Enforcer
 

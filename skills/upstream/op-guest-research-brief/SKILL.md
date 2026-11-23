@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.5
 tags: [podcast, pre-production, research, guests, preparation]
-godnaterra/source: autopunk/podcast/pre-production/guest-research-brief/SKILL.md
-godnaterra/original-name: guest-research-brief
+engenharia-ia-aplicada/source: autopunk/podcast/pre-production/guest-research-brief/SKILL.md
+engenharia-ia-aplicada/original-name: guest-research-brief
 ---
 # Guest Research Brief
 

@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.4
 tags: [polling, surveys, public opinion, statistics, analysis]
-godnaterra/source: autopunk/data-journalism/analysis/polling-analysis-writer/SKILL.md
-godnaterra/original-name: polling-analysis-writer
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/polling-analysis-writer/SKILL.md
+engenharia-ia-aplicada/original-name: polling-analysis-writer
 ---
 # Polling Analysis Writer
 

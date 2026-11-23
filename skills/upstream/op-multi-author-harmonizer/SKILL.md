@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.44
 tags: [journalism, editing, harmonization, multi-author, consistency, voice, tone]
-godnaterra/source: autopunk/magazine-journalism/editing/multi-author-harmonizer/SKILL.md
-godnaterra/original-name: multi-author-harmonizer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/multi-author-harmonizer/SKILL.md
+engenharia-ia-aplicada/original-name: multi-author-harmonizer
 ---
 # Multi-Author Harmonizer
 

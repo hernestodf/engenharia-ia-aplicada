@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.5
 tags: [screenwriting, development, beat-sheet, structure, three-act]
-godnaterra/source: autopunk/screenwriting/development/beat-sheet-builder/SKILL.md
-godnaterra/original-name: beat-sheet-builder
+engenharia-ia-aplicada/source: autopunk/screenwriting/development/beat-sheet-builder/SKILL.md
+engenharia-ia-aplicada/original-name: beat-sheet-builder
 ---
 # Beat Sheet Builder
 

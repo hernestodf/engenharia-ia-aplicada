@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [newsletter, email, subject-line, open-rate, distribution, copywriting]
-godnaterra/source: autopunk/writing/digital-social/newsletter-subject-line-writer/SKILL.md
-godnaterra/original-name: newsletter-subject-line-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/newsletter-subject-line-writer/SKILL.md
+engenharia-ia-aplicada/original-name: newsletter-subject-line-writer
 ---
 # Newsletter Subject Line Writer
 

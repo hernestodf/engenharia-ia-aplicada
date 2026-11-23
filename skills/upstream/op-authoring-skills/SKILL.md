@@ -6,8 +6,8 @@ description: >
   fields, or deciding what content belongs in a skill vs AGENTS.md.
   Covers the supported spec fields, description writing, naming conventions,
   and the relationship between always-loaded AGENTS.md and on-demand skills.
-godnaterra/source: joshua/claude/codegen/authoring-skills/SKILL.md
-godnaterra/original-name: authoring-skills
+engenharia-ia-aplicada/source: joshua/claude/codegen/authoring-skills/SKILL.md
+engenharia-ia-aplicada/original-name: authoring-skills
 ---
 
 # Authoring Skills

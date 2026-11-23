@@ -1,8 +1,8 @@
 ---
 name: op-alan-pathway
 description: Write or update pathway pages for Alan Hirsch's platform — the 12-section architecture that introduces a framework, grounds it in Scripture and story, offers practices, and invites deeper formation. Pathways are the bridge between organic discovery (articles) and transformational engagement (courses). Written in Alan's voice as flowing prose.
-godnaterra/source: joshua/cursor/alan-pathway/SKILL.md
-godnaterra/original-name: alan-pathway
+engenharia-ia-aplicada/source: joshua/cursor/alan-pathway/SKILL.md
+engenharia-ia-aplicada/original-name: alan-pathway
 ---
 
 Author pathway content: dados informados pelo usuario na mensagem

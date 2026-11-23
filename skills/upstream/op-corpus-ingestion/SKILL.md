@@ -9,8 +9,8 @@ description: >
   book", "convert and add to corpus", "prepare source material", "add to the knowledge base",
   "batch convert documents for analysis", or any time raw heterogeneous files need to become
   clean, curated markdown assets.
-godnaterra/source: joshua/claude/content/corpus-ingestion/SKILL.md
-godnaterra/original-name: corpus-ingestion
+engenharia-ia-aplicada/source: joshua/claude/content/corpus-ingestion/SKILL.md
+engenharia-ia-aplicada/original-name: corpus-ingestion
 ---
 
 # Corpus Ingestion — MarkItDown Pipeline

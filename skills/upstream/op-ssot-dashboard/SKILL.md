@@ -1,8 +1,8 @@
 ---
 name: op-ssot-dashboard
 description: Designs and structures the Movemental living SSOT dashboard (HTML/CSS/JS). Use when creating or refining the single-source-of-truth dashboard, sidebar and content structure, or when aligning Movemental vision and docs into a docs-first, token-based, agent-friendly dashboard.
-godnaterra/source: joshua/cursor/ssot-dashboard/SKILL.md
-godnaterra/original-name: ssot-dashboard
+engenharia-ia-aplicada/source: joshua/cursor/ssot-dashboard/SKILL.md
+engenharia-ia-aplicada/original-name: ssot-dashboard
 ---
 
 # Movemental SSOT Dashboard

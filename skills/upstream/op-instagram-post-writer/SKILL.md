@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [instagram, social media, caption, hashtags, visual content, journalism, distribution]
-godnaterra/source: autopunk/writing/digital-social/instagram-post-writer/SKILL.md
-godnaterra/original-name: instagram-post-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/instagram-post-writer/SKILL.md
+engenharia-ia-aplicada/original-name: instagram-post-writer
 ---
 # Instagram Post Writer
 

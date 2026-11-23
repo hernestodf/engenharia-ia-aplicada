@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.4
 tags: [footnotes, sourcing, data journalism, publication standards, accuracy]
-godnaterra/source: autopunk/data-journalism/publishing/data-footnote-writer/SKILL.md
-godnaterra/original-name: data-footnote-writer
+engenharia-ia-aplicada/source: autopunk/data-journalism/publishing/data-footnote-writer/SKILL.md
+engenharia-ia-aplicada/original-name: data-footnote-writer
 ---
 # Data Footnote Writer
 

@@ -91,7 +91,7 @@ class InstaladorTest(unittest.TestCase):
             self.assertIn("symlinks: 0 criados", r2.stdout)
             self.assertEqual(len(list((clone / ".claude" / "skills").glob("op-*"))), 772)
 
-            backups = list((clone / ".opencode").glob("opencode.json.bak-godnaterra-*"))
+            backups = list((clone / ".opencode").glob("opencode.json.bak-eia-*"))
             self.assertEqual(len(backups), 1)
 
             r3 = executar(clone, "install.py", "--rollback", "--home", str(home))
@@ -129,7 +129,7 @@ class InstaladorTest(unittest.TestCase):
                 cfg["skills"],
                 [str(clone / "skills" / "core"), str(clone / "skills" / "upstream")],
             )
-            backups = list(cfg_path.parent.glob("opencode.json.bak-godnaterra-*"))
+            backups = list(cfg_path.parent.glob("opencode.json.bak-eia-*"))
             self.assertEqual(len(backups), 1)
             self.assertFalse((clone / ".opencode").exists(), "user scope nao deve gravar no clone")
 

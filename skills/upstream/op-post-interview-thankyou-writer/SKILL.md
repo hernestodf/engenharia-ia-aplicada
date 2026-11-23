@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [email, thank-you, source relations, interview follow-up, journalism]
-godnaterra/source: autopunk/writing/institutional/post-interview-thankyou-writer/SKILL.md
-godnaterra/original-name: post-interview-thankyou-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/post-interview-thankyou-writer/SKILL.md
+engenharia-ia-aplicada/original-name: post-interview-thankyou-writer
 ---
 # Post-Interview Thank-You Writer
 

@@ -7,8 +7,8 @@ subcategory: crisis-comms
 version: 1.0
 eval_score: 4.5
 tags: [pr, crisis, holding-statement, crisis-comms, breaking]
-godnaterra/source: autopunk/pr-communications/crisis-comms/holding-statement-writer/SKILL.md
-godnaterra/original-name: holding-statement-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/crisis-comms/holding-statement-writer/SKILL.md
+engenharia-ia-aplicada/original-name: holding-statement-writer
 ---
 # Holding Statement Writer
 

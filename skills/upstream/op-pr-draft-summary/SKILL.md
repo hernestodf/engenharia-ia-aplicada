@@ -1,8 +1,8 @@
 ---
 name: op-pr-draft-summary
 description: Create the required PR-ready summary block, branch suggestion, title, and draft description for openai-agents-js. Use in the final handoff after moderate-or-larger changes to runtime code, tests, examples, build/test configuration, or docs with behavior impact; skip only for trivial or conversation-only tasks, repo-meta/doc-only tasks without behavior impact, or when the user explicitly says not to include the PR draft block.
-godnaterra/source: joshua/vendor/skills-openai/pr-draft-summary/SKILL.md
-godnaterra/original-name: pr-draft-summary
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/pr-draft-summary/SKILL.md
+engenharia-ia-aplicada/original-name: pr-draft-summary
 ---
 
 # PR Draft Summary

@@ -7,8 +7,8 @@ subcategory: logistics
 version: 1.0
 eval_score: 4.39
 tags: [research, logistics, travel, reporting-trip, planning, safety]
-godnaterra/source: autopunk/research/logistics/travel-logistics-brief/SKILL.md
-godnaterra/original-name: travel-logistics-brief
+engenharia-ia-aplicada/source: autopunk/research/logistics/travel-logistics-brief/SKILL.md
+engenharia-ia-aplicada/original-name: travel-logistics-brief
 ---
 # Travel Logistics Brief
 

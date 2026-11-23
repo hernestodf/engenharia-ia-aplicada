@@ -1,8 +1,8 @@
 ---
 name: op-ml-template-from-reference
 description: Build an HTML/CSS/JS movement-leader template (home + content library + articles) whose visual design matches a provided reference image (or images) exactly. The movemental (alan-hirsch) navigation structure is fixed and consistent across leaders; everything else — color, type, layout, density, motifs — is extracted from the reference. The reference image(s) and an extracted style-spec are archived inside the template directory so future passes can re-consult them.
-godnaterra/source: joshua/claude/movemental/ml-template-from-reference/SKILL.md
-godnaterra/original-name: ml-template-from-reference
+engenharia-ia-aplicada/source: joshua/claude/movemental/ml-template-from-reference/SKILL.md
+engenharia-ia-aplicada/original-name: ml-template-from-reference
 ---
 
 Build a movement-leader HTML template whose visual design matches a reference image: dados informados pelo usuario na mensagem

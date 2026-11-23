@@ -1,8 +1,8 @@
 ---
 name: op-agent-tool
 description: Create or modify an OpenAI Agents SDK tool with Zod params, caching, metrics, and agent registration. Use when adding tools to agents.
-godnaterra/source: joshua/claude/agents/agent-tool/SKILL.md
-godnaterra/original-name: agent-tool
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-tool/SKILL.md
+engenharia-ia-aplicada/original-name: agent-tool
 ---
 
 Create or modify an agent tool: dados informados pelo usuario na mensagem

@@ -1,8 +1,8 @@
 ---
 name: op-examples-auto-run
 description: Run examples:start-all in auto mode with parallel execution, per-script logs, and start/stop helpers.
-godnaterra/source: joshua/vendor/skills-openai/examples-auto-run/SKILL.md
-godnaterra/original-name: examples-auto-run
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/examples-auto-run/SKILL.md
+engenharia-ia-aplicada/original-name: examples-auto-run
 ---
 
 # examples-auto-run

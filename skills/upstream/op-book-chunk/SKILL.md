@@ -10,8 +10,8 @@ description: >
   providers via `/book-rag-push`. Use after `/book-ingest` reports changed
   chapters. Trigger phrases: "chunk this book", "build chunks.jsonl",
   "phase 04 chunker", "generate retrieval units".
-godnaterra/source: joshua/claude/content/book-chunk/SKILL.md
-godnaterra/original-name: book-chunk
+engenharia-ia-aplicada/source: joshua/claude/content/book-chunk/SKILL.md
+engenharia-ia-aplicada/original-name: book-chunk
 ---
 
 # Book Chunk — Phase 04a: Canonical chunks.jsonl

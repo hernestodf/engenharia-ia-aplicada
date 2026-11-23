@@ -1,8 +1,8 @@
 ---
 name: op-audit-experience
 description: Audit the course learn experience for section coverage, sidebar rendering, layout, design token compliance, tenant isolation, accessibility, data flow, and component quality. Use when reviewing course UI code quality or diagnosing learn experience issues. Pass a course slug or "all".
-godnaterra/source: joshua/claude/design/audit-experience/SKILL.md
-godnaterra/original-name: audit-experience
+engenharia-ia-aplicada/source: joshua/claude/design/audit-experience/SKILL.md
+engenharia-ia-aplicada/original-name: audit-experience
 ---
 
 Audit the course learn experience: dados informados pelo usuario na mensagem

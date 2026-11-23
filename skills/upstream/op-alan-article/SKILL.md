@@ -1,8 +1,8 @@
 ---
 name: op-alan-article
 description: Write cornerstone articles in Alan Hirsch's voice — pillar/cluster/long-tail content with full SEO/GEO architecture, corpus research, and proper citations. Creates organic discovery content that helps people find Alan, understand his frameworks, and want to go deeper on a transformational journey.
-godnaterra/source: joshua/cursor/alan-article/SKILL.md
-godnaterra/original-name: alan-article
+engenharia-ia-aplicada/source: joshua/cursor/alan-article/SKILL.md
+engenharia-ia-aplicada/original-name: alan-article
 ---
 
 Write a cornerstone article about: dados informados pelo usuario na mensagem

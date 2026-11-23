@@ -1,8 +1,8 @@
 ---
 name: op-final-release-review
 description: Perform a release-readiness review by locating the previous release tag from remote tags and auditing the diff (e.g., v1.2.3...<commit>) for breaking changes, regressions, improvement opportunities, and risks before releasing openai-agents-js.
-godnaterra/source: joshua/vendor/skills-openai/final-release-review/SKILL.md
-godnaterra/original-name: final-release-review
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/final-release-review/SKILL.md
+engenharia-ia-aplicada/original-name: final-release-review
 ---
 
 # Final Release Review

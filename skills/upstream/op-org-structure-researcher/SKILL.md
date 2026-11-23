@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [research, organisations, institutions, structure, hierarchy, background]
-godnaterra/source: autopunk/research/facts-context/org-structure-researcher/SKILL.md
-godnaterra/original-name: org-structure-researcher
+engenharia-ia-aplicada/source: autopunk/research/facts-context/org-structure-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: org-structure-researcher
 ---
 # Org Structure Researcher
 

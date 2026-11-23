@@ -1,8 +1,8 @@
 ---
 name: op-validate
 description: Run bottom-up layer validation and fix all errors. Use before starting work on any layer or to check project health. Follow the Lock-Before-Proceed and Error Fixing Protocol.
-godnaterra/source: joshua/claude/infrastructure/validate/SKILL.md
-godnaterra/original-name: validate
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/validate/SKILL.md
+engenharia-ia-aplicada/original-name: validate
 ---
 
 # Type safety chain: error check and fix

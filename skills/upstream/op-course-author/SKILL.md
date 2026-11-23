@@ -1,8 +1,8 @@
 ---
 name: op-course-author
 description: Generate course content for a specific section of the transformation loop, following the actual mDNA course structure, Charter requirements, and Alan Hirsch's voice. Use when writing individual course sections.
-godnaterra/source: joshua/repo-specific/adam-seiz/jsh-course-author-2/SKILL.md
-godnaterra/original-name: course-author
+engenharia-ia-aplicada/source: joshua/repo-specific/adam-seiz/jsh-course-author-2/SKILL.md
+engenharia-ia-aplicada/original-name: course-author
 ---
 
 Author course content: dados informados pelo usuario na mensagem

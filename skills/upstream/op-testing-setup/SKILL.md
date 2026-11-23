@@ -1,8 +1,8 @@
 ---
 name: op-testing-setup
 description: "Bootstrap Vitest (unit + integration) and Playwright (e2e) test infrastructure for Next.js 15 or Vite + React — config files, test utilities, fixture factories, database test helpers, and CI integration. Use when adding tests to a new or existing project."
-godnaterra/source: joshua/claude/infrastructure/testing-setup/SKILL.md
-godnaterra/original-name: testing-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/testing-setup/SKILL.md
+engenharia-ia-aplicada/original-name: testing-setup
 ---
 
 Set up testing infrastructure: dados informados pelo usuario na mensagem

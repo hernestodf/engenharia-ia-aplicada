@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [journalism, source-management, email, outreach, interview-request]
-godnaterra/source: autopunk/writing/institutional/source-followup-email-writer/SKILL.md
-godnaterra/original-name: source-followup-email-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/source-followup-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: source-followup-email-writer
 ---
 # Source Follow-Up Email Writer
 

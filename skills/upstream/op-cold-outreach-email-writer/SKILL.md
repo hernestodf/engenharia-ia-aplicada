@@ -7,8 +7,8 @@ subcategory: pitching
 version: 1.0
 eval_score: 4.4
 tags: [media-business, pitching, outreach, email, commissioning]
-godnaterra/source: autopunk/media-business/pitching/cold-outreach-email-writer/SKILL.md
-godnaterra/original-name: cold-outreach-email-writer
+engenharia-ia-aplicada/source: autopunk/media-business/pitching/cold-outreach-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: cold-outreach-email-writer
 ---
 # Cold Outreach Email Writer
 

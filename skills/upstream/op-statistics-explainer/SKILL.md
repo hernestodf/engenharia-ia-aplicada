@@ -7,8 +7,8 @@ subcategory: analysis
 version: 1.0
 eval_score: 4.6
 tags: [statistics, plain language, accuracy, numeracy]
-godnaterra/source: autopunk/data-journalism/analysis/statistics-explainer/SKILL.md
-godnaterra/original-name: statistics-explainer
+engenharia-ia-aplicada/source: autopunk/data-journalism/analysis/statistics-explainer/SKILL.md
+engenharia-ia-aplicada/original-name: statistics-explainer
 ---
 # Statistics Explainer
 

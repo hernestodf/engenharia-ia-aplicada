@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [verification, documents, red-flags, fact-checking, investigation]
-godnaterra/source: autopunk/research/facts-context/document-authenticity-checker/SKILL.md
-godnaterra/original-name: document-authenticity-checker
+engenharia-ia-aplicada/source: autopunk/research/facts-context/document-authenticity-checker/SKILL.md
+engenharia-ia-aplicada/original-name: document-authenticity-checker
 ---
 # Document Authenticity Checker
 

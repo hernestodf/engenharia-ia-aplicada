@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.2
 tags: [attribution, fact-checking, sourcing, editing, journalism]
-godnaterra/source: autopunk/editing/unattributed-claims-checker/SKILL.md
-godnaterra/original-name: unattributed-claims-checker
+engenharia-ia-aplicada/source: autopunk/editing/unattributed-claims-checker/SKILL.md
+engenharia-ia-aplicada/original-name: unattributed-claims-checker
 ---
 # Unattributed Claims Checker
 

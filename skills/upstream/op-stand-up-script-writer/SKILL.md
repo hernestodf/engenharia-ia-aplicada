@@ -7,8 +7,8 @@ subcategory: scripting
 version: 1.0
 eval_score: 4.42
 tags: [broadcast, scripting, stand-up, reporter, news, piece-to-camera, radio, field-reporting]
-godnaterra/source: autopunk/radio-audio/scripting/stand-up-script-writer/SKILL.md
-godnaterra/original-name: stand-up-script-writer
+engenharia-ia-aplicada/source: autopunk/radio-audio/scripting/stand-up-script-writer/SKILL.md
+engenharia-ia-aplicada/original-name: stand-up-script-writer
 ---
 # Stand-Up Script Writer
 

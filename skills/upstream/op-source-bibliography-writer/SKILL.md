@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [bibliography, citations, sourcing, fact-checking, AP-style, Chicago-style, APA-style]
-godnaterra/source: autopunk/archive-legal/source-bibliography-writer/SKILL.md
-godnaterra/original-name: source-bibliography-writer
+engenharia-ia-aplicada/source: autopunk/archive-legal/source-bibliography-writer/SKILL.md
+engenharia-ia-aplicada/original-name: source-bibliography-writer
 ---
 # Source Bibliography Writer
 

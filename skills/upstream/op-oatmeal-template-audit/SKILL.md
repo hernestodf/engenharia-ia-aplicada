@@ -1,8 +1,8 @@
 ---
 name: op-oatmeal-template-audit
 description: Audit and refine an HTML page in `1-html/by-template-family/ml-templates/oatmeal/` against the canonical Oatmeal template fingerprint — tokens, primitives, components, layout vocabulary, decorative motifs. Use whenever a new page is built in the oatmeal directory, when a page is being refined for template fidelity, or when the user says "make this look like the oatmeal template," "audit this against oatmeal," "is this on-brand for oatmeal," or "apply oatmeal styling." Complements `movemental-page-auditor` (which judges narrative/proof) and `jsh-page-audit` (which judges DESIGN.md compliance) — this skill judges **template fidelity only**.
-godnaterra/source: joshua/claude/movemental/oatmeal-template-audit/SKILL.md
-godnaterra/original-name: oatmeal-template-audit
+engenharia-ia-aplicada/source: joshua/claude/movemental/oatmeal-template-audit/SKILL.md
+engenharia-ia-aplicada/original-name: oatmeal-template-audit
 ---
 
 # Oatmeal template audit

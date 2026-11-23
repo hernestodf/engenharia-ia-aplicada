@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.39
 tags: [business, legal, copyright, rights, research, clearance, licensing]
-godnaterra/source: autopunk/media-business/legal/copyright-holder-finder/SKILL.md
-godnaterra/original-name: copyright-holder-finder
+engenharia-ia-aplicada/source: autopunk/media-business/legal/copyright-holder-finder/SKILL.md
+engenharia-ia-aplicada/original-name: copyright-holder-finder
 ---
 # Copyright Holder Finder
 

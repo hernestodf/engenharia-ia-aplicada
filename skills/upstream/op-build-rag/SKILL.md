@@ -1,8 +1,8 @@
 ---
 name: op-build-rag
 description: Build or modify a RAG (retrieval-augmented generation) pipeline — use when asked to set up vector search, file_search tool integration, intent-based retrieval routing, citation rendering, or book fidelity enforcement for an agent.
-godnaterra/source: joshua/claude/agents/build-rag/SKILL.md
-godnaterra/original-name: build-rag
+engenharia-ia-aplicada/source: joshua/claude/agents/build-rag/SKILL.md
+engenharia-ia-aplicada/original-name: build-rag
 ---
 
 Build or modify RAG pipeline: dados informados pelo usuario na mensagem

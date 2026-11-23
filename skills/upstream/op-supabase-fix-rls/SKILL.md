@@ -1,8 +1,8 @@
 ---
 name: op-supabase-fix-rls
 description: Take an RLS finding from supabase-security-audit (or a free-form description of an RLS issue) and apply a reviewed fix via the Supabase MCP. Handles the four common patterns — RLS disabled, RLS enabled with no policies, overly permissive policies, missing tenant scope — plus a bonus path for excessive role grants. Every write is gated on explicit operator approval. Use when asked to "fix RLS on X", "lock down table Y", "harden the audit findings", or "remediate Supabase advisories".
-godnaterra/source: joshua/claude/infrastructure/supabase-fix-rls/SKILL.md
-godnaterra/original-name: supabase-fix-rls
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/supabase-fix-rls/SKILL.md
+engenharia-ia-aplicada/original-name: supabase-fix-rls
 ---
 
 Fix an RLS issue on Supabase: dados informados pelo usuario na mensagem

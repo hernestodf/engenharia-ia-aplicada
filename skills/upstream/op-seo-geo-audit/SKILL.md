@@ -1,8 +1,8 @@
 ---
 name: op-seo-geo-audit
 description: Audit a web page or site for technical SEO and GEO (generative engine optimization, i.e. being cited by AI answer engines). Use when the user asks for an SEO audit, ranking fixes, schema markup review, Core Web Vitals triage, or how to get cited by ChatGPT, Perplexity, Gemini or Claude.
-godnaterra/source: techsaurabh/seo-geo-audit/SKILL.md
-godnaterra/original-name: seo-geo-audit
+engenharia-ia-aplicada/source: techsaurabh/seo-geo-audit/SKILL.md
+engenharia-ia-aplicada/original-name: seo-geo-audit
 ---
 
 # SEO + GEO Audit

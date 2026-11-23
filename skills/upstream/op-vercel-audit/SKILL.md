@@ -1,8 +1,8 @@
 ---
 name: op-vercel-audit
 description: Audit Vercel deployment configuration for correctness and optimization — vercel.json, serverless functions, environment variables, headers, rewrites, and regions. Use before deploying or after config changes.
-godnaterra/source: joshua/claude/infrastructure/vercel-audit/SKILL.md
-godnaterra/original-name: vercel-audit
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/vercel-audit/SKILL.md
+engenharia-ia-aplicada/original-name: vercel-audit
 ---
 
 Audit the Vercel deployment configuration for this Vite + Express SPA project. Check for correctness, security, and optimization opportunities.

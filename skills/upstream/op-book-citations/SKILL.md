@@ -6,8 +6,8 @@ description: >-
   compile to noteref HTML + chapter_notes, convert-hook assertions, review queue. Use when
   restoring citations, fixing [^n]n duplicates or bare digits, Phase 5 citation integration,
   convert_hook, or assert_notes_markers — never invent note bodies or marker positions.
-godnaterra/source: joshua/cursor/book-citations/SKILL.md
-godnaterra/original-name: book-citations
+engenharia-ia-aplicada/source: joshua/cursor/book-citations/SKILL.md
+engenharia-ia-aplicada/original-name: book-citations
 ---
 
 # Book citations

@@ -7,8 +7,8 @@ subcategory: formatting
 version: 1.0
 eval_score: 4.33
 tags: [production-support, bio, author, publishing, formatting, byline]
-godnaterra/source: autopunk/production-support/formatting/author-bio-writer/SKILL.md
-godnaterra/original-name: author-bio-writer
+engenharia-ia-aplicada/source: autopunk/production-support/formatting/author-bio-writer/SKILL.md
+engenharia-ia-aplicada/original-name: author-bio-writer
 ---
 # Author Bio Writer
 

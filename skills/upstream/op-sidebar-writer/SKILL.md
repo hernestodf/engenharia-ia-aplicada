@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [sidebar, infobox, fact-box, print, digital, supplementary]
-godnaterra/source: autopunk/writing/articles/sidebar-writer/SKILL.md
-godnaterra/original-name: sidebar-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/sidebar-writer/SKILL.md
+engenharia-ia-aplicada/original-name: sidebar-writer
 ---
 # Sidebar Writer
 

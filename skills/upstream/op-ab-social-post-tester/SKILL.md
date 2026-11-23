@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.50
 tags: [social-media, A/B-testing, optimization, engagement, strategy, copywriting]
-godnaterra/source: autopunk/social-media/strategy/ab-social-post-tester/SKILL.md
-godnaterra/original-name: ab-social-post-tester
+engenharia-ia-aplicada/source: autopunk/social-media/strategy/ab-social-post-tester/SKILL.md
+engenharia-ia-aplicada/original-name: ab-social-post-tester
 ---
 # A/B Social Post Tester
 

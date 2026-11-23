@@ -1,8 +1,8 @@
 ---
 name: op-pnpm-upgrade
 description: 'Keep pnpm current: run pnpm self-update/corepack prepare, align packageManager in package.json, and bump pnpm/action-setup + pinned pnpm versions in .github/workflows to the latest release. Use this when refreshing the pnpm toolchain manually or in automation.'
-godnaterra/source: joshua/vendor/skills-openai/pnpm-upgrade/SKILL.md
-godnaterra/original-name: pnpm-upgrade
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/pnpm-upgrade/SKILL.md
+engenharia-ia-aplicada/original-name: pnpm-upgrade
 ---
 
 # pnpm Upgrade

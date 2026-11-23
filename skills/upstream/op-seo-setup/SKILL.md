@@ -1,8 +1,8 @@
 ---
 name: op-seo-setup
 description: "Set up SEO infrastructure for Next.js 15 — Metadata API (title, description, OG, Twitter), dynamic sitemap.xml, robots.txt, structured data (JSON-LD), canonical URLs, and OG image generation via Next.js ImageResponse. Use when launching any public-facing page or site."
-godnaterra/source: joshua/claude/infrastructure/seo-setup/SKILL.md
-godnaterra/original-name: seo-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/seo-setup/SKILL.md
+engenharia-ia-aplicada/original-name: seo-setup
 ---
 
 Set up SEO infrastructure: dados informados pelo usuario na mensagem

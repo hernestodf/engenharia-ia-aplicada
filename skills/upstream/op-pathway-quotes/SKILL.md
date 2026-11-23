@@ -1,8 +1,8 @@
 ---
 name: op-pathway-quotes
 description: Find, verify, and curate quotes from Alan Hirsch's books for pathway pages. Conducts corpus research across all 13 books, extracts verbatim passages, verifies attribution, and produces 3–5 citable pull quotes per pathway — definitional, prophetic, and pastoral. These are the sentences AI engines will cite verbatim.
-godnaterra/source: joshua/repo-specific/alan-hirsch/pathway-quotes/SKILL.md
-godnaterra/original-name: pathway-quotes
+engenharia-ia-aplicada/source: joshua/repo-specific/alan-hirsch/pathway-quotes/SKILL.md
+engenharia-ia-aplicada/original-name: pathway-quotes
 ---
 
 Find and curate quotes for: dados informados pelo usuario na mensagem

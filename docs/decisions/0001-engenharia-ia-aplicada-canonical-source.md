@@ -1,4 +1,4 @@
-# ADR 0001 — Godnaterra como fonte canônica
+# ADR 0001 — EngenhariaIaAplicada como fonte canônica
 
 - **Data:** 2026-11-18
 - **Status:** Aceito
@@ -18,14 +18,14 @@ Ao mesmo tempo, existia uma proposta de engenharia de IA com núcleo vendor-free
 
 ## Decisão
 
-Criar `~/.config/opencode/skill-packs/godnaterra` como **única fonte canônica**, com:
+Criar `~/.config/opencode/skill-packs/engenharia-ia-aplicada` como **única fonte canônica**, com:
 
 1. Núcleo genérico e vendor-free em Markdown.
 2. `profox-go` e `legacy-php` como **perfis opcionais**, não donos do pacote.
 3. As 879 skills portadas para `skills/upstream/` com prefixo `op-`.
 4. Packs originais **preservados em disco** como rollback; `MANIFESTO.md` rastreia origem → destino.
 5. Adaptadores (`opencode`, `claude-code`) **gerados a partir da fonte canônica**, nunca editados como verdade independente.
-6. Modo padrão `godnaterra`: todas as skills visíveis (`autoinvoke: true`), conforme escolha do operador.
+6. Modo padrão `EngenhariaIaAplicada`: todas as skills visíveis (`autoinvoke: true`), conforme escolha do operador.
 
 ## Consequências
 

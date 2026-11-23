@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [data, statistics, metrics, percentages, per-capita, journalism-math]
-godnaterra/source: autopunk/research/data-statistics/derived-metrics-calculator/SKILL.md
-godnaterra/original-name: derived-metrics-calculator
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/derived-metrics-calculator/SKILL.md
+engenharia-ia-aplicada/original-name: derived-metrics-calculator
 ---
 # Derived Metrics Calculator
 

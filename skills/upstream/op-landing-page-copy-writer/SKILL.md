@@ -7,8 +7,8 @@ subcategory: growth
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, growth, landing-page, subscribe, conversion, copywriting]
-godnaterra/source: autopunk/newsletter/growth/landing-page-copy-writer/SKILL.md
-godnaterra/original-name: landing-page-copy-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/growth/landing-page-copy-writer/SKILL.md
+engenharia-ia-aplicada/original-name: landing-page-copy-writer
 ---
 # Landing Page Copy Writer
 

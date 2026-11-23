@@ -1,8 +1,8 @@
 ---
 name: op-sentry-setup
 description: Set up Sentry error monitoring for a Vite + React 19 SPA with Express API — client SDK, server SDK, error boundaries, source maps, and Vercel serverless support.
-godnaterra/source: joshua/claude/infrastructure/sentry-setup/SKILL.md
-godnaterra/original-name: sentry-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/sentry-setup/SKILL.md
+engenharia-ia-aplicada/original-name: sentry-setup
 ---
 
 Set up Sentry error monitoring: dados informados pelo usuario na mensagem

@@ -10,8 +10,8 @@ description: >
   migration before merge", "is this slice done", or finishes a page-port. Tenant-agnostic:
   leak grep patterns and route scope come from TENANT_MANIFEST.md. This is the UI gate;
   full backend validation lives in tenant-backend-parity.
-godnaterra/source: joshua/claude/movemental/stitch-migration-validate/SKILL.md
-godnaterra/original-name: stitch-migration-validate
+engenharia-ia-aplicada/source: joshua/claude/movemental/stitch-migration-validate/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-migration-validate
 ---
 
 # Stitch migration validation gate

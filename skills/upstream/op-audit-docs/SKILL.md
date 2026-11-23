@@ -1,6 +1,6 @@
 ---
 name: op-audit-docs
-description: Skill portada para Godnaterra.
+description: Skill portada para EngenhariaIaAplicada.
 ---
 
 # Type Safety Documentation Audit & Update

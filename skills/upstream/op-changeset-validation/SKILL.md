@@ -1,8 +1,8 @@
 ---
 name: op-changeset-validation
 description: Validate changesets in openai-agents-js using LLM judgment against git diffs (including uncommitted local changes). Use when packages/ or .changeset/ are modified, or when verifying PR changeset compliance and bump level.
-godnaterra/source: joshua/vendor/skills-openai/changeset-validation/SKILL.md
-godnaterra/original-name: changeset-validation
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/changeset-validation/SKILL.md
+engenharia-ia-aplicada/original-name: changeset-validation
 ---
 
 # Changeset Validation

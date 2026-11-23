@@ -7,8 +7,8 @@ subcategory: data-statistics
 version: 1.0
 eval_score: 4.2
 tags: [statistics, research, data, journalism, fact-checking]
-godnaterra/source: autopunk/research/data-statistics/statistics-researcher/SKILL.md
-godnaterra/original-name: statistics-researcher
+engenharia-ia-aplicada/source: autopunk/research/data-statistics/statistics-researcher/SKILL.md
+engenharia-ia-aplicada/original-name: statistics-researcher
 ---
 # Statistics Researcher
 

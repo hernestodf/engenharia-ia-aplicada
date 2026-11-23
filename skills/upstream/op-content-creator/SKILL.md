@@ -6,8 +6,8 @@ description: |
   engaging headlines, or when user mentions content creation, blogging, social media, or
   audience engagement.
 license: MIT
-godnaterra/source: joshua/claude/content/content-creator/SKILL.md
-godnaterra/original-name: content-creator
+engenharia-ia-aplicada/source: joshua/claude/content/content-creator/SKILL.md
+engenharia-ia-aplicada/original-name: content-creator
 ---
 
 # Content Creator

@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.1
 eval_score: 4.66
 tags: [documentary, pre-production, archive, research, footage]
-godnaterra/source: autopunk/tv-documentary/pre-production/archival-footage-brief/SKILL.md
-godnaterra/original-name: archival-footage-brief
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/archival-footage-brief/SKILL.md
+engenharia-ia-aplicada/original-name: archival-footage-brief
 ---
 # Archival Footage Brief
 

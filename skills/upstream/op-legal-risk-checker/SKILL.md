@@ -7,8 +7,8 @@ subcategory: legal
 version: 1.0
 eval_score: 4.2
 tags: [legal, defamation, privacy, contempt, risk, editorial, pre-publication]
-godnaterra/source: autopunk/archive-legal/legal-risk-checker/SKILL.md
-godnaterra/original-name: legal-risk-checker
+engenharia-ia-aplicada/source: autopunk/archive-legal/legal-risk-checker/SKILL.md
+engenharia-ia-aplicada/original-name: legal-risk-checker
 ---
 # Legal Risk Checker
 

@@ -7,8 +7,8 @@ subcategory: scientific-academic
 version: 1.0
 eval_score: 4.2
 tags: [research, science, meta-analysis, systematic-review, evidence, health]
-godnaterra/source: autopunk/research/scientific-academic/meta-analysis-finder/SKILL.md
-godnaterra/original-name: meta-analysis-finder
+engenharia-ia-aplicada/source: autopunk/research/scientific-academic/meta-analysis-finder/SKILL.md
+engenharia-ia-aplicada/original-name: meta-analysis-finder
 ---
 # Meta-Analysis Finder
 

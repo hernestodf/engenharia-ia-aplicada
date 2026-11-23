@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.5
 tags: [youtube, pre-production, ideas, niche, ideation]
-godnaterra/source: autopunk/youtube/pre-production/niche-video-idea-generator/SKILL.md
-godnaterra/original-name: niche-video-idea-generator
+engenharia-ia-aplicada/source: autopunk/youtube/pre-production/niche-video-idea-generator/SKILL.md
+engenharia-ia-aplicada/original-name: niche-video-idea-generator
 ---
 # Niche Video Idea Generator
 

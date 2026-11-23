@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [facebook, social media, post, distribution, audience engagement, journalism]
-godnaterra/source: autopunk/writing/digital-social/facebook-post-writer/SKILL.md
-godnaterra/original-name: facebook-post-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/facebook-post-writer/SKILL.md
+engenharia-ia-aplicada/original-name: facebook-post-writer
 ---
 # Facebook Post Writer
 

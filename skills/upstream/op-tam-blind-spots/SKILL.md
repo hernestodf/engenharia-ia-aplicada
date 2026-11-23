@@ -1,8 +1,8 @@
 ---
 name: op-tam-blind-spots
 description: Search the structural blind spots that network mapping misses — domain practitioners, justice/reconciliation voices, worship/liturgy, academic theologians, and marketplace leaders who embody movemental DNA without participating in the explicit Forge/5Q/Exponential network
-godnaterra/source: joshua/claude/movemental/tam-blind-spots/SKILL.md
-godnaterra/original-name: tam-blind-spots
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-blind-spots/SKILL.md
+engenharia-ia-aplicada/original-name: tam-blind-spots
 ---
 
 # TAM Blind Spots: Find What Network Mapping Misses

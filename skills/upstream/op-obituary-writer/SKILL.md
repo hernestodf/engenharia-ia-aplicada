@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [obituary, death-notices, tribute, biography, news-writing]
-godnaterra/source: autopunk/writing/articles/obituary-writer/SKILL.md
-godnaterra/original-name: obituary-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/obituary-writer/SKILL.md
+engenharia-ia-aplicada/original-name: obituary-writer
 ---
 # Obituary Writer
 

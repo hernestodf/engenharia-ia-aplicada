@@ -1,8 +1,8 @@
 ---
 name: op-writing-agent-builder
 description: Architect AI agents that write well — system prompt design, voice integration, tool selection, RAG for source material, guardrails for quality, and multi-agent writing pipelines. Use when building any agent whose primary output is prose (stories, articles, copy, dialogue, scripts).
-godnaterra/source: joshua/claude/content/writing-agent-builder/SKILL.md
-godnaterra/original-name: writing-agent-builder
+engenharia-ia-aplicada/source: joshua/claude/content/writing-agent-builder/SKILL.md
+engenharia-ia-aplicada/original-name: writing-agent-builder
 ---
 
 Build or improve a writing agent: dados informados pelo usuario na mensagem

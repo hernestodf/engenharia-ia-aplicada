@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.42
 tags: [journalism, writing, review, criticism, culture, arts, books, film]
-godnaterra/source: autopunk/magazine-journalism/writing/review-writer/SKILL.md
-godnaterra/original-name: review-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/review-writer/SKILL.md
+engenharia-ia-aplicada/original-name: review-writer
 ---
 # Review Writer
 

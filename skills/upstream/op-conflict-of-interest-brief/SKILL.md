@@ -7,8 +7,8 @@ subcategory: facts-context
 version: 1.0
 eval_score: 4.2
 tags: [sourcing, conflicts-of-interest, editorial-judgment, investigation, transparency]
-godnaterra/source: autopunk/research/facts-context/conflict-of-interest-brief/SKILL.md
-godnaterra/original-name: conflict-of-interest-brief
+engenharia-ia-aplicada/source: autopunk/research/facts-context/conflict-of-interest-brief/SKILL.md
+engenharia-ia-aplicada/original-name: conflict-of-interest-brief
 ---
 # Conflict of Interest Brief
 

@@ -1,8 +1,8 @@
 ---
 name: op-stitch-build
 description: Create a Stitch project and generate screens from a feature specification or user description. Calls Stitch MCP tools directly to build screens one at a time, following best practices for Stitch prompting.
-godnaterra/source: joshua/claude/stitch/stitch-build/SKILL.md
-godnaterra/original-name: stitch-build
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-build/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-build
 ---
 
 Build screens in Stitch for: dados informados pelo usuario na mensagem

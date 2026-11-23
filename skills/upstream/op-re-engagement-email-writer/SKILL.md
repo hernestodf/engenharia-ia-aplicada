@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, writing, re-engagement, churn, retention, inactive-subscribers]
-godnaterra/source: autopunk/newsletter/writing/re-engagement-email-writer/SKILL.md
-godnaterra/original-name: re-engagement-email-writer
+engenharia-ia-aplicada/source: autopunk/newsletter/writing/re-engagement-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: re-engagement-email-writer
 ---
 # Re-Engagement Email Writer
 

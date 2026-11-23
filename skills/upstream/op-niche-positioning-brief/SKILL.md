@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.5
 tags: [newsletter, strategy, positioning, niche, launch, differentiation, editorial-identity]
-godnaterra/source: autopunk/newsletter/strategy/niche-positioning-brief/SKILL.md
-godnaterra/original-name: niche-positioning-brief
+engenharia-ia-aplicada/source: autopunk/newsletter/strategy/niche-positioning-brief/SKILL.md
+engenharia-ia-aplicada/original-name: niche-positioning-brief
 ---
 # Niche Positioning Brief
 

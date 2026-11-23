@@ -7,8 +7,8 @@ subcategory: locations-logistics
 version: 1.0
 eval_score: 4.2
 tags: [equipment, logistics, pre-production, field, crew]
-godnaterra/source: autopunk/research/locations-logistics/shoot-equipment-list/SKILL.md
-godnaterra/original-name: shoot-equipment-list
+engenharia-ia-aplicada/source: autopunk/research/locations-logistics/shoot-equipment-list/SKILL.md
+engenharia-ia-aplicada/original-name: shoot-equipment-list
 ---
 # Shoot Equipment List
 

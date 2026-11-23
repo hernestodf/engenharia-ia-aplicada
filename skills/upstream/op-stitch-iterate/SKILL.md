@@ -1,8 +1,8 @@
 ---
 name: op-stitch-iterate
 description: Refine and edit existing Stitch screens using targeted prompts. Uses edit_screens to adjust content, functionality, or states without regenerating from scratch.
-godnaterra/source: joshua/claude/stitch/stitch-iterate/SKILL.md
-godnaterra/original-name: stitch-iterate
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-iterate/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-iterate
 ---
 
 Iterate on Stitch screens: dados informados pelo usuario na mensagem

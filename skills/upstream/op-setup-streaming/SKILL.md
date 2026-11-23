@@ -1,8 +1,8 @@
 ---
 name: op-setup-streaming
 description: Set up or debug agent streaming — use when asked to implement SSE streaming, handle ChatKit event types, fix stream stalls or session continuity issues, or wire streaming between an agent API route and a React client.
-godnaterra/source: joshua/claude/agents/setup-streaming/SKILL.md
-godnaterra/original-name: setup-streaming
+engenharia-ia-aplicada/source: joshua/claude/agents/setup-streaming/SKILL.md
+engenharia-ia-aplicada/original-name: setup-streaming
 ---
 
 Work on agent streaming: dados informados pelo usuario na mensagem

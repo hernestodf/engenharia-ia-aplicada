@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.2
 tags: [location, permissions, letter, access, filming, pre-production]
-godnaterra/source: autopunk/pre-production/location-request-letter-writer/SKILL.md
-godnaterra/original-name: location-request-letter-writer
+engenharia-ia-aplicada/source: autopunk/pre-production/location-request-letter-writer/SKILL.md
+engenharia-ia-aplicada/original-name: location-request-letter-writer
 ---
 # Location Request Letter Writer
 

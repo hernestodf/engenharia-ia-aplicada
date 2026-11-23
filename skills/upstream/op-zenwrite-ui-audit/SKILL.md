@@ -1,8 +1,8 @@
 ---
 name: op-zenwrite-ui-audit
 description: Audit and improve existing ZenWrite UI — React 19 + Tailwind v4 quality plus the ZenWrite design chain (light-primary, dual-sphere; Newsreader serif + Manrope; brand-violet content, sky/emerald/rose community). Finds and fixes design drift (hardcoded hex, dynamic color strings, wrong sphere accents, missing focus rings, ad-hoc badges, dark-mode hijacks, token misuse) AND React/Tailwind/a11y/perf issues, ranked by severity, then applies the fixes. Use whenever REVIEWING, ALIGNING, CLEANING UP, or IMPROVING existing ZenWrite components/screens — "audit this page," "flush drift," "make this match our style," "clean up the styling," "check design consistency," "improve this component's react/tailwind." For building NEW UI from scratch, use zenwrite-design instead.
-godnaterra/source: joshua/claude/design/zenwrite-ui-audit/SKILL.md
-godnaterra/original-name: zenwrite-ui-audit
+engenharia-ia-aplicada/source: joshua/claude/design/zenwrite-ui-audit/SKILL.md
+engenharia-ia-aplicada/original-name: zenwrite-ui-audit
 ---
 
 # ZenWrite UI Audit & Improve

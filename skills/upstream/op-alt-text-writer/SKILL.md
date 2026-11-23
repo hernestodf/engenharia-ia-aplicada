@@ -7,8 +7,8 @@ subcategory: writing
 version: 1.0
 eval_score: 4.39
 tags: [journalism, writing, alt-text, accessibility, images, web, WCAG]
-godnaterra/source: autopunk/magazine-journalism/writing/alt-text-writer/SKILL.md
-godnaterra/original-name: alt-text-writer
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/writing/alt-text-writer/SKILL.md
+engenharia-ia-aplicada/original-name: alt-text-writer
 ---
 # Alt Text Writer
 

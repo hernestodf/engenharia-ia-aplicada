@@ -1,8 +1,8 @@
 ---
 name: op-tam-headshot-source
 description: Surgically acquire one verified headshot per movement leader — official sources first, identity checks, direct download, manifest line — without bulk scraping or image-search roulette. Use when building TAM avatars, profile media, or filling knowledge leader folders.
-godnaterra/source: joshua/claude/movemental/tam-headshot-source/SKILL.md
-godnaterra/original-name: tam-headshot-source
+engenharia-ia-aplicada/source: joshua/claude/movemental/tam-headshot-source/SKILL.md
+engenharia-ia-aplicada/original-name: tam-headshot-source
 ---
 
 # TAM Headshot Source: One Verified Photo per Leader

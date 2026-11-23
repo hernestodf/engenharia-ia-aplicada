@@ -1,8 +1,8 @@
 ---
 name: op-scaffold-course
 description: Scaffold a new 8-week transformational course — creating the database rows, ingestion script, and optional markdown content directory. Use when starting a new course from scratch with a slug and title.
-godnaterra/source: joshua/claude/content/scaffold-course/SKILL.md
-godnaterra/original-name: scaffold-course
+engenharia-ia-aplicada/source: joshua/claude/content/scaffold-course/SKILL.md
+engenharia-ia-aplicada/original-name: scaffold-course
 ---
 
 Scaffold a new course: dados informados pelo usuario na mensagem

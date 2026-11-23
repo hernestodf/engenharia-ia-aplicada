@@ -7,8 +7,8 @@ subcategory: monetization
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, monetization, sponsorship, rate-card, advertising, media-kit]
-godnaterra/source: autopunk/newsletter/monetization/sponsorship-rate-card/SKILL.md
-godnaterra/original-name: sponsorship-rate-card
+engenharia-ia-aplicada/source: autopunk/newsletter/monetization/sponsorship-rate-card/SKILL.md
+engenharia-ia-aplicada/original-name: sponsorship-rate-card
 ---
 # Sponsorship Rate Card
 

@@ -7,8 +7,8 @@ subcategory: crisis-comms
 version: 1.0
 eval_score: 4.5
 tags: [pr, crisis, statement, crisis-comms, reputation]
-godnaterra/source: autopunk/pr-communications/crisis-comms/crisis-statement-writer/SKILL.md
-godnaterra/original-name: crisis-statement-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/crisis-comms/crisis-statement-writer/SKILL.md
+engenharia-ia-aplicada/original-name: crisis-statement-writer
 ---
 # Crisis Statement Writer
 

@@ -1,8 +1,8 @@
 ---
 name: op-puck-visual-editor
 description: Build, extend, and persist Puck visual editors with React/Next.js and Supabase. Use whenever the user mentions Puck, @puckeditor/core, visual editor, site pages, puck_data, drag-and-drop CMS, block registry, Render vs Puck, RSC, per-page component palettes, richtext, plugin rail, slots, permissions, or data migration — even if they do not say "Puck" by name.
-godnaterra/source: joshua/claude/design/puck-visual-editor/SKILL.md
-godnaterra/original-name: puck-visual-editor
+engenharia-ia-aplicada/source: joshua/claude/design/puck-visual-editor/SKILL.md
+engenharia-ia-aplicada/original-name: puck-visual-editor
 ---
 
 # Puck visual editor

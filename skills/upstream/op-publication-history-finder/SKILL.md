@@ -7,8 +7,8 @@ subcategory: people
 version: 1.0
 eval_score: 4.44
 tags: [research, publications, media-appearances, people, bibliography]
-godnaterra/source: autopunk/research/people/publication-history-finder/SKILL.md
-godnaterra/original-name: publication-history-finder
+engenharia-ia-aplicada/source: autopunk/research/people/publication-history-finder/SKILL.md
+engenharia-ia-aplicada/original-name: publication-history-finder
 ---
 # Publication History Finder
 

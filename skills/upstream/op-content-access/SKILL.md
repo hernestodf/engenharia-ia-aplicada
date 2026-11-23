@@ -7,8 +7,8 @@ subcategory: preservation
 version: 1.0
 eval_score: 4.96
 tags: [journalism, research, open-access, paywalls, Unpaywall, Semantic-Scholar, CORE, libraries]
-godnaterra/source: autopunk/research/preservation/content-access/SKILL.md
-godnaterra/original-name: content-access
+engenharia-ia-aplicada/source: autopunk/research/preservation/content-access/SKILL.md
+engenharia-ia-aplicada/original-name: content-access
 ---
 # Content access
 

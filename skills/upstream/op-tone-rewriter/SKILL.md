@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [editing, tone, rewriting, adaptation, journalism, content-repurposing]
-godnaterra/source: autopunk/writing/articles/tone-rewriter/SKILL.md
-godnaterra/original-name: tone-rewriter
+engenharia-ia-aplicada/source: autopunk/writing/articles/tone-rewriter/SKILL.md
+engenharia-ia-aplicada/original-name: tone-rewriter
 ---
 # Tone Rewriter
 

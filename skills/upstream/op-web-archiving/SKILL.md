@@ -7,8 +7,8 @@ subcategory: preservation
 version: 1.0
 eval_score: 4.96
 tags: [journalism, archiving, Wayback-Machine, Archive-today, evidence-preservation, OSINT]
-godnaterra/source: autopunk/research/preservation/web-archiving/SKILL.md
-godnaterra/original-name: web-archiving
+engenharia-ia-aplicada/source: autopunk/research/preservation/web-archiving/SKILL.md
+engenharia-ia-aplicada/original-name: web-archiving
 ---
 # Web archiving
 

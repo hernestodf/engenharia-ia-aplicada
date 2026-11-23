@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [documentary, post-production, editing, notes, structure]
-godnaterra/source: autopunk/tv-documentary/post-production/rough-cut-notes/SKILL.md
-godnaterra/original-name: rough-cut-notes
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/rough-cut-notes/SKILL.md
+engenharia-ia-aplicada/original-name: rough-cut-notes
 ---
 # Rough Cut Notes
 

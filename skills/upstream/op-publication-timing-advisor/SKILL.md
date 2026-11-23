@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.2
 tags: [timing, publishing, audience, editorial-planning, distribution]
-godnaterra/source: autopunk/audience-distribution/publication-timing-advisor/SKILL.md
-godnaterra/original-name: publication-timing-advisor
+engenharia-ia-aplicada/source: autopunk/audience-distribution/publication-timing-advisor/SKILL.md
+engenharia-ia-aplicada/original-name: publication-timing-advisor
 ---
 # Publication Timing Advisor
 

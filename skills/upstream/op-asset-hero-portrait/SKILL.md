@@ -1,8 +1,8 @@
 ---
 name: op-asset-hero-portrait
 description: Create wide-format hero images featuring an author/thought leader from existing photos using Nano Banana 2. Handles background extension, atmospheric contexts, split compositions, and cinematic treatments for page heroes, landing pages, and featured sections.
-godnaterra/source: joshua/claude/assets/asset-hero-portrait/SKILL.md
-godnaterra/original-name: asset-hero-portrait
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-hero-portrait/SKILL.md
+engenharia-ia-aplicada/original-name: asset-hero-portrait
 ---
 
 Create a hero portrait image from an existing author photo: dados informados pelo usuario na mensagem

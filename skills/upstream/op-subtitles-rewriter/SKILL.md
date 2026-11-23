@@ -7,8 +7,8 @@ subcategory: post-production
 version: 1.0
 eval_score: 4.4
 tags: [documentary, post-production, subtitles, accessibility, localization]
-godnaterra/source: autopunk/tv-documentary/post-production/subtitles-rewriter/SKILL.md
-godnaterra/original-name: subtitles-rewriter
+engenharia-ia-aplicada/source: autopunk/tv-documentary/post-production/subtitles-rewriter/SKILL.md
+engenharia-ia-aplicada/original-name: subtitles-rewriter
 ---
 # Subtitles Rewriter
 

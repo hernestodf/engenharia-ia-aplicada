@@ -1,8 +1,8 @@
 ---
 name: op-agent-handoff
 description: Configure multi-agent handoffs — agent registry, delegation rules, and routing logic. Use when setting up agent-to-agent transfers.
-godnaterra/source: joshua/claude/agents/agent-handoff/SKILL.md
-godnaterra/original-name: agent-handoff
+engenharia-ia-aplicada/source: joshua/claude/agents/agent-handoff/SKILL.md
+engenharia-ia-aplicada/original-name: agent-handoff
 ---
 
 Configure agent handoffs: dados informados pelo usuario na mensagem

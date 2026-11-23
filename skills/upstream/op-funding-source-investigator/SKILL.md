@@ -7,8 +7,8 @@ subcategory: background
 version: 1.0
 eval_score: 4.5
 tags: [research, funding, transparency, NGO, investigation, background]
-godnaterra/source: autopunk/research/background/funding-source-investigator/SKILL.md
-godnaterra/original-name: funding-source-investigator
+engenharia-ia-aplicada/source: autopunk/research/background/funding-source-investigator/SKILL.md
+engenharia-ia-aplicada/original-name: funding-source-investigator
 ---
 # Funding Source Investigator
 

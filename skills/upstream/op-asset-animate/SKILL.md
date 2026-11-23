@@ -1,8 +1,8 @@
 ---
 name: op-asset-animate
 description: Create micro-animations from still images — parallax, Ken Burns, floating particles, breathing effects, cinemagraphs. Generates CSS animations, GSAP code, or short video/GIF from a static image. Use for hero backgrounds, social posts, and subtle motion design.
-godnaterra/source: joshua/claude/assets/asset-animate/SKILL.md
-godnaterra/original-name: asset-animate
+engenharia-ia-aplicada/source: joshua/claude/assets/asset-animate/SKILL.md
+engenharia-ia-aplicada/original-name: asset-animate
 ---
 
 Animate a still image: dados informados pelo usuario na mensagem

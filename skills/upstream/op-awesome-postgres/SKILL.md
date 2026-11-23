@@ -3,8 +3,8 @@ version: "2.0.0"
 name: op-awesome-postgres
 description: "A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-m awesome postgres, python, database, postgres, postgresql. Use when you need awesome postgres capabilities. Triggers on: awesome postgres."
 author: BytesAgain
-godnaterra/source: joshua/claude/integrations/awesome-postgres/SKILL.md
-godnaterra/original-name: Awesome Postgres
+engenharia-ia-aplicada/source: joshua/claude/integrations/awesome-postgres/SKILL.md
+engenharia-ia-aplicada/original-name: Awesome Postgres
 ---
 
 # Awesome Postgres

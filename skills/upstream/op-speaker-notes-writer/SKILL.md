@@ -7,8 +7,8 @@ subcategory: institutional
 version: 1.0
 eval_score: 4.2
 tags: [presentation, public-speaking, conference, speaker-notes, slides]
-godnaterra/source: autopunk/writing/institutional/speaker-notes-writer/SKILL.md
-godnaterra/original-name: speaker-notes-writer
+engenharia-ia-aplicada/source: autopunk/writing/institutional/speaker-notes-writer/SKILL.md
+engenharia-ia-aplicada/original-name: speaker-notes-writer
 ---
 # Speaker Notes Writer
 

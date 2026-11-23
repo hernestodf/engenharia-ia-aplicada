@@ -7,8 +7,8 @@ subcategory: strategy
 version: 1.0
 eval_score: 4.4
 tags: [newsletter, strategy, planning, content-arc, editorial-calendar, themes]
-godnaterra/source: autopunk/newsletter/strategy/content-arc-planner/SKILL.md
-godnaterra/original-name: content-arc-planner
+engenharia-ia-aplicada/source: autopunk/newsletter/strategy/content-arc-planner/SKILL.md
+engenharia-ia-aplicada/original-name: content-arc-planner
 ---
 # Content Arc Planner
 

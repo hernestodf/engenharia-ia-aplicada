@@ -7,8 +7,8 @@ subcategory: ideation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, ideation, research, brief, assignment, reporting]
-godnaterra/source: autopunk/magazine-journalism/ideation/research-brief-creator/SKILL.md
-godnaterra/original-name: research-brief-creator
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/ideation/research-brief-creator/SKILL.md
+engenharia-ia-aplicada/original-name: research-brief-creator
 ---
 # Research Brief Creator
 

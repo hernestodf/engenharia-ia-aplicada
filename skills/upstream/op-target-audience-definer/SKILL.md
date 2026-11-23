@@ -7,8 +7,8 @@ subcategory: audience-distribution
 version: 1.0
 eval_score: 4.2
 tags: [audience-research, editorial-strategy, distribution, persona, commissioning]
-godnaterra/source: autopunk/audience-distribution/target-audience-definer/SKILL.md
-godnaterra/original-name: target-audience-definer
+engenharia-ia-aplicada/source: autopunk/audience-distribution/target-audience-definer/SKILL.md
+engenharia-ia-aplicada/original-name: target-audience-definer
 ---
 # Target Audience Definer
 

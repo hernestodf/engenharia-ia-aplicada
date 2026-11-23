@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.5
 tags: [youtube, pre-production, seo, titles, search-optimization]
-godnaterra/source: autopunk/youtube/pre-production/seo-title-optimizer/SKILL.md
-godnaterra/original-name: seo-title-optimizer
+engenharia-ia-aplicada/source: autopunk/youtube/pre-production/seo-title-optimizer/SKILL.md
+engenharia-ia-aplicada/original-name: seo-title-optimizer
 ---
 # SEO Title Optimizer
 

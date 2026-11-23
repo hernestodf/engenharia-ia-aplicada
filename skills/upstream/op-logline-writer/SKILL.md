@@ -7,8 +7,8 @@ subcategory: development
 version: 1.0
 eval_score: 4.5
 tags: [screenwriting, development, logline, feature-film, TV]
-godnaterra/source: autopunk/screenwriting/development/logline-writer/SKILL.md
-godnaterra/original-name: logline-writer
+engenharia-ia-aplicada/source: autopunk/screenwriting/development/logline-writer/SKILL.md
+engenharia-ia-aplicada/original-name: logline-writer
 ---
 # Logline Writer
 

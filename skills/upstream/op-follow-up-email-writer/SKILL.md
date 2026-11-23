@@ -7,8 +7,8 @@ subcategory: media-relations
 version: 1.0
 eval_score: 4.44
 tags: [pr, email, follow-up, media-relations, outreach, journalist]
-godnaterra/source: autopunk/pr-communications/media-relations/follow-up-email-writer/SKILL.md
-godnaterra/original-name: follow-up-email-writer
+engenharia-ia-aplicada/source: autopunk/pr-communications/media-relations/follow-up-email-writer/SKILL.md
+engenharia-ia-aplicada/original-name: follow-up-email-writer
 ---
 # Follow-Up Email Writer
 

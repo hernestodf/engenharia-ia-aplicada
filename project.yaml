@@ -1,5 +1,5 @@
-schema: godnaterra/project@v1
-name: godnaterra
+schema: engenharia-ia-aplicada/project@v1
+name: engenharia-ia-aplicada
 description: Pacote canônico de engenharia assistida por IA, vendor-neutral.
 profile: generic
 

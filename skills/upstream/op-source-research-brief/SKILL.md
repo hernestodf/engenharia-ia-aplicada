@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.4
 tags: [journalism, investigation, research, sources, interview-prep]
-godnaterra/source: autopunk/magazine-journalism/investigation/source-research-brief/SKILL.md
-godnaterra/original-name: source-research-brief
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/source-research-brief/SKILL.md
+engenharia-ia-aplicada/original-name: source-research-brief
 ---
 # Source Research Brief
 

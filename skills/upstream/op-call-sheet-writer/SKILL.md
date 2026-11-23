@@ -7,8 +7,8 @@ subcategory: pre-production
 version: 1.0
 eval_score: 4.44
 tags: [documentary, pre-production, call-sheet, scheduling, logistics, crew]
-godnaterra/source: autopunk/tv-documentary/pre-production/call-sheet-writer/SKILL.md
-godnaterra/original-name: call-sheet-writer
+engenharia-ia-aplicada/source: autopunk/tv-documentary/pre-production/call-sheet-writer/SKILL.md
+engenharia-ia-aplicada/original-name: call-sheet-writer
 ---
 # Call Sheet Writer
 

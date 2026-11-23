@@ -1,8 +1,8 @@
 ---
 name: op-cache-components
 description: "Expert guidance for Next.js Cache Components and Partial Prerendering (PPR). Use when implementing 'use cache' directive, configuring cache lifetimes, tagging cached data, invalidating caches, or optimizing static vs dynamic content boundaries."
-godnaterra/source: joshua/infrastructure/cache-components/SKILL.md
-godnaterra/original-name: cache-components
+engenharia-ia-aplicada/source: joshua/infrastructure/cache-components/SKILL.md
+engenharia-ia-aplicada/original-name: cache-components
 ---
 
 Help with Next.js Cache Components: dados informados pelo usuario na mensagem

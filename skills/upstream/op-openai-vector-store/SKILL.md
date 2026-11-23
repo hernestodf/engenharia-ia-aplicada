@@ -8,8 +8,8 @@ description: >
   OpenAI file search setup, or asks about OPENAI_VECTOR_STORE_ID configuration. Also
   trigger when diagnosing "store looks wrong", "files missing", "temp files in store",
   or "upload script broke". Covers both Node.js and Python upload patterns.
-godnaterra/source: joshua/claude/agents/openai-vector-store/SKILL.md
-godnaterra/original-name: openai-vector-store
+engenharia-ia-aplicada/source: joshua/claude/agents/openai-vector-store/SKILL.md
+engenharia-ia-aplicada/original-name: openai-vector-store
 ---
 
 # OpenAI Vector Store — Best Practices

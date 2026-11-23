@@ -2,8 +2,8 @@
 name: op-mcp-builder
 description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
 license: Complete terms in LICENSE.txt
-godnaterra/source: joshua/_reference/skills-anthropic/skills/mcp-builder/SKILL.md
-godnaterra/original-name: mcp-builder
+engenharia-ia-aplicada/source: joshua/_reference/skills-anthropic/skills/mcp-builder/SKILL.md
+engenharia-ia-aplicada/original-name: mcp-builder
 ---
 
 # MCP Server Development Guide

@@ -1,8 +1,8 @@
 ---
 name: op-add-section-type
 description: Create a new course section component and register it in the section router. Use when adding a new section type to the course learn experience (e.g., "add a quiz section type" or "add a new section component").
-godnaterra/source: joshua/claude/design/add-section-type/SKILL.md
-godnaterra/original-name: add-section-type
+engenharia-ia-aplicada/source: joshua/claude/design/add-section-type/SKILL.md
+engenharia-ia-aplicada/original-name: add-section-type
 ---
 
 Create a new course section component for the section type: $0

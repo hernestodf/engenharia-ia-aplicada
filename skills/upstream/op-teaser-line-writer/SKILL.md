@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [teaser, social-media, newsletter, digital, engagement, journalism]
-godnaterra/source: autopunk/writing/digital-social/teaser-line-writer/SKILL.md
-godnaterra/original-name: teaser-line-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/teaser-line-writer/SKILL.md
+engenharia-ia-aplicada/original-name: teaser-line-writer
 ---
 # Teaser Line Writer
 

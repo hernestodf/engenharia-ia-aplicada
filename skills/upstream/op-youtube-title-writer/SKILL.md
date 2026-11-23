@@ -7,8 +7,8 @@ subcategory: digital-social
 version: 1.0
 eval_score: 4.2
 tags: [youtube, title, seo, click-through-rate, metadata, hook]
-godnaterra/source: autopunk/writing/digital-social/youtube-title-writer/SKILL.md
-godnaterra/original-name: youtube-title-writer
+engenharia-ia-aplicada/source: autopunk/writing/digital-social/youtube-title-writer/SKILL.md
+engenharia-ia-aplicada/original-name: youtube-title-writer
 ---
 # YouTube Title Writer
 

@@ -4,8 +4,8 @@ description: Unified entry point for Stitch design work. Handles prompt enhancem
   - "StitchMCP"
   - "Read"
   - "Write"
-godnaterra/source: joshua/claude/stitch/stitch-design/SKILL.md
-godnaterra/original-name: stitch-design
+engenharia-ia-aplicada/source: joshua/claude/stitch/stitch-design/SKILL.md
+engenharia-ia-aplicada/original-name: stitch-design
 ---
 
 # Stitch Design Expert

@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.39
 tags: [journalism, editing, expanding, detail, development, word-count]
-godnaterra/source: autopunk/magazine-journalism/editing/text-expander/SKILL.md
-godnaterra/original-name: text-expander
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/text-expander/SKILL.md
+engenharia-ia-aplicada/original-name: text-expander
 ---
 # Text Expander
 

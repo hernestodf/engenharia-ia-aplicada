@@ -6,8 +6,8 @@ description: >-
   until READY_FOR_LOAD; Phase 5 citations (book-citations); optional Supabase load. Use when
   converting a book, running book-faithful-cleanup, pymupdf4llm convert, defect remediation,
   or iterating cleanup until perfected — never paraphrase source text.
-godnaterra/source: joshua/cursor/book-faithful-cleanup/SKILL.md
-godnaterra/original-name: book-faithful-cleanup
+engenharia-ia-aplicada/source: joshua/cursor/book-faithful-cleanup/SKILL.md
+engenharia-ia-aplicada/original-name: book-faithful-cleanup
 ---
 
 # Book faithful cleanup

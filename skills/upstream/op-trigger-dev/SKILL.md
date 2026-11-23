@@ -7,8 +7,8 @@ description: >-
   writes or triggers tasks, sets up trigger.config.ts, uses @trigger.dev/sdk,
   the trigger.dev CLI, the Management API, or asks how background jobs / queues /
   retries work. ALWAYS fetch current docs before writing code.
-godnaterra/source: joshua/claude/integrations/trigger-dev/SKILL.md
-godnaterra/original-name: trigger-dev
+engenharia-ia-aplicada/source: joshua/claude/integrations/trigger-dev/SKILL.md
+engenharia-ia-aplicada/original-name: trigger-dev
 ---
 
 # Trigger.dev

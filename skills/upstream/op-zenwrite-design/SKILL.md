@@ -1,8 +1,8 @@
 ---
 name: op-zenwrite-design
 description: Design and build new UI for ZenWrite — the light-primary, distraction-free scholarly-writing app — the best possible way within its own design chain (Tokens → Primitives → Components → Built → Patterns). Newsreader serif + Manrope, brand-violet content sphere, sky/emerald/rose community sphere, React 19 + Tailwind v4 (CSS-first). Use whenever CREATING or EXTENDING a ZenWrite component, panel, screen, tile, overlay, wizard, or page — including "build a component," "add a panel," "make a new screen," "design a tile," "make this in our style," or "extend the editor." For reviewing/aligning existing UI, use the zenwrite-ui-audit skill instead.
-godnaterra/source: joshua/claude/design/zenwrite-design/SKILL.md
-godnaterra/original-name: zenwrite-design
+engenharia-ia-aplicada/source: joshua/claude/design/zenwrite-design/SKILL.md
+engenharia-ia-aplicada/original-name: zenwrite-design
 ---
 
 # ZenWrite Design — Builder

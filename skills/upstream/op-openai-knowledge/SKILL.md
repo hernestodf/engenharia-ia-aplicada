@@ -1,8 +1,8 @@
 ---
 name: op-openai-knowledge
 description: Use when working with the OpenAI API (Responses API) or OpenAI platform features (tools, streaming, Realtime API, auth, models, rate limits, MCP) and you need authoritative, up-to-date documentation (schemas, examples, limits, edge cases). Prefer the OpenAI Developer Documentation MCP server tools when available; otherwise guide the user to enable `openaiDeveloperDocs`.
-godnaterra/source: joshua/vendor/skills-openai/openai-knowledge/SKILL.md
-godnaterra/original-name: openai-knowledge
+engenharia-ia-aplicada/source: joshua/vendor/skills-openai/openai-knowledge/SKILL.md
+engenharia-ia-aplicada/original-name: openai-knowledge
 ---
 
 # OpenAI Knowledge

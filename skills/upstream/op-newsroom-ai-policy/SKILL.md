@@ -7,8 +7,8 @@ subcategory: editing
 version: 1.0
 eval_score: 4.6
 tags: [journalism, policy, ai-ethics, newsroom, editorial-standards, governance]
-godnaterra/source: autopunk/magazine-journalism/editing/newsroom-ai-policy/SKILL.md
-godnaterra/original-name: newsroom-ai-policy
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/editing/newsroom-ai-policy/SKILL.md
+engenharia-ia-aplicada/original-name: newsroom-ai-policy
 ---
 # Newsroom AI Policy
 

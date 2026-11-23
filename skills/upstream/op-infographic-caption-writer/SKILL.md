@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.2
 tags: [caption, infographic, data visualization, visual journalism, articles]
-godnaterra/source: autopunk/writing/articles/infographic-caption-writer/SKILL.md
-godnaterra/original-name: infographic-caption-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/infographic-caption-writer/SKILL.md
+engenharia-ia-aplicada/original-name: infographic-caption-writer
 ---
 # Infographic Caption Writer
 

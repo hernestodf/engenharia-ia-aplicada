@@ -7,8 +7,8 @@ subcategory: funding
 version: 1.0
 eval_score: 4.3
 tags: [media-business, funding, crowdfunding, campaign, kickstarter, indiegogo]
-godnaterra/source: autopunk/media-business/funding/crowdfunding-campaign-writer/SKILL.md
-godnaterra/original-name: crowdfunding-campaign-writer
+engenharia-ia-aplicada/source: autopunk/media-business/funding/crowdfunding-campaign-writer/SKILL.md
+engenharia-ia-aplicada/original-name: crowdfunding-campaign-writer
 ---
 # Crowdfunding Campaign Writer
 

@@ -7,8 +7,8 @@ subcategory: channel-strategy
 version: 1.0
 eval_score: 4.4
 tags: [youtube, strategy, planning, content-calendar, publishing-schedule]
-godnaterra/source: autopunk/youtube/channel-strategy/content-calendar-planner/SKILL.md
-godnaterra/original-name: content-calendar-planner
+engenharia-ia-aplicada/source: autopunk/youtube/channel-strategy/content-calendar-planner/SKILL.md
+engenharia-ia-aplicada/original-name: content-calendar-planner
 ---
 # Content Calendar Planner
 

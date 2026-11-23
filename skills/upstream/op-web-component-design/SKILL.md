@@ -1,8 +1,8 @@
 ---
 name: op-web-component-design
 description: Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems.
-godnaterra/source: joshua/claude/design/web-component-design/SKILL.md
-godnaterra/original-name: web-component-design
+engenharia-ia-aplicada/source: joshua/claude/design/web-component-design/SKILL.md
+engenharia-ia-aplicada/original-name: web-component-design
 ---
 
 # Web Component Design

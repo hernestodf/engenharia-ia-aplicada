@@ -7,8 +7,8 @@ subcategory: broadcast
 version: 1.0
 eval_score: 4.2
 tags: [podcast, show-notes, post-production, SEO, episode-description]
-godnaterra/source: autopunk/writing/broadcast/podcast-show-notes-writer/SKILL.md
-godnaterra/original-name: podcast-show-notes-writer
+engenharia-ia-aplicada/source: autopunk/writing/broadcast/podcast-show-notes-writer/SKILL.md
+engenharia-ia-aplicada/original-name: podcast-show-notes-writer
 ---
 # Podcast Show Notes Writer
 

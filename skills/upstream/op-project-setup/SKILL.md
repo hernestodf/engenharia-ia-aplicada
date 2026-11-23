@@ -1,8 +1,8 @@
 ---
 name: op-project-setup
 description: "Bootstrap a production-ready React + Tailwind + Supabase + Sentry app — either Next.js 15 (App Router) or Vite + React Router. Installs all core libraries, writes every config file, sets up shadcn/ui, Supabase auth clients, Sentry three-config, Zod env validation, React Query, dark mode, and the full token system. Asks Vite vs Next.js upfront. Use when starting any new project in this stack."
-godnaterra/source: joshua/claude/infrastructure/project-setup/SKILL.md
-godnaterra/original-name: project-setup
+engenharia-ia-aplicada/source: joshua/claude/infrastructure/project-setup/SKILL.md
+engenharia-ia-aplicada/original-name: project-setup
 ---
 
 Bootstrap a new project: dados informados pelo usuario na mensagem

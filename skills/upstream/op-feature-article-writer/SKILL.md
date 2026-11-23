@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 4.83
 tags: [journalism, features, writing, long-form, magazine, narrative]
-godnaterra/source: autopunk/writing/articles/feature-article-writer/SKILL.md
-godnaterra/original-name: feature-article-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/feature-article-writer/SKILL.md
+engenharia-ia-aplicada/original-name: feature-article-writer
 ---
 # Feature Article Writer
 

@@ -1,8 +1,8 @@
 ---
 name: op-course-audit
 description: Audit the course learn experience — checks section components, sidebar rendering, progress tracking, responsiveness, design tokens, and accessibility. Use before shipping a course.
-godnaterra/source: joshua/claude/content/course-audit/SKILL.md
-godnaterra/original-name: course-audit
+engenharia-ia-aplicada/source: joshua/claude/content/course-audit/SKILL.md
+engenharia-ia-aplicada/original-name: course-audit
 ---
 
 Audit the course learn experience: dados informados pelo usuario na mensagem

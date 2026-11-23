@@ -1,11 +1,11 @@
 ---
-name: op-godnaterra-evidence
-description: Padroniza o ciclo DISCOVER→DELIVER e a saída em implementado/testado/pendente/não verificado. Use ao reportar qualquer trabalho no Godnaterra. Não use para esconder falha sob linguagem de conclusão.
-godnaterra/layer: core
-godnaterra/source: canonical
+name: op-eia-evidence
+description: Padroniza o ciclo DISCOVER→DELIVER e a saída em implementado/testado/pendente/não verificado. Use ao reportar qualquer trabalho no EngenhariaIaAplicada. Não use para esconder falha sob linguagem de conclusão.
+engenharia-ia-aplicada/layer: core
+engenharia-ia-aplicada/source: canonical
 ---
 
-# Evidência e ciclo Godnaterra
+# Evidência e ciclo EngenhariaIaAplicada
 
 ## Ciclo
 

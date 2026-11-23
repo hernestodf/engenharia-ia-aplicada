@@ -5,8 +5,8 @@ args:
   - name: target
     description: The feature or component to improve typography for (optional)
     required: false
-godnaterra/source: joshua/claude/design/typeset/SKILL.md
-godnaterra/original-name: typeset
+engenharia-ia-aplicada/source: joshua/claude/design/typeset/SKILL.md
+engenharia-ia-aplicada/original-name: typeset
 ---
 
 Assess and improve typography that feels generic, inconsistent, or poorly structured — turning default-looking text into intentional, well-crafted type.

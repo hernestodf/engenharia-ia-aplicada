@@ -7,8 +7,8 @@ subcategory: visualization
 version: 1.0
 eval_score: 4.5
 tags: [charts, accessibility, alt-text, data visualization, publication]
-godnaterra/source: autopunk/data-journalism/visualization/chart-description-writer/SKILL.md
-godnaterra/original-name: chart-description-writer
+engenharia-ia-aplicada/source: autopunk/data-journalism/visualization/chart-description-writer/SKILL.md
+engenharia-ia-aplicada/original-name: chart-description-writer
 ---
 # Chart Description Writer
 

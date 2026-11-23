@@ -1,8 +1,8 @@
 ---
 name: op-course-ux
 description: Audit and fix course player UX against LMS best practices — layout proportions, progressive disclosure, progress psychology, sidebar hierarchy, video sizing, light/dark harmony, sidebar naming & learning flow, cohort pacing, and AI integration points. Use when improving the learn experience.
-godnaterra/source: joshua/claude/content/course-ux/SKILL.md
-godnaterra/original-name: course-ux
+engenharia-ia-aplicada/source: joshua/claude/content/course-ux/SKILL.md
+engenharia-ia-aplicada/original-name: course-ux
 ---
 
 Audit and improve the course learn experience UX: dados informados pelo usuario na mensagem

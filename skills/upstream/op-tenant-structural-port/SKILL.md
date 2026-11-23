@@ -12,8 +12,8 @@ description: >
   or the user says "port the course player from the reference", "structural parity",
   "match alan-hirsch course UX", "normalize the routes", "no source-tenant leaks". Run AFTER
   the stitch + backend phases. Tenant-agnostic via TENANT_MANIFEST.md.
-godnaterra/source: joshua/claude/movemental/tenant-structural-port/SKILL.md
-godnaterra/original-name: tenant-structural-port
+engenharia-ia-aplicada/source: joshua/claude/movemental/tenant-structural-port/SKILL.md
+engenharia-ia-aplicada/original-name: tenant-structural-port
 ---
 
 # Tenant structural port (reference-code parity)

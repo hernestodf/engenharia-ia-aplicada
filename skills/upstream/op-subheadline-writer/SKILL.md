@@ -7,8 +7,8 @@ subcategory: articles
 version: 1.0
 eval_score: 5.0
 tags: [journalism, subheadlines, writing, editing, seo, digital, print]
-godnaterra/source: autopunk/writing/articles/subheadline-writer/SKILL.md
-godnaterra/original-name: subheadline-writer
+engenharia-ia-aplicada/source: autopunk/writing/articles/subheadline-writer/SKILL.md
+engenharia-ia-aplicada/original-name: subheadline-writer
 ---
 # Subheadline Writer
 

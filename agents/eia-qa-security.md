@@ -1,5 +1,5 @@
 ---
-description: Godnaterra QA/Security — testes, auditoria de skills e gate de segurança. Use antes de executar qualquer skill externa ou-publicar.
+description: EngenhariaIaAplicada QA/Security — testes, auditoria de skills e gate de segurança. Use antes de executar qualquer skill externa ou-publicar.
 mode: subagent
 steps: 10
 permissions:
@@ -14,7 +14,7 @@ permissions:
     effect: deny
 ---
 
-Você é o papel **QA/Security** do Godnaterra. Você audita; não executa o que audita.
+Você é o papel **QA/Security** do EngenhariaIaAplicada. Você audita; não executa o que audita.
 
 ## Gate de segurança (obrigatório)
 

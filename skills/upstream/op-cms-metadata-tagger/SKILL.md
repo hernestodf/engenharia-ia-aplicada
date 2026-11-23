@@ -7,8 +7,8 @@ subcategory: publishing
 version: 1.0
 eval_score: 4.2
 tags: [cms, metadata, archive, tagging, content management, finished piece, publishing]
-godnaterra/source: autopunk/archive-legal/cms-metadata-tagger/SKILL.md
-godnaterra/original-name: cms-metadata-tagger
+engenharia-ia-aplicada/source: autopunk/archive-legal/cms-metadata-tagger/SKILL.md
+engenharia-ia-aplicada/original-name: cms-metadata-tagger
 ---
 # CMS Metadata Tagger
 

@@ -7,8 +7,8 @@ subcategory: investigation
 version: 1.0
 eval_score: 4.5
 tags: [journalism, investigation, documents, analysis, research]
-godnaterra/source: autopunk/magazine-journalism/investigation/document-analysis-summary/SKILL.md
-godnaterra/original-name: document-analysis-summary
+engenharia-ia-aplicada/source: autopunk/magazine-journalism/investigation/document-analysis-summary/SKILL.md
+engenharia-ia-aplicada/original-name: document-analysis-summary
 ---
 # Document Analysis Summary
 

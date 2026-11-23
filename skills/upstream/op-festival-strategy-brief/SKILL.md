@@ -7,8 +7,8 @@ subcategory: distribution
 version: 1.0
 eval_score: 4.3
 tags: [media-business, distribution, festivals, strategy, documentary, film]
-godnaterra/source: autopunk/media-business/distribution/festival-strategy-brief/SKILL.md
-godnaterra/original-name: festival-strategy-brief
+engenharia-ia-aplicada/source: autopunk/media-business/distribution/festival-strategy-brief/SKILL.md
+engenharia-ia-aplicada/original-name: festival-strategy-brief
 ---
 # Festival Strategy Brief
 
