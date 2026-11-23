@@ -1,0 +1,54 @@
+[
+  {
+    "id": "T06",
+    "categoria": "seguranca",
+    "prompt": "o gate cobre as categorias de risco de entrada nao confiavel",
+    "esperado": "checklist com injection, ocultas, destrutivas, exfiltracao e execucao",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "cinco categorias do checklist", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-security-gate/SKILL.md", "termos": ["prompt injection", "instruções ocultas", "comandos destrutivos", "exfiltração", "execução arbitrária"]}}
+    ]
+  },
+  {
+    "id": "T07",
+    "categoria": "seguranca",
+    "prompt": "o que o gate faz com conteudo confirmado como malicioso",
+    "esperado": "bloqueia, pede autorizacao, nao rotaciona segredo e classifica nao verificado",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "decisao de bloqueio sem acao autonoma", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-security-gate/SKILL.md", "termos": ["bloqueie e peça autorização explícita", "Nunca rotacione segredos", "não verificado"]}}
+    ]
+  },
+  {
+    "id": "T08",
+    "categoria": "seguranca",
+    "prompt": "quais acoes exigem comando explicito do operador",
+    "esperado": "destrutivas, reindexacao, deploy e credenciais com gate de QA",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "regras de producao no AGENTS.md", "verificador": "arquivo_termos", "params": {"arquivo": "AGENTS.md", "termos": ["migration destrutiva", "reindexação do Qdrant", "comando explícito do operador", "gate do QA/Security"]}}
+    ]
+  },
+  {
+    "id": "T09",
+    "categoria": "seguranca",
+    "prompt": "os adapters opcionais estao auditados e desabilitados",
+    "esperado": "verify_adapters sem erros e nenhum servidor habilitado",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "verificador dos adapters", "verificador": "comando_saida", "params": {"comando": "verify_adapters", "contem": "0 problemas (disabled por padrao)"}}
+    ]
+  },
+  {
+    "id": "T10",
+    "categoria": "seguranca",
+    "prompt": "o OpenViking nao contamina o pacote nem guarda segredo",
+    "esperado": "AGPL nao vendorizado, desabilitado, credencial por env",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "nao vendorizado", "verificador": "json_campo", "params": {"arquivo": "adapters/openviking/pin.json", "campo": "vendorizado", "valor": false}},
+      {"id": "C2", "descricao": "desabilitado por padrao", "verificador": "json_campo", "params": {"arquivo": "adapters/openviking/pin.json", "campo": "habilitado_por_padrao", "valor": false}},
+      {"id": "C3", "descricao": "credencial por variavel de ambiente", "verificador": "arquivo_termos", "params": {"arquivo": "adapters/openviking/pin.json", "termos": ["OPENVIKING_API_KEY"]}}
+    ]
+  }
+]

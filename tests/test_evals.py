@@ -150,6 +150,109 @@ class HarnessTest(unittest.TestCase):
         for proibido in ("eval(", "exec(", "shell=True", "os.system"):
             self.assertNotIn(proibido, fonte, f"harness não deve conter {proibido}")
 
+    def test_carrega_vinte_tarefas(self) -> None:
+        tarefas = reval.carregar_tarefas()
+        self.assertEqual(len(tarefas), 20)
+        self.assertEqual([t["id"] for t in tarefas[:3]], ["T01", "T02", "T03"])
+        self.assertEqual([t["id"] for t in tarefas[-2:]], ["T19", "T20"])
+        det = [t for t in tarefas if t["tipo"] == "deterministico"]
+        llm = [t for t in tarefas if t["tipo"] == "llm"]
+        self.assertEqual((len(det), len(llm)), (16, 4))
+
+    def test_tarefa_llm_sem_provider_e_nao_verificado(self) -> None:
+        tarefas = {t["id"]: t for t in reval.carregar_tarefas()}
+        status, nota, maxima, ev = reval.avaliar_tarefa(tarefas["T05"], "none", None, 10)
+        self.assertEqual((status, nota, maxima), ("nao verificado", 0, 2))
+        self.assertIn("sem inferencia", ev)
+
+    def test_tarefa_deterministica_pontua_criterios(self) -> None:
+        tarefas = {t["id"]: t for t in reval.carregar_tarefas()}
+        status, nota, maxima, _ = reval.avaliar_tarefa(tarefas["T01"], "none", None, 10)
+        self.assertEqual((status, nota, maxima), ("testado", 6, 6))
+
+    def test_verificador_desconhecido_falha_fechada(self) -> None:
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "ruim.json"
+            p.write_text(
+                json.dumps([{
+                    "id": "T99", "tipo": "deterministico", "prompt": "x",
+                    "criterios": [{"id": "C1", "verificador": "inexistente", "params": {}}],
+                }]),
+                encoding="utf-8",
+            )
+            with self.assertRaises(SystemExit):
+                reval.carregar_tarefas(Path(tmp))
+
+    def test_comando_fora_da_whitelist_e_rejeitado(self) -> None:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import eval_checks
+
+        with self.assertRaises(ValueError):
+            eval_checks.comando_saida({"comando": "rm", "contem": "ok"})
+        with self.assertRaises(ValueError):
+            eval_checks.arquivo_termos({"arquivo": "/etc/passwd", "termos": ["root"]})
+
+    def test_comparar_baseline_detecta_queda_de_nota(self) -> None:
+        base = {
+            "versao": reval.VERSAO_BASELINE,
+            "pass_rate": 1.0,
+            "por_tarefa": {"T01": {"nota": 6, "maxima": 6, "status": "testado"}},
+        }
+        registros = [
+            {"tarefa": "T01", "tipo": "deterministico", "nota": 5, "maxima": 6, "status": "falhou"},
+            {"tarefa": "T05", "tipo": "llm", "nota": 0, "maxima": 2, "status": "nao verificado"},
+        ]
+        problemas = reval.comparar_baseline(base, registros)
+        self.assertTrue(any("T01: 6 -> 5" in p for p in problemas), problemas)
+        self.assertTrue(any("pass_rate" in p for p in problemas), problemas)
+
+    def test_baseline_gravado_e_legivel(self) -> None:
+        import tempfile
+
+        original = reval.ARQUIVO_BASELINE
+        with tempfile.TemporaryDirectory() as tmp:
+            reval.ARQUIVO_BASELINE = Path(tmp) / "BASELINE.json"
+            try:
+                registros = [
+                    {"tarefa": "T01", "tipo": "deterministico", "nota": 6, "maxima": 6,
+                     "status": "testado"},
+                    {"tarefa": "T05", "tipo": "llm", "nota": 0, "maxima": 2,
+                     "status": "nao verificado"},
+                ]
+                base = reval.escrever_baseline(registros)
+                self.assertEqual(base["pass_rate"], 1.0)
+                self.assertEqual(base["deterministicas"], 1)
+                self.assertEqual(reval.ler_baseline()["versao"], reval.VERSAO_BASELINE)
+            finally:
+                reval.ARQUIVO_BASELINE = original
+
+    def test_suite_tasks_sem_provider_nao_chama_modelo(self) -> None:
+        original = reval.subprocess.run
+        chamadas: list[list[str]] = []
+
+        def vigia(argv: list[str], **kwargs: object) -> subprocess.CompletedProcess[str]:
+            chamadas.append(argv)
+            return original(argv, **kwargs)  # type: ignore[arg-type]
+
+        reval.subprocess.run = vigia  # type: ignore[assignment]
+        buf = io.StringIO()
+        try:
+            with redirect_stdout(buf):
+                codigo = reval.main([
+                    "--suite", "tasks", "--provider", "none",
+                    "--no-record", "--no-compare",
+                ])
+        finally:
+            reval.subprocess.run = original  # type: ignore[assignment]
+        self.assertEqual(codigo, 0)
+        self.assertFalse(
+            any(c and any(c[0] == argv[0] for argv in reval.ARGV_PROVIDER.values()) for c in chamadas), chamadas
+        )
+        self.assertTrue(any("verify_adapters.py" in " ".join(c) for c in chamadas))
+        self.assertIn("pass rate", buf.getvalue())
+
     def test_dry_run_nao_registra(self) -> None:
         original = reval.subprocess.run
 

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "T01",
+    "categoria": "roteamento",
+    "prompt": "preciso de uma migration no schema e um contrato de API",
+    "esperado": "classificar como backend e apontar godnaterra-backend",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "router define um papel por tarefa e nao executa", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["Um papel por tarefa", "Não lance vários subagents", "Ela não executa a tarefa"]}},
+      {"id": "C2", "descricao": "tabela cobre backend e qa-security", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["godnaterra-backend", "godnaterra-qa-security", "godnaterra-devops"]}},
+      {"id": "C3", "descricao": "fora da tabela resolva sem delegar", "verificador": "arquivo_termos", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "termos": ["Fora dessas linhas: resolva sem delegar"]}}
+    ]
+  },
+  {
+    "id": "T02",
+    "categoria": "roteamento",
+    "prompt": "use tools externas direto pelo router",
+    "esperado": "router nao contem chamadas de MCP nem markup obsoleto",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "sem chamadas MCP ou placeholders", "verificador": "arquivo_ausencia", "params": {"arquivo": "skills/core/op-godnaterra-router/SKILL.md", "proibidos": ["mcp__", "$ARGUMENTS", "/Users/", "{{"]}}
+    ]
+  },
+  {
+    "id": "T03",
+    "categoria": "roteamento",
+    "prompt": "o catalogo de skills core esta consistente",
+    "esperado": "toda skill core tem name igual ao diretorio, layer core e description",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "frontmatter de todas as skills core", "verificador": "core_frontmatter_valido", "params": {}}
+    ]
+  },
+  {
+    "id": "T04",
+    "categoria": "roteamento",
+    "prompt": "qual e o ciclo obrigatorio e a regra de entrada nao confiavel",
+    "esperado": "AGENTS.md documenta ciclo, gate e preservacao do Qdrant",
+    "tipo": "deterministico",
+    "criterios": [
+      {"id": "C1", "descricao": "ciclo DISCOVER a DELIVER", "verificador": "arquivo_termos", "params": {"arquivo": "AGENTS.md", "termos": ["DISCOVER → AUDIT", "entrada não confiável", "sem reindexação sem aval"]}}
+    ]
+  },
+  {
+    "id": "T05",
+    "categoria": "roteamento",
+    "prompt": "preciso de uma migration no schema e um contrato de API. Qual papel e o que fica sem verificacao?",
+    "esperado": "godnaterra-backend e declarar nao verificado",
+    "tipo": "llm",
+    "assercoes": {"all_of": ["godnaterra-backend", "não verificado"], "none_of": []}
+  }
+]

@@ -30,6 +30,8 @@ jobs:
         run: python3 scripts/godnaterra.py audit
       - name: Harness de evals (sem provider, sem credencial)
         run: python3 scripts/run_evals.py --provider none --no-record
+      - name: Suite de tarefas determinísticas (regressão contra baseline)
+        run: python3 scripts/run_evals.py --suite tasks --provider none --no-record
       - name: Operador — status (somente leitura)
         run: python3 scripts/godnaterra.py status
 

@@ -1,14 +1,14 @@
 {
   "algoritmo": "sha256",
   "arquivos": {
-    ".github/workflows/ci.yml": "8f6258d7d57d11e12fb713771bb5bd536183d4bba22084120e5313e78b691649",
+    ".github/workflows/ci.yml": "c2d9dda819a26cfb07933ab445cbd03ee6a5c1f40f9dd4ea5b6369b47a59c611",
     ".github/workflows/release.yml": "e45ff022ffdd47003d83c4ccc242b6d562d7b0af4e11bbeb072220cd19892e41",
     "AGENTS.md": "6f2cb459e765dce089db4bd5673949277734ac2e834e5474a26af60c935a92c5",
-    "CHANGELOG.md": "28f725a56730b21407a04f6c12c26b7a01d6a778ee5a66a2c650a585d12374c2",
-    "MANIFESTO.md": "1ceb14a1b85c8e14b25312c175252a0aea6effc8d35feed68facf697197c5916",
-    "README.md": "415527be511620178d96476872304b39abb3db5159410edfbf653f325dcfad40",
+    "CHANGELOG.md": "306d905e517b4e39e8ac4c26537c1ea6d64ccbffeffa55b65d1297b8d895724d",
+    "MANIFESTO.md": "d9855118d750f69d1d27a35f2ad1a3d7f8d8195c0d16d8f5bdea0ea0639d9ada",
+    "README.md": "26605e9d9617e16f6cfdbbdbe713db6b1326baa171d72a8f6a798c72f3a2c08e",
     "SECURITY_CLASSIFICATION.md": "d46743b703826741f824f1027da9fb66471912542469f5e570783bb535cb9b4f",
-    "VERSION": "d915cc95d6ca8f47ae297713ed46d4e5c5d99ddd29fc3c61e263bdf305f2b5b0",
+    "VERSION": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79",
     "adapters/chrome-devtools-mcp/README.md": "43ca40788f1f3c0b2c01e5ebbd2134078ae44377edab8a73e6717e33a1582328",
     "adapters/chrome-devtools-mcp/mcp.json": "2e2c9b4a49b59daa704424425e488848440f4d1d822665dec70d3648acd1e35f",
     "adapters/chrome-devtools-mcp/pin.json": "07ddb9db163025f1255159fcc3c5cddcdc17905fa04d316b3dc069fc0ddc7566",
@@ -31,12 +31,13 @@
     "design-system/tokens/tokens.json": "68897abedeabefce9eb2d3e14c9d3555f1092a7592094bb7269799da3c9a530a",
     "docs/guides/INSTALL.md": "6f21014811e24561282883d1141d699924858d625960fab741c7bb2568b49eb3",
     "project.yaml": "c0b7e24514aae35f8118cd221afcccde681ee0e54eeb891e30a9364988f209f5",
+    "scripts/eval_checks.py": "17a7f4da221b3f2501a1690e4348307208dcaf2c2eee60a2b3c44da73ec75f10",
     "scripts/generate_adapters.py": "4679e13db40bc6a767fc6eb497f5a20bc1a83c00479ad0bb1a901f289c8f67ea",
     "scripts/generate_manifest.py": "ce02f803d1ffd60134912e6962235b8ef3b908e92fe43e313d442c24fca0fc67",
-    "scripts/godnaterra.py": "d97df53599e1866331361a2f748eec6154ab8bb58f7417455aed74a9cf0a12f5",
+    "scripts/godnaterra.py": "0d50b20b9d7caf12c7ac7b47e37ab5fdd0d81f7ee5a30d289fba0941ad8db2eb",
     "scripts/install.py": "5206ae6ac9e156db6641bb2fd0b195f850d48f388a0025768bbfdab6f2b85090",
     "scripts/port_skills.py": "66883b285d6e987d9fc9d820590c59cebc02436b54ae649402df6e692b362b7c",
-    "scripts/run_evals.py": "1426ad9796f3feda4e86071a702b2ca4fb8976d7a05fb15f71440553e82fa604",
+    "scripts/run_evals.py": "4778059d8fffeb55c7f422bfdb71ebd4a91eeda5723b9470499e9263a67bed1b",
     "scripts/validate_catalog.py": "f087fdf8ae8770313764ee5e8dc3d8ad73e8ca050ecdc315e96ae2b91f2accec",
     "scripts/validate_incidents.py": "85cf38f82f2ea41a02c6af54e71020f6168fa467575271ce1a8c8dd5d04e2eef",
     "scripts/verify_adapters.py": "f582d66c5b6654f28522c145e421d6f76d683f49dd84565781e74c0cc4406782",
@@ -812,7 +813,7 @@
     "skills/upstream/op-zenwrite-design-chain/SKILL.md": "107197dac5f4380ab3fb1838a66d027768b6f44e40a83907486abb7e2af3a33f",
     "skills/upstream/op-zenwrite-design/SKILL.md": "6ade3db82d5f799abb7ed43c92816710e17c4da8065c5f1704c336fc3c18db6b",
     "skills/upstream/op-zenwrite-ui-audit/SKILL.md": "bbbfe82bf9347e735e48b3e709c27a5dcce40d537394cd2e0275071a3938df6f",
-    "tests/test_evals.py": "bcb1ed6d25004c7517a45148c07f1265c1fc22c01c9ddce629bc631aa95612a4",
+    "tests/test_evals.py": "5282a9c48ad4933ad2f195a558dbb5264f19549d2fe22446c47d5a2022a707c9",
     "tests/test_incidents.py": "83ede6d9ce5c9edf1e12f9af0280d623dc2f52dad9d7163c53bda77efdcfc38a",
     "tests/test_install.py": "0b8fa0b61c026675352f024664cb694d7541ac640f95b88673dab70aaf48ead8",
     "tests/test_integrations.py": "49a28d2e476837fa10ee0c3d6058453f85969149e118a0f6ef6d8c0b4b037320",
@@ -820,5 +821,5 @@
     "tests/test_release_workflow.py": "737c3ba8434993503f025e8b4155a08535d03489caf811387827e0ae8c8a814a"
   },
   "token": "__GODNATERRA_ROOT__",
-  "versao": "0.3.0"
+  "versao": "0.4.0"
 }

@@ -91,3 +91,21 @@ benchmark publicados pelo OpenViking não são tratados como evidência medida a
 **Fora de escopo:** img2threejs (Apache-2.0, 371 arquivos) ficou de fora até
 existir caso de uso concreto — vendorizá-lo exigiria manifesto multi-arquivo e
 aumentaria a superfície executável em ~46%.
+
+## FASE 12 — avaliação determinística
+
+**Implementado:** 20 tarefas de eval, 16 determinísticas e 4 LLM, com critérios
+pontuados de 0 a 2. `scripts/eval_checks.py` só usa verificadores registrados,
+comandos de whitelist e caminhos relativos contidos no repo — tarefa é entrada
+não confiável e nunca é interpretada como código. Harness grava
+`RESULTS_TASKS.jsonl`, suporta `--write-baseline` e falha em regressão.
+
+**Testado:** baseline medido em **42/42 pontos, pass rate 100,0%** nas 16
+determinísticas; as 4 LLM ficaram `nao verificado` com provider `none`, fora do
+denominador. Regressão provocada de propósito gerou `REGRESSAO: T01: 6 -> 5` e
+`pass_rate 1.0 -> 0.9762`, com exit 1; restauração voltou a 1.0. Suite de testes:
+**66/66**.
+
+**Não verificado:** julgamento semântico das quatro tarefas LLM; o novo step do
+CI no runner. Nenhum benchmark comparativo entre modelos, nenhum fine-tuning e
+nenhum dataset rotulado com holdout — isso continua fora do que foi medido.

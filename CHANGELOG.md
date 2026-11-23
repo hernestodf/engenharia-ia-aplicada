@@ -3,6 +3,30 @@
 Todas as mudanças relevantes do Godnaterra são registradas aqui.
 Formato inspirado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.4.0] — 2026-11-23
+
+Avaliação determinística com baseline e detecção de regressão.
+
+### Adicionado
+
+- `evaluations/tasks/`: 20 tarefas (16 determinísticas, 4 LLM) com critérios pontuados de 0 a 2 em `01-roteamento`, `02-seguranca`, `03-evidencia` e `04-entrega`.
+- `scripts/eval_checks.py`: 7 verificadores determinísticos. Nenhum argv vem do JSON da tarefa; comandos vêm de whitelist fechada, sem shell, só caminhos relativos contidos no repo.
+- `evaluations/BASELINE.json` e `evaluations/RESULTS_TASKS.jsonl`: baseline medido e registro por execução.
+- `run_evals.py`: `--suite tasks`, `--write-baseline`, `--no-compare` e detector de regressão (cai de nota ou cai o pass rate).
+- 8 testes novos em `tests/test_evals.py`. Total do pacote: **66 testes**.
+- Step no CI rodando a suite de tarefas contra o baseline.
+
+### Testado
+
+- Suite limpa: **16 determinísticas, 42/42 pontos, pass rate 100,0%**. Quatro tarefas LLM ficam `nao verificado` com provider `none`, fora do denominador.
+- Regressão real provocada e detectada: `REGRESSAO: T01: 6 -> 5`, `pass_rate 1.0 -> 0.9762`, exit 1; arquivo restaurado e medição voltou a 1.0.
+- Bugs encontrados e corrigidos: três `KeyError: 'id'` no caminho do baseline/comparação e baseline gravado uma vez em estado sujo.
+
+### Não verificado
+
+- Julgamento semântico das tarefas LLM (T05, T15, T19, T20) — sem provider nesta execução.
+- Novo step do CI no runner — código e testes locais OK, execução remota não observada.
+
 ## [0.3.0] — 2026-11-23
 
 Integrações opcionais descobertas pelo agente, nunca auto-habilitadas.

@@ -1,4 +1,36 @@
-# Resultados das avaliações — FASE 7
+# Resultados das avaliações — FASE 7 + FASE 12
+
+## FASE 12 — suíte de tarefas determinísticas
+
+Comando exato (sem credencial, sem registro):
+
+```
+python3 scripts/run_evals.py --suite tasks --provider none --no-record
+```
+
+Medição corrente: **16 determinísticas, 42/42 pontos, pass rate 100,0%**.
+Quatro tarefas LLM (`T05`, `T15`, `T19`, `T20`) ficaram `nao verificado` com
+provider `none` e não entram no denominador. O baseline em `BASELINE.json`
+registra `pass_rate 1.0`.
+
+Prova de regressão executada em `2026-11-23`: troquei um termo em
+`skills/core/op-godnaterra-router/SKILL.md`, regerei o manifesto e rodei a suíte.
+Saída observada:
+
+```
+REGRESSAO: T01: 6 -> 5
+REGRESSAO: pass_rate 1.0 -> 0.9762
+exit=1
+```
+
+Arquivo restaurado, manifesto regerado e medição voltou a `42/42`. Isso prova
+que o detector reage a mudança real de artefato — não é só código escrito.
+
+Limite: tarefas determinísticas verificam **contrato, presença de termos,
+integridade do manifesto e configuração**. Elas não medem qualidade semântica de
+resposta de modelo.
+
+---
 
 ## Providers
 

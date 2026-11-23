@@ -1,0 +1,113 @@
+{
+  "descricao": "Baseline determinístico de contrato. Mede artefatos e regras, nao comportamento de modelo.",
+  "deterministicas": 16,
+  "gerado_em": "2026-11-23T15:09:52+00:00",
+  "nota_maxima": 42,
+  "nota_obtida": 42,
+  "pass_rate": 1.0,
+  "por_tarefa": {
+    "T01": {
+      "maxima": 6,
+      "nota": 6,
+      "status": "testado"
+    },
+    "T02": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T03": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T04": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T05": {
+      "maxima": 2,
+      "nota": 0,
+      "status": "nao verificado"
+    },
+    "T06": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T07": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T08": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T09": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T10": {
+      "maxima": 6,
+      "nota": 6,
+      "status": "testado"
+    },
+    "T11": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T12": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T13": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T14": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T15": {
+      "maxima": 2,
+      "nota": 0,
+      "status": "nao verificado"
+    },
+    "T16": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T17": {
+      "maxima": 4,
+      "nota": 4,
+      "status": "testado"
+    },
+    "T18": {
+      "maxima": 2,
+      "nota": 2,
+      "status": "testado"
+    },
+    "T19": {
+      "maxima": 2,
+      "nota": 0,
+      "status": "nao verificado"
+    },
+    "T20": {
+      "maxima": 2,
+      "nota": 0,
+      "status": "nao verificado"
+    }
+  },
+  "provider": "none",
+  "total_tarefas": 20,
+  "versao": 1
+}
